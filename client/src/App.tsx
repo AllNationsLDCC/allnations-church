@@ -13,6 +13,7 @@ import Podcast from "./pages/Podcast";
 import VoicesOfVision from "./pages/VoicesOfVision";
 import WhatWeBelieve from "./pages/WhatWeBelieve";
 import Connect from "./pages/Connect";
+import JourneyWithJesus from "./pages/JourneyWithJesus";
 
 function Router() {
   return (
@@ -26,6 +27,7 @@ function Router() {
       <Route path="/voices-of-vision" component={VoicesOfVision} />
       <Route path="/what-we-believe" component={WhatWeBelieve} />
       <Route path="/connect" component={Connect} />
+      <Route path="/journey-with-jesus" component={JourneyWithJesus} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>

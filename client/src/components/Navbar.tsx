@@ -9,6 +9,7 @@ const navItems = [
   { label: "About", href: "/what-we-believe" },
   { label: "Pastors", href: "/meet-the-pastors" },
   { label: "Ministries", href: "/ministries" },
+  { label: "Journey", href: "/journey-with-jesus" },
   { label: "Events", href: "/events" },
   { label: "Podcast", href: "/podcast" },
   { label: "Vision 2026", href: "/voices-of-vision" },

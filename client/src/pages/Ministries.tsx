@@ -58,6 +58,13 @@ const ministries = [
     image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&q=80",
   },
   {
+    id: "journey", name: "Journey with Jesus", tagline: "Every Step. Every Season. With Jesus.",
+    color: "var(--an-gold)", icon: <Heart size={26} />,
+    description: "A ministry dedicated to walking alongside every person at every stage of their faith journey — from the moment of salvation through baptism, discipleship, community, and purpose. No matter where you are, there is a next step waiting for you.",
+    programs: ["Salvation & New Believer Support", "Baptism Classes", "Discipleship 201, 301 & 401", "One-on-One Mentorship", "Next Steps Pathway"],
+    image: "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=800&q=80",
+  },
+  {
     id: "legacy-making", name: "Legacy in the Making", tagline: "Building Tomorrow's Leaders Today.",
     color: "var(--an-navy)", icon: <BookOpen size={26} />,
     description: "Our leadership development and discipleship ministry for emerging leaders. We invest in the next generation of pastors, ministers, entrepreneurs, and community leaders — equipping them with spiritual foundation, practical skills, and mentorship.",
