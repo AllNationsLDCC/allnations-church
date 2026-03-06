@@ -45,16 +45,19 @@ const recurringEvents = [
     color: "var(--an-teal)",
   },
   {
-    title: "Prayer Line",
-    day: "Weekly — See Schedule",
-    time: "Scheduled Weekly",
-    location: "Phone / Online",
-    details: "Join our corporate prayer line for intercession, worship, and seeking God together. Contact us for the current schedule and dial-in information.",
+    title: "Intercessory Prayer Line",
+    day: "Mondays",
+    time: "7:00 PM",
+    location: "Phone / Online — Dial-In: 1 (234) 203-2766 · ID: 327 436 787 · PW: 5933324363",
+    details: "Join our corporate prayer line every Monday at 7:00 PM for intercession, worship, and seeking the face of God together. Dial in from anywhere.",
     color: "var(--an-blue)",
   },
 ];
 
 const upcomingEvents2026 = [
+  { title: "Palm Sunday", date: "April 5, 2026", time: "8:30 AM & 11:00 AM", desc: "Celebrate the triumphal entry of Jesus Christ into Jerusalem. Join us for a special Palm Sunday worship experience at All Nations LDCC.", color: "var(--an-green)" },
+  { title: "Tabernacle Experience 2026", date: "April 1–3, 2026", time: "7:00 PM Nightly", desc: "Come and experience the Tabernacle — three nights of immersive, Spirit-led worship and the presence of God. April 1, 2, and 3. Don't miss this powerful encounter!", color: "var(--an-gold)" },
+  { title: "Easter Sunday", date: "April 5, 2026", time: "8:30 AM & 11:00 AM", desc: "He is Risen! Join us for a powerful Easter Sunday celebration. Come and experience the Tabernacle as we honor the resurrection of Jesus Christ.", color: "var(--an-red)" },
   { title: "Voices of Vision 2026", date: "Throughout 2026", time: "Various Times", desc: "Our signature annual initiative — prophetic voices, visionary leadership, and kingdom impact.", color: "var(--an-red)" },
   { title: "Youth Summer Programs", date: "Summer 2026", time: "TBD", desc: "Exciting summer programs for youth and children. Registration details coming soon!", color: "var(--an-orange)" },
   { title: "Women's Ministry Retreat", date: "Spring 2026", time: "TBD", desc: "Annual women's retreat for refreshing, renewal, and deeper connection.", color: "var(--an-red)" },
@@ -160,9 +163,13 @@ export default function Events() {
               <p className="font-body text-base leading-relaxed mb-6" style={{ color: "rgba(255,255,255,0.85)" }}>
                 Our corporate prayer line is one of the most powerful tools in our ministry. Join believers from across the Treasure Coast as we come together to intercede, worship, and seek the face of God.
               </p>
-              <p className="font-body text-sm mb-6" style={{ color: "rgba(255,255,255,0.70)" }}>
-                Contact us for the current prayer line schedule, dial-in number, and access code.
-              </p>
+              <div className="font-body text-sm mb-6 rounded-xl p-4" style={{ background: "rgba(255,255,255,0.10)", color: "rgba(255,255,255,0.85)" }}>
+                <div className="font-bold mb-1" style={{ color: "var(--an-gold)" }}>Mondays at 7:00 PM</div>
+                <div>Dial-In: <strong>1 (234) 203-2766</strong></div>
+                <div>Meeting ID: <strong>327 436 787</strong></div>
+                <div>Password: <strong>5933324363</strong></div>
+                <div className="mt-2" style={{ color: "rgba(255,255,255,0.65)" }}>Or visit <a href="https://www.allnationsldcc.org" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "var(--an-gold)" }}>www.allnationsldcc.org</a> for updates.</div>
+              </div>
               <a href="tel:7723437021" className="btn-gold flex items-center gap-2 w-fit">
                 <Phone size={14} /> Call 772-343-7021
               </a>
@@ -174,7 +181,7 @@ export default function Events() {
                   { label: "Sunday 1st Service", time: "8:30 AM", note: "Youth & Toddler Lounge" },
                   { label: "Sunday 2nd Service", time: "11:00 AM", note: "Youth & Toddler Lounge" },
                   { label: "Wednesday Bible Study", time: "7:00 PM", note: "In-person & Online" },
-                  { label: "Prayer Line", time: "Weekly", note: "Contact for schedule" },
+                  { label: "Prayer Line", time: "7:00 PM", note: "Mondays · Dial-In Available" },
                 ].map(s => (
                   <div key={s.label} className="flex items-center justify-between py-3 border-b border-white/10">
                     <div>
