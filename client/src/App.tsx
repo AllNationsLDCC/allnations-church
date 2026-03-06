@@ -17,6 +17,7 @@ import JourneyWithJesus from "./pages/JourneyWithJesus";
 import LeadershipLab from "./pages/LeadershipLab";
 import DailyWord from "./pages/DailyWord";
 import NextGenLab from "./pages/NextGenLab";
+import BibleStudy from "./pages/BibleStudy";
 
 function Router() {
   return (
@@ -34,6 +35,7 @@ function Router() {
       <Route path="/leadership-lab" component={LeadershipLab} />
       <Route path="/daily-word" component={DailyWord} />
       <Route path="/nextgen-lab" component={NextGenLab} />
+      <Route path="/bible-study" component={BibleStudy} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
