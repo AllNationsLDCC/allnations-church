@@ -14,6 +14,9 @@ import VoicesOfVision from "./pages/VoicesOfVision";
 import WhatWeBelieve from "./pages/WhatWeBelieve";
 import Connect from "./pages/Connect";
 import JourneyWithJesus from "./pages/JourneyWithJesus";
+import LeadershipLab from "./pages/LeadershipLab";
+import DailyWord from "./pages/DailyWord";
+import NextGenLab from "./pages/NextGenLab";
 
 function Router() {
   return (
@@ -28,6 +31,9 @@ function Router() {
       <Route path="/what-we-believe" component={WhatWeBelieve} />
       <Route path="/connect" component={Connect} />
       <Route path="/journey-with-jesus" component={JourneyWithJesus} />
+      <Route path="/leadership-lab" component={LeadershipLab} />
+      <Route path="/daily-word" component={DailyWord} />
+      <Route path="/nextgen-lab" component={NextGenLab} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
