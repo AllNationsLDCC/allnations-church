@@ -12,6 +12,7 @@ const navItems = [
   { label: "Journey", href: "/journey-with-jesus" },
   { label: "NextGen Lab", href: "/nextgen-lab" },
   { label: "Leadership Lab", href: "/leadership-lab" },
+  { label: "Bible Study", href: "/bible-study" },
   { label: "Daily Word", href: "/daily-word" },
   { label: "Events", href: "/events" },
   { label: "Podcast", href: "/podcast" },
