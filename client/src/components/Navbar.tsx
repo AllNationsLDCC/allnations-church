@@ -14,6 +14,7 @@ const navItems = [
   { label: "Leadership Lab", href: "/leadership-lab" },
   { label: "Bible Study", href: "/bible-study" },
   { label: "Daily Word", href: "/daily-word" },
+  { label: "Gallery", href: "/gallery" },
   { label: "Events", href: "/events" },
   { label: "Podcast", href: "/podcast" },
   { label: "Vision 2026", href: "/voices-of-vision" },
