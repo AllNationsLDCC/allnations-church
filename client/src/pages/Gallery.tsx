@@ -21,7 +21,6 @@ const tabs = [
     id: "worship",
     label: "Worship",
     photos: [
-      { url: BASE + "3578-enhanced_ac220916.jpg", caption: "All Nations Worship Team — Stage with Logo" },
       { url: BASE + "3599_f408c501.jpg", caption: "Bro. Renald Achille — Worship Musician (Best)" },
       { url: BASE + "3588_1b41e822.jpg", caption: "Bro. Renald Achille — Music Ministry" },
       { url: BASE + "3589_506ef5ef.jpg", caption: "Worship Team on Stage" },
