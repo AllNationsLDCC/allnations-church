@@ -65,6 +65,14 @@ const ministries = [
     image: "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=800&q=80",
   },
   {
+    id: "worship-team", name: "Worship Team", tagline: "Where Anointing Meets Excellence.",
+    color: "var(--an-gold)", icon: <Music size={26} />,
+    description: "The All Nations Worship Team is a prophetic, anointed company of worshipers called to lead the body of Christ into the presence of God. From psalmists and musicians to praise dancers and the media team — every gift has a home here. We are committed to excellence in preparation, humility in spirit, and boldness in expression.",
+    programs: ["Psalmists & Vocalists", "Musicians & Instrumentalists", "Praise Dance & Creative Arts", "Media & Sound Team", "Rehearsals Wed & Sat"],
+    link: "/worship-team",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/IMG_4040_f1c768d8.jpg",
+  },
+  {
     id: "legacy-making", name: "Legacy in the Making", tagline: "Building Tomorrow's Leaders Today.",
     color: "var(--an-navy)", icon: <BookOpen size={26} />,
     description: "Our leadership development and discipleship ministry for emerging leaders. We invest in the next generation of pastors, ministers, entrepreneurs, and community leaders — equipping them with spiritual foundation, practical skills, and mentorship.",
@@ -124,7 +132,7 @@ export default function Ministries() {
                       <span key={p} className="font-body text-xs px-3 py-1 rounded-full font-medium" style={{ background: `${m.color}18`, color: m.color, border: `1px solid ${m.color}30` }}>{p}</span>
                     ))}
                   </div>
-                  <Link href="/connect" className="btn-navy flex items-center gap-2 w-fit">Get Involved <ArrowRight size={14} /></Link>
+                  <Link href={(m as any).link || "/connect"} className="btn-navy flex items-center gap-2 w-fit">{(m as any).link ? "Learn More" : "Get Involved"} <ArrowRight size={14} /></Link>
                 </div>
                 <div className={i % 2 === 1 ? "lg:order-1" : ""}>
                   <div className="relative">

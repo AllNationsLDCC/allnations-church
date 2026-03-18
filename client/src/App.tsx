@@ -19,6 +19,8 @@ import DailyWord from "./pages/DailyWord";
 import NextGenLab from "./pages/NextGenLab";
 import BibleStudy from "./pages/BibleStudy";
 import Gallery from "./pages/Gallery";
+import Reveal from "./pages/Reveal";
+import WorshipTeam from "./pages/WorshipTeam";
 
 function Router() {
   return (
@@ -38,6 +40,8 @@ function Router() {
       <Route path="/nextgen-lab" component={NextGenLab} />
       <Route path="/bible-study" component={BibleStudy} />
       <Route path="/gallery" component={Gallery} />
+      <Route path="/worship-team" component={WorshipTeam} />
+      <Route path="/reveal" component={Reveal} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
