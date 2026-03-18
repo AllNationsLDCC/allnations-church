@@ -8,6 +8,16 @@ const BASE = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUst
 
 const tabs = [
   {
+    id: "praise-worship",
+    label: "Praise & Worship",
+    photos: [
+      { url: BASE + "IMG_4057_aff99e54.jpg", caption: "All Nations Praise Team & Psalmists — In the Fullness of Your Grace" },
+      { url: BASE + "IMG_4040_f1c768d8.jpg", caption: "Praise Team & Musicians — Worship in Full Expression" },
+      { url: BASE + "IMG_4118_b031cfd9.jpg", caption: "Psalmists Leading Worship" },
+      { url: BASE + "IMG_4121_4fffa024.jpg", caption: "Praise Team — All Nations Worship" },
+    ],
+  },
+  {
     id: "worship",
     label: "Worship",
     photos: [
@@ -32,6 +42,8 @@ const tabs = [
     id: "leadership",
     label: "Leadership",
     photos: [
+      { url: BASE + "4168_9dbdbac3.jpg", caption: "All Nations Pastoral Team — Full Leadership" },
+      { url: BASE + "4172_bae97e27.jpg", caption: "All Nations Women's Pastoral Team" },
       { url: BASE + "3780_f83434a1.jpg", caption: "Bishop Cornelius Blake & Pastor Shelia Blake" },
       { url: BASE + "3727_0e11e03c.jpg", caption: "All Nations Pastoral Team" },
       { url: BASE + "3726_4305e09d.jpg", caption: "Pastoral Team — Leadership" },
@@ -44,6 +56,8 @@ const tabs = [
     photos: [
       { url: BASE + "bishop-blake-3657-headshot_7cf45ce8.jpg", caption: "Bishop Cornelius Blake — Preaching" },
       { url: BASE + "3655_6e6b7284.jpg", caption: "Bishop Cornelius Blake — The Word" },
+      { url: BASE + "IMG_4098_2b611e5e.jpg", caption: "Congregation in Worship — All Nations" },
+      { url: BASE + "IMG_4105_48c2db30.jpg", caption: "Worship Moment — All Nations Family" },
       { url: BASE + "3798_c0a668d6.jpg", caption: "All Nations Ministry in Action" },
       { url: BASE + "3799_1bad746e.jpg", caption: "Ministry Moment" },
     ],
