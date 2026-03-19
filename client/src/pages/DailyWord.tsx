@@ -6,7 +6,7 @@ import { BookOpen, Play, Heart, Share2, Bell, ArrowRight, Calendar, Mic, Video }
 // Design: Warm, intimate, personal — Pastor Shelia's voice and presence
 // Daily Word page — AI twin/clone delivers daily live devotional word
 
-const PASTOR_SHELIA = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/pastor-shelia-blake_d1c34a0a.jpg";
+const PASTOR_SHELIA = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/CopyofIMG_4616_f4ce05ab.jpg";
 
 // Sample devotional entries (to be replaced with live content)
 const recentDevotionals = [

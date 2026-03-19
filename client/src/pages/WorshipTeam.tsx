@@ -17,6 +17,10 @@ const teamPhotos = [
   { url: BASE + "3599_f408c501.jpg", caption: "Bro. Renald Achille — Worship Musician" },
   { url: BASE + "3728_5e181583.jpg", caption: "All Nations Praise Team" },
   { url: BASE + "3797_1105bbd1.jpg", caption: "Tehila Praise Team" },
+  { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/IMG_5382_9ea72ded.jpg", caption: "Minister Amari — Moving Hearts Through Worship" },
+  { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/IMG_5366_024c7245.jpg", caption: "Minister Amari — Worship in the Arts" },
+  { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/IMG_5386_bccb88d8.jpg", caption: "Minister Amari — Full Stage Worship Expression" },
+  { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/IMG_5358_bae2abd2.jpeg", caption: "Worship in the Arts — All Nations Stage" },
 ];
 
 const roles = [

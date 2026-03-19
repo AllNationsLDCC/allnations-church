@@ -41,7 +41,7 @@ const ministries = [
     color: "var(--an-teal)", icon: <Music size={26} />,
     description: "Celebrating the full spectrum of creative worship. Our liturgical dance ministry, worship teams, and creative artists are anointed vessels who carry the presence of God through movement, music, and expression.",
     programs: ["Liturgical Dance", "Praise Dance Classes", "Worship Team", "Youth Voice Training", "Creative Arts Workshop"],
-    image: DANCE_IMG,
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/IMG_5382_9ea72ded.jpg",
   },
   {
     id: "mad-hatters", name: "Mad Hatters — Pink Basket", tagline: "Compassion in Action.",
@@ -232,6 +232,46 @@ export default function Ministries() {
                 <Link href="/connect" className="btn-outline text-xs">Inquire About Classes</Link>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Ministry Leader Spotlight */}
+      <section className="py-20" style={{ background: "var(--an-bg)" }}>
+        <div className="container">
+          <div className="text-center mb-12">
+            <span className="section-label" style={{ color: "var(--an-gold)" }}>Ministry Leadership</span>
+            <h2 className="font-display text-4xl font-bold" style={{ color: "var(--an-navy)" }}>
+              Led with <span style={{ color: "var(--an-gold)" }}>Purpose</span>
+            </h2>
+            <p className="font-body text-base mt-3 max-w-2xl mx-auto" style={{ color: "#666" }}>
+              Every ministry at All Nations is led by anointed, equipped leaders committed to serving with excellence and building people for lasting impact.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
+            <div className="relative">
+              <div className="absolute -inset-3 rounded-2xl opacity-10" style={{ background: "linear-gradient(135deg, var(--an-gold), var(--an-teal))" }} />
+              <img
+                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/4732_f8ef8a6f.jpg"
+                alt="Executive Pastor Shelia Blake"
+                className="relative z-10 w-full rounded-2xl object-cover shadow-2xl"
+                style={{ height: "480px", objectPosition: "top" }}
+              />
+              <div className="absolute bottom-4 left-4 z-20 px-4 py-2 rounded-xl font-body font-bold text-sm text-white" style={{ background: "var(--an-navy)" }}>
+                Executive Pastor Shelia Blake
+              </div>
+            </div>
+            <div>
+              <span className="section-label" style={{ color: "var(--an-gold)" }}>Ministry Director</span>
+              <h3 className="font-display text-3xl font-bold mb-4" style={{ color: "var(--an-navy)" }}>Executive Pastor Shelia Blake</h3>
+              <p className="font-body text-base leading-relaxed mb-4" style={{ color: "#555" }}>
+                Executive Pastor Shelia Blake provides strategic oversight and spiritual direction across all ministry departments at All Nations Life Development Christian Center. With more than 35 years of combined executive and ministry leadership, she ensures every ministry operates with excellence, purpose, and accountability.
+              </p>
+              <p className="font-body text-base leading-relaxed mb-6" style={{ color: "#555" }}>
+                Her vision: every person finds their place, every gift is activated, and every ministry reflects the heart of God. Under her leadership, All Nations continues to build people, strengthen families, and advance the Kingdom in Port St. Lucie and beyond.
+              </p>
+              <Link href="/pastors" className="btn-navy flex items-center gap-2 w-fit">Meet the Pastors <ArrowRight size={14} /></Link>
+            </div>
           </div>
         </div>
       </section>

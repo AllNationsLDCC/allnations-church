@@ -3,7 +3,8 @@ import Footer from "@/components/Footer";
 import { Link } from "wouter";
 import { Mail, Phone, ArrowRight } from "lucide-react";
 
-const PASTOR_SHELIA = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/pastor-shelia-blake_d1c34a0a.jpg";
+const PASTOR_SHELIA = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/4732_f8ef8a6f.jpg";
+const BISHOP_AND_PASTOR = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/4701_aa5134ae.jpg";
 
 const pastors = [
   {
@@ -11,8 +12,8 @@ const pastors = [
     title: "Senior Pastor & Bishop",
     color: "var(--an-navy)",
     accentColor: "var(--an-gold)",
-    photo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/bishop-blake-3657-headshot_7cf45ce8.jpg",
-    photoNote: null,
+    photo: BISHOP_AND_PASTOR,
+    photoNote: "Bishop Cornelius Blake & Executive Pastor Shelia Blake",
     bio: [
       "Bishop Cornelius Blake is the visionary founder and Senior Pastor of All Nations Life Development Christian Center, a thriving multicultural faith community in Port St. Lucie, Florida. For over 25 years, Bishop Blake has led with a prophetic voice, pastoral heart, and unwavering commitment to the transforming power of God's Word.",
       "Under his leadership, All Nations has grown from a small gathering of believers into a dynamic ministry that impacts thousands of lives through worship, discipleship, outreach, and community development. Bishop Blake's teaching is rooted in the conviction that every person has a divine purpose — and that the local church is God's primary vehicle for revealing it.",

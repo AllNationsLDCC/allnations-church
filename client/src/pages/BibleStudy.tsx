@@ -91,12 +91,13 @@ export default function BibleStudy() {
       <section className="py-16" style={{ background: "#fff" }}>
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-14">
-            {[
+              {[
               {
                 icon: <Users size={28} />,
                 title: "Led by Pastor R.B. Thomas",
                 desc: "Pastor R.B. Thomas brings depth, clarity, and passion to every study session — making Scripture accessible, relevant, and life-changing for every believer.",
                 color: "var(--an-teal)",
+                photo: "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/IMG_4467_f39bf394.jpg",
               },
               {
                 icon: <Video size={28} />,
@@ -111,12 +112,21 @@ export default function BibleStudy() {
                 color: "var(--an-gold)",
               },
             ].map(card => (
-              <div key={card.title} className="ministry-card bg-white rounded-2xl p-8 shadow-sm border border-gray-100 text-center">
-                <div className="w-16 h-16 rounded-2xl flex items-center justify-center text-white mx-auto mb-5" style={{ background: card.color }}>
-                  {card.icon}
+              <div key={card.title} className="ministry-card bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 text-center">
+                {(card as any).photo ? (
+                  <div className="relative w-full" style={{ height: "220px" }}>
+                    <img src={(card as any).photo} alt={card.title} className="w-full h-full object-cover object-top" />
+                    <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, transparent 50%, rgba(0,0,0,0.5) 100%)" }} />
+                  </div>
+                ) : (
+                  <div className="w-16 h-16 rounded-2xl flex items-center justify-center text-white mx-auto mt-8 mb-5" style={{ background: card.color }}>
+                    {card.icon}
+                  </div>
+                )}
+                <div className="p-6">
+                  <h3 className="font-display font-bold text-xl mb-3" style={{ color: "var(--an-navy)" }}>{card.title}</h3>
+                  <p className="font-body text-sm leading-relaxed" style={{ color: "#666" }}>{card.desc}</p>
                 </div>
-                <h3 className="font-display font-bold text-xl mb-3" style={{ color: "var(--an-navy)" }}>{card.title}</h3>
-                <p className="font-body text-sm leading-relaxed" style={{ color: "#666" }}>{card.desc}</p>
               </div>
             ))}
           </div>
