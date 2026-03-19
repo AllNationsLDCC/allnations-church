@@ -20,6 +20,7 @@ import NextGenLab from "./pages/NextGenLab";
 import BibleStudy from "./pages/BibleStudy";
 import Gallery from "./pages/Gallery";
 import Reveal from "./pages/Reveal";
+import PhotoReview from "./pages/PhotoReview";
 import WorshipTeam from "./pages/WorshipTeam";
 
 function Router() {
@@ -42,6 +43,7 @@ function Router() {
       <Route path="/gallery" component={Gallery} />
       <Route path="/worship-team" component={WorshipTeam} />
       <Route path="/reveal" component={Reveal} />
+      <Route path="/photo-review" component={PhotoReview} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
