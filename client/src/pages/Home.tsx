@@ -10,19 +10,19 @@ const DANCE_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh
 const PASTOR_SHELIA = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/pastor-shelia-blake_d1c34a0a.jpg";
 
 const ministries = [
-  { name: "Women's Ministry", desc: "Empowering women to walk boldly in their calling and purpose.", color: "var(--an-red)", icon: <Heart size={22} />, href: "/ministries" },
-  { name: "Men's Ministry", desc: "Building men of integrity, faith, and generational impact.", color: "var(--an-blue)", icon: <Users size={22} />, href: "/ministries" },
-  { name: "Youth & Next Gen", desc: "Raising the next generation to love, learn, and live the Word.", color: "var(--an-orange)", icon: <Star size={22} />, href: "/ministries" },
-  { name: "The Great Commission", desc: "Reaching our community and the world with the Gospel.", color: "var(--an-green)", icon: <Globe size={22} />, href: "/ministries" },
-  { name: "The Arts", desc: "Worship through dance, music, and creative expression.", color: "var(--an-teal)", icon: <Music size={22} />, href: "/ministries" },
+  { name: "Women's Ministry", desc: "Empowering women to walk boldly in their calling and purpose.", color: "var(--an-navy)", icon: <Heart size={22} />, href: "/ministries" },
+  { name: "Men's Ministry", desc: "Building men of integrity, faith, and generational impact.", color: "var(--an-gold)", icon: <Users size={22} />, href: "/ministries" },
+  { name: "Youth & Next Gen", desc: "Raising the next generation to love, learn, and live the Word.", color: "var(--an-navy)", icon: <Star size={22} />, href: "/ministries" },
+  { name: "The Great Commission", desc: "Reaching our community and the world with the Gospel.", color: "var(--an-gold)", icon: <Globe size={22} />, href: "/ministries" },
+  { name: "The Arts", desc: "Worship through dance, music, and creative expression.", color: "var(--an-navy)", icon: <Music size={22} />, href: "/ministries" },
   { name: "Bible Study", desc: "Wednesday evenings at 7 PM — deepening roots in the Word.", color: "var(--an-gold)", icon: <BookOpen size={22} />, href: "/events" },
 ];
 
 const upcomingEvents = [
   { title: "Sunday Morning Worship", date: "Every Sunday", time: "8:30 AM & 11:00 AM", color: "var(--an-gold)" },
   { title: "Wednesday Bible Study", date: "Every Wednesday", time: "7:00 PM", color: "var(--an-teal)" },
-  { title: "Prayer Line", date: "See Calendar", time: "Scheduled Weekly", color: "var(--an-orange)" },
-  { title: "Voices of Vision 2026", date: "Throughout 2026", time: "Various Times", color: "var(--an-red)" },
+  { title: "Intercessory Prayer Line", date: "Every Monday", time: "7:00 PM – 8:30 PM", color: "var(--an-orange)" },
+  { title: "Tabernacle 2026", date: "April 1 & April 18", time: "Cultural Night · Good Friday", color: "var(--an-red)" },
 ];
 
 export default function Home() {
@@ -98,6 +98,50 @@ export default function Home() {
             <Link href="/connect" className="btn-gold flex items-center gap-2 ml-4">
               Plan Your Visit <ArrowRight size={14} />
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ===== TABERNACLE 2026 FEATURED BANNER ===== */}
+      <section className="py-16" style={{ background: "linear-gradient(135deg, #0d1a3a 0%, #1A2F6B 60%, #0d2a26 100%)" }}>
+        <div className="container">
+          <div className="flex flex-col lg:flex-row items-center gap-10">
+            {/* Left: Text */}
+            <div className="flex-1 text-center lg:text-left">
+              <span className="inline-block px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-4" style={{ background: "rgba(201,168,76,0.18)", color: "var(--an-gold)" }}>Featured Event Series</span>
+              <h2 className="font-display font-bold text-white mb-3" style={{ fontSize: "clamp(2rem, 4vw, 3rem)", letterSpacing: "-0.01em" }}>
+                TABERNACLE <span style={{ color: "var(--an-gold)" }}>2026</span>
+              </h2>
+              <p className="font-body text-base mb-6" style={{ color: "rgba(255,255,255,0.75)" }}>
+                A Multi-Night Celebration of Faith, Culture &amp; Worship
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                <Link href="/events" className="btn-gold flex items-center gap-2">
+                  <Calendar size={14} /> View All Dates
+                </Link>
+                <Link href="/connect" className="btn-outline flex items-center gap-2" style={{ borderColor: "rgba(255,255,255,0.4)", color: "#fff" }}>
+                  Plan Your Visit
+                </Link>
+              </div>
+            </div>
+            {/* Right: Event cards */}
+            <div className="flex flex-col sm:flex-row lg:flex-col gap-4 w-full lg:w-auto lg:min-w-[320px]">
+              <div className="rounded-xl p-5 border-l-4" style={{ background: "rgba(255,255,255,0.06)", borderLeftColor: "var(--an-gold)" }}>
+                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-gold)" }}>Cultural Night</div>
+                <div className="font-display text-white font-bold text-lg">Wednesday, April 1, 2026</div>
+                <div className="font-body text-xs mt-1" style={{ color: "rgba(255,255,255,0.55)" }}>862 SW Glenview Ct., Port St. Lucie, FL</div>
+              </div>
+              <div className="rounded-xl p-5 border-l-4" style={{ background: "rgba(255,255,255,0.06)", borderLeftColor: "var(--an-teal)" }}>
+                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-teal)" }}>Kings &amp; Queens Night</div>
+                <div className="font-display text-white font-bold text-lg">Date to be Announced</div>
+                <div className="font-body text-xs mt-1" style={{ color: "rgba(255,255,255,0.55)" }}>862 SW Glenview Ct., Port St. Lucie, FL</div>
+              </div>
+              <div className="rounded-xl p-5 border-l-4" style={{ background: "rgba(255,255,255,0.06)", borderLeftColor: "#c0392b" }}>
+                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "#e57373" }}>Good Friday</div>
+                <div className="font-display text-white font-bold text-lg">Walk Through the Tabernacle</div>
+                <div className="font-body text-xs mt-1" style={{ color: "rgba(255,255,255,0.55)" }}>April 18, 2026 · 862 SW Glenview Ct., Port St. Lucie, FL</div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

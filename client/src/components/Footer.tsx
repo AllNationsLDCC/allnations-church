@@ -112,18 +112,24 @@ export default function Footer() {
             </ul>
 
             <div className="mt-6 space-y-2">
+              <div className="flex gap-2 items-center">
+                <Phone size={15} style={{ color: "var(--an-gold)", flexShrink: 0 }} />
+                <a href="tel:7723437021" className="font-body text-xs hover:text-[#C59D2F] transition-colors" style={{ color: "rgba(255,255,255,0.65)" }}>
+                  (772) 343-7021
+                </a>
+              </div>
               <div className="flex gap-2 items-start">
                 <MapPin size={15} style={{ color: "var(--an-gold)", flexShrink: 0, marginTop: 2 }} />
                 <span className="font-body text-xs" style={{ color: "rgba(255,255,255,0.65)" }}>
-                  Port St. Lucie, FL
+                  862 SW Glenview Ct., Port St. Lucie, FL 34953
                 </span>
               </div>
               <div className="flex gap-2 items-center">
                 <Mail size={15} style={{ color: "var(--an-gold)", flexShrink: 0 }} />
-                <a href="mailto:PastorShelia.Blake@allnationsldcc.org"
+                <a href="mailto:AllNationsLDCC@Outlook.com"
                   className="font-body text-xs hover:text-[#C59D2F] transition-colors"
                   style={{ color: "rgba(255,255,255,0.65)" }}>
-                  PastorShelia.Blake@allnationsldcc.org
+                  AllNationsLDCC@Outlook.com
                 </a>
               </div>
             </div>
@@ -169,7 +175,7 @@ export default function Footer() {
       <div style={{ borderTop: "1px solid rgba(255,255,255,0.10)" }}>
         <div className="container py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="font-body text-xs" style={{ color: "rgba(255,255,255,0.45)" }}>
-            © {new Date().getFullYear()} All Nations Life Development Christian Center. All rights reserved.
+            © 2026 All Nations Life Development Christian Center. All Rights Reserved. &nbsp;·&nbsp; allnationsldcc.org
           </p>
           <div className="flex gap-4 flex-wrap justify-center">
             {[

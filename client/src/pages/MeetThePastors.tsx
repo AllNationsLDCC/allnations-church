@@ -9,7 +9,7 @@ const BISHOP_AND_PASTOR = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792
 const pastors = [
   {
     name: "Bishop Cornelius Blake",
-    title: "Senior Pastor & Bishop",
+    title: "Senior Bishop",
     color: "var(--an-navy)",
     accentColor: "var(--an-gold)",
     photo: BISHOP_AND_PASTOR,
@@ -23,7 +23,7 @@ const pastors = [
   },
   {
     name: "Executive Pastor Shelia Blake",
-    title: "Executive Pastor & Leadership Strategist",
+    title: "Executive Pastor",
     color: "var(--an-teal)",
     accentColor: "var(--an-teal)",
     photo: PASTOR_SHELIA,
