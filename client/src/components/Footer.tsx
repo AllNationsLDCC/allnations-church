@@ -30,7 +30,7 @@ export default function Footer() {
             </p>
             <p className="font-body text-sm leading-relaxed mb-6" style={{ color: "rgba(255,255,255,0.65)" }}>
               Love the Word. Learn the Word. Live by the Word.<br />
-              Serving Port St. Lucie, FL since 1999.
+              Loving God. Loving People. Serving Port St. Lucie since 1991.
             </p>
             {/* Social Icons */}
             <div className="flex gap-3">
@@ -105,8 +105,16 @@ export default function Footer() {
               <li className="flex gap-3">
                 <Clock size={16} style={{ color: "var(--an-orange)", flexShrink: 0, marginTop: 2 }} />
                 <div>
-                  <div className="font-body font-600 text-white text-sm">Prayer Line</div>
-                  <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.65)" }}>See Events page for schedule</div>
+                  <div className="font-body font-600 text-white text-sm">Tuesday Bible Talk</div>
+                  <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.65)" }}>Journey with Jesus — 7:30 PM</div>
+                </div>
+              </li>
+              <li className="flex gap-3">
+                <Clock size={16} style={{ color: "var(--an-gold)", flexShrink: 0, marginTop: 2 }} />
+                <div>
+                  <div className="font-body font-600 text-white text-sm">Monday Prayer Call</div>
+                  <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.65)" }}>Mondays at 7:00 PM — Join by Zoom or phone</div>
+                  <div className="font-body text-xs mt-1" style={{ color: "rgba(255,255,255,0.45)" }}>ID: 327 436 787 · PW: JXDddb4EMD · +1 (234) 203-2766</div>
                 </div>
               </li>
             </ul>

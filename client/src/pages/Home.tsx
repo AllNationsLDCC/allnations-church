@@ -108,38 +108,38 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row items-center gap-10">
             {/* Left: Text */}
             <div className="flex-1 text-center lg:text-left">
-              <span className="inline-block px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-4" style={{ background: "rgba(201,168,76,0.18)", color: "var(--an-gold)" }}>Featured Event Series</span>
+              <span className="inline-block px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-4" style={{ background: "rgba(201,168,76,0.18)", color: "var(--an-gold)" }}>DON'T MISS IT</span>
               <h2 className="font-display font-bold text-white mb-3" style={{ fontSize: "clamp(2rem, 4vw, 3rem)", letterSpacing: "-0.01em" }}>
                 TABERNACLE <span style={{ color: "var(--an-gold)" }}>2026</span>
               </h2>
-              <p className="font-body text-base mb-6" style={{ color: "rgba(255,255,255,0.75)" }}>
-                A Multi-Night Celebration of Faith, Culture &amp; Worship
+              <p className="font-body text-base mb-3" style={{ color: "rgba(255,255,255,0.85)" }}>
+                A Multi-Night Celebration of the Presence of God
+              </p>
+              <p className="font-body text-sm mb-3" style={{ color: "rgba(255,255,255,0.70)" }}>
+                This spring, All Nations LDCC invites you to an extraordinary series of nights — each one a unique encounter with God, rooted in His Word and overflowing with worship, culture, and the glory of the Tabernacle revealed.
+              </p>
+              <p className="font-body text-sm mb-6" style={{ color: "rgba(255,255,255,0.70)" }}>
+                Whether you're coming for Cultural Night, celebrating as Kings and Queens, or walking solemnly and reverently through the Tabernacle on Good Friday — every night is designed to bring you closer to the heart of God. Bring your family. Invite your neighbors. Come expectant.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Link href="/events" className="btn-gold flex items-center gap-2">
-                  <Calendar size={14} /> View All Dates
-                </Link>
-                <Link href="/connect" className="btn-outline flex items-center gap-2" style={{ borderColor: "rgba(255,255,255,0.4)", color: "#fff" }}>
-                  Plan Your Visit
+                  LEARN MORE &amp; RSVP →
                 </Link>
               </div>
             </div>
             {/* Right: Event cards */}
             <div className="flex flex-col sm:flex-row lg:flex-col gap-4 w-full lg:w-auto lg:min-w-[320px]">
               <div className="rounded-xl p-5 border-l-4" style={{ background: "rgba(255,255,255,0.06)", borderLeftColor: "var(--an-gold)" }}>
-                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-gold)" }}>Cultural Night</div>
-                <div className="font-display text-white font-bold text-lg">Wednesday, April 1, 2026</div>
-                <div className="font-body text-xs mt-1" style={{ color: "rgba(255,255,255,0.55)" }}>862 SW Glenview Ct., Port St. Lucie, FL</div>
+                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-gold)" }}>Cultural Night — Wednesday, April 1, 2026</div>
+                <div className="font-display text-white font-bold text-base">A vibrant celebration of the diversity of God's people — worship, culture, and community united under one roof.</div>
               </div>
               <div className="rounded-xl p-5 border-l-4" style={{ background: "rgba(255,255,255,0.06)", borderLeftColor: "var(--an-teal)" }}>
-                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-teal)" }}>Kings &amp; Queens Night</div>
-                <div className="font-display text-white font-bold text-lg">Date to be Announced</div>
-                <div className="font-body text-xs mt-1" style={{ color: "rgba(255,255,255,0.55)" }}>862 SW Glenview Ct., Port St. Lucie, FL</div>
+                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-teal)" }}>Kings &amp; Queens Night — Coming Soon</div>
+                <div className="font-display text-white font-bold text-base">Come dressed and declared — you are royalty in the Kingdom of God. A night of honor, worship, and Word.</div>
               </div>
               <div className="rounded-xl p-5 border-l-4" style={{ background: "rgba(255,255,255,0.06)", borderLeftColor: "#c0392b" }}>
-                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "#e57373" }}>Good Friday</div>
-                <div className="font-display text-white font-bold text-lg">Walk Through the Tabernacle</div>
-                <div className="font-body text-xs mt-1" style={{ color: "rgba(255,255,255,0.55)" }}>April 18, 2026 · 862 SW Glenview Ct., Port St. Lucie, FL</div>
+                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "#e57373" }}>Good Friday: Walk Through the Tabernacle — April 18, 2026</div>
+                <div className="font-display text-white font-bold text-base">A reverent, powerful walk through the Tabernacle of Moses — experiencing the story of redemption step by step.</div>
               </div>
             </div>
           </div>
@@ -153,21 +153,22 @@ export default function Home() {
             <div>
               <span className="section-label">A Word From Our Pastors</span>
               <h2 className="font-display text-4xl font-bold mb-6" style={{ color: "var(--an-navy)" }}>
-                Welcome to the<br />
-                <span style={{ color: "var(--an-gold)" }}>All Nations Family</span>
+                Come Be Part<br />
+                <span style={{ color: "var(--an-gold)" }}>of the Family</span>
               </h2>
               <p className="font-body text-base leading-relaxed mb-4" style={{ color: "#444" }}>
-                We are so glad you are here. All Nations Life Development Christian Center is more than a church — it is a family committed to building people and strengthening institutions for lasting, generational impact.
+                You don't have to have it all together to walk through our doors. At All Nations, every person is welcomed as they are — and developed into who God called them to be. We are a family of faith that loves hard, worships free, and believes that your best chapter is still ahead.
               </p>
               <p className="font-body text-base leading-relaxed mb-4" style={{ color: "#444" }}>
-                For over 25 years, we have been serving the Port St. Lucie community with love, excellence, and the uncompromising Word of God. Whether you are joining us for the first time or you have been with us for years, you belong here.
+                Come as you are. Leave transformed.
               </p>
-              <p className="font-body text-base leading-relaxed mb-8" style={{ color: "#444" }}>
-                Come as you are. Grow where you are planted. Leave transformed.
+              <p className="font-body text-sm font-semibold mb-8" style={{ color: "var(--an-navy)" }}>
+                Join us every Sunday at 8:30 AM or 11:00 AM<br />
+                <span style={{ color: "#666", fontWeight: 400 }}>862 SW Glenview Ct., Port St. Lucie, FL 34953</span>
               </p>
               <div className="flex gap-4 flex-wrap">
-                <Link href="/meet-the-pastors" className="btn-navy">Meet Our Pastors</Link>
-                <Link href="/what-we-believe" className="btn-outline">What We Believe</Link>
+                <Link href="/connect" className="btn-navy">PLAN YOUR VISIT →</Link>
+                <Link href="/meet-the-pastors" className="btn-outline">MEET OUR PASTORS</Link>
               </div>
             </div>
             <div className="relative">
@@ -340,14 +341,14 @@ export default function Home() {
           <span className="section-label" style={{ color: "var(--an-green)" }}>Community Impact</span>
           <h2 className="font-display text-4xl font-bold text-white mb-6">
             Serving Port St. Lucie<br />
-            <span style={{ color: "var(--an-green)" }}>Since 1999</span>
+            <span style={{ color: "var(--an-green)" }}>Since 1991</span>
           </h2>
           <p className="font-body text-lg leading-relaxed mb-10 max-w-2xl mx-auto" style={{ color: "rgba(255,255,255,0.85)" }}>
-            For over 25 years, All Nations has been a pillar of faith, hope, and love in our community — through outreach programs, youth development, community service, and the transforming power of the Gospel.
+            For over 35 years, All Nations has been a pillar of faith, hope, and love in our community — through outreach programs, youth development, community service, and the transforming power of the Gospel.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto mb-10">
             {[
-              { num: "25+", label: "Years Serving" },
+              { num: "35+", label: "Years Serving" },
               { num: "8", label: "Ministries" },
               { num: "2", label: "Sunday Services" },
               { num: "∞", label: "Lives Changed" },

@@ -46,22 +46,28 @@ export default function WhatWeBelieve() {
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="section-label">Our Story</span>
+              <span className="section-label">OUR STORY</span>
               <h2 className="font-display text-4xl font-bold mb-6" style={{ color: "var(--an-navy)" }}>
-                25+ Years Serving<br />
+                35+ Years Serving<br />
                 <span style={{ color: "var(--an-gold)" }}>Port St. Lucie</span>
               </h2>
               <p className="font-body text-base leading-relaxed mb-4" style={{ color: "#555" }}>
-                All Nations Life Development Christian Center was founded in Port St. Lucie, Florida with a simple but powerful mission: <em style={{ color: "var(--an-navy)", fontFamily: "'Playfair Display', serif" }}>Love the Word. Learn the Word. Live by the Word.</em>
+                In 1991, a vision was planted in the heart of Port St. Lucie. With no connections, no guarantee, and no familiar faces — only a word from God and an unshakeable faith — the doors of All Nations Life Development Christian Center opened for the very first time on May 5th of that year.
               </p>
               <p className="font-body text-base leading-relaxed mb-4" style={{ color: "#555" }}>
-                Under the visionary leadership of Bishop Cornelius Blake and Executive Pastor Shelia Blake, All Nations has grown from a small gathering of faith-filled believers into a thriving, multicultural ministry that impacts thousands of lives across the Treasure Coast and beyond.
+                What began as a small gathering of Spirit-filled believers quickly grew into something far greater than any one person could have planned. God honored the sacrifice. He honored the faith. And He began building something that would touch thousands of lives across the Treasure Coast and beyond.
               </p>
               <p className="font-body text-base leading-relaxed mb-4" style={{ color: "#555" }}>
-                For over 25 years, we have been a place of healing, transformation, and empowerment — where every person who walks through our doors is welcomed, valued, and equipped to fulfill their God-given purpose.
+                Over 35 years later, All Nations LDCC is a thriving, multicultural community of faith — a place where the Word is preached with power, people are developed with purpose, and no one is turned away. Our campus serves the community every day of the week through worship services, discipleship classes, counseling, outreach, and more.
               </p>
-              <p className="font-body text-base leading-relaxed mb-8" style={{ color: "#555" }}>
-                Our tagline says it all: <strong style={{ color: "var(--an-navy)" }}>"Building People is Our Business."</strong> Everything we do — from Sunday worship to discipleship classes, from counseling services to community outreach — is designed to build people up and send them out transformed.
+              <p className="font-body text-base leading-relaxed mb-4" style={{ color: "#555" }}>
+                Our mission has never changed: <em style={{ color: "var(--an-navy)", fontFamily: "'Playfair Display', serif" }}>Love the Word. Learn the Word. Live by the Word.</em>
+              </p>
+              <p className="font-body text-base leading-relaxed mb-4" style={{ color: "#555" }}>
+                Under the visionary leadership of Senior Bishop Cornelius Blake and Executive Pastor Shelia Blake, All Nations has grown from a faithful few into a ministry that heals, restores, equips, and sends. We believe the local church is God's greatest plan for humanity — and we take that responsibility seriously.
+              </p>
+              <p className="font-body text-base leading-relaxed mb-8" style={{ color: "#555", fontStyle: "italic", fontFamily: "'Playfair Display', serif" }}>
+                This is not just a church. This is a family. And there is a place here for you.
               </p>
               <div className="space-y-3 p-6 rounded-xl" style={{ background: "var(--an-bg)", border: "1px solid rgba(31,47,92,0.10)" }}>
                 <div className="flex items-start gap-3">
@@ -88,15 +94,76 @@ export default function WhatWeBelieve() {
         </div>
       </section>
 
-      {/* Statement of Faith */}
+      {/* Leadership Section */}
       <section className="py-20" style={{ background: "var(--an-bg)" }}>
         <div className="container">
           <div className="text-center mb-12">
+            <span className="section-label">OUR LEADERSHIP</span>
+            <h2 className="font-display text-4xl font-bold" style={{ color: "var(--an-navy)" }}>
+              Shepherds Who <span style={{ color: "var(--an-gold)" }}>Serve</span>
+            </h2>
+            <p className="font-body text-base mt-3 max-w-xl mx-auto" style={{ color: "#666" }}>
+              Led by the Word. Committed to the people.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {/* Bishop Cornelius Blake */}
+            <div className="bg-white rounded-2xl shadow-sm overflow-hidden ministry-card">
+              <div className="p-8">
+                <div className="w-24 h-24 rounded-full mx-auto mb-5 overflow-hidden border-4" style={{ borderColor: "var(--an-gold)" }}>
+                  <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/4701_3f0e1c4b.jpg" alt="Bishop Cornelius Blake" className="w-full h-full object-cover object-top" />
+                </div>
+                <h3 className="font-display font-bold text-xl text-center mb-1" style={{ color: "var(--an-navy)" }}>Bishop Cornelius Blake</h3>
+                <p className="font-body text-sm text-center font-semibold mb-4" style={{ color: "var(--an-gold)" }}>Senior Bishop</p>
+                <p className="font-body text-sm leading-relaxed mb-3" style={{ color: "#555" }}>
+                  Bishop Cornelius Blake is a man of uncompromising faith, prophetic vision, and deep love for God's people. For over 35 years, he has faithfully served as the Senior Bishop of All Nations Life Development Christian Center — shepherding a community that has grown from a handful of believers into a thriving, multicultural ministry impacting the Treasure Coast of Florida.
+                </p>
+                <p className="font-body text-sm leading-relaxed mb-3" style={{ color: "#555" }}>
+                  A gifted teacher and preacher, Bishop Blake is known for his ability to unpack the truth of Scripture in a way that is both profound and practical — meeting people exactly where they are and pointing them toward who God has called them to be. His passion is not just to build a church, but to build people — raising up disciples, leaders, and world-changers who carry the Kingdom beyond these walls.
+                </p>
+                <p className="font-body text-sm leading-relaxed" style={{ color: "#555" }}>
+                  Bishop Blake's leadership reflects the heart of a true shepherd: one who serves under the Chief Shepherd, Jesus Christ, with humility, integrity, and an unrelenting commitment to excellence.
+                </p>
+              </div>
+            </div>
+            {/* Pastor Shelia Blake */}
+            <div className="bg-white rounded-2xl shadow-sm overflow-hidden ministry-card">
+              <div className="p-8">
+                <div className="w-24 h-24 rounded-full mx-auto mb-5 overflow-hidden border-4" style={{ borderColor: "var(--an-gold)" }}>
+                  <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/CopyofIMG_4616_3f0e1c4b.jpg" alt="Executive Pastor Shelia Blake" className="w-full h-full object-cover object-top" />
+                </div>
+                <h3 className="font-display font-bold text-xl text-center mb-1" style={{ color: "var(--an-navy)" }}>Pastor Shelia Blake</h3>
+                <p className="font-body text-sm text-center font-semibold mb-4" style={{ color: "var(--an-gold)" }}>Executive Pastor</p>
+                <p className="font-body text-sm leading-relaxed mb-3" style={{ color: "#555" }}>
+                  Pastor Shelia Blake is a dynamic leader, gifted teacher, and passionate developer of people. As Executive Pastor of All Nations Life Development Christian Center, she serves alongside Senior Bishop Cornelius Blake to oversee the vision, administration, and ministry operations of the church — ensuring that every department, every program, and every person is aligned with the mission God has entrusted to this house.
+                </p>
+                <p className="font-body text-sm leading-relaxed mb-3" style={{ color: "#555" }}>
+                  With a heart for women, families, and emerging leaders, Pastor Shelia is known for her warmth, her wisdom, and her ability to make people feel seen, valued, and equipped. She is a gifted communicator whose teaching brings the Word to life in practical, transformational ways.
+                </p>
+                <p className="font-body text-sm leading-relaxed" style={{ color: "#555", fontStyle: "italic", fontFamily: "'Playfair Display', serif" }}>
+                  At the core of everything Pastor Shelia does is one driving conviction: developing people is her business — and God's business is always good.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Statement of Faith */}
+      <section className="py-20" style={{ background: "#fff" }}>
+        <div className="container">
+          <div className="text-center mb-8">
             <span className="section-label">Statement of Faith</span>
             <h2 className="font-display text-4xl font-bold" style={{ color: "var(--an-navy)" }}>
               What We <span style={{ color: "var(--an-gold)" }}>Believe</span>
             </h2>
+            <p className="font-body text-base mt-3 max-w-2xl mx-auto" style={{ color: "#666" }}>
+              Rooted in the Word. Grounded in faith. Growing in love.
+            </p>
           </div>
+          <p className="font-body text-base leading-relaxed max-w-3xl mx-auto text-center mb-12" style={{ color: "#555" }}>
+            At All Nations, we don't just talk about what we believe — we live it. Our beliefs are not a checklist. They are the foundation everything else is built on. From how we worship to how we serve our community, every ministry, every message, and every moment in this house flows from these core convictions.
+          </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {beliefs.map(b => (
               <div key={b.title} className="bg-white rounded-xl p-6 shadow-sm ministry-card border-t-4" style={{ borderTopColor: b.color }}>
