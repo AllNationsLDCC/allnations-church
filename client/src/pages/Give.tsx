@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 
 // Design: Elevation-quality giving page — warm light bg, gold accents, navy trust elements
-// 11 sections per Pastor Shelia's content spec (March 2026)
+// 11 sections per Pastor Shelia's content spec — Updated April 2026
 // Kindrid slug: allnationsldcc | Account ID: 48081
 
 const KINDRID_URL = "https://www.kindridgiving.com/App/Form/7c27d226-b8cd-4972-99cb-c0cf0eb92952";

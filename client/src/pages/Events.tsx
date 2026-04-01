@@ -63,16 +63,79 @@ const recurringEvents = [
 ];
 
 const upcomingEvents2026 = [
-  { title: "Tabernacle 2026 — Cultural Night", date: "Wednesday, April 1, 2026", time: "7:00 PM", desc: "An immersive night celebrating the rich cultural tapestry of All Nations. Come experience faith, culture, and worship in full expression. 862 SW Glenview Ct., Port St. Lucie, FL.", color: "var(--an-gold)" },
-  { title: "Tabernacle 2026 — Kings & Queens Night", date: "Date to be Announced", time: "TBA", desc: "A royal celebration of identity, purpose, and Kingdom authority. Watch for the announcement of this powerful night. 862 SW Glenview Ct., Port St. Lucie, FL.", color: "var(--an-navy)" },
-  { title: "Tabernacle 2026 — Good Friday Walk", date: "Good Friday, April 18, 2026", time: "Service Times TBA", desc: "Walk Through the Tabernacle — an immersive Good Friday experience honoring the sacrifice of Jesus Christ. 862 SW Glenview Ct., Port St. Lucie, FL.", color: "var(--an-red)" },
-  { title: "Palm Sunday", date: "April 5, 2026", time: "8:30 AM & 11:00 AM", desc: "Celebrate the triumphal entry of Jesus Christ into Jerusalem. Join us for a special Palm Sunday worship experience at All Nations LDCC.", color: "var(--an-green)" },
-  { title: "Easter Sunday", date: "April 5, 2026", time: "8:30 AM & 11:00 AM", desc: "He is Risen! Join us for a powerful Easter Sunday celebration as we honor the resurrection of Jesus Christ.", color: "var(--an-red)" },
-  { title: "Youth Summer Programs", date: "Summer 2026", time: "TBD", desc: "Exciting summer programs for youth and children. Registration details coming soon!", color: "var(--an-orange)" },
-  { title: "Women's Ministry Retreat", date: "Spring 2026", time: "TBD", desc: "Annual women's retreat for refreshing, renewal, and deeper connection.", color: "var(--an-red)" },
-  { title: "Discipleship 201 — New Cohort", date: "Spring 2026", time: "TBD", desc: "New cohort beginning for Discipleship 201: Foundations of Faith. Certificate awarded upon completion.", color: "var(--an-blue)" },
-  { title: "Leadership Lab", date: "Ongoing 2026", time: "TBD", desc: "The Leadership Lab ministry class for emerging leaders. Contact us for current schedule.", color: "var(--an-navy)" },
-  { title: "Community Outreach Day", date: "Quarterly", time: "TBD", desc: "Serving Port St. Lucie together through food drives, resource distributions, and community love.", color: "var(--an-green)" },
+  // ── April 2026 ──────────────────────────────────────────────────────────
+  {
+    title: "Tabernacle 2026 — Good Friday: Walk Through the Tabernacle",
+    date: "Friday, April 18, 2026",
+    time: "Service Times TBA",
+    desc: "A reverent, powerful walk through the Tabernacle of Moses — experiencing the story of redemption step by step. An immersive Good Friday experience honoring the sacrifice of Jesus Christ. 862 SW Glenview Ct., Port St. Lucie, FL.",
+    color: "var(--an-red)",
+  },
+  {
+    title: "Tabernacle 2026 — Kings & Queens Night",
+    date: "Date to be Announced",
+    time: "TBA",
+    desc: "Come dressed and declared — you are royalty in the Kingdom of God. A royal celebration of identity, purpose, and Kingdom authority. Watch for the announcement of this powerful night. 862 SW Glenview Ct., Port St. Lucie, FL.",
+    color: "var(--an-navy)",
+  },
+  {
+    title: "Easter Sunday Celebration",
+    date: "Sunday, April 5, 2026",
+    time: "8:30 AM & 11:00 AM",
+    desc: "He is Risen! Join us for a powerful Easter Sunday celebration as we honor the resurrection of Jesus Christ. Special worship experience at All Nations LDCC. All are welcome!",
+    color: "var(--an-red)",
+  },
+  {
+    title: "Community Outreach Day — Q2",
+    date: "April 2026 — Date TBA",
+    time: "TBD",
+    desc: "Serving Port St. Lucie together through food drives, resource distributions, and community love. Watch for the confirmed date announcement.",
+    color: "var(--an-green)",
+  },
+  // ── May 2026 ─────────────────────────────────────────────────────────────
+  {
+    title: "Mother's Day Celebration",
+    date: "Sunday, May 10, 2026",
+    time: "8:30 AM & 11:00 AM",
+    desc: "Honoring the mothers, grandmothers, and mother figures of All Nations LDCC. A special worship service dedicated to celebrating the women who shape our families and our faith.",
+    color: "var(--an-red)",
+  },
+  {
+    title: "Women's Ministry Retreat",
+    date: "May 2026 — Date TBA",
+    time: "TBD",
+    desc: "Annual women's retreat for refreshing, renewal, and deeper connection. Registration details coming soon. Contact the church office for more information.",
+    color: "#D63384",
+  },
+  {
+    title: "Discipleship 201 — New Cohort",
+    date: "Spring 2026 — Enrollment Open",
+    time: "TBD",
+    desc: "New cohort beginning for Discipleship 201: Foundations of Faith. Certificate awarded upon completion. Contact us to reserve your spot.",
+    color: "var(--an-blue)",
+  },
+  // ── Summer & Beyond ───────────────────────────────────────────────────────
+  {
+    title: "Youth Summer Programs",
+    date: "Summer 2026",
+    time: "TBD",
+    desc: "Exciting summer programs for youth and children. Registration details coming soon! Programs include academic enrichment, leadership development, and faith formation.",
+    color: "var(--an-orange)",
+  },
+  {
+    title: "Leadership Lab",
+    date: "Ongoing 2026",
+    time: "TBD",
+    desc: "The Leadership Lab ministry class for emerging leaders. Rooted in the Nehemiah model of servant leadership. Contact us for the current schedule.",
+    color: "var(--an-navy)",
+  },
+  {
+    title: "Voices of Vision Conference",
+    date: "Spring 2026",
+    time: "TBD",
+    desc: "A landmark conference for the Voices of Vision 2026 year theme. Prophetic messages, worship, and Kingdom alignment. Watch for full details and registration.",
+    color: "var(--an-gold)",
+  },
 ];
 
 export default function Events() {
@@ -138,6 +201,9 @@ export default function Events() {
             <h2 className="font-display text-4xl font-bold" style={{ color: "var(--an-navy)" }}>
               Upcoming Events <span style={{ color: "var(--an-gold)" }}>2026</span>
             </h2>
+            <p className="font-body text-sm mt-2" style={{ color: "#888" }}>
+              April — May 2026 &amp; Beyond
+            </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {upcomingEvents2026.map(ev => (

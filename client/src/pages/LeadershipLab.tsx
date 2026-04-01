@@ -300,13 +300,13 @@ export default function LeadershipLab() {
 // ─── Quarterly Session Info ───────────────────────────────────────────────
 const quarters = [
   {
-    label: "Q1 — January through March",
+    label: "Q1 — January through March ✓ Completed",
     theme: "Identity & Foundation",
     sessions: ["Session 1: Who You Are in Christ", "Session 2: The Leader's Character", "Session 3: Vision Casting 101"],
     color: "var(--an-navy)",
   },
   {
-    label: "Q2 — April through June",
+    label: "Q2 — April through June ★ NOW ACTIVE",
     theme: "Communication & Influence",
     sessions: ["Session 4: Speaking with Authority", "Session 5: Building Trust & Teams", "Session 6: Conflict Resolution"],
     color: "var(--an-teal)",

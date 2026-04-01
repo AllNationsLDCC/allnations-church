@@ -11,34 +11,34 @@ const PASTOR_SHELIA = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/
 // Sample devotional entries (to be replaced with live content)
 const recentDevotionals = [
   {
-    date: "March 5, 2026",
+    date: "April 1, 2026",
     day: "Wednesday",
-    title: "Walking in Your Season",
-    scripture: "Ecclesiastes 3:1",
-    scriptureText: "\"To everything there is a season, and a time to every purpose under the heaven.\"",
-    excerpt: "Today I want to speak to someone who feels like they are in a waiting season. God has not forgotten you. Every delay is a divine setup. Your season is coming — and when it arrives, you will be fully prepared to receive it.",
+    title: "New Month, New Mercies",
+    scripture: "Lamentations 3:22-23",
+    scriptureText: "\"The steadfast love of the Lord never ceases; his mercies never come to an end; they are new every morning; great is your faithfulness.\"",
+    excerpt: "April is here — a month of resurrection, renewal, and fresh beginnings. God's mercies are not recycled; they are brand new this morning. Step into this new month with expectation. What God could not do in March, He is ready to do in April.",
     color: "var(--an-teal)",
     duration: "4 min read",
     type: "written",
   },
   {
-    date: "March 4, 2026",
+    date: "March 31, 2026",
     day: "Tuesday",
-    title: "The Power of Your Declaration",
-    scripture: "Proverbs 18:21",
-    scriptureText: "\"Death and life are in the power of the tongue, and those who love it will eat its fruits.\"",
-    excerpt: "What you speak over your life matters. What you declare in the morning sets the atmosphere for your entire day. Begin today by speaking life, purpose, and abundance over every area of your life.",
+    title: "Finish Strong",
+    scripture: "Philippians 3:14",
+    scriptureText: "\"I press toward the mark for the prize of the high calling of God in Christ Jesus.\"",
+    excerpt: "As March closes, do not coast into April — press. Finish this month with the same fire you started with. Every seed you planted this month is about to break ground. Press toward the mark.",
     color: "var(--an-gold)",
     duration: "3 min read",
     type: "written",
   },
   {
-    date: "March 3, 2026",
+    date: "March 30, 2026",
     day: "Monday",
-    title: "Building on the Right Foundation",
-    scripture: "Matthew 7:24",
-    scriptureText: "\"Everyone who hears these words of mine and puts them into practice is like a wise man who built his house on the rock.\"",
-    excerpt: "As we begin a new week, let us examine what we are building on. Success built on shifting sand will not stand. But what is built on the Word of God — on integrity, faith, and obedience — will endure every storm.",
+    title: "He Is Risen — Walk in Resurrection Power",
+    scripture: "Romans 8:11",
+    scriptureText: "\"But if the Spirit of him who raised Jesus from the dead dwells in you, he who raised Christ Jesus from the dead will also give life to your mortal bodies through his Spirit who dwells in you.\"",
+    excerpt: "Easter is almost here. The same Spirit that raised Jesus from the dead lives in you. That is not a metaphor — that is resurrection power available to you right now. Walk in it this week.",
     color: "var(--an-navy)",
     duration: "5 min read",
     type: "written",
@@ -125,7 +125,7 @@ export default function DailyWord() {
             <div className="text-center mb-10">
               <span className="section-label">Today's Devotional</span>
               <h2 className="font-display text-4xl font-bold" style={{ color: "var(--an-navy)" }}>
-                March 5, 2026 — <span style={{ color: "var(--an-gold)" }}>Wednesday</span>
+                April 1, 2026 — <span style={{ color: "var(--an-gold)" }}>Wednesday</span>
               </h2>
             </div>
 
@@ -140,10 +140,10 @@ export default function DailyWord() {
                     <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.60)" }}>All Nations Life Development Christian Center</div>
                   </div>
                 </div>
-                <h3 className="font-display text-2xl font-bold text-white mb-2">Walking in Your Season</h3>
+                <h3 className="font-display text-2xl font-bold text-white mb-2">New Month, New Mercies</h3>
                 <div className="flex items-center gap-2">
                   <BookOpen size={14} style={{ color: "var(--an-gold)" }} />
-                  <span className="font-body text-sm font-bold" style={{ color: "var(--an-gold)" }}>Ecclesiastes 3:1</span>
+                  <span className="font-body text-sm font-bold" style={{ color: "var(--an-gold)" }}>Lamentations 3:22-23</span>
                 </div>
               </div>
 
@@ -151,21 +151,21 @@ export default function DailyWord() {
                 {/* Scripture */}
                 <blockquote className="rounded-xl p-5 mb-6 border-l-4" style={{ background: "rgba(197,157,47,0.07)", borderLeftColor: "var(--an-gold)" }}>
                   <p className="font-body text-base italic leading-relaxed" style={{ color: "#444" }}>
-                    "To everything there is a season, and a time to every purpose under the heaven."
+                    "The steadfast love of the Lord never ceases; his mercies never come to an end; they are new every morning; great is your faithfulness."
                   </p>
-                  <cite className="font-body text-xs font-bold mt-2 block" style={{ color: "var(--an-gold)" }}>— Ecclesiastes 3:1 (KJV)</cite>
+                  <cite className="font-body text-xs font-bold mt-2 block" style={{ color: "var(--an-gold)" }}>— Lamentations 3:22-23 (ESV)</cite>
                 </blockquote>
 
                 {/* Message */}
                 <div className="space-y-4 mb-8">
                   <p className="font-body text-base leading-relaxed" style={{ color: "#444" }}>
-                    Today I want to speak to someone who feels like they are in a waiting season. Perhaps you have been praying, believing, and standing on God's promises — and it seems like nothing is moving. I want you to know: <strong>God has not forgotten you.</strong>
+                    April is here — and with it comes a fresh wave of God's mercy, grace, and possibility. This is not just a new month on the calendar; it is a divine reset. <strong>God's mercies are not recycled — they are brand new this morning.</strong>
                   </p>
                   <p className="font-body text-base leading-relaxed" style={{ color: "#444" }}>
-                    Every delay is a divine setup. God is not slow — He is strategic. He is using this season to prepare you, to strengthen you, to align the right people and resources for what He is about to release in your life. The farmer does not dig up the seed to check if it is growing. He trusts the process.
+                    Whatever you carried into this month from last month — the disappointments, the unanswered prayers, the setbacks — God says: release it. His faithfulness is not contingent on your performance. It is rooted in His character. He was faithful in January. He was faithful in March. And He will be faithful in April.
                   </p>
                   <p className="font-body text-base leading-relaxed" style={{ color: "#444" }}>
-                    Your season is coming — and when it arrives, you will be fully prepared to receive it, steward it, and multiply it for the Kingdom. Do not despise the process. Embrace it. <strong>Your season is not delayed — it is being perfected.</strong>
+                    Step into this new month with expectation. <strong>What God could not complete in March, He is ready to accomplish in April.</strong> This is also the month of resurrection — Easter Sunday is April 5. Let the power of the risen Christ breathe new life into every area of your world.
                   </p>
                 </div>
 
@@ -174,9 +174,9 @@ export default function DailyWord() {
                   <h4 className="font-display font-bold text-base mb-3" style={{ color: "var(--an-navy)" }}>Today's Reflection</h4>
                   <ul className="space-y-2">
                     {[
-                      "What season do you feel you are currently in — planting, growing, or harvest?",
-                      "What is God asking you to trust Him with today that you cannot yet see?",
-                      "How can you honor the process rather than rushing the outcome?",
+                      "What are you believing God for in April that you did not see in March?",
+                      "How does the resurrection of Jesus Christ change the way you face your current challenges?",
+                      "What new mercy do you need to receive from God today — and what old burden do you need to release?",
                     ].map(q => (
                       <li key={q} className="flex items-start gap-2">
                         <div className="w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0" style={{ background: "var(--an-gold)" }} />
@@ -190,7 +190,7 @@ export default function DailyWord() {
                 <div className="rounded-xl p-5 mb-6" style={{ background: "linear-gradient(135deg, var(--an-navy) 0%, #0d3b5e 100%)" }}>
                   <h4 className="font-display font-bold text-base text-white mb-2">Today's Prayer</h4>
                   <p className="font-body text-sm italic leading-relaxed" style={{ color: "rgba(255,255,255,0.80)" }}>
-                    "Father, I trust Your timing. I release the need to control what only You can orchestrate. Strengthen my faith in this season. Help me to grow where I am planted, knowing that You are working all things together for my good and Your glory. In Jesus' name, Amen."
+                    "Father, thank You for new mercies this morning. I receive the fresh start You are offering me in this new month. I release every disappointment and delay from last month into Your hands. Fill me with resurrection faith as Easter approaches. Let Your faithfulness be my confidence and Your Word be my foundation. In Jesus' name, Amen."
                   </p>
                 </div>
 
