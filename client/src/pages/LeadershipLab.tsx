@@ -2,7 +2,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Link } from "wouter";
 import { useState } from "react";
-import { Award, BookOpen, Users, Star, CheckCircle, ArrowRight, Lightbulb, Target, TrendingUp, Heart, MapPin, Video, Clock, Mail, Calendar } from "lucide-react";
+import { Award, BookOpen, Users, Star, CheckCircle, ArrowRight, Lightbulb, Target, TrendingUp, Heart, MapPin, Video, Clock, Mail, Calendar, Loader2 } from "lucide-react";
+import { sendEmail, TEMPLATE_REGISTRATION } from "@/lib/emailjs";
+import { toast } from "sonner";
 
 // Design: Elevation-quality, navy + gold, bold typography, warm light bg
 // Leadership Lab — flagship leadership development program of All Nations LDCC
@@ -356,13 +358,30 @@ function LabRegistration() {
     return e;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [sending, setSending] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const errs = validate();
     if (Object.keys(errs).length > 0) { setErrors(errs); return; }
     setErrors({});
-    setSubmitted(true);
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    setSending(true);
+    const success = await sendEmail(TEMPLATE_REGISTRATION, {
+      from_name: `${form.firstName} ${form.lastName}`,
+      from_email: form.email,
+      phone: form.phone || "Not provided",
+      program: "Leadership Lab",
+      attendance: form.attendance === "in-person" ? "In-Person" : "Online (Zoom)",
+      details: `Track: ${form.track} | Quarter: ${form.quarter} | Attendance: ${form.attendance}`,
+    });
+    setSending(false);
+    if (success) {
+      setSubmitted(true);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      toast.success("Application submitted! We will be in touch shortly.");
+    } else {
+      toast.error("Something went wrong. Please try again or email us at AllNationsldcc@gmail.com.");
+    }
   };
 
   const set = (field: keyof LabForm, val: string) => {
@@ -562,11 +581,12 @@ function LabRegistration() {
                     {errors.attendance && <p className="font-body text-xs mt-1" style={{ color: "var(--an-red)" }}>{errors.attendance}</p>}
                   </div>
                   <button type="submit"
-                    className="w-full btn-gold flex items-center justify-center gap-2 py-4 text-base">
-                    Submit Application <ArrowRight size={18} />
+                    disabled={sending}
+                    className="w-full btn-gold flex items-center justify-center gap-2 py-4 text-base disabled:opacity-60">
+                    {sending ? (<><Loader2 size={18} className="animate-spin" /> Submitting...</>) : (<>Submit Application <ArrowRight size={18} /></>)}
                   </button>
                   <p className="font-body text-xs text-center" style={{ color: "#999" }}>
-                    A confirmation email will be sent immediately. Our team will follow up with session dates and details.
+                    Your application will be sent to the church office. Our team will follow up with session dates and details.
                   </p>
                 </form>
               </div>

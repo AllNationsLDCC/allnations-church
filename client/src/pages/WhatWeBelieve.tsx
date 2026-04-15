@@ -80,7 +80,7 @@ export default function WhatWeBelieve() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail size={16} style={{ color: "var(--an-gold)", flexShrink: 0 }} />
-                  <a href="mailto:info@allnationsldcc.org" className="font-body text-sm hover:text-[#C59D2F] transition-colors" style={{ color: "#555" }}>allnationsldcc.org</a>
+                  <a href="mailto:AllNationsldcc@gmail.com" className="font-body text-sm hover:text-[#C59D2F] transition-colors" style={{ color: "#555" }}>AllNationsldcc@gmail.com</a>
                 </div>
                 <div className="font-body text-sm" style={{ color: "#888" }}>
                   <strong style={{ color: "var(--an-navy)" }}>Office Hours:</strong> By appointment — please call to schedule.

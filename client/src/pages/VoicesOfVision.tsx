@@ -18,7 +18,7 @@ const voicesEvents = [
   { title: "Vision Sunday Kickoff", date: "January 2026", status: "Completed", color: "var(--an-green)" },
   { title: "Tabernacle 2026 — Cultural Night", date: "April 1, 2026", status: "Completed", color: "var(--an-green)" },
   { title: "Easter Sunday Celebration", date: "April 5, 2026", status: "Upcoming", color: "var(--an-gold)" },
-  { title: "Tabernacle 2026 — Good Friday Walk", date: "April 18, 2026", status: "Upcoming", color: "var(--an-red)" },
+  { title: "Tabernacle 2026 — Good Friday Walk", date: "April 3, 2026", status: "Upcoming", color: "var(--an-red)" },
   { title: "Voices of Vision Conference", date: "Spring 2026", status: "Upcoming", color: "var(--an-gold)" },
   { title: "Mid-Year Vision Review", date: "July 2026", status: "Upcoming", color: "var(--an-blue)" },
   { title: "Vision Summit & Celebration", date: "December 2026", status: "Upcoming", color: "var(--an-teal)" },

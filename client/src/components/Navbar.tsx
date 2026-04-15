@@ -200,7 +200,7 @@ export default function Navbar() {
 
       {/* Floating Give Button */}
       <a
-        href="https://kindrid.com/give/allnationsldcc"
+        href="https://www.kindridgiving.com/App/Form/7c27d226-b8cd-4972-99cb-c0cf0eb92952"
         target="_blank"
         rel="noopener noreferrer"
         className="floating-give-btn"

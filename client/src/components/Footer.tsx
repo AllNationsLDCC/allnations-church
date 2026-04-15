@@ -114,7 +114,7 @@ export default function Footer() {
                 <div>
                   <div className="font-body font-600 text-white text-sm">Monday Prayer Call</div>
                   <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.65)" }}>Mondays at 7:00 PM — Join by Zoom or phone</div>
-                  <div className="font-body text-xs mt-1" style={{ color: "rgba(255,255,255,0.45)" }}>ID: 327 436 787 · PW: JXDddb4EMD · +1 (234) 203-2766</div>
+                  <div className="font-body text-xs mt-1" style={{ color: "rgba(255,255,255,0.45)" }}>ID: 327 436 787 · PW: 5933324363 · +1 (234) 203-2766</div>
                 </div>
               </li>
             </ul>
@@ -134,10 +134,10 @@ export default function Footer() {
               </div>
               <div className="flex gap-2 items-center">
                 <Mail size={15} style={{ color: "var(--an-gold)", flexShrink: 0 }} />
-                <a href="mailto:AllNationsLDCC@Outlook.com"
+                <a href="mailto:AllNationsldcc@gmail.com"
                   className="font-body text-xs hover:text-[#C59D2F] transition-colors"
                   style={{ color: "rgba(255,255,255,0.65)" }}>
-                  AllNationsLDCC@Outlook.com
+                  AllNationsldcc@gmail.com
                 </a>
               </div>
             </div>
@@ -150,7 +150,7 @@ export default function Footer() {
               Your generosity fuels life change. Give securely online through our trusted giving platform.
             </p>
             <a
-              href="https://kindrid.com/give/allnationsldcc"
+              href="https://www.kindridgiving.com/App/Form/7c27d226-b8cd-4972-99cb-c0cf0eb92952"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-gold flex items-center gap-2 justify-center mb-4 w-full"

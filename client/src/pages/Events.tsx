@@ -48,7 +48,7 @@ const recurringEvents = [
     title: "Intercessory Prayer Line",
     day: "Every Monday",
     time: "7:00 PM – 8:30 PM",
-    location: "Zoom · Meeting ID: 327 436 787 · Password: JXDddb4EMD · Phone: +1 (234) 203-2766",
+    location: "Zoom · Meeting ID: 327 436 787 · Dial-in Password: 5933324363 · Phone: +1 (234) 203-2766",
     details: "Join our corporate prayer line every Monday evening for intercession, worship, and seeking the face of God together. Connect via Zoom or dial in by phone from anywhere.",
     color: "var(--an-blue)",
   },
@@ -66,8 +66,8 @@ const upcomingEvents2026 = [
   // ── April 2026 ──────────────────────────────────────────────────────────
   {
     title: "Tabernacle 2026 — Good Friday: Walk Through the Tabernacle",
-    date: "Friday, April 18, 2026",
-    time: "Service Times TBA",
+    date: "Friday, April 3, 2026",
+    time: "7:00 PM",
     desc: "A reverent, powerful walk through the Tabernacle of Moses — experiencing the story of redemption step by step. An immersive Good Friday experience honoring the sacrifice of Jesus Christ. 862 SW Glenview Ct., Port St. Lucie, FL.",
     color: "var(--an-red)",
   },
@@ -242,7 +242,7 @@ export default function Events() {
                 <div className="font-bold mb-1" style={{ color: "var(--an-gold)" }}>Mondays at 7:00 PM</div>
                 <div>Dial-In: <strong>1 (234) 203-2766</strong></div>
                 <div>Meeting ID: <strong>327 436 787</strong></div>
-                <div>Password: <strong>5933324363</strong></div>
+                <div>Dial-in Password: <strong>5933324363</strong></div>
                 <div className="mt-2" style={{ color: "rgba(255,255,255,0.65)" }}>Or visit <a href="https://www.allnationsldcc.org" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "var(--an-gold)" }}>www.allnationsldcc.org</a> for updates.</div>
               </div>
               <a href="tel:7723437021" className="btn-gold flex items-center gap-2 w-fit">

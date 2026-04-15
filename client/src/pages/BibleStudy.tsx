@@ -1,7 +1,9 @@
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { BookOpen, Clock, MapPin, Video, CheckCircle, Users, ArrowRight, Mail } from "lucide-react";
+import { BookOpen, Clock, MapPin, Video, CheckCircle, Users, ArrowRight, Mail, Loader2 } from "lucide-react";
+import { sendEmail, TEMPLATE_REGISTRATION } from "@/lib/emailjs";
+import { toast } from "sonner";
 
 // Design: Elevation-quality, warm light bg, teal accent for Bible Study
 // Wednesday Night Bible Study — Pastor R.B. Thomas, hybrid (in-person + Zoom), free
@@ -37,7 +39,9 @@ export default function BibleStudy() {
     return e;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [sending, setSending] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const errs = validate();
     if (Object.keys(errs).length > 0) {
@@ -45,8 +49,23 @@ export default function BibleStudy() {
       return;
     }
     setErrors({});
-    setSubmitted(true);
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    setSending(true);
+    const success = await sendEmail(TEMPLATE_REGISTRATION, {
+      from_name: `${form.firstName} ${form.lastName}`,
+      from_email: form.email,
+      phone: form.phone || "Not provided",
+      program: "Wednesday Night Bible Study",
+      attendance: form.attendance === "in-person" ? "In-Person" : "Online (Zoom)",
+      details: `Attendance: ${form.attendance === "in-person" ? "In-Person" : "Online (Zoom)"}`,
+    });
+    setSending(false);
+    if (success) {
+      setSubmitted(true);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      toast.success("Registration submitted! We will be in touch shortly.");
+    } else {
+      toast.error("Something went wrong. Please try again or email us at AllNationsldcc@gmail.com.");
+    }
   };
 
   const handleChange = (field: keyof FormData, value: string) => {
@@ -339,13 +358,14 @@ export default function BibleStudy() {
 
                   <button
                     type="submit"
-                    className="w-full btn-gold flex items-center justify-center gap-2 py-4 text-base"
+                    disabled={sending}
+                    className="w-full btn-gold flex items-center justify-center gap-2 py-4 text-base disabled:opacity-60"
                   >
-                    Register for Bible Study <ArrowRight size={18} />
+                    {sending ? (<><Loader2 size={18} className="animate-spin" /> Submitting...</>) : (<>Register for Bible Study <ArrowRight size={18} /></>)}
                   </button>
 
                   <p className="font-body text-xs text-center" style={{ color: "#999" }}>
-                    A confirmation email will be sent to you immediately upon registration. Zoom details included for online attendees.
+                    Your registration will be sent to the church office. We will follow up with details and Zoom info for online attendees.
                   </p>
                 </form>
               </div>

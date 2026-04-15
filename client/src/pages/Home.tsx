@@ -23,7 +23,7 @@ const upcomingEvents = [
   { title: "Wednesday Bible Study", date: "Every Wednesday", time: "7:00 PM", color: "var(--an-teal)" },
   { title: "Intercessory Prayer Line", date: "Every Monday", time: "7:00 PM – 8:30 PM", color: "var(--an-orange)" },
   { title: "Easter Sunday Celebration", date: "April 5, 2026", time: "8:30 AM & 11:00 AM", color: "var(--an-red)" },
-  { title: "Good Friday — Walk Through the Tabernacle", date: "April 18, 2026", time: "Times TBA", color: "var(--an-navy)" },
+  { title: "Good Friday — Walk Through the Tabernacle", date: "April 3, 2026", time: "7:00 PM", color: "var(--an-navy)" },
   { title: "Mother's Day Celebration", date: "May 10, 2026", time: "8:30 AM & 11:00 AM", color: "#D63384" },
 ];
 
@@ -140,7 +140,7 @@ export default function Home() {
                 <div className="font-display text-white font-bold text-base">Come dressed and declared — you are royalty in the Kingdom of God. A night of honor, worship, and Word.</div>
               </div>
               <div className="rounded-xl p-5 border-l-4" style={{ background: "rgba(255,255,255,0.06)", borderLeftColor: "#c0392b" }}>
-                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "#e57373" }}>Good Friday: Walk Through the Tabernacle — April 18, 2026</div>
+                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "#e57373" }}>Good Friday: Walk Through the Tabernacle — April 3, 2026</div>
                 <div className="font-display text-white font-bold text-base">A reverent, powerful walk through the Tabernacle of Moses — experiencing the story of redemption step by step.</div>
               </div>
             </div>
@@ -379,7 +379,7 @@ export default function Home() {
               <Heart size={16} /> Give Online
             </Link>
             <a
-              href="https://kindrid.com/give/allnationsldcc"
+              href="https://www.kindridgiving.com/App/Form/7c27d226-b8cd-4972-99cb-c0cf0eb92952"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline flex items-center gap-2"

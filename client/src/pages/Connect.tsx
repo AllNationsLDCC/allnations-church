@@ -1,17 +1,33 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { MapPin, Phone, Mail, Clock, Facebook, Instagram, Youtube } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Facebook, Instagram, Youtube, Loader2 } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
+import { sendEmail, TEMPLATE_CONTACT } from "@/lib/emailjs";
 
 export default function Connect() {
   const [form, setForm] = useState({ name: "", email: "", phone: "", subject: "", message: "", visit: false });
   const [submitted, setSubmitted] = useState(false);
+  const [sending, setSending] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
-    toast.success("Thank you! We will be in touch with you shortly. God bless you!");
+    setSending(true);
+    const success = await sendEmail(TEMPLATE_CONTACT, {
+      from_name: form.name,
+      from_email: form.email,
+      phone: form.phone || "Not provided",
+      subject: form.subject || "General Inquiry",
+      message: form.message,
+      visit: form.visit ? "Yes — interested in visiting" : "No",
+    });
+    setSending(false);
+    if (success) {
+      setSubmitted(true);
+      toast.success("Thank you! We will be in touch with you shortly. God bless you!");
+    } else {
+      toast.error("Something went wrong. Please try again or email us directly at AllNationsldcc@gmail.com.");
+    }
   };
 
   return (
@@ -83,8 +99,8 @@ export default function Connect() {
                   </div>
                   <div>
                     <div className="font-body font-bold text-sm mb-1" style={{ color: "var(--an-navy)" }}>Email</div>
-                    <a href="mailto:info@allnationsldcc.org" className="font-body text-sm hover:opacity-80 transition-opacity" style={{ color: "#666" }}>
-                      info@allnationsldcc.org
+                    <a href="mailto:AllNationsldcc@gmail.com" className="font-body text-sm hover:opacity-80 transition-opacity" style={{ color: "#666" }}>
+                      AllNationsldcc@gmail.com
                     </a>
                   </div>
                 </div>
@@ -245,9 +261,10 @@ export default function Connect() {
                       </div>
                       <button
                         type="submit"
-                        className="btn-gold w-full py-4 text-base font-bold"
+                        disabled={sending}
+                        className="btn-gold w-full py-4 text-base font-bold flex items-center justify-center gap-2 disabled:opacity-60"
                       >
-                        Send Message
+                        {sending ? (<><Loader2 size={18} className="animate-spin" /> Sending...</>) : "Send Message"}
                       </button>
                     </form>
                   </>

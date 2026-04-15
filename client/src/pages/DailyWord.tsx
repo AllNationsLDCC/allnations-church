@@ -1,7 +1,10 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Link } from "wouter";
-import { BookOpen, Play, Heart, Share2, Bell, ArrowRight, Calendar, Mic, Video } from "lucide-react";
+import { BookOpen, Play, Heart, Share2, Bell, ArrowRight, Calendar, Mic, Video, Loader2 } from "lucide-react";
+import { useState } from "react";
+import { sendEmail, TEMPLATE_NEWSLETTER } from "@/lib/emailjs";
+import { toast } from "sonner";
 
 // Design: Warm, intimate, personal — Pastor Shelia's voice and presence
 // Daily Word page — AI twin/clone delivers daily live devotional word
@@ -72,6 +75,63 @@ const features = [
     color: "var(--an-gold)",
   },
 ];
+
+function NewsletterSignup() {
+  const [email, setEmail] = useState("");
+  const [sending, setSending] = useState(false);
+  const [subscribed, setSubscribed] = useState(false);
+
+  const handleSubscribe = async () => {
+    if (!email.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      toast.error("Please enter a valid email address.");
+      return;
+    }
+    setSending(true);
+    const success = await sendEmail(TEMPLATE_NEWSLETTER, { from_email: email });
+    setSending(false);
+    if (success) {
+      setSubscribed(true);
+      toast.success("Subscribed! You will receive the Daily Word in your inbox.");
+    } else {
+      toast.error("Something went wrong. Please try again or email AllNationsldcc@gmail.com.");
+    }
+  };
+
+  if (subscribed) {
+    return (
+      <div className="text-center">
+        <p className="font-body text-base font-bold" style={{ color: "var(--an-gold)" }}>You are subscribed!</p>
+        <p className="font-body text-xs mt-2" style={{ color: "#aaa" }}>Watch your inbox for Pastor Shelia's Daily Word.</p>
+      </div>
+    );
+  }
+
+  return (
+    <>
+      <div className="flex gap-3 max-w-md mx-auto">
+        <input
+          type="email"
+          value={email}
+          onChange={e => setEmail(e.target.value)}
+          placeholder="Enter your email address"
+          className="flex-1 px-4 py-3 rounded-full border font-body text-sm focus:outline-none focus:ring-2"
+          style={{ borderColor: "var(--an-gold)" }}
+        />
+        <button
+          onClick={handleSubscribe}
+          disabled={sending}
+          className="btn-gold flex items-center gap-2 whitespace-nowrap disabled:opacity-60"
+        >
+          {sending ? <Loader2 size={14} className="animate-spin" /> : <Bell size={14} />}
+          {sending ? "Sending..." : "Subscribe"}
+        </button>
+      </div>
+      <p className="font-body text-xs mt-3" style={{ color: "#aaa" }}>
+        No spam. Unsubscribe anytime. Your information is safe with us.
+      </p>
+    </>
+  );
+}
 
 export default function DailyWord() {
   return (
@@ -322,20 +382,7 @@ export default function DailyWord() {
             <p className="font-body text-base mb-8" style={{ color: "#666" }}>
               Subscribe to receive Pastor Shelia's Daily Word every morning at 6 AM — delivered directly to your inbox or phone.
             </p>
-            <div className="flex gap-3 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email address"
-                className="flex-1 px-4 py-3 rounded-full border font-body text-sm focus:outline-none focus:ring-2"
-                style={{ borderColor: "var(--an-gold)" }}
-              />
-              <button className="btn-gold flex items-center gap-2 whitespace-nowrap">
-                <Bell size={14} /> Subscribe
-              </button>
-            </div>
-            <p className="font-body text-xs mt-3" style={{ color: "#aaa" }}>
-              No spam. Unsubscribe anytime. Your information is safe with us.
-            </p>
+            <NewsletterSignup />
           </div>
         </div>
       </section>
