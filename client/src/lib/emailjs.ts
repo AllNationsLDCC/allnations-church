@@ -30,13 +30,13 @@ import emailjs from "@emailjs/browser";
 // ═══════════════════════════════════════════════════════════════════════════════
 // UPDATE THESE VALUES after setting up your EmailJS account
 // ═══════════════════════════════════════════════════════════════════════════════
-const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "YOUR_PUBLIC_KEY";
-const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID || "YOUR_SERVICE_ID";
+const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "KRwGI1QmAafrdSHGv";
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID || "service_pqxnli4";
 
 // Template IDs — create these in your EmailJS dashboard
 export const TEMPLATE_CONTACT = import.meta.env.VITE_EMAILJS_TEMPLATE_CONTACT || "contact_form";
 export const TEMPLATE_REGISTRATION = import.meta.env.VITE_EMAILJS_TEMPLATE_REGISTRATION || "registration_form";
-export const TEMPLATE_NEWSLETTER = import.meta.env.VITE_EMAILJS_TEMPLATE_NEWSLETTER || "newsletter_signup";
+export const TEMPLATE_NEWSLETTER = import.meta.env.VITE_EMAILJS_TEMPLATE_NEWSLETTER || "registration_form";
 
 // Initialize EmailJS
 let initialized = false;
