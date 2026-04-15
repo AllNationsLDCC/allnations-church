@@ -279,12 +279,14 @@ export default function Give() {
             <p className="font-body text-xs mb-6" style={{ color: "#aaa" }}>
               Eligibility for installment options depends on Square's availability and user qualifications.
             </p>
-            <button
+            <a
+              href="https://square.link/u/WUmkhiWL"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-navy inline-flex items-center gap-2 text-base px-8 py-4"
-              onClick={() => alert("Square payment link coming soon. Please contact the church office at 772-343-7021.")}
             >
-              Pay with Card
-            </button>
+              Give via Square <ExternalLink size={16} />
+            </a>
           </div>
         </div>
       </section>
