@@ -25,6 +25,7 @@ const upcomingEvents = [
   { title: "Easter Sunday Celebration", date: "April 5, 2026", time: "8:30 AM & 11:00 AM", color: "var(--an-red)" },
   { title: "Good Friday — Walk Through the Tabernacle", date: "April 3, 2026", time: "7:00 PM", color: "var(--an-navy)" },
   { title: "Mother's Day Celebration", date: "May 10, 2026", time: "8:30 AM & 11:00 AM", color: "#D63384" },
+  { title: "Arise & Take Flight — Women's Month", date: "May 2026", time: "All Month", color: "var(--an-navy)" },
 ];
 
 export default function Home() {
@@ -143,6 +144,49 @@ export default function Home() {
                 <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "#e57373" }}>Good Friday: Walk Through the Tabernacle — April 3, 2026</div>
                 <div className="font-display text-white font-bold text-base">A reverent, powerful walk through the Tabernacle of Moses — experiencing the story of redemption step by step.</div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ===== MAY 2026 — ARISE AND TAKE FLIGHT ===== */}
+      <section className="py-16 relative overflow-hidden">
+        <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #1A2F6B 0%, #3d1a5c 40%, #D63384 100%)" }} />
+        <div className="absolute inset-0" style={{ background: "url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"none\" stroke=\"rgba(255,255,255,0.03)\" stroke-width=\"0.5\"/></svg>') repeat", backgroundSize: "120px" }} />
+        <div className="relative z-10 container">
+          <div className="text-center max-w-3xl mx-auto">
+            <span className="inline-block px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-4" style={{ background: "rgba(214,51,132,0.25)", color: "#f8a4c8" }}>MAY 2026 — CELEBRATING WOMEN</span>
+            <h2 className="font-display font-bold text-white mb-4" style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)", letterSpacing: "-0.01em" }}>
+              Arise &amp; <span style={{ color: "var(--an-gold)" }}>Take Flight</span>
+            </h2>
+            <p className="font-body text-lg mb-4" style={{ color: "rgba(255,255,255,0.90)" }}>
+              A month-long celebration of the women of God — mothers, daughters, sisters, and queens. May 2026 is dedicated to honoring the women who carry vision, build families, lead with grace, and walk in purpose.
+            </p>
+            <blockquote className="font-display text-base italic mb-6 px-6" style={{ color: "var(--an-gold)" }}>
+              "But those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint."
+              <cite className="block font-body text-xs mt-2 not-italic" style={{ color: "rgba(255,255,255,0.65)" }}>— Isaiah 40:31</cite>
+            </blockquote>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8 max-w-2xl mx-auto">
+              <div className="rounded-xl p-4" style={{ background: "rgba(255,255,255,0.08)" }}>
+                <div className="font-display font-bold text-white text-sm mb-1">Mother's Day</div>
+                <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.70)" }}>Sunday, May 10 — 8:30 AM &amp; 11:00 AM</div>
+              </div>
+              <div className="rounded-xl p-4" style={{ background: "rgba(255,255,255,0.08)" }}>
+                <div className="font-display font-bold text-white text-sm mb-1">Women's Worship Night</div>
+                <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.70)" }}>Date TBA — An evening of praise &amp; testimony</div>
+              </div>
+              <div className="rounded-xl p-4" style={{ background: "rgba(255,255,255,0.08)" }}>
+                <div className="font-display font-bold text-white text-sm mb-1">Women's Ministry Retreat</div>
+                <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.70)" }}>May 2026 — Refreshing, renewal &amp; connection</div>
+              </div>
+            </div>
+            <div className="flex gap-4 justify-center flex-wrap">
+              <Link href="/events" className="btn-gold flex items-center gap-2">
+                View May Events <ArrowRight size={14} />
+              </Link>
+              <Link href="/connect" className="btn-outline flex items-center gap-2" style={{ borderColor: "#fff", color: "#fff" }}>
+                Get Involved
+              </Link>
             </div>
           </div>
         </div>
