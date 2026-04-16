@@ -22,6 +22,7 @@ import Gallery from "./pages/Gallery";
 import Reveal from "./pages/Reveal";
 import PhotoReview from "./pages/PhotoReview";
 import WorshipTeam from "./pages/WorshipTeam";
+import WrittenWord from "./pages/WrittenWord";
 
 function Router() {
   return (
@@ -42,6 +43,7 @@ function Router() {
       <Route path="/bible-study" component={BibleStudy} />
       <Route path="/gallery" component={Gallery} />
       <Route path="/worship-team" component={WorshipTeam} />
+      <Route path="/written-word" component={WrittenWord} />
       <Route path="/reveal" component={Reveal} />
       <Route path="/photo-review" component={PhotoReview} />
       <Route path="/404" component={NotFound} />

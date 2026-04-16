@@ -16,6 +16,7 @@ const primaryNav = [
 // All other pages in the hamburger dropdown
 const moreNav = [
   { label: "Pastors", href: "/meet-the-pastors" },
+  { label: "Written Word", href: "/written-word" },
   { label: "Journey with Jesus", href: "/journey-with-jesus" },
   { label: "NextGen Lab", href: "/nextgen-lab" },
   { label: "Leadership Lab", href: "/leadership-lab" },
