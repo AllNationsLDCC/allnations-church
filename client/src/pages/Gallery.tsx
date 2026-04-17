@@ -1,6 +1,6 @@
 // Gallery Page — All Nations Life Development Christian Center
 // Design: Deep navy/gold, tabbed gallery with lightbox, real church photos
-// Tabs: Worship | Praise Team | Leadership | Ministry | Community | Sanctuary | Prayer
+// Tabs: Praise & Worship | Worship | Praise Team | Leadership | Ministry | Community | Tabernacle 2026 | Prayer
 
 import { useState } from "react";
 
@@ -11,6 +11,10 @@ const tabs = [
     id: "praise-worship",
     label: "Praise & Worship",
     photos: [
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/wPVAqiYQgMvXKgCV.jpg", caption: "One Sound — All Nations Praise & Worship Team" },
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OnKxDGTXnXZzIxSy.jpg", caption: "One Sound — Worship in Full Expression" },
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/HXiSkEOLyCZLeVhW.jpg", caption: "All Nations Choir — Voices United" },
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/RpxBdZZkYuLwlsXk.jpg", caption: "All Nations Choir — One Sound" },
       { url: BASE + "IMG_4057_aff99e54.jpg", caption: "All Nations Praise Team & Psalmists — In the Fullness of Your Grace" },
       { url: BASE + "IMG_4040_f1c768d8.jpg", caption: "Praise Team & Musicians — Worship in Full Expression" },
       { url: BASE + "IMG_4118_b031cfd9.jpg", caption: "Psalmists Leading Worship" },
@@ -41,6 +45,7 @@ const tabs = [
     id: "leadership",
     label: "Leadership",
     photos: [
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XiZHBiFLBXXBmNCA.jpeg", caption: "Bishop Cornelius Blake — Senior Bishop, All Nations LDCC" },
       { url: BASE + "4168_9dbdbac3.jpg", caption: "All Nations Pastoral Team — Full Leadership" },
       { url: BASE + "4172_bae97e27.jpg", caption: "All Nations Women's Pastoral Team" },
       { url: BASE + "3780_f83434a1.jpg", caption: "Bishop Cornelius Blake & Pastor Shelia Blake" },
@@ -53,6 +58,8 @@ const tabs = [
     id: "ministry",
     label: "Ministry",
     photos: [
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/QLfqUHyHxPBmeyhQ.jpg", caption: "Next Gen Children's Choir — All Nations" },
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/FdotzjiSQrGvlAjO.jpg", caption: "Men's Praise Team — All Nations Men's Ministry" },
       { url: BASE + "bishop-blake-3657-headshot_7cf45ce8.jpg", caption: "Bishop Cornelius Blake — Preaching" },
       { url: BASE + "3655_6e6b7284.jpg", caption: "Bishop Cornelius Blake — The Word" },
       { url: BASE + "IMG_4098_2b611e5e.jpg", caption: "Congregation in Worship — All Nations" },
@@ -65,9 +72,26 @@ const tabs = [
     id: "community",
     label: "Community",
     photos: [
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/BAgOVViSNVhTiVEH.jpeg", caption: "All Nations Community Church Family" },
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/DMyWWgajFXJXkEwV.jpeg", caption: "All Nations Church Family — Together in Faith" },
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/LmXtgvFNlRtohclt.jpeg", caption: "All Nations Church Family — United" },
       { url: BASE + "3688_5df84ff2.jpg", caption: "All Nations Congregation" },
       { url: BASE + "3632_a15b256f.jpg", caption: "Congregation in Worship" },
       { url: BASE + "3579_f536e05b.jpg", caption: "All Nations Family — Together" },
+    ],
+  },
+  {
+    id: "tabernacle",
+    label: "Tabernacle 2026",
+    photos: [
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ZVhQuLjtOcaxYxyf.jpg", caption: "Cultural Night of the Tabernacle — All Nations 2026" },
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/dhVxLhWrrktqvxca.jpeg", caption: "Worship in the Arts — Tabernacle 2026" },
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/JJYNVdbZzLahOsTc.jpeg", caption: "Worship in the Arts — Tabernacle 2026" },
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/zPDwRfJamtnvZmps.jpeg", caption: "Worship in the Arts — Tabernacle 2026" },
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/bNpPzmkjDTPpjPrC.jpeg", caption: "Worship in the Arts — Tabernacle 2026" },
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/EgdorofZlTUNDPxS.jpeg", caption: "Worship in the Arts — Tabernacle 2026" },
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/WvNkRqnXwDUlRNLU.jpeg", caption: "Worship in the Arts — Tabernacle 2026" },
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/QbrBmXQdOtMfTQmq.jpeg", caption: "Worship in the Arts — Tabernacle 2026" },
     ],
   },
   {
@@ -229,7 +253,7 @@ export default function Gallery() {
           You Belong Here
         </h2>
         <p className="text-white/70 mb-8 max-w-xl mx-auto">
-          Every photo tells a story of lives transformed. Join us Sunday at 10:00 AM and become part of the story.
+          Every photo tells a story of lives transformed. Join us Sunday at 8:30 AM or 11:00 AM and become part of the story.
         </p>
         <a
           href="/connect"

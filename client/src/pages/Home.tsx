@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Play, Calendar, ArrowRight, Heart, Users, BookOpen, Globe, Music, Star } from "lucide-react";
 
-const HERO_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/allnations-hero-colorful-VX5ZXxxDZnMKgCCrdw5AU7.webp";
+const HERO_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/NCSdecGUJjSTOiGA.jpg";
 const YOUTH_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/allnations-youth-colorful-nKbLKyEu7hHmoL54WdXhom.webp";
 const COMMUNITY_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/allnations-community-colorful-LSc7sQDzvXgdnxS4cpfaBX.webp";
 const DANCE_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/allnations-worship-dance-Jybwyq5RpWn9U8UhX9ebEc.webp";

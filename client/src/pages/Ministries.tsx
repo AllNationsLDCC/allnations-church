@@ -20,7 +20,7 @@ const ministries = [
     color: "var(--an-blue)", icon: <Users size={26} />,
     description: "Building men of faith, integrity, and purpose. We create environments where men can be transparent, grow spiritually, and develop as leaders in their homes, workplaces, and communities.",
     programs: ["Men's Fellowship", "Leadership Development", "Father-Son Events", "Community Service"],
-    image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&q=80",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/FdotzjiSQrGvlAjO.jpg",
   },
   {
     id: "youth", name: "Youth & Next Gen", tagline: "The Future is Now.",
@@ -41,7 +41,7 @@ const ministries = [
     color: "var(--an-teal)", icon: <Music size={26} />,
     description: "Celebrating the full spectrum of creative worship. Our liturgical dance ministry, worship teams, and creative artists are anointed vessels who carry the presence of God through movement, music, and expression.",
     programs: ["Liturgical Dance", "Praise Dance Classes", "Worship Team", "Youth Voice Training", "Creative Arts Workshop"],
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/IMG_5382_9ea72ded.jpg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/bNpPzmkjDTPpjPrC.jpeg",
   },
   {
     id: "mad-hatters", name: "Mad Hatters — Pink Basket", tagline: "Compassion in Action.",
