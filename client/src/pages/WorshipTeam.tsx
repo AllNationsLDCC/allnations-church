@@ -18,6 +18,7 @@ const teamPhotos = [
   { url: BASE + "IMG_4040_f1c768d8.jpg", caption: "Praise Team & Musicians — Worship in Full Expression" },
   { url: BASE + "IMG_4118_b031cfd9.jpg", caption: "Psalmists Leading Worship" },
   { url: BASE + "IMG_4121_4fffa024.jpg", caption: "All Nations Praise Team" },
+  { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/CXuCfnaIsMvJTxvM.jpg", caption: "Alex Buckle — Saxophonist, One Sound Musicians" },
   { url: BASE + "3599_f408c501.jpg", caption: "Bro. Renald Achille — Worship Musician" },
   { url: BASE + "3728_5e181583.jpg", caption: "All Nations Praise Team" },
   { url: BASE + "3797_1105bbd1.jpg", caption: "Tehila Praise Team" },
