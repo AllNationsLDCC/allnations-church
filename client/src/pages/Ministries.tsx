@@ -55,7 +55,8 @@ const ministries = [
     color: "var(--an-gold)", icon: <Heart size={26} />,
     description: "Honoring and serving our senior members and families. The wisdom, experience, and faith of our elders are among our greatest treasures. This ministry creates meaningful connections and celebrates the legacy of those who paved the way.",
     programs: ["Senior Fellowship", "Visitation Ministry", "Legacy Events", "Intergenerational Programs"],
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/SwtSoexqTqMfStQI.jpeg",
+    link: "/legacy-of-love",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/HCIJXpNVUdOjliMw.jpg",
   },
   {
     id: "armorbearers", name: "Armorbearers", tagline: "Covering. Protecting. Serving.",
