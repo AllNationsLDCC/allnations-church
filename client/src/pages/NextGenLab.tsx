@@ -6,7 +6,8 @@ import { BookOpen, Star, Users, Lightbulb, Award, ArrowRight, CheckCircle, Heart
 // Design: Vibrant, energetic, youthful — orange, teal, green — All Nations brand colors
 // NextGen Lab — Youth Literacy & Development Program of All Nations LDCC
 
-const YOUTH_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/allnations-youth-colorful-nKbLKyEu7hHmoL54WdXhom.webp";
+const YOUTH_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/DfrqyLbbzNlJBHBX.jpg";
+const TEAM_IMG_2 = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ZITmqHxjcJierhtW.jpeg";
 
 const programs = [
   {
@@ -245,6 +246,37 @@ export default function NextGenLab() {
               style={{ background: "#fff", color: "var(--an-teal)" }}>
               Ask About Financial Assistance <ArrowRight size={14} />
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Next Gen Leaders Team Photos */}
+      <section className="py-20 px-4" style={{ background: "#fff" }}>
+        <div className="container">
+          <div className="text-center mb-12">
+            <span className="section-label" style={{ color: "var(--an-orange)" }}>Our Team</span>
+            <h2 className="font-display text-3xl font-bold mt-2" style={{ color: "var(--an-navy)" }}>
+              Next Gen <span style={{ color: "var(--an-orange)" }}>Leaders</span>
+            </h2>
+            <p className="font-body text-base mt-3 max-w-xl mx-auto" style={{ color: "#666" }}>
+              The dedicated leaders and mentors who pour into the next generation every week at All Nations LDCC.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="rounded-2xl overflow-hidden" style={{ boxShadow: "0 4px 24px rgba(10,22,40,0.12)", border: "1px solid rgba(255,165,0,0.15)" }}>
+              <img src={YOUTH_IMG} alt="Next Gen Leaders — All Nations" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
+              <div className="p-4 text-center" style={{ background: "var(--an-bg)" }}>
+                <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>Next Gen Leaders — All Nations LDCC</p>
+                <p className="font-body text-xs mt-1" style={{ color: "var(--an-orange)" }}>Building Tomorrow's Leaders Today</p>
+              </div>
+            </div>
+            <div className="rounded-2xl overflow-hidden" style={{ boxShadow: "0 4px 24px rgba(10,22,40,0.12)", border: "1px solid rgba(255,165,0,0.15)" }}>
+              <img src={TEAM_IMG_2} alt="Next Gen Team — All Nations" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
+              <div className="p-4 text-center" style={{ background: "var(--an-bg)" }}>
+                <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>Next Gen Team — Youth & Next Gen Ministry</p>
+                <p className="font-body text-xs mt-1" style={{ color: "var(--an-orange)" }}>The Future is Now</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
