@@ -24,6 +24,7 @@ import PhotoReview from "./pages/PhotoReview";
 import WorshipTeam from "./pages/WorshipTeam";
 import WrittenWord from "./pages/WrittenWord";
 import LegacyOfLove from "./pages/LegacyOfLove";
+import MadHatters from "./pages/MadHatters";
 
 function Router() {
   return (
@@ -45,6 +46,7 @@ function Router() {
       <Route path="/gallery" component={Gallery} />
       <Route path="/worship-team" component={WorshipTeam} />
       <Route path="/legacy-of-love" component={LegacyOfLove} />
+      <Route path="/mad-hatters" component={MadHatters} />
       <Route path="/written-word" component={WrittenWord} />
       <Route path="/reveal" component={Reveal} />
       <Route path="/photo-review" component={PhotoReview} />
