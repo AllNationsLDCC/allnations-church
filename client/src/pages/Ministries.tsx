@@ -82,11 +82,12 @@ const ministries = [
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/IMG_4040_f1c768d8.jpg",
   },
   {
-    id: "legacy-making", name: "Legacy in the Making", tagline: "Building Tomorrow's Leaders Today.",
-    color: "var(--an-navy)", icon: <BookOpen size={26} />,
-    description: "Our leadership development and discipleship ministry for emerging leaders. We invest in the next generation of pastors, ministers, entrepreneurs, and community leaders — equipping them with spiritual foundation, practical skills, and mentorship.",
-    programs: ["Leadership Lab", "Mentorship Cohorts", "Ministry Internships", "Entrepreneur Track"],
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80",
+    id: "legacy-making", name: "Legacy in the Making", tagline: "Single. Whole. Purposeful.",
+    color: "var(--an-teal)", icon: <Heart size={26} />,
+    description: "Our vibrant singles ministry — a diverse, multigenerational community of Black, Caribbean, American, and Hispanic singles of all ages. From bowling nights to worship gatherings, we are building lives of purpose, faith, and authentic connection together.",
+    programs: ["Worship Nights", "Fellowship Outings", "Life Groups", "Personal Development", "Community Service", "Monthly Gatherings"],
+    link: "/legacy-in-the-making",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/TlwgMLpkzOJENSzD.jpg",
   },
 ];
 
