@@ -13,7 +13,7 @@ const ministries = [
     color: "var(--an-red)", icon: <Heart size={26} />,
     description: "A safe, nurturing space where women of all ages grow in faith, build authentic relationships, and walk boldly in their God-given purpose. Through Bible study, mentorship, retreats, and community outreach, we equip women to lead with grace and strength.",
     programs: ["Women's Bible Study", "Annual Women's Retreat", "Mentorship Program", "Community Outreach"],
-    image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/DeBmRGCikslnvuhW.webp",
   },
   {
     id: "men", name: "Men's Ministry", tagline: "Men of Integrity. Men of Impact.",
@@ -27,7 +27,7 @@ const ministries = [
     color: "var(--an-orange)", icon: <Star size={26} />,
     description: "Where the next generation discovers who they are in Christ. Dynamic worship, relevant teaching, and real community. Youth services at both 8:30 AM and 11:00 AM on Sundays, with a dedicated Toddler Lounge.",
     programs: ["Sunday Youth Service (8:30 AM & 11 AM)", "Toddler Lounge", "Youth Bible Study", "Summer Programs", "Youth Voice Training"],
-    image: YOUTH_IMG,
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OVXnMTdBDEfuDJBi.jpg",
   },
   {
     id: "great-commission", name: "The Great Commission", tagline: "Go. Make Disciples. Change the World.",

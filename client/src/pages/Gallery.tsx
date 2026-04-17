@@ -26,6 +26,7 @@ const tabs = [
     label: "Worship",
     photos: [
       { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/CXuCfnaIsMvJTxvM.jpg", caption: "Alex Buckle — Saxophonist, One Sound Musicians" },
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/zXkCFJGzvkkMhWDn.webp", caption: "Bro. Renald Achille — Guitarist, One Sound Musicians" },
       { url: BASE + "3599_f408c501.jpg", caption: "Bro. Renald Achille — Worship Musician (Best)" },
       { url: BASE + "3588_1b41e822.jpg", caption: "Bro. Renald Achille — Music Ministry" },
       { url: BASE + "3589_506ef5ef.jpg", caption: "Worship Team on Stage" },
