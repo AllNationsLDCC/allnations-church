@@ -48,7 +48,7 @@ const ministries = [
     color: "#D63384", icon: <Heart size={26} />,
     description: "Our beloved Pink Basket ministry — a compassionate outreach initiative dedicated to serving women in our community facing challenges. Through care packages, encouragement, and practical support, we remind every woman she is seen, valued, and loved.",
     programs: ["Pink Basket Distributions", "Women's Care Packages", "Community Partnerships", "Encouragement Campaigns"],
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/knpKEpWHbjbcVMjD.jpeg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/xqJTUxzRseeZaqRm.jpg",
   },
   {
     id: "legacy-love", name: "Legacy of Love", tagline: "Love That Outlasts a Lifetime.",
