@@ -27,7 +27,7 @@ const ministries = [
     color: "var(--an-orange)", icon: <Star size={26} />,
     description: "Where the next generation discovers who they are in Christ. Dynamic worship, relevant teaching, and real community. Youth services at both 8:30 AM and 11:00 AM on Sundays, with a dedicated Toddler Lounge.",
     programs: ["Sunday Youth Service (8:30 AM & 11 AM)", "Toddler Lounge", "Youth Bible Study", "Summer Programs", "Youth Voice Training"],
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OVXnMTdBDEfuDJBi.jpg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ZITmqHxjcJierhtW.jpeg",
   },
   {
     id: "great-commission", name: "The Great Commission", tagline: "Go. Make Disciples. Change the World.",
@@ -48,14 +48,21 @@ const ministries = [
     color: "#D63384", icon: <Heart size={26} />,
     description: "Our beloved Pink Basket ministry — a compassionate outreach initiative dedicated to serving women in our community facing challenges. Through care packages, encouragement, and practical support, we remind every woman she is seen, valued, and loved.",
     programs: ["Pink Basket Distributions", "Women's Care Packages", "Community Partnerships", "Encouragement Campaigns"],
-    image: "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&q=80",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/knpKEpWHbjbcVMjD.jpeg",
   },
   {
     id: "legacy-love", name: "Legacy of Love", tagline: "Love That Outlasts a Lifetime.",
     color: "var(--an-gold)", icon: <Heart size={26} />,
     description: "Honoring and serving our senior members and families. The wisdom, experience, and faith of our elders are among our greatest treasures. This ministry creates meaningful connections and celebrates the legacy of those who paved the way.",
     programs: ["Senior Fellowship", "Visitation Ministry", "Legacy Events", "Intergenerational Programs"],
-    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&q=80",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/SwtSoexqTqMfStQI.jpeg",
+  },
+  {
+    id: "armorbearers", name: "Armorbearers", tagline: "Covering. Protecting. Serving.",
+    color: "var(--an-navy)", icon: <Award size={26} />,
+    description: "The Armorbearers are a dedicated team of servants who provide spiritual covering, practical support, and faithful service to the pastoral leadership and the body of Christ. Called to serve with excellence, discretion, and a heart of humility, they stand as a vital pillar of the ministry.",
+    programs: ["Pastoral Support", "Event Coverage", "Security & Protocol", "Leadership Service", "Prayer & Intercession"],
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/knpKEpWHbjbcVMjD.jpeg",
   },
   {
     id: "journey", name: "Journey with Jesus", tagline: "Every Step. Every Season. With Jesus.",

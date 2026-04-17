@@ -10,6 +10,9 @@ import { Music, Mic, Guitar, Heart, ArrowRight, Calendar, Clock, MapPin } from "
 const BASE = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/";
 
 const teamPhotos = [
+  { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/dqSByvzEKOvulIBZ.jpeg", caption: "One Sound — All Nations Praise & Worship" },
+  { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/zPoHTTSaJADnIZUX.jpeg", caption: "All Nations Gospel Choir — Voices of Praise" },
+  { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/DcfbFzgbHUqwIpkp.jpeg", caption: "Media & Sound Team — All Nations" },
   { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/wPVAqiYQgMvXKgCV.jpg", caption: "One Sound — All Nations Praise & Worship Team" },
   { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OnKxDGTXnXZzIxSy.jpg", caption: "One Sound — Worship in Full Expression" },
   { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/HXiSkEOLyCZLeVhW.jpg", caption: "All Nations Choir — Voices United" },
