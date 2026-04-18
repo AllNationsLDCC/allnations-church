@@ -7,7 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Heart, Users, Star, ArrowRight, Calendar, MapPin, Music, Coffee } from "lucide-react";
 
-const BOWLING_1 = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/TlwgMLpkzOJENSzD.jpg";
+const BOWLING_1 = "/manus-storage/pasted_file_xBvKXq_image_e973dd78.jpg"; // Legacy in the Making — worship on stage
 const BOWLING_2 = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/hzggWubhGzaAROJs.jpg";
 const BOWLING_3 = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/QdXWabZmUglLAjxf.jpg";
 
@@ -68,10 +68,10 @@ export default function LegacyInTheMaking() {
               </p>
             </div>
             <div className="rounded-2xl overflow-hidden" style={{ boxShadow: "0 8px 32px rgba(10,22,40,0.12)", border: "1px solid rgba(0,128,128,0.15)" }}>
-              <img src={BOWLING_1} alt="Legacy in the Making — Bowling Night Out" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
+              <img src={BOWLING_1} alt="Legacy in the Making — Worship on Stage" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
               <div className="p-4 text-center" style={{ background: "var(--an-bg)" }}>
-                <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>Bowling Night Out — Legacy in the Making</p>
-                <p className="font-body text-xs mt-1" style={{ color: "var(--an-teal)" }}>Just having fun — because community is a gift</p>
+                <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>Legacy in the Making — Worship Night</p>
+                <p className="font-body text-xs mt-1" style={{ color: "var(--an-teal)" }}>Singing, dancing, and celebrating together</p>
               </div>
             </div>
           </div>

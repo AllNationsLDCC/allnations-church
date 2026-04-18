@@ -87,7 +87,7 @@ const ministries = [
     description: "Our vibrant singles ministry — a diverse, multigenerational community of Black, Caribbean, American, and Hispanic singles of all ages. From bowling nights to worship gatherings, we are building lives of purpose, faith, and authentic connection together.",
     programs: ["Worship Nights", "Fellowship Outings", "Life Groups", "Personal Development", "Community Service", "Monthly Gatherings"],
     link: "/legacy-in-the-making",
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/TlwgMLpkzOJENSzD.jpg",
+    image: "/manus-storage/pasted_file_xBvKXq_image_e973dd78.jpg", // Legacy in the Making — singles ministry worship on stage
   },
 ];
 
