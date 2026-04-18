@@ -6,10 +6,10 @@ import { BookOpen, Star, Users, Lightbulb, Award, ArrowRight, CheckCircle, Heart
 // Design: Vibrant, energetic, youthful — orange, teal, green — All Nations brand colors
 // NextGen Lab — Youth Literacy & Development Program of All Nations LDCC
 
-const YOUTH_IMG = "/manus-storage/pasted_file_1RQpG9_C36642CE-0595-4B96-9F35-91A4D0BFBBD2_1_102_o_96995f29.jpeg";
-const TEAM_IMG_2 = "/manus-storage/pasted_file_lJCjgp_16023CE3-5D41-4655-8C7D-C268BEC5F1E7_4_5005_c_33a089b9.jpeg";
-const BABY_DEDICATION_1 = "/manus-storage/pasted_file_tsimKw_68B2B48E-F1C4-4CAF-95FE-CF65F3100409_4_5005_c_ee589112.jpeg";
-const BABY_DEDICATION_2 = "/manus-storage/pasted_file_w02lSn_1AA135A4-8F71-4300-A01A-7F4952E1BD3C_4_5005_c_92da2130.jpeg";
+const YOUTH_IMG = "/manus-storage/pasted_file_y4psnf_BDB0F9B1-47FF-4EFA-B0BF-6FE20B5EA4DB_4_5005_c_72d0f5fd.jpeg"; // kids choir on stage
+const TEAM_IMG_2 = "/manus-storage/pasted_file_CjmIbG_73E77500-F0E3-40A9-9D4A-1CB9B2C0DDF1_4_5005_c_74bc6ee5.jpeg"; // Sis. Marry Jean-Charles at podium
+const SANCTUARY_IMG = "/manus-storage/pasted_file_ujZh5H_3E0D498C-7FF8-4729-A92D-9E841530E578_4_5005_c_ddcc0bc2.jpeg"; // sanctuary service
+const YOUTH_BUS_IMG = "/manus-storage/pasted_file_aMRjLm_FCDA423D-5C4A-4192-92DC-F92F92F55F85_4_5005_c_c8a8be4c.jpeg"; // youth bus interior
 
 const programs = [
   {
@@ -264,32 +264,33 @@ export default function NextGenLab() {
               The dedicated leaders and mentors who pour into the next generation every week at All Nations LDCC.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          {/* Youth Bus — featured full width */}
+          <div className="rounded-2xl overflow-hidden mb-8" style={{ boxShadow: "0 8px 32px rgba(10,22,40,0.18)", border: "2px solid var(--an-orange)" }}>
+            <img src={YOUTH_BUS_IMG} alt="All Nations Youth Bus" className="w-full object-cover" style={{ maxHeight: "380px" }} />
+            <div className="p-5 text-center" style={{ background: "var(--an-navy)" }}>
+              <p className="font-display text-base font-bold text-white">The All Nations Youth Bus</p>
+              <p className="font-body text-sm mt-1" style={{ color: "var(--an-gold)" }}>A Mobile Classroom — Taking Education & Faith Into the Community</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="rounded-2xl overflow-hidden" style={{ boxShadow: "0 4px 24px rgba(10,22,40,0.12)", border: "1px solid rgba(255,165,0,0.15)" }}>
-              <img src={YOUTH_IMG} alt="Honor Roll — All Nations Youth" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
+              <img src={YOUTH_IMG} alt="Kids Choir — All Nations" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
               <div className="p-4 text-center" style={{ background: "var(--an-bg)" }}>
-                <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>Principal's Honor Roll — Our Kids Excel!</p>
-                <p className="font-body text-xs mt-1" style={{ color: "var(--an-orange)" }}>Building Tomorrow's Leaders Today</p>
+                <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>Kids Choir on Stage</p>
+                <p className="font-body text-xs mt-1" style={{ color: "var(--an-orange)" }}>Voices Raised for God's Glory</p>
               </div>
             </div>
             <div className="rounded-2xl overflow-hidden" style={{ boxShadow: "0 4px 24px rgba(10,22,40,0.12)", border: "1px solid rgba(255,165,0,0.15)" }}>
-              <img src={TEAM_IMG_2} alt="Baby Dedication — All Nations Family" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
+              <img src={TEAM_IMG_2} alt="Sis. Marry Jean-Charles at NxtArtGen" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
               <div className="p-4 text-center" style={{ background: "var(--an-bg)" }}>
-                <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>Families Dedicated to God</p>
-                <p className="font-body text-xs mt-1" style={{ color: "var(--an-orange)" }}>Raising the Next Generation in Faith</p>
+                <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>NxtArtGen Ministry</p>
+                <p className="font-body text-xs mt-1" style={{ color: "var(--an-orange)" }}>Developing Creative Leaders</p>
               </div>
             </div>
             <div className="rounded-2xl overflow-hidden" style={{ boxShadow: "0 4px 24px rgba(10,22,40,0.12)", border: "1px solid rgba(255,165,0,0.15)" }}>
-              <img src={BABY_DEDICATION_1} alt="Baby Dedication Ceremony" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
+              <img src={SANCTUARY_IMG} alt="All Nations Youth Service" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
               <div className="p-4 text-center" style={{ background: "var(--an-bg)" }}>
-                <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>Baby Dedication — A Sacred Moment</p>
-                <p className="font-body text-xs mt-1" style={{ color: "var(--an-orange)" }}>Every Child is a Gift from God</p>
-              </div>
-            </div>
-            <div className="rounded-2xl overflow-hidden" style={{ boxShadow: "0 4px 24px rgba(10,22,40,0.12)", border: "1px solid rgba(255,165,0,0.15)" }}>
-              <img src={BABY_DEDICATION_2} alt="Baby Dedication — All Nations" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
-              <div className="p-4 text-center" style={{ background: "var(--an-bg)" }}>
-                <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>Dedicated to His Purpose</p>
+                <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>Sunday Youth Service</p>
                 <p className="font-body text-xs mt-1" style={{ color: "var(--an-orange)" }}>The Future is Now</p>
               </div>
             </div>

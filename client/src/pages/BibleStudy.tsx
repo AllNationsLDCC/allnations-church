@@ -116,7 +116,7 @@ export default function BibleStudy() {
                 title: "Led by Pastor R.B. Thomas",
                 desc: "Pastor R.B. Thomas brings depth, clarity, and passion to every study session — making Scripture accessible, relevant, and life-changing for every believer.",
                 color: "var(--an-teal)",
-                photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/VrFYFbMwptdhyfWn.jpeg",
+                photo: "/manus-storage/pasted_file_zmqnOa_9F0E6107-726C-4F4F-B9A9-32D4938D52DC_1_102_o_1773621c.jpeg",
               },
               {
                 icon: <Video size={28} />,
