@@ -64,7 +64,7 @@ const ministries = [
     color: "var(--an-navy)", icon: <Award size={26} />,
     description: "The Armorbearers are a dedicated team of servants who provide spiritual covering, practical support, and faithful service to the pastoral leadership and the body of Christ. Called to serve with excellence, discretion, and a heart of humility, they stand as a vital pillar of the ministry.",
     programs: ["Pastoral Support", "Event Coverage", "Security & Protocol", "Leadership Service", "Prayer & Intercession"],
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/knpKEpWHbjbcVMjD.jpeg",
+    image: "/manus-storage/pasted_file_FViG1w_image_715d2b0b.jpg", // Armorbearers team photo in front of All Nations logo
   },
   {
     id: "journey", name: "Journey with Jesus", tagline: "Every Step. Every Season. With Jesus.",
