@@ -34,7 +34,7 @@ const ministries = [
     color: "var(--an-green)", icon: <Globe size={26} />,
     description: "Inspired by Matthew 28:19-20, this ministry is the outward expression of our faith — through evangelism, community outreach, mission trips, and partnerships that bring the love of Christ to those who need it most.",
     programs: ["Community Outreach", "Evangelism Teams", "Mission Partnerships", "Food & Resource Drives"],
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/urAEVQxFQkrxrhIa.jpg",
+    image: "/manus-storage/pasted_file_kOn1pr_F987E74A-5686-4385-B933-6A3133E79D00_1_102_o_541a539d.jpeg",
   },
   {
     id: "arts", name: "The Arts — Worship in Dance", tagline: "Every Movement is an Offering.",

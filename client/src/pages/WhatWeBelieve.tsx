@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import { Link } from "wouter";
 import { ArrowRight, MapPin, Phone, Mail } from "lucide-react";
 
-const COMMUNITY_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/allnations-community-colorful-LSc7sQDzvXgdnxS4cpfaBX.webp";
+const COMMUNITY_IMG = "/manus-storage/pasted_file_W8MUxb_image_c0fff10e.jpg";
 
 const beliefs = [
   { title: "The Bible", desc: "We believe the Bible is the inspired, infallible, and authoritative Word of God — the ultimate standard for faith, life, and practice.", color: "var(--an-gold)" },
@@ -110,8 +110,8 @@ export default function WhatWeBelieve() {
             {/* Bishop Cornelius Blake */}
             <div className="bg-white rounded-2xl shadow-sm overflow-hidden ministry-card">
               <div className="p-8">
-                <div className="w-24 h-24 rounded-full mx-auto mb-5 overflow-hidden border-4" style={{ borderColor: "var(--an-gold)" }}>
-                  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XiZHBiFLBXXBmNCA.jpeg" alt="Bishop Cornelius Blake" className="w-full h-full object-cover object-top" />
+                <div className="w-32 h-32 rounded-full mx-auto mb-5 overflow-hidden border-4" style={{ borderColor: "var(--an-gold)" }}>
+                  <img src="/manus-storage/pasted_file_Gve7qP_06E67CC9-A0C1-4D48-865C-F227DE22980E_4_5005_c_dacbbee5.jpeg" alt="Bishop Cornelius Blake" className="w-full h-full object-cover object-center" />
                 </div>
                 <h3 className="font-display font-bold text-xl text-center mb-1" style={{ color: "var(--an-navy)" }}>Bishop Cornelius Blake</h3>
                 <p className="font-body text-sm text-center font-semibold mb-4" style={{ color: "var(--an-gold)" }}>Senior Bishop</p>
