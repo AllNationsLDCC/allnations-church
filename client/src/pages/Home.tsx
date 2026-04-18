@@ -4,9 +4,9 @@ import Footer from "@/components/Footer";
 import { Play, Calendar, ArrowRight, Heart, Users, BookOpen, Globe, Music, Star } from "lucide-react";
 
 const HERO_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/NCSdecGUJjSTOiGA.jpg";
-const YOUTH_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/allnations-youth-colorful-nKbLKyEu7hHmoL54WdXhom.webp";
-const COMMUNITY_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/allnations-community-colorful-LSc7sQDzvXgdnxS4cpfaBX.webp";
-const DANCE_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/allnations-worship-dance-Jybwyq5RpWn9U8UhX9ebEc.webp";
+const YOUTH_IMG = "/manus-storage/pasted_file_y4psnf_BDB0F9B1-47FF-4EFA-B0BF-6FE20B5EA4DB_4_5005_c_72d0f5fd.jpeg"; // kids choir on stage — real All Nations
+const COMMUNITY_IMG = "/manus-storage/pasted_file_W8MUxb_image_c0fff10e.jpg"; // Cultural Night tent celebration — real All Nations
+const DANCE_IMG = "/manus-storage/pasted_file_CjmIbG_73E77500-F0E3-40A9-9D4A-1CB9B2C0DDF1_4_5005_c_74bc6ee5.jpeg"; // Sis. Marry Jean-Charles at NxtArtGen — real All Nations
 const PASTOR_SHELIA = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/pastor-shelia-blake_d1c34a0a.jpg";
 
 const ministries = [
