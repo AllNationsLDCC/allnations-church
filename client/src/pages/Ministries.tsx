@@ -20,7 +20,7 @@ const ministries = [
     color: "var(--an-blue)", icon: <Users size={26} />,
     description: "Building men of faith, integrity, and purpose. We create environments where men can be transparent, grow spiritually, and develop as leaders in their homes, workplaces, and communities.",
     programs: ["Men's Fellowship", "Leadership Development", "Father-Son Events", "Community Service"],
-    image: "/manus-storage/pasted_file_3ySX9p_image_e9a5d8e7.jpg", // Men's Ministry — men's gathering with speaker at podium
+    image: "/manus-storage/pasted_file_gIN6mY_image_d90fbf60.jpg", // Men's Ministry — men worshipping on stage with full band
   },
   {
     id: "youth", name: "Youth & Next Gen", tagline: "The Future is Now.",
