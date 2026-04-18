@@ -13,7 +13,7 @@ const ministries = [
     color: "var(--an-red)", icon: <Heart size={26} />,
     description: "A safe, nurturing space where women of all ages grow in faith, build authentic relationships, and walk boldly in their God-given purpose. Through Bible study, mentorship, retreats, and community outreach, we equip women to lead with grace and strength.",
     programs: ["Women's Bible Study", "Annual Women's Retreat", "Mentorship Program", "Community Outreach"],
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/DeBmRGCikslnvuhW.webp",
+    image: "/manus-storage/IMG_4386_6baf8024.jpg", // Women's Ministry Leaders — real All Nations
   },
   {
     id: "men", name: "Men's Ministry", tagline: "Men of Integrity. Men of Impact.",
@@ -79,7 +79,7 @@ const ministries = [
     description: "The All Nations Worship Team is a prophetic, anointed company of worshipers called to lead the body of Christ into the presence of God. From psalmists and musicians to praise dancers and the media team — every gift has a home here. We are committed to excellence in preparation, humility in spirit, and boldness in expression.",
     programs: ["Psalmists & Vocalists", "Musicians & Instrumentalists", "Praise Dance & Creative Arts", "Media & Sound Team", "Rehearsals Wed & Sat"],
     link: "/worship-team",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/IMG_4040_f1c768d8.jpg",
+    image: "/manus-storage/IMG_4267_690a6602.jpg", // Worship Team group photo in front of All Nations logo — real All Nations
   },
   {
     id: "legacy-making", name: "Legacy in the Making", tagline: "Single. Whole. Purposeful.",
