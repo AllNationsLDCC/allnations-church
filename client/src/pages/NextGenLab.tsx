@@ -10,6 +10,8 @@ const YOUTH_IMG = "/manus-storage/pasted_file_y4psnf_BDB0F9B1-47FF-4EFA-B0BF-6FE
 const TEAM_IMG_2 = "/manus-storage/pasted_file_CjmIbG_73E77500-F0E3-40A9-9D4A-1CB9B2C0DDF1_4_5005_c_74bc6ee5.jpeg"; // Sis. Marry Jean-Charles at podium
 const SANCTUARY_IMG = "/manus-storage/pasted_file_ujZh5H_3E0D498C-7FF8-4729-A92D-9E841530E578_4_5005_c_ddcc0bc2.jpeg"; // sanctuary service
 const YOUTH_BUS_IMG = "/manus-storage/pasted_file_aMRjLm_FCDA423D-5C4A-4192-92DC-F92F92F55F85_4_5005_c_c8a8be4c.jpeg"; // youth bus interior
+const COSTUME_1 = "/manus-storage/pasted_file_yCKeWF_8B24CB84-E19C-4B5D-88D5-BB45418BC3A7_1_105_c_7ec9d6a9.jpeg"; // two kids in biblical costumes
+const COSTUME_2 = "/manus-storage/pasted_file_kzpTEj_FEAA41C8-6489-4C06-8C76-5A2A941DCA54_1_105_c_1709a16a.jpeg"; // child in high priest costume
 
 const programs = [
   {
@@ -272,7 +274,21 @@ export default function NextGenLab() {
               <p className="font-body text-sm mt-1" style={{ color: "var(--an-gold)" }}>A Mobile Classroom — Taking Education & Faith Into the Community</p>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="rounded-2xl overflow-hidden" style={{ boxShadow: "0 4px 24px rgba(10,22,40,0.12)", border: "1px solid rgba(255,165,0,0.15)" }}>
+              <img src={COSTUME_1} alt="Children in Biblical Costumes — All Nations" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
+              <div className="p-4 text-center" style={{ background: "var(--an-bg)" }}>
+                <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>Living the Word</p>
+                <p className="font-body text-xs mt-1" style={{ color: "var(--an-orange)" }}>Children Dressed in Biblical Costumes</p>
+              </div>
+            </div>
+            <div className="rounded-2xl overflow-hidden" style={{ boxShadow: "0 4px 24px rgba(10,22,40,0.12)", border: "1px solid rgba(255,165,0,0.15)" }}>
+              <img src={COSTUME_2} alt="Child in High Priest Costume — All Nations" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
+              <div className="p-4 text-center" style={{ background: "var(--an-bg)" }}>
+                <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>The High Priest</p>
+                <p className="font-body text-xs mt-1" style={{ color: "var(--an-orange)" }}>Scripture Comes Alive for Our Children</p>
+              </div>
+            </div>
             <div className="rounded-2xl overflow-hidden" style={{ boxShadow: "0 4px 24px rgba(10,22,40,0.12)", border: "1px solid rgba(255,165,0,0.15)" }}>
               <img src={YOUTH_IMG} alt="Kids Choir — All Nations" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
               <div className="p-4 text-center" style={{ background: "var(--an-bg)" }}>
@@ -287,8 +303,8 @@ export default function NextGenLab() {
                 <p className="font-body text-xs mt-1" style={{ color: "var(--an-orange)" }}>Developing Creative Leaders</p>
               </div>
             </div>
-            <div className="rounded-2xl overflow-hidden" style={{ boxShadow: "0 4px 24px rgba(10,22,40,0.12)", border: "1px solid rgba(255,165,0,0.15)" }}>
-              <img src={SANCTUARY_IMG} alt="All Nations Youth Service" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
+            <div className="rounded-2xl overflow-hidden md:col-span-2 lg:col-span-2" style={{ boxShadow: "0 4px 24px rgba(10,22,40,0.12)", border: "1px solid rgba(255,165,0,0.15)" }}>
+              <img src={SANCTUARY_IMG} alt="All Nations Youth Service" className="w-full object-cover" style={{ aspectRatio: "16/7" }} />
               <div className="p-4 text-center" style={{ background: "var(--an-bg)" }}>
                 <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>Sunday Youth Service</p>
                 <p className="font-body text-xs mt-1" style={{ color: "var(--an-orange)" }}>The Future is Now</p>
