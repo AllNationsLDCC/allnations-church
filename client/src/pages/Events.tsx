@@ -62,28 +62,35 @@ const recurringEvents = [
   },
 ];
 
-const upcomingEvents2026 = [
-  // ── April 2026 ──────────────────────────────────────────────────────────
+const completedEvents2026 = [
+  {
+    title: "Tabernacle 2026 — Cultural Night",
+    date: "Tuesday, April 1, 2026",
+    desc: "A beautiful night of worship, culture, and community united under one roof. Thank you to all who joined us!",
+    color: "var(--an-teal)",
+  },
   {
     title: "Tabernacle 2026 — Good Friday: Walk Through the Tabernacle",
     date: "Friday, April 3, 2026",
-    time: "7:00 PM",
-    desc: "A reverent, powerful walk through the Tabernacle of Moses — experiencing the story of redemption step by step. An immersive Good Friday experience honoring the sacrifice of Jesus Christ. 862 SW Glenview Ct., Port St. Lucie, FL.",
+    desc: "A reverent, powerful walk through the Tabernacle of Moses — experiencing the story of redemption step by step.",
     color: "var(--an-red)",
   },
+  {
+    title: "Easter Sunday Celebration",
+    date: "Sunday, April 5, 2026",
+    desc: "He is Risen! A powerful Easter Sunday celebration honoring the resurrection of Jesus Christ.",
+    color: "var(--an-red)",
+  },
+];
+
+const upcomingEvents2026 = [
+  // ── April 2026 ──────────────────────────────────────────────────────────
   {
     title: "Tabernacle 2026 — Kings & Queens Night",
     date: "Date to be Announced",
     time: "TBA",
     desc: "Come dressed and declared — you are royalty in the Kingdom of God. A royal celebration of identity, purpose, and Kingdom authority. Watch for the announcement of this powerful night. 862 SW Glenview Ct., Port St. Lucie, FL.",
     color: "var(--an-navy)",
-  },
-  {
-    title: "Easter Sunday Celebration",
-    date: "Sunday, April 5, 2026",
-    time: "8:30 AM & 11:00 AM",
-    desc: "He is Risen! Join us for a powerful Easter Sunday celebration as we honor the resurrection of Jesus Christ. Special worship experience at All Nations LDCC. All are welcome!",
-    color: "var(--an-red)",
   },
   {
     title: "Community Outreach Day — Q2",
@@ -216,7 +223,7 @@ export default function Events() {
               Upcoming Events <span style={{ color: "var(--an-gold)" }}>2026</span>
             </h2>
             <p className="font-body text-sm mt-2" style={{ color: "#888" }}>
-              April — May 2026 (Arise &amp; Take Flight) &amp; Beyond
+              May 2026 (Arise &amp; Take Flight) &amp; Beyond
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -236,6 +243,31 @@ export default function Events() {
                 <p className="font-body text-sm leading-relaxed" style={{ color: "#666" }}>{ev.desc}</p>
               </div>
             ))}
+          </div>
+
+          {/* Completed Events */}
+          <div className="mt-16">
+            <div className="text-center mb-8">
+              <span className="section-label">Recently Completed</span>
+              <h3 className="font-display text-2xl font-bold" style={{ color: "var(--an-navy)" }}>
+                Events We <span style={{ color: "var(--an-gold)" }}>Celebrated Together</span>
+              </h3>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              {completedEvents2026.map(ev => (
+                <div key={ev.title} className="rounded-xl p-5 border border-gray-200 bg-gray-50 relative opacity-80">
+                  <div className="absolute top-3 right-3 flex items-center gap-1 bg-green-100 text-green-700 text-xs font-bold px-2 py-0.5 rounded-full">
+                    <span>✓</span> Completed
+                  </div>
+                  <div className="flex items-center gap-2 mb-2">
+                    <Calendar size={14} style={{ color: ev.color }} />
+                    <span className="font-body font-bold text-xs" style={{ color: ev.color }}>{ev.date}</span>
+                  </div>
+                  <h4 className="font-display font-bold text-sm mb-1" style={{ color: "var(--an-navy)" }}>{ev.title}</h4>
+                  <p className="font-body text-xs leading-relaxed" style={{ color: "#888" }}>{ev.desc}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

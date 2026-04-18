@@ -1,7 +1,7 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
-import { Route, Switch } from "wouter";
+import { Route, Switch, Redirect } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
@@ -52,6 +52,8 @@ function Router() {
       <Route path="/written-word" component={WrittenWord} />
       <Route path="/reveal" component={Reveal} />
       <Route path="/photo-review" component={PhotoReview} />
+      <Route path="/plan-your-visit"><Redirect to="/connect" /></Route>
+      <Route path="/the-arts"><Redirect to="/ministries" /></Route>
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>

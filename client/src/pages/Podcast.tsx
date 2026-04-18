@@ -63,22 +63,24 @@ export default function Podcast() {
                 </div>
               </div>
               <div className="relative bg-black flex items-center justify-center min-h-64">
-                {/* YouTube embed placeholder */}
                 <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center">
                   <div className="w-20 h-20 rounded-full flex items-center justify-center mb-4" style={{ background: "rgba(255,0,0,0.20)", border: "2px solid rgba(255,0,0,0.40)" }}>
-                    <Play size={32} style={{ color: "#FF0000" }} />
+                    <Youtube size={32} style={{ color: "#FF0000" }} />
                   </div>
-                  <p className="font-body text-sm" style={{ color: "rgba(255,255,255,0.60)" }}>
-                    Latest sermon will appear here once YouTube channel is linked
+                  <p className="font-display font-bold text-lg text-white mb-2">
+                    New Messages Every Week
+                  </p>
+                  <p className="font-body text-sm mb-4" style={{ color: "rgba(255,255,255,0.65)" }}>
+                    Subscribe to our YouTube channel and never miss a sermon, Bible study, or special message from All Nations LDCC.
                   </p>
                   <a
                     href="https://www.youtube.com/c/allnationslifedevelopmentchristiancenter"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-body text-xs mt-3 flex items-center gap-1"
-                    style={{ color: "#FF0000" }}
+                    className="font-body text-xs flex items-center gap-1 px-4 py-2 rounded-full"
+                    style={{ background: "#FF0000", color: "#fff" }}
                   >
-                    Watch on YouTube <ExternalLink size={11} />
+                    <Youtube size={12} /> Subscribe on YouTube <ExternalLink size={11} />
                   </a>
                 </div>
               </div>
