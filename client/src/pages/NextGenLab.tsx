@@ -6,8 +6,10 @@ import { BookOpen, Star, Users, Lightbulb, Award, ArrowRight, CheckCircle, Heart
 // Design: Vibrant, energetic, youthful — orange, teal, green — All Nations brand colors
 // NextGen Lab — Youth Literacy & Development Program of All Nations LDCC
 
-const YOUTH_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/DfrqyLbbzNlJBHBX.jpg";
-const TEAM_IMG_2 = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ZITmqHxjcJierhtW.jpeg";
+const YOUTH_IMG = "/manus-storage/pasted_file_1RQpG9_C36642CE-0595-4B96-9F35-91A4D0BFBBD2_1_102_o_96995f29.jpeg";
+const TEAM_IMG_2 = "/manus-storage/pasted_file_lJCjgp_16023CE3-5D41-4655-8C7D-C268BEC5F1E7_4_5005_c_33a089b9.jpeg";
+const BABY_DEDICATION_1 = "/manus-storage/pasted_file_tsimKw_68B2B48E-F1C4-4CAF-95FE-CF65F3100409_4_5005_c_ee589112.jpeg";
+const BABY_DEDICATION_2 = "/manus-storage/pasted_file_w02lSn_1AA135A4-8F71-4300-A01A-7F4952E1BD3C_4_5005_c_92da2130.jpeg";
 
 const programs = [
   {
@@ -264,16 +266,30 @@ export default function NextGenLab() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="rounded-2xl overflow-hidden" style={{ boxShadow: "0 4px 24px rgba(10,22,40,0.12)", border: "1px solid rgba(255,165,0,0.15)" }}>
-              <img src={YOUTH_IMG} alt="Next Gen Leaders — All Nations" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
+              <img src={YOUTH_IMG} alt="Honor Roll — All Nations Youth" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
               <div className="p-4 text-center" style={{ background: "var(--an-bg)" }}>
-                <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>Next Gen Leaders — All Nations LDCC</p>
+                <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>Principal's Honor Roll — Our Kids Excel!</p>
                 <p className="font-body text-xs mt-1" style={{ color: "var(--an-orange)" }}>Building Tomorrow's Leaders Today</p>
               </div>
             </div>
             <div className="rounded-2xl overflow-hidden" style={{ boxShadow: "0 4px 24px rgba(10,22,40,0.12)", border: "1px solid rgba(255,165,0,0.15)" }}>
-              <img src={TEAM_IMG_2} alt="Next Gen Team — All Nations" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
+              <img src={TEAM_IMG_2} alt="Baby Dedication — All Nations Family" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
               <div className="p-4 text-center" style={{ background: "var(--an-bg)" }}>
-                <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>Next Gen Team — Youth & Next Gen Ministry</p>
+                <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>Families Dedicated to God</p>
+                <p className="font-body text-xs mt-1" style={{ color: "var(--an-orange)" }}>Raising the Next Generation in Faith</p>
+              </div>
+            </div>
+            <div className="rounded-2xl overflow-hidden" style={{ boxShadow: "0 4px 24px rgba(10,22,40,0.12)", border: "1px solid rgba(255,165,0,0.15)" }}>
+              <img src={BABY_DEDICATION_1} alt="Baby Dedication Ceremony" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
+              <div className="p-4 text-center" style={{ background: "var(--an-bg)" }}>
+                <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>Baby Dedication — A Sacred Moment</p>
+                <p className="font-body text-xs mt-1" style={{ color: "var(--an-orange)" }}>Every Child is a Gift from God</p>
+              </div>
+            </div>
+            <div className="rounded-2xl overflow-hidden" style={{ boxShadow: "0 4px 24px rgba(10,22,40,0.12)", border: "1px solid rgba(255,165,0,0.15)" }}>
+              <img src={BABY_DEDICATION_2} alt="Baby Dedication — All Nations" className="w-full object-cover" style={{ aspectRatio: "4/3" }} />
+              <div className="p-4 text-center" style={{ background: "var(--an-bg)" }}>
+                <p className="font-display text-sm font-bold" style={{ color: "var(--an-navy)" }}>Dedicated to His Purpose</p>
                 <p className="font-body text-xs mt-1" style={{ color: "var(--an-orange)" }}>The Future is Now</p>
               </div>
             </div>
