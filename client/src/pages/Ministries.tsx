@@ -71,7 +71,7 @@ const ministries = [
     color: "var(--an-gold)", icon: <Heart size={26} />,
     description: "A ministry dedicated to walking alongside every person at every stage of their faith journey — from the moment of salvation through baptism, discipleship, community, and purpose. No matter where you are, there is a next step waiting for you.",
     programs: ["Salvation & New Believer Support", "Baptism Classes", "Discipleship 201, 301 & 401", "One-on-One Mentorship", "Next Steps Pathway"],
-    image: "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=800&q=80",
+    image: "/manus-storage/pasted_file_9R5z2x_DAEE4A20-C122-48CD-BE11-148738D3F770_1_105_c_fad27a07.jpeg",
   },
   {
     id: "worship-team", name: "Worship Team", tagline: "Where Anointing Meets Excellence.",
