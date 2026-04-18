@@ -110,8 +110,8 @@ export default function WhatWeBelieve() {
             {/* Bishop Cornelius Blake */}
             <div className="bg-white rounded-2xl shadow-sm overflow-hidden ministry-card">
               <div className="p-8">
-                <div className="w-32 h-32 rounded-full mx-auto mb-5 overflow-hidden border-4" style={{ borderColor: "var(--an-gold)" }}>
-                  <img src="/manus-storage/pasted_file_Gve7qP_06E67CC9-A0C1-4D48-865C-F227DE22980E_4_5005_c_dacbbee5.jpeg" alt="Bishop Cornelius Blake" className="w-full h-full object-cover object-center" />
+                <div className="w-36 h-36 rounded-full mx-auto mb-5 overflow-hidden border-4" style={{ borderColor: "var(--an-gold)" }}>
+                  <img src="/manus-storage/bishop_blake_headshot_5d43deba.jpg" alt="Bishop Cornelius Blake" className="w-full h-full object-cover object-top" />
                 </div>
                 <h3 className="font-display font-bold text-xl text-center mb-1" style={{ color: "var(--an-navy)" }}>Bishop Cornelius Blake</h3>
                 <p className="font-body text-sm text-center font-semibold mb-4" style={{ color: "var(--an-gold)" }}>Senior Bishop</p>
