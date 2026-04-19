@@ -19,11 +19,10 @@ const ministries = [
 ];
 
 const upcomingEvents = [
+  { title: "Website Launch Sunday", date: "April 20, 2026", time: "8:30 AM & 11:00 AM", color: "var(--an-orange)" },
   { title: "Sunday Morning Worship", date: "Every Sunday", time: "8:30 AM & 11:00 AM", color: "var(--an-gold)" },
   { title: "Wednesday Bible Study", date: "Every Wednesday", time: "7:00 PM", color: "var(--an-teal)" },
   { title: "Intercessory Prayer Line", date: "Every Monday", time: "7:00 PM – 8:30 PM", color: "var(--an-orange)" },
-  { title: "Easter Sunday Celebration", date: "April 5, 2026", time: "8:30 AM & 11:00 AM", color: "var(--an-red)" },
-  { title: "Good Friday — Walk Through the Tabernacle", date: "April 3, 2026", time: "7:00 PM", color: "var(--an-navy)" },
   { title: "Mother's Day Celebration", date: "May 10, 2026", time: "8:30 AM & 11:00 AM", color: "#D63384" },
   { title: "Arise & Take Flight — Women's Month", date: "May 2026", time: "All Month", color: "var(--an-navy)" },
 ];
@@ -111,7 +110,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row items-center gap-10">
             {/* Left: Text */}
             <div className="flex-1 text-center lg:text-left">
-              <span className="inline-block px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-4" style={{ background: "rgba(201,168,76,0.18)", color: "var(--an-gold)" }}>STILL AHEAD — APRIL 2026</span>
+              <span className="inline-block px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-4" style={{ background: "rgba(201,168,76,0.18)", color: "var(--an-gold)" }}>TABERNACLE 2026 — COMPLETED</span>
               <h2 className="font-display font-bold text-white mb-3" style={{ fontSize: "clamp(2rem, 4vw, 3rem)", letterSpacing: "-0.01em" }}>
                 TABERNACLE <span style={{ color: "var(--an-gold)" }}>2026</span>
               </h2>
@@ -122,7 +121,7 @@ export default function Home() {
                 This spring, All Nations LDCC invites you to an extraordinary series of nights — each one a unique encounter with God, rooted in His Word and overflowing with worship, culture, and the glory of the Tabernacle revealed.
               </p>
               <p className="font-body text-sm mb-6" style={{ color: "rgba(255,255,255,0.70)" }}>
-                Cultural Night was a powerful evening of worship and community. Now, Kings &amp; Queens Night and the Good Friday Walk Through the Tabernacle are still ahead. Bring your family. Invite your neighbors. Come expectant.
+                Three powerful nights of the presence of God — Cultural Night, Kings & Queens Night, and Good Friday's Walk Through the Tabernacle. Thank you to everyone who joined us. The fire is still burning. Join us this Sunday, April 20 for our website launch celebration!
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Link href="/events" className="btn-gold flex items-center gap-2">
@@ -137,11 +136,11 @@ export default function Home() {
                 <div className="font-display text-white font-bold text-base">Thank you to all who joined us! A beautiful night of worship, culture, and community united under one roof.</div>
               </div>
               <div className="rounded-xl p-5 border-l-4" style={{ background: "rgba(255,255,255,0.06)", borderLeftColor: "var(--an-teal)" }}>
-                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-teal)" }}>Kings &amp; Queens Night — Coming Soon</div>
-                <div className="font-display text-white font-bold text-base">Come dressed and declared — you are royalty in the Kingdom of God. A night of honor, worship, and Word.</div>
+                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-teal)" }}>Kings &amp; Queens Night ✓ Completed</div>
+                <div className="font-display text-white font-bold text-base">A night of honor, worship, and Word. You came dressed and declared — royalty in the Kingdom of God.</div>
               </div>
               <div className="rounded-xl p-5 border-l-4" style={{ background: "rgba(255,255,255,0.06)", borderLeftColor: "#c0392b" }}>
-                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "#e57373" }}>Good Friday: Walk Through the Tabernacle — April 3, 2026</div>
+                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "#e57373" }}>Good Friday: Walk Through the Tabernacle ✓ Completed</div>
                 <div className="font-display text-white font-bold text-base">A reverent, powerful walk through the Tabernacle of Moses — experiencing the story of redemption step by step.</div>
               </div>
             </div>
