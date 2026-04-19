@@ -1,52 +1,16 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Link } from "wouter";
-import { BookOpen, Play, Heart, Share2, Bell, ArrowRight, Calendar, Mic, Video, Loader2 } from "lucide-react";
+import { BookOpen, Bell, ArrowRight, Flame, Calendar, Mic, Video, Loader2 } from "lucide-react";
 import { useState } from "react";
 import { sendEmail, TEMPLATE_NEWSLETTER } from "@/lib/emailjs";
 import { toast } from "sonner";
 
 // Design: Warm, intimate, personal — Pastor Shelia's voice and presence
-// Daily Word page — AI twin/clone delivers daily live devotional word
+// Daily Word page — Launching Monday April 20, 2026
+// April theme: Keep the Fire Burning
 
 const PASTOR_SHELIA = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/CopyofIMG_4616_f4ce05ab.jpg";
-
-// Sample devotional entries (to be replaced with live content)
-const recentDevotionals = [
-  {
-    date: "April 1, 2026",
-    day: "Wednesday",
-    title: "New Month, New Mercies",
-    scripture: "Lamentations 3:22-23",
-    scriptureText: "\"The steadfast love of the Lord never ceases; his mercies never come to an end; they are new every morning; great is your faithfulness.\"",
-    excerpt: "April is here — a month of resurrection, renewal, and fresh beginnings. God's mercies are not recycled; they are brand new this morning. Step into this new month with expectation. What God could not do in March, He is ready to do in April.",
-    color: "var(--an-teal)",
-    duration: "4 min read",
-    type: "written",
-  },
-  {
-    date: "March 31, 2026",
-    day: "Tuesday",
-    title: "Finish Strong",
-    scripture: "Philippians 3:14",
-    scriptureText: "\"I press toward the mark for the prize of the high calling of God in Christ Jesus.\"",
-    excerpt: "As March closes, do not coast into April — press. Finish this month with the same fire you started with. Every seed you planted this month is about to break ground. Press toward the mark.",
-    color: "var(--an-gold)",
-    duration: "3 min read",
-    type: "written",
-  },
-  {
-    date: "March 30, 2026",
-    day: "Monday",
-    title: "He Is Risen — Walk in Resurrection Power",
-    scripture: "Romans 8:11",
-    scriptureText: "\"But if the Spirit of him who raised Jesus from the dead dwells in you, he who raised Christ Jesus from the dead will also give life to your mortal bodies through his Spirit who dwells in you.\"",
-    excerpt: "Easter is almost here. The same Spirit that raised Jesus from the dead lives in you. That is not a metaphor — that is resurrection power available to you right now. Walk in it this week.",
-    color: "var(--an-navy)",
-    duration: "5 min read",
-    type: "written",
-  },
-];
 
 const features = [
   {
@@ -91,7 +55,7 @@ function NewsletterSignup() {
     setSending(false);
     if (success) {
       setSubscribed(true);
-      toast.success("Subscribed! You will receive the Daily Word in your inbox.");
+      toast.success("Subscribed! You will receive the Daily Word starting April 20.");
     } else {
       toast.error("Something went wrong. Please try again or email AllNationsldcc@gmail.com.");
     }
@@ -101,7 +65,7 @@ function NewsletterSignup() {
     return (
       <div className="text-center">
         <p className="font-body text-base font-bold" style={{ color: "var(--an-gold)" }}>You are subscribed!</p>
-        <p className="font-body text-xs mt-2" style={{ color: "#aaa" }}>Watch your inbox for Pastor Shelia's Daily Word.</p>
+        <p className="font-body text-xs mt-2" style={{ color: "#aaa" }}>Watch your inbox — your first Daily Word arrives Monday, April 20.</p>
       </div>
     );
   }
@@ -123,7 +87,7 @@ function NewsletterSignup() {
           className="btn-gold flex items-center gap-2 whitespace-nowrap disabled:opacity-60"
         >
           {sending ? <Loader2 size={14} className="animate-spin" /> : <Bell size={14} />}
-          {sending ? "Sending..." : "Subscribe"}
+          {sending ? "Sending..." : "Notify Me"}
         </button>
       </div>
       <p className="font-body text-xs mt-3" style={{ color: "#aaa" }}>
@@ -149,14 +113,14 @@ export default function DailyWord() {
                 <span style={{ color: "var(--an-gold)", fontStyle: "italic" }}>from Pastor Shelia</span>
               </h1>
               <p className="font-body text-lg mb-8 leading-relaxed" style={{ color: "rgba(255,255,255,0.82)" }}>
-                Start every day anchored in the Word. Executive Pastor Shelia Blake delivers a fresh, faith-filled word of encouragement, instruction, and inspiration — every single day.
+                Start every day anchored in the Word. Executive Pastor Shelia Blake delivers a fresh, faith-filled word of encouragement, instruction, and inspiration — every single morning.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link href="#today" className="btn-gold flex items-center gap-2">
-                  <Play size={16} /> Today's Word
+                <Link href="#launch" className="btn-gold flex items-center gap-2">
+                  <Flame size={16} /> See What's Coming
                 </Link>
                 <Link href="#subscribe" className="btn-outline flex items-center gap-2" style={{ borderColor: "#fff", color: "#fff" }}>
-                  <Bell size={16} /> Subscribe for Daily Alerts
+                  <Bell size={16} /> Get Notified at Launch
                 </Link>
               </div>
             </div>
@@ -166,11 +130,11 @@ export default function DailyWord() {
                 <div className="w-72 h-80 rounded-3xl overflow-hidden shadow-2xl border-4" style={{ borderColor: "var(--an-gold)" }}>
                   <img src={PASTOR_SHELIA} alt="Executive Pastor Shelia Blake" className="w-full h-full object-cover object-top" />
                 </div>
-                {/* Live badge */}
-                <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 px-5 py-2 rounded-full shadow-lg flex items-center gap-2"
+                {/* Launch badge */}
+                <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 px-5 py-2 rounded-full shadow-lg flex items-center gap-2 whitespace-nowrap"
                   style={{ background: "var(--an-gold)", color: "var(--an-navy)" }}>
-                  <div className="w-2 h-2 rounded-full bg-green-600 animate-pulse" />
-                  <span className="font-body font-bold text-sm">Daily Word — Live</span>
+                  <Flame size={14} />
+                  <span className="font-body font-bold text-sm">Launching April 20, 2026</span>
                 </div>
               </div>
             </div>
@@ -178,18 +142,24 @@ export default function DailyWord() {
         </div>
       </div>
 
-      {/* Today's Word Feature */}
-      <section id="today" className="py-20" style={{ background: "#fff" }}>
+      {/* Launch Announcement */}
+      <section id="launch" className="py-20" style={{ background: "#fff" }}>
         <div className="container">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-10">
-              <span className="section-label">Today's Devotional</span>
-              <h2 className="font-display text-4xl font-bold" style={{ color: "var(--an-navy)" }}>
-                April 1, 2026 — <span style={{ color: "var(--an-gold)" }}>Wednesday</span>
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-4 font-body font-bold text-sm"
+                style={{ background: "rgba(232,98,42,0.10)", color: "var(--an-orange)" }}>
+                <Calendar size={14} /> Launching Monday, April 20, 2026
+              </div>
+              <h2 className="font-display text-4xl font-bold mb-3" style={{ color: "var(--an-navy)" }}>
+                April Theme: <span style={{ color: "var(--an-orange)" }}>Keep the Fire Burning</span>
               </h2>
+              <p className="font-body text-base max-w-xl mx-auto" style={{ color: "#666" }}>
+                The Daily Word launches this Sunday — and the theme for April is one that will ignite your spirit and sustain your walk all month long.
+              </p>
             </div>
 
-            {/* Featured Devotional Card */}
+            {/* Launch Card */}
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
               {/* Header */}
               <div className="p-8 border-b border-gray-100" style={{ background: "linear-gradient(135deg, var(--an-navy) 0%, #0d3b5e 100%)" }}>
@@ -200,75 +170,48 @@ export default function DailyWord() {
                     <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.60)" }}>All Nations Life Development Christian Center</div>
                   </div>
                 </div>
-                <h3 className="font-display text-2xl font-bold text-white mb-2">New Month, New Mercies</h3>
+                <h3 className="font-display text-2xl font-bold text-white mb-2">Keep the Fire Burning</h3>
                 <div className="flex items-center gap-2">
-                  <BookOpen size={14} style={{ color: "var(--an-gold)" }} />
-                  <span className="font-body text-sm font-bold" style={{ color: "var(--an-gold)" }}>Lamentations 3:22-23</span>
+                  <Flame size={14} style={{ color: "var(--an-orange)" }} />
+                  <span className="font-body text-sm font-bold" style={{ color: "var(--an-orange)" }}>April 2026 — Monthly Theme</span>
                 </div>
               </div>
 
               <div className="p-8">
-                {/* Scripture */}
-                <blockquote className="rounded-xl p-5 mb-6 border-l-4" style={{ background: "rgba(197,157,47,0.07)", borderLeftColor: "var(--an-gold)" }}>
-                  <p className="font-body text-base italic leading-relaxed" style={{ color: "#444" }}>
-                    "The steadfast love of the Lord never ceases; his mercies never come to an end; they are new every morning; great is your faithfulness."
+                {/* Coming Soon Message */}
+                <div className="rounded-2xl p-8 text-center mb-8" style={{ background: "linear-gradient(135deg, rgba(232,98,42,0.06) 0%, rgba(31,47,92,0.06) 100%)", border: "2px dashed rgba(232,98,42,0.25)" }}>
+                  <Flame size={48} className="mx-auto mb-4" style={{ color: "var(--an-orange)" }} />
+                  <h4 className="font-display text-2xl font-bold mb-3" style={{ color: "var(--an-navy)" }}>
+                    First Word Drops Monday
+                  </h4>
+                  <p className="font-body text-base leading-relaxed mb-2" style={{ color: "#555" }}>
+                    <strong>Sunday, April 20</strong> is launch day — and the first Daily Word goes live that morning. Pastor Shelia's scripture, voice, and message for the month of April will be right here.
                   </p>
-                  <cite className="font-body text-xs font-bold mt-2 block" style={{ color: "var(--an-gold)" }}>— Lamentations 3:22-23 (ESV)</cite>
-                </blockquote>
-
-                {/* Message */}
-                <div className="space-y-4 mb-8">
-                  <p className="font-body text-base leading-relaxed" style={{ color: "#444" }}>
-                    April is here — and with it comes a fresh wave of God's mercy, grace, and possibility. This is not just a new month on the calendar; it is a divine reset. <strong>God's mercies are not recycled — they are brand new this morning.</strong>
-                  </p>
-                  <p className="font-body text-base leading-relaxed" style={{ color: "#444" }}>
-                    Whatever you carried into this month from last month — the disappointments, the unanswered prayers, the setbacks — God says: release it. His faithfulness is not contingent on your performance. It is rooted in His character. He was faithful in January. He was faithful in March. And He will be faithful in April.
-                  </p>
-                  <p className="font-body text-base leading-relaxed" style={{ color: "#444" }}>
-                    Step into this new month with expectation. <strong>What God could not complete in March, He is ready to accomplish in April.</strong> This is also the month of resurrection — Easter Sunday is April 5. Let the power of the risen Christ breathe new life into every area of your world.
+                  <p className="font-body text-sm leading-relaxed" style={{ color: "#888" }}>
+                    Subscribe below to receive it directly in your inbox the moment it goes live. Don't miss the first word of the fire.
                   </p>
                 </div>
 
-                {/* Reflection */}
-                <div className="rounded-xl p-5 mb-6" style={{ background: "var(--an-bg)" }}>
-                  <h4 className="font-display font-bold text-base mb-3" style={{ color: "var(--an-navy)" }}>Today's Reflection</h4>
-                  <ul className="space-y-2">
-                    {[
-                      "What are you believing God for in April that you did not see in March?",
-                      "How does the resurrection of Jesus Christ change the way you face your current challenges?",
-                      "What new mercy do you need to receive from God today — and what old burden do you need to release?",
-                    ].map(q => (
-                      <li key={q} className="flex items-start gap-2">
-                        <div className="w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0" style={{ background: "var(--an-gold)" }} />
-                        <span className="font-body text-sm leading-relaxed" style={{ color: "#555" }}>{q}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                {/* Prayer */}
-                <div className="rounded-xl p-5 mb-6" style={{ background: "linear-gradient(135deg, var(--an-navy) 0%, #0d3b5e 100%)" }}>
-                  <h4 className="font-display font-bold text-base text-white mb-2">Today's Prayer</h4>
-                  <p className="font-body text-sm italic leading-relaxed" style={{ color: "rgba(255,255,255,0.80)" }}>
-                    "Father, thank You for new mercies this morning. I receive the fresh start You are offering me in this new month. I release every disappointment and delay from last month into Your hands. Fill me with resurrection faith as Easter approaches. Let Your faithfulness be my confidence and Your Word be my foundation. In Jesus' name, Amen."
+                {/* Theme Preview */}
+                <div className="rounded-xl p-6 mb-6" style={{ background: "var(--an-bg)" }}>
+                  <h4 className="font-display font-bold text-base mb-3 flex items-center gap-2" style={{ color: "var(--an-navy)" }}>
+                    <Flame size={16} style={{ color: "var(--an-orange)" }} /> About This Month's Theme
+                  </h4>
+                  <p className="font-body text-sm leading-relaxed mb-3" style={{ color: "#555" }}>
+                    <strong>Keep the Fire Burning</strong> is the prophetic word for April 2026 at All Nations LDCC. As we step into a new season of the church, Pastor Shelia will take us through scripture, prayer, and practical teaching on how to sustain your spiritual fire — through worship, the Word, and community.
+                  </p>
+                  <p className="font-body text-sm leading-relaxed" style={{ color: "#555" }}>
+                    Every morning, a fresh word. Every word, a fresh flame.
                   </p>
                 </div>
 
-                {/* Actions */}
-                <div className="flex flex-wrap gap-3">
-                  <button className="flex items-center gap-2 px-4 py-2 rounded-full font-body text-sm font-bold transition-all hover:scale-105"
-                    style={{ background: "var(--an-gold)", color: "var(--an-navy)" }}>
-                    <Heart size={14} /> Save This Word
-                  </button>
-                  <button className="flex items-center gap-2 px-4 py-2 rounded-full font-body text-sm font-bold transition-all hover:scale-105 border"
-                    style={{ borderColor: "var(--an-navy)", color: "var(--an-navy)" }}>
-                    <Share2 size={14} /> Share
-                  </button>
-                  <a href="https://www.youtube.com/c/allnationslifedevelopmentchristiancenter" target="_blank" rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-4 py-2 rounded-full font-body text-sm font-bold transition-all hover:scale-105"
-                    style={{ background: "var(--an-navy)", color: "#fff" }}>
-                    <Play size={14} /> Watch on YouTube
-                  </a>
+                {/* CTA */}
+                <div className="text-center">
+                  <Link href="#subscribe">
+                    <button className="btn-gold flex items-center gap-2 mx-auto">
+                      <Bell size={14} /> Subscribe — Get the First Word <ArrowRight size={14} />
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -332,55 +275,19 @@ export default function DailyWord() {
         </div>
       </section>
 
-      {/* Recent Devotionals Archive */}
-      <section className="py-20" style={{ background: "#fff" }}>
-        <div className="container">
-          <div className="text-center mb-12">
-            <span className="section-label">Devotional Archive</span>
-            <h2 className="font-display text-4xl font-bold" style={{ color: "var(--an-navy)" }}>
-              Recent <span style={{ color: "var(--an-gold)" }}>Daily Words</span>
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-            {recentDevotionals.map(dev => (
-              <div key={dev.title} className="ministry-card bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
-                <div className="h-2" style={{ background: dev.color }} />
-                <div className="p-6">
-                  <div className="flex items-center gap-2 mb-3">
-                    <Calendar size={13} style={{ color: dev.color }} />
-                    <span className="font-body text-xs" style={{ color: "#888" }}>{dev.date} — {dev.day}</span>
-                  </div>
-                  <h3 className="font-display font-bold text-base mb-2" style={{ color: "var(--an-navy)" }}>{dev.title}</h3>
-                  <div className="font-body text-xs font-bold mb-3" style={{ color: dev.color }}>{dev.scripture}</div>
-                  <blockquote className="font-body text-xs italic leading-relaxed mb-3" style={{ color: "#666" }}>
-                    {dev.scriptureText}
-                  </blockquote>
-                  <p className="font-body text-sm leading-relaxed mb-4" style={{ color: "#555" }}>
-                    {dev.excerpt}
-                  </p>
-                  <div className="flex items-center justify-between">
-                    <span className="font-body text-xs" style={{ color: "#aaa" }}>{dev.duration}</span>
-                    <button className="font-body font-bold text-xs flex items-center gap-1" style={{ color: dev.color }}>
-                      Read More <ArrowRight size={11} />
-                    </button>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Subscribe */}
-      <section id="subscribe" className="py-16" style={{ background: "var(--an-bg)" }}>
+      <section id="subscribe" className="py-16" style={{ background: "#fff" }}>
         <div className="container">
           <div className="max-w-2xl mx-auto text-center">
-            <Bell size={36} style={{ color: "var(--an-gold)" }} className="mx-auto mb-4" />
+            <Flame size={36} style={{ color: "var(--an-orange)" }} className="mx-auto mb-4" />
             <h2 className="font-display text-3xl font-bold mb-3" style={{ color: "var(--an-navy)" }}>
-              Never Miss a Daily Word
+              Be Ready for April 20
             </h2>
-            <p className="font-body text-base mb-8" style={{ color: "#666" }}>
-              Subscribe to receive Pastor Shelia's Daily Word every morning at 6 AM — delivered directly to your inbox or phone.
+            <p className="font-body text-base mb-2" style={{ color: "#666" }}>
+              Subscribe now and receive Pastor Shelia's first Daily Word — <strong>Keep the Fire Burning</strong> — the moment it drops on launch morning.
+            </p>
+            <p className="font-body text-sm mb-8" style={{ color: "#999" }}>
+              Delivered to your inbox every morning at 6 AM, starting Monday, April 20, 2026.
             </p>
             <NewsletterSignup />
           </div>
