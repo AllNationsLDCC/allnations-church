@@ -73,7 +73,7 @@ export default function MeetThePastors() {
                       src={p.photo}
                       alt={p.name}
                       className="relative z-10 w-full rounded-2xl object-cover shadow-2xl"
-                      style={{ height: "480px", objectPosition: "65% 18%" }}
+                      style={{ height: "480px", objectPosition: i === 0 ? "72% 28%" : "50% 15%" }}
                     />
                     {p.photoNote && (
                       <div className="absolute bottom-3 left-3 right-3 z-20 text-center">

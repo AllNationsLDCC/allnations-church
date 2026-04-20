@@ -28,7 +28,6 @@ const tabs = [
       { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/CXuCfnaIsMvJTxvM.jpg", caption: "Alex Buckle — Saxophonist, One Sound Musicians" },
       { url: BASE + "3599_f408c501.jpg", caption: "Bro. Renald Achille — Worship Musician" },
       { url: BASE + "3589_506ef5ef.jpg", caption: "Worship Team on Stage" },
-      { url: BASE + "3603_833dbbd8.jpg", caption: "Worship Musician" },
     ],
   },
   {
