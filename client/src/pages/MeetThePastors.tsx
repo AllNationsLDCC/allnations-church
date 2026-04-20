@@ -4,7 +4,7 @@ import { Link } from "wouter";
 import { Mail, Phone, ArrowRight } from "lucide-react";
 
 const PASTOR_SHELIA = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/cAqckupGBEISTBCB.jpg";
-const BISHOP_AND_PASTOR = "/manus-storage/bishop_blake_headshot_62c97627.jpg";
+const BISHOP_AND_PASTOR = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/VqJHSlAGuVdPixUz.jpg";
 
 const pastors = [
   {

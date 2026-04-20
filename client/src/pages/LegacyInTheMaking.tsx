@@ -7,7 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Heart, Users, Star, ArrowRight, Calendar, MapPin, Music, Coffee } from "lucide-react";
 
-const BOWLING_1 = "/manus-storage/pasted_file_xBvKXq_image_d7f049b0.jpg"; // Legacy in the Making — worship on stage
+const BOWLING_1 = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/DCyqXjPXGLUOFgEd.jpg"; // Legacy in the Making — worship on stage
 const BOWLING_2 = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/hzggWubhGzaAROJs.jpg";
 const BOWLING_3 = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/QdXWabZmUglLAjxf.jpg";
 
