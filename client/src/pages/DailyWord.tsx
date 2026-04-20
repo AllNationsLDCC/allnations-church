@@ -42,6 +42,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "The God who called us to Himself deserves a fire that never goes out. Today, ask yourself: what does my altar look like right now? Is there fresh wood on it?",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XhAfraUdUAePNsfP.mp3",
   },
   {
     day: 2, date: "April 21, 2026", isoDate: "2026-04-21",
