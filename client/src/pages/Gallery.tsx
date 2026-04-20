@@ -26,9 +26,7 @@ const tabs = [
     label: "Worship",
     photos: [
       { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/CXuCfnaIsMvJTxvM.jpg", caption: "Alex Buckle — Saxophonist, One Sound Musicians" },
-      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/zXkCFJGzvkkMhWDn.webp", caption: "Bro. Renald Achille — Guitarist, One Sound Musicians" },
-      { url: BASE + "3599_f408c501.jpg", caption: "Bro. Renald Achille — Worship Musician (Best)" },
-      { url: BASE + "3588_1b41e822.jpg", caption: "Bro. Renald Achille — Music Ministry" },
+      { url: BASE + "3599_f408c501.jpg", caption: "Bro. Renald Achille — Worship Musician" },
       { url: BASE + "3589_506ef5ef.jpg", caption: "Worship Team on Stage" },
       { url: BASE + "3603_833dbbd8.jpg", caption: "Worship Musician" },
     ],
@@ -108,7 +106,7 @@ const tabs = [
     label: "Prayer",
     photos: [
       { url: BASE + "938_f45bb783.jpg", caption: "Altar Call — All Nations in Prayer" },
-      { url: BASE + "3936_1a245222.jpg", caption: "Intercessory Prayer Gathering" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663485607175/PdktnDvnsnrtAxYXxEkePm/prayer_gathering-5KqFYVBuQkJMijiNHVbJMX.png", caption: "Intercessory Prayer Gathering — All Nations" },
     ],
   },
 ];

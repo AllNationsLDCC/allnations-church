@@ -71,7 +71,7 @@ const ministries = [
     color: "var(--an-gold)", icon: <Heart size={26} />,
     description: "A ministry dedicated to walking alongside every person at every stage of their faith journey — from the moment of salvation through baptism, discipleship, community, and purpose. No matter where you are, there is a next step waiting for you.",
     programs: ["Salvation & New Believer Support", "Baptism Classes", "Discipleship 201, 301 & 401", "One-on-One Mentorship", "Next Steps Pathway"],
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/SjMHHuTatqPbEvOM.jpeg",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663485607175/PdktnDvnsnrtAxYXxEkePm/journey_bible_study-Hgk56XdNmpLGsdbGo34z42.png",
   },
   {
     id: "worship-team", name: "Worship Team", tagline: "Where Anointing Meets Excellence.",
@@ -147,7 +147,7 @@ export default function Ministries() {
                 <div className={i % 2 === 1 ? "lg:order-1" : ""}>
                   <div className="relative">
                     <div className="absolute -inset-3 rounded-2xl opacity-15" style={{ background: `linear-gradient(135deg, ${m.color}, transparent)` }} />
-                    <img src={m.image} alt={m.name} className="relative z-10 w-full rounded-2xl object-cover shadow-xl" style={{ height: "300px" }} />
+                    <img src={m.image} alt={m.name} className="relative z-10 w-full rounded-2xl object-cover shadow-xl" style={{ height: "400px", objectPosition: m.id === 'legacy-making' || m.id === 'great-commission' ? 'center center' : 'center 20%' }} />
                     <div className="absolute top-4 right-4 z-20 px-3 py-1 rounded-full font-body font-bold text-xs text-white" style={{ background: m.color }}>{m.name}</div>
                   </div>
                 </div>

@@ -133,8 +133,8 @@ export default function BibleStudy() {
             ].map(card => (
               <div key={card.title} className="ministry-card bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 text-center">
                 {(card as any).photo ? (
-                  <div className="relative w-full" style={{ height: "220px" }}>
-                    <img src={(card as any).photo} alt={card.title} className="w-full h-full object-cover object-top" />
+                  <div className="relative w-full" style={{ height: "300px" }}>
+                    <img src={(card as any).photo} alt={card.title} className="w-full h-full object-cover" style={{ objectPosition: '50% 15%' }} />
                     <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, transparent 50%, rgba(0,0,0,0.5) 100%)" }} />
                   </div>
                 ) : (

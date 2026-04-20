@@ -7,7 +7,7 @@ const HERO_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/
 const YOUTH_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/TjWcJDkPBeGubtwr.jpeg"; // kids choir on stage — real All Nations
 const COMMUNITY_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/sTVlbALtACCKmonF.jpg"; // Full congregation standing in worship — real All Nations family
 const DANCE_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/UYcOAwuWKybPfrWV.jpeg"; // Sis. Marry Jean-Charles at NxtArtGen — real All Nations
-const PASTOR_SHELIA = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/pastor-shelia-blake_d1c34a0a.jpg";
+const PASTOR_SHELIA = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/NundXIvqDynhQrGu.png";
 
 const ministries = [
   { name: "Women's Ministry", desc: "Empowering women to walk boldly in their calling and purpose.", color: "var(--an-navy)", icon: <Heart size={22} />, href: "/ministries" },

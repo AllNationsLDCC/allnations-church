@@ -130,7 +130,7 @@ export default function WhatWeBelieve() {
             <div className="bg-white rounded-2xl shadow-sm overflow-hidden ministry-card">
               <div className="p-8">
                 <div className="w-24 h-24 rounded-full mx-auto mb-5 overflow-hidden border-4" style={{ borderColor: "var(--an-gold)" }}>
-                  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/cAqckupGBEISTBCB.jpg" alt="Executive Pastor Shelia Blake" className="w-full h-full object-cover object-top" />
+                  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/NundXIvqDynhQrGu.png" alt="Executive Pastor Shelia Blake" className="w-full h-full object-cover" style={{ objectPosition: '50% 15%' }} />
                 </div>
                 <h3 className="font-display font-bold text-xl text-center mb-1" style={{ color: "var(--an-navy)" }}>Pastor Shelia Blake</h3>
                 <p className="font-body text-sm text-center font-semibold mb-4" style={{ color: "var(--an-gold)" }}>Executive Pastor</p>

@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import { Link } from "wouter";
 import { Mail, Phone, ArrowRight } from "lucide-react";
 
-const PASTOR_SHELIA = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/cAqckupGBEISTBCB.jpg";
+const PASTOR_SHELIA = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/NundXIvqDynhQrGu.png";
 const BISHOP_AND_PASTOR = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/VqJHSlAGuVdPixUz.jpg";
 
 const pastors = [
