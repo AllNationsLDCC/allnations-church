@@ -6,12 +6,12 @@ import { BookOpen, Star, Users, Lightbulb, Award, ArrowRight, CheckCircle, Heart
 // Design: Vibrant, energetic, youthful — orange, teal, green — All Nations brand colors
 // NextGen Lab — Youth Literacy & Development Program of All Nations LDCC
 
-const YOUTH_IMG = "/manus-storage/pasted_file_y4psnf_BDB0F9B1-47FF-4EFA-B0BF-6FE20B5EA4DB_4_5005_c_72d0f5fd.jpeg"; // kids choir on stage
-const TEAM_IMG_2 = "/manus-storage/pasted_file_CjmIbG_73E77500-F0E3-40A9-9D4A-1CB9B2C0DDF1_4_5005_c_74bc6ee5.jpeg"; // Sis. Marry Jean-Charles at podium
-const SANCTUARY_IMG = "/manus-storage/pasted_file_ujZh5H_3E0D498C-7FF8-4729-A92D-9E841530E578_4_5005_c_ddcc0bc2.jpeg"; // sanctuary service
-const YOUTH_BUS_IMG = "/manus-storage/pasted_file_aMRjLm_FCDA423D-5C4A-4192-92DC-F92F92F55F85_4_5005_c_c8a8be4c.jpeg"; // youth bus interior
-const COSTUME_1 = "/manus-storage/pasted_file_yCKeWF_8B24CB84-E19C-4B5D-88D5-BB45418BC3A7_1_105_c_7ec9d6a9.jpeg"; // two kids in biblical costumes
-const COSTUME_2 = "/manus-storage/pasted_file_kzpTEj_FEAA41C8-6489-4C06-8C76-5A2A941DCA54_1_105_c_1709a16a.jpeg"; // child in high priest costume
+const YOUTH_IMG = "/manus-storage/pasted_file_y4psnf_BDB0F9B1-47FF-4EFA-B0BF-6FE20B5EA4DB_4_5005_c_91b627c0.jpeg"; // kids choir on stage
+const TEAM_IMG_2 = "/manus-storage/pasted_file_CjmIbG_73E77500-F0E3-40A9-9D4A-1CB9B2C0DDF1_4_5005_c_a35aa1ed.jpeg"; // Sis. Marry Jean-Charles at podium
+const SANCTUARY_IMG = "/manus-storage/pasted_file_ujZh5H_3E0D498C-7FF8-4729-A92D-9E841530E578_4_5005_c_8c27f429.jpeg"; // sanctuary service
+const YOUTH_BUS_IMG = "/manus-storage/pasted_file_aMRjLm_FCDA423D-5C4A-4192-92DC-F92F92F55F85_4_5005_c_b45046a7.jpeg"; // youth bus interior
+const COSTUME_1 = "/manus-storage/pasted_file_yCKeWF_8B24CB84-E19C-4B5D-88D5-BB45418BC3A7_1_105_c_005b1c02.jpeg"; // two kids in biblical costumes
+const COSTUME_2 = "/manus-storage/pasted_file_kzpTEj_FEAA41C8-6489-4C06-8C76-5A2A941DCA54_1_105_c_c3c33431.jpeg"; // child in high priest costume
 
 const programs = [
   {

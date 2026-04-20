@@ -13,35 +13,35 @@ const ministries = [
     color: "var(--an-red)", icon: <Heart size={26} />,
     description: "A safe, nurturing space where women of all ages grow in faith, build authentic relationships, and walk boldly in their God-given purpose. Through Bible study, mentorship, retreats, and community outreach, we equip women to lead with grace and strength.",
     programs: ["Women's Bible Study", "Annual Women's Retreat", "Mentorship Program", "Community Outreach"],
-    image: "/manus-storage/IMG_4386_6baf8024.jpg", // Women's Ministry Leaders — real All Nations
+    image: "/manus-storage/IMG_4386_2919ca5b.jpg", // Women's Ministry Leaders — real All Nations
   },
   {
     id: "men", name: "Men's Ministry", tagline: "Men of Integrity. Men of Impact.",
     color: "var(--an-blue)", icon: <Users size={26} />,
     description: "Building men of faith, integrity, and purpose. We create environments where men can be transparent, grow spiritually, and develop as leaders in their homes, workplaces, and communities.",
     programs: ["Men's Fellowship", "Leadership Development", "Father-Son Events", "Community Service"],
-    image: "/manus-storage/pasted_file_gIN6mY_image_d90fbf60.jpg", // Men's Ministry — men worshipping on stage with full band
+    image: "/manus-storage/pasted_file_gIN6mY_image_d2da3eb4.jpg", // Men's Ministry — men worshipping on stage with full band
   },
   {
     id: "youth", name: "Youth & Next Gen", tagline: "The Future is Now.",
     color: "var(--an-orange)", icon: <Star size={26} />,
     description: "Where the next generation discovers who they are in Christ. Dynamic worship, relevant teaching, and real community. Youth services at both 8:30 AM and 11:00 AM on Sundays, with a dedicated Toddler Lounge.",
     programs: ["Sunday Youth Service (8:30 AM & 11 AM)", "Toddler Lounge", "Youth Bible Study", "Summer Programs", "Youth Voice Training"],
-    image: "/manus-storage/pasted_file_1RQpG9_C36642CE-0595-4B96-9F35-91A4D0BFBBD2_1_102_o_96995f29.jpeg",
+    image: "/manus-storage/pasted_file_1RQpG9_C36642CE-0595-4B96-9F35-91A4D0BFBBD2_1_102_o_c6d36802.jpeg",
   },
   {
     id: "great-commission", name: "The Great Commission", tagline: "Go. Make Disciples. Change the World.",
     color: "var(--an-green)", icon: <Globe size={26} />,
     description: "Inspired by Matthew 28:19-20, this ministry is the outward expression of our faith — through evangelism, community outreach, mission trips, and partnerships that bring the love of Christ to those who need it most.",
     programs: ["Community Outreach", "Evangelism Teams", "Mission Partnerships", "Food & Resource Drives"],
-    image: "/manus-storage/pasted_file_kOn1pr_F987E74A-5686-4385-B933-6A3133E79D00_1_102_o_541a539d.jpeg",
+    image: "/manus-storage/pasted_file_kOn1pr_F987E74A-5686-4385-B933-6A3133E79D00_1_102_o_8211755f.jpeg",
   },
   {
     id: "arts", name: "The Arts — Worship in Dance", tagline: "Every Movement is an Offering.",
     color: "var(--an-teal)", icon: <Music size={26} />,
     description: "Celebrating the full spectrum of creative worship. Our liturgical dance ministry, worship teams, and creative artists are anointed vessels who carry the presence of God through movement, music, and expression.",
     programs: ["Liturgical Dance", "Praise Dance Classes", "Worship Team", "Youth Voice Training", "Creative Arts Workshop"],
-    image: "/manus-storage/pasted_file_j2OJFn_image_915f6fab.jpg", // The Arts — mime performer in full costume
+    image: "/manus-storage/pasted_file_j2OJFn_image_ab94292a.jpg", // The Arts — mime performer in full costume
   },
   {
     id: "mad-hatters", name: "Mad Hatters — Pink Basket", tagline: "Compassion in Action.",
@@ -64,14 +64,14 @@ const ministries = [
     color: "var(--an-navy)", icon: <Award size={26} />,
     description: "The Armorbearers are a dedicated team of servants who provide spiritual covering, practical support, and faithful service to the pastoral leadership and the body of Christ. Called to serve with excellence, discretion, and a heart of humility, they stand as a vital pillar of the ministry.",
     programs: ["Pastoral Support", "Event Coverage", "Security & Protocol", "Leadership Service", "Prayer & Intercession"],
-    image: "/manus-storage/pasted_file_FViG1w_image_715d2b0b.jpg", // Armorbearers team photo in front of All Nations logo
+    image: "/manus-storage/pasted_file_FViG1w_image_ed6e41a3.jpg", // Armorbearers team photo in front of All Nations logo
   },
   {
     id: "journey", name: "Journey with Jesus", tagline: "Every Step. Every Season. With Jesus.",
     color: "var(--an-gold)", icon: <Heart size={26} />,
     description: "A ministry dedicated to walking alongside every person at every stage of their faith journey — from the moment of salvation through baptism, discipleship, community, and purpose. No matter where you are, there is a next step waiting for you.",
     programs: ["Salvation & New Believer Support", "Baptism Classes", "Discipleship 201, 301 & 401", "One-on-One Mentorship", "Next Steps Pathway"],
-    image: "/manus-storage/pasted_file_9R5z2x_DAEE4A20-C122-48CD-BE11-148738D3F770_1_105_c_fad27a07.jpeg",
+    image: "/manus-storage/pasted_file_9R5z2x_DAEE4A20-C122-48CD-BE11-148738D3F770_1_105_c_5407ff9c.jpeg",
   },
   {
     id: "worship-team", name: "Worship Team", tagline: "Where Anointing Meets Excellence.",
@@ -79,7 +79,7 @@ const ministries = [
     description: "The All Nations Worship Team is a prophetic, anointed company of worshipers called to lead the body of Christ into the presence of God. From psalmists and musicians to praise dancers and the media team — every gift has a home here. We are committed to excellence in preparation, humility in spirit, and boldness in expression.",
     programs: ["Psalmists & Vocalists", "Musicians & Instrumentalists", "Praise Dance & Creative Arts", "Media & Sound Team", "Rehearsals Wed & Sat"],
     link: "/worship-team",
-    image: "/manus-storage/IMG_4267_690a6602.jpg", // Worship Team group photo in front of All Nations logo — real All Nations
+    image: "/manus-storage/IMG_4267_104ce913.jpg", // Worship Team group photo in front of All Nations logo — real All Nations
   },
   {
     id: "legacy-making", name: "Legacy in the Making", tagline: "Single. Whole. Purposeful.",
@@ -87,7 +87,7 @@ const ministries = [
     description: "Our vibrant singles ministry — a diverse, multigenerational community of Black, Caribbean, American, and Hispanic singles of all ages. From bowling nights to worship gatherings, we are building lives of purpose, faith, and authentic connection together.",
     programs: ["Worship Nights", "Fellowship Outings", "Life Groups", "Personal Development", "Community Service", "Monthly Gatherings"],
     link: "/legacy-in-the-making",
-    image: "/manus-storage/pasted_file_xBvKXq_image_e973dd78.jpg", // Legacy in the Making — singles ministry worship on stage
+    image: "/manus-storage/pasted_file_xBvKXq_image_d7f049b0.jpg", // Legacy in the Making — singles ministry worship on stage
   },
 ];
 
