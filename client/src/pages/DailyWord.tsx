@@ -26,6 +26,7 @@ interface DayEntry {
   callToAction: string;
   close: string;
   audioUrl?: string;
+  imageUrl?: string;
 }
 
 const entries: DayEntry[] = [
@@ -43,6 +44,7 @@ const entries: DayEntry[] = [
     callToAction: "The God who called us to Himself deserves a fire that never goes out. Today, ask yourself: what does my altar look like right now? Is there fresh wood on it?",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XhAfraUdUAePNsfP.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/enwptABUooxaWtTs.jpg",
   },
   {
     day: 2, date: "April 21, 2026", isoDate: "2026-04-21",
@@ -57,7 +59,8 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Keep watching. Your bush moment may be closer than you think. Do not walk past the ordinary moments — God may be speaking right in the middle of one.",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
-    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/LyhuCyrLLCWUGaCM.mp3",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/mlXTqtHAXIgAKQqF.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/PcMdiKxURQWaEbRi.jpg",
   },
   {
     day: 3, date: "April 22, 2026", isoDate: "2026-04-22",
@@ -72,6 +75,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Keep moving. Keep following. The fire is your guide. Do not stop just because the path looks different than it did yesterday.",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ikmPtfXmwdZJhcHA.jpg",
   },
   {
     day: 4, date: "April 23, 2026", isoDate: "2026-04-23",
@@ -86,6 +90,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Keep building. Keep offering. Keep showing up. The same God who answered Aaron is the God who sees you right now. Your fire is coming.",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/yzxXIAbQDQPygYKm.jpg",
   },
   {
     day: 5, date: "April 24, 2026", isoDate: "2026-04-24",
@@ -100,6 +105,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Start tomorrow morning. Put on the wood. He will honor it. Your daily time with God is not optional — it is the wood that keeps the fire alive.",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/QOQCZxNqKuSCWYpm.jpg",
   },
   {
     day: 6, date: "April 25, 2026", isoDate: "2026-04-25",
@@ -114,6 +120,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "You cannot out-need His supply. Whatever you are carrying from yesterday — lay it down. Today's mercy is already waiting for you.",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/cAccovEIyKWlERhW.jpg",
   },
   {
     day: 7, date: "April 26, 2026", isoDate: "2026-04-26",
@@ -128,6 +135,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "The fire that fell on Carmel still falls today. Your answer may take all day — but when it comes, it will leave no room for debate. Trust Him. The fire is coming.",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/RxqfKiLJfBLyMHta.jpg",
   },
   {
     day: 8, date: "April 27, 2026", isoDate: "2026-04-27",
@@ -142,6 +150,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Let the fire move you again. The world needs what God put in your bones. Do not let weariness have the final word.",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/JPsINXNCwdwroLyq.jpg",
   },
   {
     day: 9, date: "April 28, 2026", isoDate: "2026-04-28",
@@ -156,6 +165,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Do not look for a way out. Look for His face. On the other side of this fire, you will come out smelling like heaven, not smoke.",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ctOuYlXwFmabXXEa.jpg",
   },
   {
     day: 10, date: "April 29, 2026", isoDate: "2026-04-29",
@@ -170,6 +180,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Today is a good day to get back to what He called you to do. The flame is still there. Stir it.",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/nKVspWnQSQauMvck.jpg",
   },
   {
     day: 11, date: "April 30, 2026", isoDate: "2026-04-30",
@@ -184,6 +195,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "The consuming fire will not destroy what you surrender to Him — He will purify it and make it burn with His own glory. Give Him everything.",
     close: "Thank you for walking through this April series with me. The fire is still burning — and it will never go out. I love you, All Nations. See you Sunday.",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/cxnfGVzTbKxgtvqO.jpg",
   },
 ];
 
@@ -315,6 +327,14 @@ function TodayCard({ entry }: { entry: DayEntry }) {
           Day {entry.day}
         </span>
       </div>
+      {/* Featured Graphic */}
+      {entry.imageUrl && (
+        <div className="w-full overflow-hidden" style={{ maxHeight: "280px" }}>
+          <img src={entry.imageUrl} alt={entry.title}
+            className="w-full object-cover object-center"
+            style={{ maxHeight: "280px" }} />
+        </div>
+      )}
       {/* Body */}
       <div className="px-8 py-8">
         <h2 className="font-display text-3xl font-bold mb-6 leading-tight"
@@ -376,8 +396,15 @@ function ArchiveCard({ entry }: { entry: DayEntry }) {
         </div>
       </div>
       {expanded && (
-        <div className="px-5 pb-6" style={{ borderTop: `1px solid #f0f0f0` }}>
-          <div className="pt-4">
+        <div className="pb-6" style={{ borderTop: `1px solid #f0f0f0` }}>
+          {entry.imageUrl && (
+            <div className="w-full overflow-hidden" style={{ maxHeight: "200px" }}>
+              <img src={entry.imageUrl} alt={entry.title}
+                className="w-full object-cover object-center"
+                style={{ maxHeight: "200px" }} />
+            </div>
+          )}
+          <div className="px-5 pt-4">
             <DayContent entry={entry} />
             <ShareButtons title={entry.title} date={entry.date} />
           </div>
