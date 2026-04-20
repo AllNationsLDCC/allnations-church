@@ -62,7 +62,7 @@ const tabs = [
       { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/DcfbFzgbHUqwIpkp.jpeg", caption: "Media & Sound Team — All Nations" },
       { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/SwtSoexqTqMfStQI.jpeg", caption: "Gold & Silver — Legacy of Love Ministry" },
       { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/knpKEpWHbjbcVMjD.jpeg", caption: "Armorbearers — All Nations" },
-      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ZITmqHxjcJierhtW.jpeg", caption: "Next Gen Team — Youth & Next Gen Ministry" },
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/FbTxpJUuKHbdeqSi.jpg", caption: "Next Gen Team — Youth & Next Gen Ministry" },
       { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/dqSByvzEKOvulIBZ.jpeg", caption: "One Sound — All Nations Praise & Worship" },
       { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/xzmBlUUgwOfjhtHh.jpeg", caption: "Children's Ministry — All Nations" },
       { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/QLfqUHyHxPBmeyhQ.jpg", caption: "Next Gen Children's Choir — All Nations" },
@@ -106,7 +106,7 @@ const tabs = [
     label: "Prayer",
     photos: [
       { url: BASE + "938_f45bb783.jpg", caption: "Altar Call — All Nations in Prayer" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663485607175/PdktnDvnsnrtAxYXxEkePm/prayer_gathering-5KqFYVBuQkJMijiNHVbJMX.png", caption: "Intercessory Prayer Gathering — All Nations" },
+      { url: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/kDjyOZwdEOkeqTHB.jpg", caption: "Intercessory Prayer — All Nations" },
     ],
   },
 ];
