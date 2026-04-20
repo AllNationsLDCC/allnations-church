@@ -57,6 +57,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Keep watching. Your bush moment may be closer than you think. Do not walk past the ordinary moments — God may be speaking right in the middle of one.",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/LyhuCyrLLCWUGaCM.mp3",
   },
   {
     day: 3, date: "April 22, 2026", isoDate: "2026-04-22",
