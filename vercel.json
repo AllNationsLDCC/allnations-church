@@ -2,14 +2,8 @@
   "buildCommand": "pnpm build",
   "outputDirectory": "dist/public",
   "framework": null,
-  "functions": {
-    "api/**/*.ts": {
-      "runtime": "@vercel/node@5"
-    }
-  },
   "rewrites": [
-    { "source": "/api/assistant/chat", "destination": "/api/assistant/chat" },
-    { "source": "/api/assistant/appointment", "destination": "/api/assistant/appointment" },
+    { "source": "/api/(.*)", "destination": "/api/$1" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
