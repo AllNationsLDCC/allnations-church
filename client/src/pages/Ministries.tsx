@@ -280,7 +280,7 @@ export default function Ministries() {
               <p className="font-body text-base leading-relaxed mb-6" style={{ color: "#555" }}>
                 Her vision: every person finds their place, every gift is activated, and every ministry reflects the heart of God. Under her leadership, All Nations continues to build people, strengthen families, and advance the Kingdom in Port St. Lucie and beyond.
               </p>
-              <Link href="/pastors" className="btn-navy flex items-center gap-2 w-fit">Meet the Pastors <ArrowRight size={14} /></Link>
+              <Link href="/meet-the-pastors" className="btn-navy flex items-center gap-2 w-fit">Meet the Pastors <ArrowRight size={14} /></Link>
             </div>
           </div>
         </div>
