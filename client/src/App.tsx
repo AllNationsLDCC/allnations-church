@@ -26,6 +26,7 @@ import WrittenWord from "./pages/WrittenWord";
 import LegacyOfLove from "./pages/LegacyOfLove";
 import MadHatters from "./pages/MadHatters";
 import LegacyInTheMaking from "./pages/LegacyInTheMaking";
+import VirtualAssistant from "./components/VirtualAssistant";
 
 function Router() {
   return (
@@ -67,6 +68,7 @@ function App() {
         <TooltipProvider>
           <Toaster />
           <Router />
+          <VirtualAssistant />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>

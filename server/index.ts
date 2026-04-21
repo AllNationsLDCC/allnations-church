@@ -2,6 +2,7 @@ import express from "express";
 import { createServer } from "http";
 import path from "path";
 import { fileURLToPath } from "url";
+import assistantRouter from "./assistant.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -9,6 +10,12 @@ const __dirname = path.dirname(__filename);
 async function startServer() {
   const app = express();
   const server = createServer(app);
+
+  // Parse JSON bodies for API routes
+  app.use(express.json({ limit: "1mb" }));
+
+  // ─── API Routes ───────────────────────────────────────────────────────────
+  app.use("/api/assistant", assistantRouter);
 
   // Serve static files from dist/public in production
   const staticPath =
