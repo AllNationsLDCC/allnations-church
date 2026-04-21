@@ -75,6 +75,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Keep moving. Keep following. The fire is your guide. Do not stop just because the path looks different than it did yesterday.",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/AEKUUZyqoqLGsyUe.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ikmPtfXmwdZJhcHA.jpg",
   },
   {
