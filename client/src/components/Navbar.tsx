@@ -27,6 +27,8 @@ const moreNav = [
   { label: "Podcast", href: "/podcast" },
   { label: "Vision 2026", href: "/voices-of-vision" },
   { label: "Worship Team", href: "/worship-team" },
+  { label: "Legacy of Love", href: "/legacy-of-love" },
+  { label: "Gold & Silver", href: "/gold-and-silver" },
   { label: "Connect", href: "/connect" },
 ];
 

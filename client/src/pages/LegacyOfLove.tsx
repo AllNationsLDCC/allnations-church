@@ -23,8 +23,7 @@ const galleryPhotos = [
 ];
 
 // ── Leadership photos — replace with real photos when ready ──────────────────
-const LEADER_MIKE = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XTmMVyyHkYLFHOKB.jpg";
-const LEADER_CAROL = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/HCIJXpNVUdOjliMw.jpg";
+const LEADER_COUPLE = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/fMdSlnKrzhDxrTDL.jpg";
 
 const FOCUS_AREAS = [
   {
@@ -170,28 +169,16 @@ export default function LegacyOfLove() {
           </div>
 
           <div className="flex flex-col lg:flex-row items-center gap-12 max-w-5xl mx-auto">
-            <div className="flex gap-6 flex-shrink-0">
-              {/* Pastor Mike */}
+            <div className="flex-shrink-0">
               <div className="text-center">
                 <div
-                  className="w-44 h-44 rounded-full mx-auto mb-3 overflow-hidden"
-                  style={{ border: "3px solid var(--an-gold)" }}
+                  className="w-72 h-80 rounded-2xl mx-auto mb-3 overflow-hidden"
+                  style={{ border: "3px solid var(--an-gold)", boxShadow: "0 8px 32px rgba(0,0,0,0.18)" }}
                 >
-                  <img src={LEADER_MIKE} alt="Pastor Mike Byrd" className="w-full h-full object-cover object-top" />
+                  <img src={LEADER_COUPLE} alt="Pastor Mike Byrd and Lady Carol Byrd" className="w-full h-full object-cover object-top" />
                 </div>
-                <div className="font-display font-bold text-sm" style={{ color: "var(--an-navy)" }}>Pastor Mike Byrd</div>
-                <div className="font-body text-xs" style={{ color: "var(--an-gold)" }}>Ministry Leader</div>
-              </div>
-              {/* Lady Carol */}
-              <div className="text-center">
-                <div
-                  className="w-44 h-44 rounded-full mx-auto mb-3 overflow-hidden"
-                  style={{ border: "3px solid var(--an-gold)" }}
-                >
-                  <img src={LEADER_CAROL} alt="Lady Carol Byrd" className="w-full h-full object-cover object-top" />
-                </div>
-                <div className="font-display font-bold text-sm" style={{ color: "var(--an-navy)" }}>Lady Carol Byrd</div>
-                <div className="font-body text-xs" style={{ color: "var(--an-gold)" }}>Ministry Co-Leader</div>
+                <div className="font-display font-bold text-sm" style={{ color: "var(--an-navy)" }}>Pastor Mike Byrd &amp; Lady Carol Byrd</div>
+                <div className="font-body text-xs" style={{ color: "var(--an-gold)" }}>Legacy of Love Ministry Leaders</div>
               </div>
             </div>
 

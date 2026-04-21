@@ -26,6 +26,7 @@ import WrittenWord from "./pages/WrittenWord";
 import LegacyOfLove from "./pages/LegacyOfLove";
 import MadHatters from "./pages/MadHatters";
 import LegacyInTheMaking from "./pages/LegacyInTheMaking";
+import GoldAndSilver from "./pages/GoldAndSilver";
 import VirtualAssistant from "./components/VirtualAssistant";
 
 function Router() {
@@ -50,6 +51,7 @@ function Router() {
       <Route path="/legacy-of-love" component={LegacyOfLove} />
       <Route path="/mad-hatters" component={MadHatters} />
       <Route path="/legacy-in-the-making" component={LegacyInTheMaking} />
+      <Route path="/gold-and-silver" component={GoldAndSilver} />
       <Route path="/written-word" component={WrittenWord} />
       <Route path="/reveal" component={Reveal} />
       <Route path="/photo-review" component={PhotoReview} />
