@@ -4,7 +4,7 @@ import { Link } from "wouter";
 import { Mail, Phone, ArrowRight } from "lucide-react";
 
 const PASTOR_SHELIA = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/NundXIvqDynhQrGu.png";
-const BISHOP_AND_PASTOR = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/VqJHSlAGuVdPixUz.jpg";
+const BISHOP_AND_PASTOR = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/psiKNfNyHsxmnRjp.jpg";
 
 const pastors = [
   {
@@ -73,7 +73,7 @@ export default function MeetThePastors() {
                       src={p.photo}
                       alt={p.name}
                       className="relative z-10 w-full rounded-2xl object-cover shadow-2xl"
-                      style={{ height: "480px", objectPosition: i === 0 ? "72% 28%" : "50% 15%" }}
+                      style={{ height: "480px", objectPosition: i === 0 ? "50% 15%" : "50% 15%" }}
                     />
                     {p.photoNote && (
                       <div className="absolute bottom-3 left-3 right-3 z-20 text-center">
