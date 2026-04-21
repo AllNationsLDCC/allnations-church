@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "wouter";
-import { Menu, X, Heart, ChevronDown } from "lucide-react";
+import { Menu, X, Heart, ChevronDown, BookOpen } from "lucide-react";
 
 const LOGO = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/allnations-logo_e1bf5a77.jpg";
 
@@ -13,6 +13,8 @@ const primaryNav = [
   { label: "Give", href: "/give", isGive: true },
 ];
 
+const DAILY_WORD = { label: "Daily Word", href: "/daily-word" };
+
 // All other pages in the hamburger dropdown
 const moreNav = [
   { label: "Pastors", href: "/meet-the-pastors" },
@@ -21,7 +23,6 @@ const moreNav = [
   { label: "NextGen Lab", href: "/nextgen-lab" },
   { label: "Leadership Lab", href: "/leadership-lab" },
   { label: "Bible Study", href: "/bible-study" },
-  { label: "Daily Word", href: "/daily-word" },
   { label: "Gallery", href: "/gallery" },
   { label: "Podcast", href: "/podcast" },
   { label: "Vision 2026", href: "/voices-of-vision" },
@@ -133,8 +134,20 @@ export default function Navbar() {
               </div>
             </nav>
 
-            {/* Give Button (desktop) */}
+            {/* Daily Word + Give Buttons (desktop) */}
             <div className="hidden lg:flex items-center gap-3">
+              <Link
+                href="/daily-word"
+                className="flex items-center gap-2 px-4 py-2 rounded-full font-body font-semibold text-sm transition-all"
+                style={{
+                  background: location === "/daily-word" ? "var(--an-navy)" : "rgba(31,47,92,0.08)",
+                  color: location === "/daily-word" ? "#fff" : "var(--an-navy)",
+                  border: "1.5px solid var(--an-navy)",
+                }}
+              >
+                <BookOpen size={14} />
+                Daily Word
+              </Link>
               <Link href="/give" className="btn-gold flex items-center gap-2">
                 <Heart size={14} />
                 Give
@@ -174,6 +187,19 @@ export default function Navbar() {
                   {item.label}
                 </Link>
               ))}
+              {/* Daily Word highlight in mobile */}
+              <Link
+                href="/daily-word"
+                className="py-3 px-4 rounded-lg font-body font-semibold text-sm flex items-center gap-2"
+                style={{
+                  background: location === "/daily-word" ? "var(--an-navy)" : "rgba(31,47,92,0.06)",
+                  color: location === "/daily-word" ? "#fff" : "var(--an-navy)",
+                  border: "1.5px solid var(--an-navy)",
+                }}
+              >
+                <BookOpen size={14} />
+                Daily Word
+              </Link>
               {/* Divider */}
               <div className="my-2 border-t" style={{ borderColor: "rgba(197,157,47,0.2)" }} />
               <p className="px-4 text-xs font-body uppercase tracking-widest mb-1" style={{ color: "var(--an-gold)" }}>More Pages</p>

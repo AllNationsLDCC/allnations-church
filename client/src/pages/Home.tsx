@@ -104,6 +104,48 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ===== DAILY WORD FEATURED SECTION ===== */}
+      <section className="py-12" style={{ background: "linear-gradient(135deg, #1A2F6B 0%, #0d1a3a 100%)" }}>
+        <div className="container">
+          <div className="flex flex-col lg:flex-row items-center gap-8">
+            {/* Left: Label + Title */}
+            <div className="flex-1 text-center lg:text-left">
+              <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-4" style={{ background: "rgba(197,157,47,0.18)", color: "var(--an-gold)" }}>
+                <BookOpen size={12} /> Today's Daily Word
+              </span>
+              <h2 className="font-display font-bold text-white mb-2" style={{ fontSize: "clamp(1.6rem, 3vw, 2.4rem)" }}>
+                Keep the <span style={{ color: "var(--an-gold)" }}>Fire Burning</span>
+              </h2>
+              <p className="font-body text-sm mb-1" style={{ color: "rgba(255,255,255,0.70)" }}>
+                A daily devotional series by <strong style={{ color: "rgba(255,255,255,0.90)" }}>Pastor Shelia Blake</strong>
+              </p>
+              <p className="font-body text-sm mb-6" style={{ color: "rgba(255,255,255,0.60)" }}>
+                April 20–30, 2026 · New word unlocked every morning
+              </p>
+              <Link href="/daily-word" className="btn-gold inline-flex items-center gap-2">
+                <BookOpen size={14} />
+                Read & Listen Today's Word
+              </Link>
+            </div>
+            {/* Right: Decorative fire card */}
+            <div
+              className="flex-shrink-0 w-full lg:w-80 rounded-2xl p-6 text-center"
+              style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(197,157,47,0.25)" }}
+            >
+              <div className="text-5xl mb-3">🔥</div>
+              <div className="font-body text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-gold)" }}>April Series</div>
+              <div className="font-display font-bold text-white text-xl mb-2">Keep the Fire Burning</div>
+              <div className="font-body text-sm" style={{ color: "rgba(255,255,255,0.65)" }}>
+                11 days · Scripture · Devotional · Audio
+              </div>
+              <div className="mt-4 pt-4" style={{ borderTop: "1px solid rgba(197,157,47,0.2)" }}>
+                <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.50)" }}>New word every morning at midnight</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ===== TABERNACLE 2026 FEATURED BANNER ===== */}
       <section className="py-16" style={{ background: "linear-gradient(135deg, #0d1a3a 0%, #1A2F6B 60%, #0d2a26 100%)" }}>
         <div className="container">
