@@ -69,6 +69,7 @@ export default function VirtualAssistant() {
     "idle" | "sending" | "success" | "error"
   >("idle");
   const [unreadCount, setUnreadCount] = useState(0);
+  const [tooltipShown, setTooltipShown] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -84,16 +85,27 @@ export default function VirtualAssistant() {
     }
   }, [isOpen, view]);
 
-  // Track unread messages when closed
+  // Track unread messages when closed — only update when value actually changes
   useEffect(() => {
-    if (!isOpen && messages.length > 1) {
-      const assistantMessages = messages.filter((m) => m.role === "assistant").length - 1;
-      setUnreadCount(assistantMessages > 0 ? 1 : 0);
-    }
     if (isOpen) {
-      setUnreadCount(0);
+      if (unreadCount !== 0) setUnreadCount(0);
+      return;
     }
+    if (messages.length > 1) {
+      const assistantMessages = messages.filter((m) => m.role === "assistant").length - 1;
+      const next = assistantMessages > 0 ? 1 : 0;
+      if (unreadCount !== next) setUnreadCount(next);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isOpen, messages]);
+
+  // Show tooltip once after 2s, never again
+  useEffect(() => {
+    if (!isOpen && !tooltipShown) {
+      const timer = setTimeout(() => setTooltipShown(true), 100);
+      return () => clearTimeout(timer);
+    }
+  }, [isOpen, tooltipShown]);
 
   const sendMessage = async (text?: string) => {
     const messageText = text || input.trim();
@@ -680,8 +692,8 @@ export default function VirtualAssistant() {
         </div>
       )}
 
-      {/* Tooltip label */}
-      {!isOpen && (
+      {/* Tooltip label — shown once on first load, fades in then out */}
+      {!isOpen && tooltipShown && (
         <div
           style={{
             position: "fixed",
@@ -698,7 +710,7 @@ export default function VirtualAssistant() {
             whiteSpace: "nowrap",
             boxShadow: "0 2px 8px rgba(0,0,0,0.2)",
             opacity: 0,
-            animation: "tooltipFade 0.5s ease 2s forwards",
+            animation: "tooltipFade 3s ease 0s forwards",
           }}
         >
           Ask us anything 👋
