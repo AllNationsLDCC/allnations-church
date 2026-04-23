@@ -91,7 +91,8 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Keep building. Keep offering. Keep showing up. The same God who answered Aaron is the God who sees you right now. Your fire is coming.",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/yzxXIAbQDQPygYKm.jpg",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/TNCZaDuSVVGGFKoj.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/vOtihoIKiEWePuAG.jpg",
   },
   {
     day: 5, date: "April 24, 2026", isoDate: "2026-04-24",
