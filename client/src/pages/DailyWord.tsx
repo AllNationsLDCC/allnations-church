@@ -107,6 +107,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Ask the Holy Spirit to fall fresh on you today. Let His fire ignite your words and your actions. Do not settle for an ember when God has promised a blaze.",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/AmBUYQUKkfCLWmYC.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/QOQCZxNqKuSCWYpm.jpg",
   },
   {
