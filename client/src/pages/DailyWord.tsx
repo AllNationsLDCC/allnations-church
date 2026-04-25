@@ -169,6 +169,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Let the fire move you again. The world needs what God put in your bones. Do not let weariness have the final word.",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/NgZkoTqlNPcJXAte.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ctOuYlXwFmabXXEa.jpg",
   },
   {
