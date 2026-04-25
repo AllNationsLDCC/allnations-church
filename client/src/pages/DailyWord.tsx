@@ -123,6 +123,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Today is a good day to get back to what He called you to do. The flame is still there. Stir it.",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/genKElAzzoqajEKB.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/cAccovEIyKWlERhW.jpg",
   },
   {
