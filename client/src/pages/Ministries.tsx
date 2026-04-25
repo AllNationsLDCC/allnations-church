@@ -16,6 +16,13 @@ const ministries = [
     image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ylglDAjMHQDEfZUB.jpg", // Women's Ministry Leaders — real All Nations
   },
   {
+    id: "gold-and-silver", name: "Gold & Silver", tagline: "Honored. Celebrated. Still Thriving.",
+    color: "var(--an-gold)", icon: <Star size={26} />,
+    description: "Gold & Silver is the seniors ministry of All Nations LDCC — a ministry that honors and celebrates the wisdom, strength, and enduring faith of our senior members. These are the pillars of All Nations — men and women who have walked faithfully with God through every season of life. This ministry creates meaningful fellowship, spiritual enrichment, and joyful community for those whose lives reflect the beauty of a life well-lived for God. Their legacy is our foundation, and their presence is our treasure.",
+    programs: ["Senior Fellowship Gatherings", "Wellness & Health Outreach", "Intergenerational Events", "Visitation Ministry", "Senior Wellness Afternoon"],
+    image: "/manus-storage/gold_and_silver_group_239e2caa.jpg",
+  },
+  {
     id: "men", name: "Men's Ministry", tagline: "Men of Integrity. Men of Impact.",
     color: "var(--an-blue)", icon: <Users size={26} />,
     description: "Building men of faith, integrity, and purpose. We create environments where men can be transparent, grow spiritually, and develop as leaders in their homes, workplaces, and communities.",
@@ -54,8 +61,8 @@ const ministries = [
   {
     id: "legacy-love", name: "Legacy of Love", tagline: "Love That Outlasts a Lifetime.",
     color: "var(--an-gold)", icon: <Heart size={26} />,
-    description: "Honoring and serving our senior members and families. The wisdom, experience, and faith of our elders are among our greatest treasures. This ministry creates meaningful connections and celebrates the legacy of those who paved the way.",
-    programs: ["Senior Fellowship", "Visitation Ministry", "Legacy Events", "Intergenerational Programs"],
+    description: "Legacy of Love is the Couples Ministry of All Nations LDCC — led by Pastor Mike Byrd and Lady Carol Byrd. This ministry is designed to help couples move from simply existing together to thriving together with purpose. Through practical teaching, spiritual alignment, and intentional growth, Legacy of Love builds strong, God-centered marriages that bless families and impact generations.",
+    programs: ["Marriage Enrichment Sessions", "Couples Retreats", "Communication Workshops", "Covenant Renewal", "Marriage Camp"],
     link: "/legacy-of-love",
     image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/HCIJXpNVUdOjliMw.jpg",
   },
