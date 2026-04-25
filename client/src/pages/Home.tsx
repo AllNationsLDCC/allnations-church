@@ -8,6 +8,7 @@ const YOUTH_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file
 const COMMUNITY_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/sTVlbALtACCKmonF.jpg"; // Full congregation standing in worship — real All Nations family
 const DANCE_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/UYcOAwuWKybPfrWV.jpeg"; // Sis. Marry Jean-Charles at NxtArtGen — real All Nations
 const PASTOR_SHELIA = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/NundXIvqDynhQrGu.png";
+const BISHOP_BLAKE = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/zbAJslMmOyKZfGkH.jpg";
 
 const ministries = [
   { name: "Women's Ministry", desc: "Empowering women to walk boldly in their calling and purpose.", color: "var(--an-navy)", icon: <Heart size={22} />, href: "/ministries" },
@@ -19,7 +20,7 @@ const ministries = [
 ];
 
 const upcomingEvents = [
-  { title: "Website Launch Sunday", date: "April 20, 2026", time: "8:30 AM & 11:00 AM", color: "var(--an-orange)" },
+  { title: "Next Gen Sunday", date: "Sunday, April 26, 2026", time: "8:30 AM & 11:00 AM", color: "var(--an-teal)", speakers: "Sister Chenille Dixon & Minister Junior Sherman" },
   { title: "Sunday Morning Worship", date: "Every Sunday", time: "8:30 AM & 11:00 AM", color: "var(--an-gold)" },
   { title: "Wednesday Bible Study", date: "Every Wednesday", time: "7:00 PM", color: "var(--an-teal)" },
   { title: "Intercessory Prayer Line", date: "Every Monday", time: "7:00 PM – 8:30 PM", color: "var(--an-orange)" },
@@ -146,50 +147,43 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== TABERNACLE 2026 FEATURED BANNER ===== */}
-      <section className="py-16" style={{ background: "linear-gradient(135deg, #0d1a3a 0%, #1A2F6B 60%, #0d2a26 100%)" }}>
-        <div className="container">
-          <div className="flex flex-col lg:flex-row items-center gap-10">
-            {/* Left: Text */}
-            <div className="flex-1 text-center lg:text-left">
-              <span className="inline-block px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-4" style={{ background: "rgba(201,168,76,0.18)", color: "var(--an-gold)" }}>TABERNACLE 2026 — COMPLETED</span>
-              <h2 className="font-display font-bold text-white mb-3" style={{ fontSize: "clamp(2rem, 4vw, 3rem)", letterSpacing: "-0.01em" }}>
-                TABERNACLE <span style={{ color: "var(--an-gold)" }}>2026</span>
+      {/* ===== KEEP THE FIRE BURNING BANNER ===== */}
+      <section className="py-14 relative overflow-hidden" style={{ background: "linear-gradient(135deg, #0d1a3a 0%, #1A2F6B 50%, #7B2D00 100%)" }}>
+        <div className="absolute inset-0 pointer-events-none" style={{ background: "radial-gradient(ellipse at 60% 50%, rgba(201,144,26,0.18) 0%, transparent 70%)" }} />
+        <div className="relative z-10 container">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+            <div className="text-center md:text-left">
+              <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-4" style={{ background: "rgba(201,144,26,0.18)", color: "var(--an-gold)" }}>
+                🔥 April Series — Keep the Fire Burning
+              </span>
+              <h2 className="font-display font-bold text-white mb-3" style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)", letterSpacing: "-0.01em" }}>
+                The Fire Is <span style={{ color: "var(--an-gold)" }}>Still Burning</span>
               </h2>
-              <p className="font-body text-base mb-3" style={{ color: "rgba(255,255,255,0.85)" }}>
-                A Multi-Night Celebration of the Presence of God
+              <p className="font-body text-base mb-2" style={{ color: "rgba(255,255,255,0.85)", maxWidth: "480px" }}>
+                April 20–30, 2026 · A daily devotional series by <strong style={{ color: "rgba(255,255,255,0.95)" }}>Pastor Shelia Blake</strong>
               </p>
-              <p className="font-body text-sm mb-3" style={{ color: "rgba(255,255,255,0.70)" }}>
-                This spring, All Nations LDCC invites you to an extraordinary series of nights — each one a unique encounter with God, rooted in His Word and overflowing with worship, culture, and the glory of the Tabernacle revealed.
+              <p className="font-body text-sm mb-6" style={{ color: "rgba(255,255,255,0.65)", maxWidth: "480px" }}>
+                Don't let the fire go out. Every day a new word — scripture, devotion, and audio — to keep your spirit ignited and your faith alive.
               </p>
-              <p className="font-body text-sm mb-6" style={{ color: "rgba(255,255,255,0.70)" }}>
-                Three powerful nights of the presence of God — Cultural Night, Kings & Queens Night, and Good Friday's Walk Through the Tabernacle. Thank you to everyone who joined us. The fire is still burning. Join us this Sunday, April 20 for our website launch celebration!
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <Link href="/events" className="btn-gold flex items-center gap-2">
-                  LEARN MORE &amp; RSVP →
-                </Link>
-              </div>
+              <Link href="/daily-word" className="btn-gold flex items-center gap-2 w-fit">
+                🔥 Read &amp; Listen Today's Word <ArrowRight size={14} />
+              </Link>
             </div>
-            {/* Right: Event cards */}
-            <div className="flex flex-col sm:flex-row lg:flex-col gap-4 w-full lg:w-auto lg:min-w-[320px]">
-              <div className="rounded-xl p-5 border-l-4" style={{ background: "rgba(255,255,255,0.06)", borderLeftColor: "var(--an-gold)" }}>
-                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-gold)" }}>Cultural Night — April 1, 2026 ✓ Completed</div>
-                <div className="font-display text-white font-bold text-base">Thank you to all who joined us! A beautiful night of worship, culture, and community united under one roof.</div>
-              </div>
-              <div className="rounded-xl p-5 border-l-4" style={{ background: "rgba(255,255,255,0.06)", borderLeftColor: "var(--an-teal)" }}>
-                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-teal)" }}>Kings &amp; Queens Night ✓ Completed</div>
-                <div className="font-display text-white font-bold text-base">A night of honor, worship, and Word. You came dressed and declared — royalty in the Kingdom of God.</div>
-              </div>
-              <div className="rounded-xl p-5 border-l-4" style={{ background: "rgba(255,255,255,0.06)", borderLeftColor: "#c0392b" }}>
-                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "#e57373" }}>Good Friday: Walk Through the Tabernacle ✓ Completed</div>
-                <div className="font-display text-white font-bold text-base">A reverent, powerful walk through the Tabernacle of Moses — experiencing the story of redemption step by step.</div>
+            <div className="relative w-full md:w-auto md:min-w-[300px] flex-shrink-0">
+              <img
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/enwptABUooxaWtTs.jpg"
+                alt="Keep the Fire Burning — Daily Word Series"
+                className="w-full rounded-2xl shadow-2xl object-cover"
+                style={{ maxHeight: "320px", objectPosition: "center" }}
+              />
+              <div className="absolute bottom-3 left-3 right-3 rounded-xl px-4 py-3" style={{ background: "rgba(13,26,58,0.88)", backdropFilter: "blur(8px)" }}>
+                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-gold)" }}>🔥 Daily Word Series</div>
+                <div className="font-display text-white font-bold text-sm">11 Days · Scripture · Devotion · Audio</div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
       {/* ===== MAY 2026 — ARISE AND TAKE FLIGHT ===== */}
       <section className="py-16 relative overflow-hidden">
         <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #1A2F6B 0%, #3d1a5c 40%, #D63384 100%)" }} />
@@ -258,24 +252,37 @@ export default function Home() {
                 <Link href="/meet-the-pastors" className="btn-outline">MEET OUR PASTORS</Link>
               </div>
             </div>
-            <div className="relative">
-              <div
-                className="absolute -top-4 -left-4 w-full h-full rounded-2xl"
-                style={{ background: "linear-gradient(135deg, var(--an-gold) 0%, var(--an-teal) 100%)", opacity: 0.15 }}
-              />
-              <img
-                src={PASTOR_SHELIA}
-                alt="Executive Pastor Shelia Blake"
-                className="relative z-10 w-full rounded-2xl object-cover shadow-2xl"
-                style={{ maxHeight: "480px", objectPosition: "top" }}
-              />
-              <div
-                className="absolute bottom-4 left-4 right-4 z-20 rounded-xl p-4"
-                style={{ background: "rgba(31,47,92,0.92)", backdropFilter: "blur(8px)" }}
-              >
-                <div className="font-display text-white font-bold">Executive Pastor Shelia Blake</div>
-                <div className="font-body text-xs mt-1" style={{ color: "var(--an-gold)" }}>
-                  All Nations Life Development Christian Center
+            <div className="flex flex-col sm:flex-row gap-5">
+              {/* Bishop Blake */}
+              <div className="relative flex-1">
+                <img
+                  src={BISHOP_BLAKE}
+                  alt="Bishop Cornellas Blake"
+                  className="w-full rounded-2xl object-cover shadow-2xl"
+                  style={{ height: "380px", objectPosition: "top" }}
+                />
+                <div
+                  className="absolute bottom-3 left-3 right-3 rounded-xl p-3"
+                  style={{ background: "rgba(31,47,92,0.92)", backdropFilter: "blur(8px)" }}
+                >
+                  <div className="font-display text-white font-bold text-sm">Bishop Cornellas Blake</div>
+                  <div className="font-body text-xs mt-0.5" style={{ color: "var(--an-gold)" }}>Senior Pastor &amp; Founder</div>
+                </div>
+              </div>
+              {/* Pastor Shelia */}
+              <div className="relative flex-1">
+                <img
+                  src={PASTOR_SHELIA}
+                  alt="Executive Pastor Shelia Blake"
+                  className="w-full rounded-2xl object-cover shadow-2xl"
+                  style={{ height: "380px", objectPosition: "top" }}
+                />
+                <div
+                  className="absolute bottom-3 left-3 right-3 rounded-xl p-3"
+                  style={{ background: "rgba(31,47,92,0.92)", backdropFilter: "blur(8px)" }}
+                >
+                  <div className="font-display text-white font-bold text-sm">Executive Pastor Shelia Blake</div>
+                  <div className="font-body text-xs mt-0.5" style={{ color: "var(--an-gold)" }}>All Nations Life Development Christian Center</div>
                 </div>
               </div>
             </div>
@@ -384,6 +391,7 @@ export default function Home() {
                 <h3 className="font-display font-bold text-base mb-1" style={{ color: "var(--an-navy)" }}>{ev.title}</h3>
                 <div className="font-body font-bold text-sm mb-1" style={{ color: ev.color }}>{ev.date}</div>
                 <div className="font-body text-xs" style={{ color: "#888" }}>{ev.time}</div>
+                {(ev as any).speakers && <div className="font-body text-xs mt-1 font-semibold" style={{ color: "var(--an-navy)" }}>{(ev as any).speakers}</div>}
               </div>
             ))}
           </div>

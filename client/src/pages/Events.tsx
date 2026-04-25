@@ -84,7 +84,16 @@ const completedEvents2026 = [
 ];
 
 const upcomingEvents2026 = [
-  // ── May 2026 — ARISE AND TAKE FLIGHT (Women’s Month) ────────────────────────────────────────────────────────────────────────
+  // ── April 2026 — NEXT GEN SUNDAY ────────────────────────────────────────────────────────────────────────
+  {
+    title: "⭐ Next Gen Sunday — Both Services",
+    date: "Sunday, April 26, 2026",
+    time: "8:30 AM & 11:00 AM",
+    desc: "Next Gen Sunday is here! Join us for both morning services as we celebrate and elevate the next generation of All Nations LDCC. Featuring special messages by Sister Chenille Dixon and Minister Junior Sherman. Come expecting a powerful move of God through the voices of the next generation!",
+    color: "var(--an-teal)",
+    speakers: "Sister Chenille Dixon & Minister Junior Sherman",
+  },
+  // ── May 2026 — ARISE AND TAKE FLIGHT (Women's Month) ────────────────────────────────────────────────────────────────────────
   {
     title: "✈️ Arise & Take Flight — Women’s Month Kickoff",
     date: "Sunday, May 3, 2026",

@@ -49,7 +49,7 @@ const ministries = [
     description: "Our beloved Pink Basket ministry — a compassionate outreach initiative dedicated to serving women in our community facing challenges. Through care packages, encouragement, and practical support, we remind every woman she is seen, valued, and loved.",
     programs: ["Pink Basket Distributions", "Women's Care Packages", "Community Partnerships", "Encouragement Campaigns"],
     link: "/mad-hatters",
-    image: "/manus-storage/pink_church_hat_25405a17.png",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663485607175/QUcZahytSDrYuMjNtsqNpd/pink_cowgirl_hat-2aDMPdELL6jfpETUJR3uy6.png",
   },
   {
     id: "legacy-love", name: "Legacy of Love", tagline: "Love That Outlasts a Lifetime.",

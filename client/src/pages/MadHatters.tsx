@@ -7,7 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Heart, ArrowRight, Gift, Car, Pill, Scissors, ShieldCheck } from "lucide-react";
 
-const HAT_IMG = "/manus-storage/pink_church_hat_25405a17.png";
+const HAT_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485607175/QUcZahytSDrYuMjNtsqNpd/pink_cowgirl_hat-2aDMPdELL6jfpETUJR3uy6.png";
 const BASKET_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/KXiwUSAroRWhVfQl.jpg";
 
 const basketItems = [
