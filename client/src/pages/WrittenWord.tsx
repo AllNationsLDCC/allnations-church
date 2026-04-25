@@ -5,6 +5,7 @@ import { BookOpen, ExternalLink, ArrowRight, Feather, Star } from "lucide-react"
 
 /* ─── Book cover images (local) ─── */
 const COVER_BIRTHING = "/images/books/birthing-your-own-baby.jpg";
+const COVER_PROJECT2026 = "/images/books/project-2026.jpeg";
 const COVER_SINDUCTION = "/images/books/sinduction.jpg";
 const COVER_MWP = "/images/books/my-wealthy-place.jpg";
 const COVER_PRETTY = "/images/books/pretty-woman.jpg";
@@ -87,18 +88,24 @@ const authors: Author[] = [
         description: "A foundational guide for ministry leaders, this book lays out 8 key factors for birthing and building a phenomenal ministry. Drawing from decades of pastoral experience, Bishop Blake provides a roadmap for those called to build something that lasts.",
       },
       {
-        title: "Project 2026 — Vol. 1",
-        cover: "",
+        title: "Project Twenty 2026 — Vol. 1",
+        subtitle: "Your Daily Blueprint for a Better Life",
+        cover: COVER_PROJECT2026,
         year: "2026",
-        description: "A prophetic declaration and strategic blueprint for the next season of Kingdom advancement. Volume 1 sets the foundation for what God is building through All Nations and beyond.",
-        comingSoon: true,
+        pages: "23 DIY Projects for Your Personal Peace",
+        description: "A prophetic declaration and strategic blueprint for the next season of Kingdom advancement. 23 DIY projects for your personal peace — covering Stronger Relationships, Personal Growth, and Daily Achievements. Volume 1 sets the foundation for what God is building through All Nations and beyond.",
+        amazonUrl: "https://www.amazon.com",
+        badge: "Now Available — $24.96",
       },
       {
-        title: "Project 2026 — Vol. 2",
-        cover: "",
+        title: "Project Twenty 2026 — Vol. 2",
+        subtitle: "Your Daily Blueprint for a Better Life",
+        cover: COVER_PROJECT2026,
         year: "2026",
-        description: "The continuation of the Project 2026 vision — expanding the framework for generational impact, community transformation, and apostolic leadership in the modern era.",
-        comingSoon: true,
+        pages: "20 DIY Projects for Your Personal Peace",
+        description: "The continuation of the Project 2026 vision — 20 DIY projects expanding the framework for generational impact, community transformation, and apostolic leadership in the modern era. Stronger Relationships. Personal Growth. Daily Achievements.",
+        amazonUrl: "https://www.amazon.com",
+        badge: "Now Available — $24.96",
       },
     ],
   },

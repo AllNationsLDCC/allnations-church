@@ -49,7 +49,7 @@ const ministries = [
     description: "Our beloved Pink Basket ministry — a compassionate outreach initiative dedicated to serving women in our community facing challenges. Through care packages, encouragement, and practical support, we remind every woman she is seen, valued, and loved.",
     programs: ["Pink Basket Distributions", "Women's Care Packages", "Community Partnerships", "Encouragement Campaigns"],
     link: "/mad-hatters",
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/izpeGmJSjkohsANL.jpg",
+    image: "/manus-storage/pink_church_hat_25405a17.png",
   },
   {
     id: "legacy-love", name: "Legacy of Love", tagline: "Love That Outlasts a Lifetime.",
@@ -147,7 +147,7 @@ export default function Ministries() {
                 <div className={i % 2 === 1 ? "lg:order-1" : ""}>
                   <div className="relative">
                     <div className="absolute -inset-3 rounded-2xl opacity-15" style={{ background: `linear-gradient(135deg, ${m.color}, transparent)` }} />
-                    <img src={m.image} alt={m.name} className="relative z-10 w-full rounded-2xl object-cover shadow-xl" style={{ height: "400px", objectPosition: m.id === 'legacy-making' || m.id === 'great-commission' ? 'center center' : 'center 20%' }} />
+                    <img src={m.image} alt={m.name} className="relative z-10 w-full rounded-2xl object-cover shadow-xl" style={{ height: "400px", objectPosition: m.id === 'legacy-making' || m.id === 'great-commission' ? 'center center' : m.id === 'youth' ? 'center top' : 'center 20%' }} />
                     <div className="absolute top-4 right-4 z-20 px-3 py-1 rounded-full font-body font-bold text-xs text-white" style={{ background: m.color }}>{m.name}</div>
                   </div>
                 </div>

@@ -6,7 +6,7 @@ import { Youtube, Play, ExternalLink, Headphones, BookOpen, Flame, Bell, Calenda
 // April theme: Keep the Fire Burning
 
 const sermonSeries = [
-  { title: "Keep the Fire Burning", desc: "April 2026 — Our new monthly series launching April 20. Sustaining your spiritual fire through worship, the Word, and community.", color: "var(--an-orange)", tag: "Launching April 20" },
+  { title: "Keep the Fire Burning", desc: "April 2026 — Our current monthly series. Sustaining your spiritual fire through worship, the Word, and community.", color: "var(--an-orange)", tag: "Current Series" },
   { title: "Voices of Vision 2026", desc: "Prophetic messages for the new season — hearing God's voice and walking boldly in your purpose.", color: "var(--an-red)", tag: "Current Series" },
   { title: "Love. Learn. Live.", desc: "A foundational series on the mission of All Nations — what it means to love, learn, and live by the Word.", color: "var(--an-gold)", tag: "Featured" },
   { title: "Legacy in the Making", desc: "Building a life and legacy that outlasts you — principles for generational impact.", color: "var(--an-navy)", tag: "Series" },
@@ -30,32 +30,32 @@ export default function Podcast() {
         </div>
       </div>
 
-      {/* Podcast Coming Soon Banner */}
+      {/* Podcast Now Live Banner */}
       <section className="py-16" style={{ background: "var(--an-orange)" }}>
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-4 font-body font-bold text-sm"
               style={{ background: "rgba(255,255,255,0.20)", color: "#fff" }}>
-              <Calendar size={14} /> Launching Sunday, April 20, 2026
+              <Flame size={14} /> Now Live — April 2026
             </div>
             <h2 className="font-display text-4xl font-bold text-white mb-4">
-              All Nations Podcast — <span style={{ color: "var(--an-navy)" }}>Coming Soon</span>
+              All Nations Podcast — <span style={{ color: "var(--an-navy)" }}>Now Live</span>
             </h2>
             <p className="font-body text-lg mb-6 leading-relaxed" style={{ color: "rgba(255,255,255,0.90)" }}>
-              Our dedicated podcast channel launches this Sunday. Every sermon, teaching, and special message from Bishop Cornelius Blake and the All Nations pastoral team — available on all major platforms.
+              Our podcast is live! Every sermon, teaching, and special message from Bishop Cornelius Blake and the All Nations pastoral team — available on YouTube and all major platforms.
             </p>
             <div className="rounded-2xl p-6 mb-6" style={{ background: "rgba(255,255,255,0.15)", border: "1px solid rgba(255,255,255,0.25)" }}>
               <Flame size={32} className="mx-auto mb-3 text-white" />
               <div className="font-display font-bold text-xl text-white mb-2">April Theme: Keep the Fire Burning</div>
               <p className="font-body text-sm" style={{ color: "rgba(255,255,255,0.85)" }}>
-                The first episode drops April 20 — and it's going to set the tone for the entire month. Don't miss it.
+                New episodes releasing throughout April. Don’t miss a single word.
               </p>
             </div>
             <div className="flex gap-4 justify-center flex-wrap">
               <a href="https://www.youtube.com/c/allnationslifedevelopmentchristiancenter" target="_blank" rel="noopener noreferrer"
                 className="flex items-center gap-2 px-6 py-3 rounded-full font-body font-bold text-sm transition-all hover:scale-105"
                 style={{ background: "var(--an-navy)", color: "#fff" }}>
-                <Bell size={14} /> Watch on YouTube Now
+                <Bell size={14} /> Listen on YouTube Now
               </a>
             </div>
           </div>
@@ -172,10 +172,10 @@ export default function Podcast() {
                 All Nations <span style={{ color: "var(--an-teal)" }}>Podcast</span>
               </h2>
               <p className="font-body text-base leading-relaxed mb-4" style={{ color: "#555" }}>
-                Our dedicated podcast is launching April 20, 2026 — available on Spotify, Apple Podcasts, and all major platforms. Every sermon, teaching, and special message from Bishop Cornelius Blake and the All Nations pastoral team, available wherever you listen.
-              </p>
-              <p className="font-body text-sm mb-6" style={{ color: "#888" }}>
-                Until then, all messages are available on our YouTube channel.
+              Our podcast is now live — available on YouTube and all major platforms. Every sermon, teaching, and special message from Bishop Cornelius Blake and the All Nations pastoral team, available wherever you listen.
+            </p>
+            <p className="font-body text-sm mb-6" style={{ color: "#888" }}>
+              New messages added regularly. Subscribe and never miss a word.
               </p>
               <div className="flex gap-3 flex-wrap">
                 <a href="https://www.youtube.com/c/allnationslifedevelopmentchristiancenter" target="_blank" rel="noopener noreferrer"
@@ -191,10 +191,10 @@ export default function Podcast() {
             <div className="rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, rgba(232,98,42,0.06) 0%, rgba(31,47,92,0.06) 100%)", border: "2px dashed rgba(232,98,42,0.30)" }}>
               <Mic size={40} style={{ color: "var(--an-orange)" }} className="mx-auto mb-4" />
               <h3 className="font-display font-bold text-xl mb-2" style={{ color: "var(--an-navy)" }}>
-                Podcast Launching April 20
+                Now Streaming
               </h3>
               <p className="font-body text-sm mb-2" style={{ color: "#666" }}>
-                Subscribe on your favorite platform and be ready for the first episode — <strong>Keep the Fire Burning</strong>.
+                Subscribe on your favorite platform and catch every episode of <strong>Keep the Fire Burning</strong> — now live.
               </p>
               <p className="font-body text-xs mb-4" style={{ color: "#999" }}>
                 Spotify · Apple Podcasts · Google Podcasts · Amazon Music

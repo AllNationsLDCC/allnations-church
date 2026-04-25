@@ -84,49 +84,50 @@ const completedEvents2026 = [
 ];
 
 const upcomingEvents2026 = [
-  // ── April 2026 ──────────────────────────────────────────────────────────
+  // ── May 2026 — ARISE AND TAKE FLIGHT (Women’s Month) ────────────────────────────────────────────────────────────────────────
   {
-    title: "Tabernacle 2026 — Kings & Queens Night",
-    date: "Date to be Announced",
-    time: "TBA",
-    desc: "Come dressed and declared — you are royalty in the Kingdom of God. A royal celebration of identity, purpose, and Kingdom authority. Watch for the announcement of this powerful night. 862 SW Glenview Ct., Port St. Lucie, FL.",
-    color: "var(--an-navy)",
-  },
-  {
-    title: "Community Outreach Day — Q2",
-    date: "April 2026 — Date TBA",
-    time: "TBD",
-    desc: "Serving Port St. Lucie together through food drives, resource distributions, and community love. Watch for the confirmed date announcement.",
-    color: "var(--an-green)",
-  },
-  // ── May 2026 — ARISE AND TAKE FLIGHT ────────────────────────────────────
-  {
-    title: "\u2708\uFE0F Arise & Take Flight — Women's Month Kickoff",
+    title: "✈️ Arise & Take Flight — Women’s Month Kickoff",
     date: "Sunday, May 3, 2026",
     time: "8:30 AM & 11:00 AM",
-    desc: "May is Women's Month at All Nations LDCC! Theme: Arise & Take Flight. A month-long celebration of the women of God — mothers, daughters, sisters, and queens. Join us as we launch this powerful season honoring the women who carry vision, build families, lead with grace, and walk in purpose. Isaiah 40:31.",
+    desc: "May is Women’s Month at All Nations LDCC! Theme: Arise & Take Flight. A month-long celebration of the women of God — mothers, daughters, sisters, and queens. Join us as we launch this powerful season honoring the women who carry vision, build families, lead with grace, and walk in purpose. Isaiah 40:31.",
     color: "#D63384",
   },
   {
-    title: "\uD83C\uDF39 Mother's Day Celebration — Arise & Take Flight",
+    title: "🌹 Mother’s Day Celebration — Arise & Take Flight",
     date: "Sunday, May 10, 2026",
     time: "8:30 AM & 11:00 AM",
-    desc: "A special Mother's Day worship experience honoring the mothers, grandmothers, and mother figures of All Nations LDCC. Come celebrate the women who shape our families and our faith. Special recognitions, worship, and the Word. All are welcome!",
+    desc: "A special Mother’s Day worship experience honoring the mothers, grandmothers, and mother figures of All Nations LDCC. Come celebrate the women who shape our families and our faith. Special recognitions, worship, and the Word. All are welcome!",
     color: "var(--an-red)",
   },
   {
-    title: "Women's Worship Night — Arise & Take Flight",
+    title: "Women’s Worship Night — Arise & Take Flight",
     date: "May 2026 — Date TBA",
     time: "7:00 PM",
     desc: "An evening of praise, testimony, and worship dedicated to the women of All Nations. Come be refreshed, encouraged, and empowered. Guest speakers and special music. Watch for the confirmed date announcement.",
     color: "#D63384",
   },
   {
-    title: "Women's Ministry Retreat — Arise & Take Flight",
+    title: "Women’s Ministry Retreat — Arise & Take Flight",
     date: "May 2026 — Date TBA",
     time: "TBD",
-    desc: "Annual women's retreat for refreshing, renewal, and deeper connection. This year's theme: Arise & Take Flight. Registration details coming soon. Contact the church office for more information.",
+    desc: "Annual women’s retreat for refreshing, renewal, and deeper connection. This year’s theme: Arise & Take Flight. Registration details coming soon. Contact the church office for more information.",
     color: "var(--an-navy)",
+  },
+  // ── Great Commission ────────────────────────────────────────────────────────────────────────
+  {
+    title: "🌍 Senior Wellness Afternoon — The Great Commission Team",
+    date: "Wednesday, June 4, 2026",
+    time: "1:00 PM – 4:00 PM",
+    desc: "A free wellness afternoon for seniors and caregivers hosted by the Great Commission Team. Sessions include Mental Wellness After 50, Medicare & Medicaid, and Prescriptions — What You Don’t Know. Light refreshments provided. 862 SW Glenview Ct., Port St. Lucie, FL.",
+    color: "var(--an-green)",
+  },
+  // ── April 2026 ────────────────────────────────────────────────────────────────────────
+  {
+    title: "Community Outreach Day — Q2",
+    date: "April 2026 — Date TBA",
+    time: "TBD",
+    desc: "Serving Port St. Lucie together through food drives, resource distributions, and community love. Watch for the confirmed date announcement.",
+    color: "var(--an-green)",
   },
   {
     title: "Discipleship 201 — New Cohort",
