@@ -6,7 +6,7 @@ import { Play, Calendar, ArrowRight, Heart, Users, BookOpen, Globe, Music, Star 
 const HERO_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/NCSdecGUJjSTOiGA.jpg";
 const YOUTH_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/TjWcJDkPBeGubtwr.jpeg"; // kids choir on stage — real All Nations
 const COMMUNITY_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/sTVlbALtACCKmonF.jpg"; // Full congregation standing in worship — real All Nations family
-const DANCE_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/CysZrOZZAIvlWCWA.jpg"; // The Arts — mime performer in full costume — real All Nations Arts Ministry
+const DANCE_IMG = "/manus-storage/worship_in_dance_c8a9609d.jpg"; // Worship in Dance — light-up wings liturgical dance — real All Nations
 const PASTOR_SHELIA = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/NundXIvqDynhQrGu.png";
 const BISHOP_BLAKE = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/zbAJslMmOyKZfGkH.jpg";
 

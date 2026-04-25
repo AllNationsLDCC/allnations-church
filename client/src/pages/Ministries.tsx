@@ -48,7 +48,7 @@ const ministries = [
     color: "var(--an-teal)", icon: <Music size={26} />,
     description: "Celebrating the full spectrum of creative worship. Our liturgical dance ministry, worship teams, and creative artists are anointed vessels who carry the presence of God through movement, music, and expression.",
     programs: ["Liturgical Dance", "Praise Dance Classes", "Worship Team", "Youth Voice Training", "Creative Arts Workshop"],
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/CysZrOZZAIvlWCWA.jpg", // The Arts — mime performer in full costume
+    image: "/manus-storage/worship_in_dance_c8a9609d.jpg", // Worship in Dance — light-up wings liturgical dance — real All Nations
   },
   {
     id: "mad-hatters", name: "Mad Hatters — Pink Basket", tagline: "Compassion in Action.",
