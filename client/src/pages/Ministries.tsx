@@ -20,7 +20,7 @@ const ministries = [
     color: "var(--an-gold)", icon: <Star size={26} />,
     description: "Gold & Silver is the seniors ministry of All Nations LDCC — a ministry that honors and celebrates the wisdom, strength, and enduring faith of our senior members. These are the pillars of All Nations — men and women who have walked faithfully with God through every season of life. This ministry creates meaningful fellowship, spiritual enrichment, and joyful community for those whose lives reflect the beauty of a life well-lived for God. Their legacy is our foundation, and their presence is our treasure.",
     programs: ["Senior Fellowship Gatherings", "Wellness & Health Outreach", "Intergenerational Events", "Visitation Ministry", "Senior Wellness Afternoon"],
-    image: "/manus-storage/gold_and_silver_group_239e2caa.jpg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/egGszvwhxdEAWkTq.jpg", // Gold & Silver — real All Nations seniors group photo
   },
   {
     id: "men", name: "Men's Ministry", tagline: "Men of Integrity. Men of Impact.",
@@ -48,7 +48,7 @@ const ministries = [
     color: "var(--an-teal)", icon: <Music size={26} />,
     description: "Celebrating the full spectrum of creative worship. Our liturgical dance ministry, worship teams, and creative artists are anointed vessels who carry the presence of God through movement, music, and expression.",
     programs: ["Liturgical Dance", "Praise Dance Classes", "Worship Team", "Youth Voice Training", "Creative Arts Workshop"],
-    image: "/manus-storage/worship_in_dance_c8a9609d.jpg", // Worship in Dance — light-up wings liturgical dance — real All Nations
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/zGvwPaUWolRbDxel.jpg", // Worship in Dance — real All Nations liturgical dance photo
   },
   {
     id: "mad-hatters", name: "Mad Hatters — Pink Basket", tagline: "Compassion in Action.",
