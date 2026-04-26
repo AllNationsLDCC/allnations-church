@@ -186,6 +186,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Check your oil today. Are you running on empty? Spend time in prayer and worship, and let the Holy Spirit fill you fresh so your lamp will burn always.",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/RXXQPkMIIxMIbkCt.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/nKVspWnQSQauMvck.jpg",
   },
   {
