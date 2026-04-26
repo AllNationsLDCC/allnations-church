@@ -177,6 +177,61 @@ export default function JourneyWithJesus() {
         </div>
       </section>
 
+      {/* Bible Talk Videos */}
+      <section className="py-20" style={{ background: "#fff" }}>
+        <div className="container">
+          <div className="text-center mb-12">
+            <span className="section-label" style={{ color: "var(--an-gold)" }}>Journey with Jesus</span>
+            <h2 className="font-display text-4xl font-bold" style={{ color: "var(--an-navy)" }}>
+              Bible Talk <span style={{ color: "var(--an-gold)" }}>Devotionals</span>
+            </h2>
+            <p className="font-body text-base mt-3 max-w-2xl mx-auto" style={{ color: "#666" }}>
+              Short, powerful devotional messages to fuel your journey. New videos added regularly — join us every Tuesday at 7:30 PM online.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-100">
+              <video
+                controls
+                preload="metadata"
+                className="w-full"
+                style={{ maxHeight: "320px", background: "#000" }}
+              >
+                <source src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/PxrnZnNFCEDlIddC.mov" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div className="p-5">
+                <div className="font-body font-bold text-xs mb-1" style={{ color: "var(--an-gold)" }}>BIBLE TALK</div>
+                <h3 className="font-display font-bold text-lg" style={{ color: "var(--an-navy)" }}>Romans 15:4 — A Word for the Journey</h3>
+                <p className="font-body text-sm mt-2" style={{ color: "#666" }}>A personal devotional reflection on the power of scripture to give us hope and endurance for the road ahead.</p>
+              </div>
+            </div>
+            <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-100">
+              <video
+                controls
+                preload="metadata"
+                className="w-full"
+                style={{ maxHeight: "320px", background: "#000" }}
+              >
+                <source src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/STCmJOTidiGpXSQE.mov" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div className="p-5">
+                <div className="font-body font-bold text-xs mb-1" style={{ color: "var(--an-gold)" }}>BIBLE TALK</div>
+                <h3 className="font-display font-bold text-lg" style={{ color: "var(--an-navy)" }}>Romans 15:19 — The Power of the Holy Spirit</h3>
+                <p className="font-body text-sm mt-2" style={{ color: "#666" }}>A devotional message on the power of the Holy Spirit in ministry, with an invitation to join our weekly Bible Talk.</p>
+              </div>
+            </div>
+          </div>
+          <div className="text-center mt-10">
+            <p className="font-body text-sm mb-4" style={{ color: "#888" }}>📅 Join us every <strong>Tuesday at 7:30 PM</strong> for live Bible Talk online</p>
+            <Link href="/connect" className="btn-navy flex items-center gap-2 w-fit mx-auto">
+              Join the Next Bible Talk <ArrowRight size={14} />
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Discipleship Courses CTA */}
       <section className="py-16" style={{ background: "var(--an-bg)" }}>
         <div className="container">
