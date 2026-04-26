@@ -34,7 +34,7 @@ const ministries = [
     color: "var(--an-orange)", icon: <Star size={26} />,
     description: "Where the next generation discovers who they are in Christ. Dynamic worship, relevant teaching, and real community. Youth services at both 8:30 AM and 11:00 AM on Sundays, with a dedicated Toddler Lounge.",
     programs: ["Sunday Youth Service (8:30 AM & 11 AM)", "Toddler Lounge", "Youth Bible Study", "Summer Programs", "Youth Voice Training"],
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/TpvUttJFgSJQLbEG.jpeg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ujStuQkiKGpOMrHY.webp", // Youth & Next Gen — real All Nations group on stage
   },
   {
     id: "great-commission", name: "The Great Commission", tagline: "Go. Make Disciples. Change the World.",
