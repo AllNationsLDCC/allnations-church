@@ -139,6 +139,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Surrender to the refining process today. Ask God to burn away anything in your life that does not bring Him glory. Trust the hands of the Refiner.",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/jfqPuYCOvsfZorvP.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/RxqfKiLJfBLyMHta.jpg",
   },
   {
