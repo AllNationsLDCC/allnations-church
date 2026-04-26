@@ -154,6 +154,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Open your Bible today. Do not just read it — let Jesus speak to you through it. Let His Word start a fire in your heart.",
     close: "I love you, All Nations. Keep the fire burning. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/RVpsFvjiLEvkWmyV.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/JPsINXNCwdwroLyq.jpg",
   },
   {
