@@ -266,7 +266,7 @@ export default function Home() {
                   style={{ background: "rgba(31,47,92,0.92)", backdropFilter: "blur(8px)" }}
                 >
                   <div className="font-display text-white font-bold text-sm">Bishop Cornellas Blake</div>
-                  <div className="font-body text-xs mt-0.5" style={{ color: "var(--an-gold)" }}>Senior Pastor &amp; Founder</div>
+                  <div className="font-body text-xs mt-0.5" style={{ color: "var(--an-gold)" }}>Senior Pastor</div>
                 </div>
               </div>
               {/* Pastor Shelia */}

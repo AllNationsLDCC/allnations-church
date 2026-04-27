@@ -9,13 +9,13 @@ const BISHOP_PHOTO = "https://files.manuscdn.com/user_upload_by_module/session_f
 const pastors = [
   {
     name: "Bishop Cornelius Blake",
-    title: "Senior Bishop",
+    title: "Senior Pastor",
     color: "var(--an-navy)",
     accentColor: "var(--an-gold)",
     photo: BISHOP_PHOTO,
     photoNote: null,
     bio: [
-      "Bishop Cornelius Blake is the visionary founder and Senior Pastor of All Nations Life Development Christian Center, a thriving multicultural faith community in Port St. Lucie, Florida. For over 35 years, Bishop Blake has led with a prophetic voice, pastoral heart, and unwavering commitment to the transforming power of God's Word.",
+      "Bishop Cornelius Blake is the Senior Pastor of All Nations Life Development Christian Center, a thriving multicultural faith community in Port St. Lucie, Florida. For over 35 years, Bishop Blake has led with a prophetic voice, pastoral heart, and unwavering commitment to the transforming power of God's Word.",
       "Under his leadership, All Nations has grown from a small gathering of believers into a dynamic ministry that impacts thousands of lives through worship, discipleship, outreach, and community development. Bishop Blake's teaching is rooted in the conviction that every person has a divine purpose — and that the local church is God's primary vehicle for revealing it.",
       "Known for his depth of Scripture, clarity of vision, and genuine love for people, Bishop Blake continues to build a legacy that will outlast his lifetime — raising up leaders, strengthening families, and advancing the Kingdom of God in Port St. Lucie and beyond.",
     ],
