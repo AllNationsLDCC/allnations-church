@@ -19,7 +19,7 @@ const COVER_OTTER = "/images/books/book_carol_otter.png";
 /* ─── Author photos ─── */
 const BISHOP_PHOTO = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/4701_aa5134ae.jpg";
 const PASTOR_SHELIA = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/4732_f8ef8a6f.jpg";
-const CAROL_BYRD_PHOTO = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/4701_aa5134ae.jpg"; // placeholder — replace with Lady Carol Byrd photo
+const CAROL_BYRD_PHOTO = "/carol-mike-byrd.jpg";
 
 /* ─── Types ─── */
 interface Book {
