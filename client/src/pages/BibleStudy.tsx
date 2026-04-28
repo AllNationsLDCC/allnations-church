@@ -106,6 +106,34 @@ export default function BibleStudy() {
         </div>
       </div>
 
+      {/* Love the Word Narrative */}
+      <section className="py-14" style={{ background: "var(--an-navy)" }}>
+        <div className="container">
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="font-display text-2xl md:text-3xl font-bold leading-relaxed" style={{ color: "#fff" }}>
+              <span style={{ color: "var(--an-gold)" }}>Love the Word.</span>{" "}
+              <span style={{ color: "var(--an-teal)" }}>Learn the Word.</span>{" "}
+              <span style={{ color: "#fff" }}>Live by the Word.</span>
+            </p>
+            <p className="font-body text-lg mt-6 leading-relaxed" style={{ color: "rgba(255,255,255,0.80)" }}>
+              At All Nations LDCC, the Word of God is not just studied — it is lived. Wednesday Night Bible Study is the heartbeat of our discipleship culture, where believers come together to dig deep into Scripture, encounter the living God, and leave equipped to walk out their faith in every area of life. This is not just a class. It is a lifestyle.
+            </p>
+            <div className="mt-8 flex flex-wrap justify-center gap-8">
+              {[
+                { label: "Love the Word", desc: "Develop a deep, personal love for Scripture as the foundation of your life." },
+                { label: "Learn the Word", desc: "Grow in understanding through sound, Spirit-led biblical teaching every week." },
+                { label: "Live by the Word", desc: "Apply Kingdom principles to your relationships, purpose, and daily walk." },
+              ].map(item => (
+                <div key={item.label} className="flex-1 min-w-[220px] max-w-xs text-left">
+                  <p className="font-display font-bold text-base mb-2" style={{ color: "var(--an-gold)" }}>{item.label}</p>
+                  <p className="font-body text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.75)" }}>{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Info Cards */}
       <section className="py-16" style={{ background: "#fff" }}>
         <div className="container">

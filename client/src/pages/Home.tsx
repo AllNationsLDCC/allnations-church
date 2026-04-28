@@ -52,7 +52,7 @@ export default function Home() {
               Live by the Word.
             </h1>
             <p className="font-body text-lg mb-8 leading-relaxed" style={{ color: "rgba(255,255,255,0.85)" }}>
-              A vibrant, multicultural faith community in Port St. Lucie, FL — building people and strengthening institutions for lasting, generational impact.
+              We are in the People Building Business — a vibrant, multicultural faith community in Port St. Lucie, FL, strengthening individuals, families, and institutions for lasting, generational impact.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/connect" className="btn-gold flex items-center gap-2">
