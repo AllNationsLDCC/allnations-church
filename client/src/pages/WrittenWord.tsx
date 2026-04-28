@@ -10,9 +10,16 @@ const COVER_SINDUCTION = "/images/books/sinduction.jpg";
 const COVER_MWP = "/images/books/my-wealthy-place.jpg";
 const COVER_PRETTY = "/images/books/pretty-woman.jpg";
 
-/* ─── Author photo ─── */
+/* ─── Lady Carolyn Byrd book covers ─── */
+const COVER_7STEPS = "/images/books/book_carol_7steps.jpeg";
+const COVER_FUCHSIA = "/images/books/book_carol_fuchsia.jpeg";
+const COVER_HAPPY_MARRIAGE = "/images/books/book_carol_happy_marriage.png";
+const COVER_OTTER = "/images/books/book_carol_otter.png";
+
+/* ─── Author photos ─── */
 const BISHOP_PHOTO = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/4701_aa5134ae.jpg";
 const PASTOR_SHELIA = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/4732_f8ef8a6f.jpg";
+const CAROL_BYRD_PHOTO = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/2Xyh9HUstvJrPT3UDPZkGi/4701_aa5134ae.jpg"; // placeholder — replace with Lady Carol Byrd photo
 
 /* ─── Types ─── */
 interface Book {
@@ -43,7 +50,7 @@ interface Author {
 const authors: Author[] = [
   {
     name: "Bishop Cornelius Blake",
-    title: "Senior Bishop & Author",
+    title: "Senior Pastor & Author",
     photo: BISHOP_PHOTO,
     accentColor: "var(--an-gold)",
     bio: "Bishop Cornelius Blake is a prolific author, visionary leader, and the founding Senior Pastor of All Nations Life Development Christian Center. Through his writing, Bishop Blake addresses the intersections of faith, wealth, purpose, and redemption — equipping readers with biblical wisdom for real-world transformation. His works span ministry leadership, financial stewardship, spiritual warfare, and the power of covenant relationships.",
@@ -106,6 +113,53 @@ const authors: Author[] = [
         description: "The continuation of the Project 2026 vision — 20 DIY projects expanding the framework for generational impact, community transformation, and apostolic leadership in the modern era. Stronger Relationships. Personal Growth. Daily Achievements.",
         amazonUrl: "https://www.amazon.com",
         badge: "Now Available — $24.96",
+      },
+    ],
+  },
+  {
+    name: "Lady Carolyn Byrd",
+    title: "Author & Legacy of Love Leader",
+    photo: CAROL_BYRD_PHOTO,
+    accentColor: "#9b2c7e",
+    bio: "Lady Carolyn Byrd is a gifted author, women's ministry leader, and Legacy of Love leader at All Nations Life Development Christian Center. Through her writing, Lady Carolyn speaks directly to the hearts of women and families — addressing emotional intimacy, marital health, and spiritual wholeness. Her books are a testament to her passion for building strong marriages, nurturing children in faith, and empowering women to walk in their God-given purpose.",
+    books: [
+      {
+        title: "7 Steps to Effective Communication in Your Marriage",
+        subtitle: "Building Bridges, Not Walls",
+        cover: COVER_7STEPS,
+        year: "2009",
+        publisher: "Michael & Lady Carolyn Byrd",
+        description: "A practical, biblically grounded guide to transforming the way couples communicate. Lady Carolyn Byrd walks readers through seven powerful steps to break down walls, build deeper understanding, and create a marriage culture of openness, respect, and love.",
+        amazonUrl: "https://www.amazon.com/dp/0981786405",
+      },
+      {
+        title: "Fuchsia",
+        subtitle: "",
+        cover: COVER_FUCHSIA,
+        year: "2009",
+        publisher: "Lady Carolyn Byrd",
+        description: "A beautifully written journey of identity, color, and purpose. Fuchsia explores the vibrant, bold, and unapologetic nature of a woman who discovers her true worth in God — bold as the color itself, and just as unforgettable.",
+        amazonUrl: "https://www.amazon.com/dp/0981786464",
+      },
+      {
+        title: "Yes! You Can Have a Happy Marriage",
+        subtitle: "Taking Your Marriage to Another Dimension",
+        cover: COVER_HAPPY_MARRIAGE,
+        year: "2009",
+        publisher: "Michael & Lady Carolyn Byrd",
+        description: "An encouraging and empowering declaration that a happy, thriving marriage is not only possible — it is God's design for you. Mike and Carol Byrd share practical wisdom and spiritual insight to help couples take their marriage to an entirely new dimension of joy, unity, and purpose.",
+        amazonUrl: "https://www.amazon.com/dp/0981786421",
+        badge: "Co-authored with Mike Byrd",
+      },
+      {
+        title: "A Home For Otter",
+        subtitle: "The Adventures of Otter — Book 1",
+        cover: COVER_OTTER,
+        year: "2009",
+        publisher: "Lady Carolyn Byrd",
+        description: "A charming and heartwarming children's story about belonging, family, and finding your place in the world. The Adventures of Otter Book 1 introduces young readers to Otter's journey — a delightful tale that teaches children about identity, community, and the love of God through the eyes of an endearing character.",
+        amazonUrl: "https://www.amazon.com/dp/0981786448",
+        badge: "Children's Book",
       },
     ],
   },
