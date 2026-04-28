@@ -21,7 +21,8 @@ const voicesEvents = [
   { title: "Tabernacle 2026 — Good Friday Walk", date: "April 3, 2026", status: "Completed", color: "var(--an-green)" },
   { title: "Arise & Take Flight — Women's Month", date: "May 2026", status: "Upcoming", color: "#D63384" },
   { title: "Mother's Day Celebration", date: "May 10, 2026", status: "Upcoming", color: "#D63384" },
-  { title: "Voices of Vision Conference", date: "Spring 2026", status: "Upcoming", color: "var(--an-gold)" },
+  { title: "Women's Conference — Evangelist Shadae Brown Clark", date: "Friday, May 29, 2026 · 7:30 PM", status: "Upcoming", color: "#D63384" },
+  { title: "Women's Conference — Prophetess Angela Brown", date: "Sunday, May 31, 2026 · 8:30 AM", status: "Upcoming", color: "#D63384" },
   { title: "Mid-Year Vision Review", date: "July 2026", status: "Upcoming", color: "var(--an-blue)" },
   { title: "Vision Summit & Celebration", date: "December 2026", status: "Upcoming", color: "var(--an-teal)" },
 ];

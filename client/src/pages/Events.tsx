@@ -161,11 +161,18 @@ const upcomingEvents2026 = [
     color: "var(--an-navy)",
   },
   {
-    title: "Voices of Vision Conference",
-    date: "Spring 2026",
-    time: "TBD",
-    desc: "A landmark conference for the Voices of Vision 2026 year theme. Prophetic messages, worship, and Kingdom alignment. Watch for full details and registration.",
-    color: "var(--an-gold)",
+    title: "✨ Women's Conference — Evangelist Shadae Brown Clark",
+    date: "Friday, May 29, 2026",
+    time: "7:30 PM",
+    desc: "All Nations Women's Ministry presents a powerful Friday night service featuring Evangelist Shadae Brown Clark. Come expecting a fresh word, breakthrough, and an encounter with God. All women are welcome — bring a friend!",
+    color: "var(--an-pink, #d63384)",
+  },
+  {
+    title: "✨ Women's Conference — Prophetess Angela Brown",
+    date: "Sunday, May 31, 2026",
+    time: "8:30 AM",
+    desc: "All Nations Women's Ministry continues with a special Sunday morning service featuring Prophetess Angela Brown. A prophetic word for the women of God — come prepared to receive, be activated, and walk boldly in your purpose.",
+    color: "var(--an-pink, #d63384)",
   },
 ];
 
