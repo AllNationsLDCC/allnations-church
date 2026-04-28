@@ -9,10 +9,13 @@ const COMMUNITY_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663390792871/
 
 const ministries = [
   {
-    id: "women", name: "Women's Ministry", tagline: "Empowered. Equipped. Elevated.",
+    id: "women", name: "Women's Ministry", tagline: "Healed. Whole. Unstoppable.",
     color: "var(--an-red)", icon: <Heart size={26} />,
-    description: "A safe, nurturing space where women of all ages grow in faith, build authentic relationships, and walk boldly in their God-given purpose. Through Bible study, mentorship, retreats, and community outreach, we equip women to lead with grace and strength.",
-    programs: ["Women's Bible Study", "Annual Women's Retreat", "Mentorship Program", "Community Outreach"],
+    description: "The Women's Ministry of All Nations LDCC is not just a ministry — it is a movement. Led by Dr. Rosemarie Jean, a trained professional in psychiatry, theology, and chaplaincy, this is a ministry where women are seen in their fullness — spirit, soul, and body — and equipped to walk in complete wholeness. Dr. Jean brings a rare and powerful combination of clinical expertise and deep spiritual authority, creating a space where healing is not just hoped for — it is expected.\n\nThis is an elite community of women who refuse to settle for less than God's best. Whether you are navigating life's hardest seasons or stepping into your greatest assignment, you will find sisters here who will pray with you, speak truth to you, and stand with you. Supported by a dedicated Planning Team, a fervent Prayer and Intercessory Team, and two outstanding assistants — Pastor Kathy Levarity and Minister Deborah Cobb — the Women's Ministry is structured for excellence and fueled by purpose.\n\nThis is where queens are crowned, callings are activated, and legacies are built. If you are a woman who is ready to rise — this is your home.",
+    programs: ["Women's Bible Study", "Prayer & Intercessory Team", "Annual Women's Retreat", "Healing & Wholeness Sessions", "Mentorship & Discipleship", "Community Outreach", "Planning Team"],
+    leader: "Dr. Rosemarie Jean",
+    leaderTitle: "Women's Ministry Leader | Psychiatrist · Theologian · Chaplain",
+    assistants: ["Pastor Kathy Levarity", "Minister Deborah Cobb"],
     image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ylglDAjMHQDEfZUB.jpg", // Women's Ministry Leaders — real All Nations
   },
   {
@@ -143,7 +146,19 @@ export default function Ministries() {
                   <div className="w-14 h-14 rounded-2xl flex items-center justify-center text-white mb-4 shadow-lg" style={{ background: m.color }}>{m.icon}</div>
                   <span className="section-label" style={{ color: m.color }}>{m.tagline}</span>
                   <h2 className="font-display text-3xl font-bold mb-4" style={{ color: "var(--an-navy)" }}>{m.name}</h2>
-                  <p className="font-body text-base leading-relaxed mb-6" style={{ color: "#555" }}>{m.description}</p>
+                  <p className="font-body text-base leading-relaxed mb-6" style={{ color: "#555", whiteSpace: "pre-line" }}>{m.description}</p>
+                  {(m as any).leader && (
+                    <div className="mb-5 p-4 rounded-xl border" style={{ background: `${m.color}08`, borderColor: `${m.color}25` }}>
+                      <p className="font-body font-bold text-sm mb-0.5" style={{ color: "var(--an-navy)" }}>{(m as any).leader}</p>
+                      <p className="font-body text-xs mb-2" style={{ color: m.color }}>{(m as any).leaderTitle}</p>
+                      {(m as any).assistants && (
+                        <p className="font-body text-xs" style={{ color: "#666" }}>
+                          <span className="font-semibold" style={{ color: "var(--an-navy)" }}>Assistants: </span>
+                          {(m as any).assistants.join(" · ")}
+                        </p>
+                      )}
+                    </div>
+                  )}
                   <div className="flex flex-wrap gap-2 mb-6">
                     {m.programs.map(p => (
                       <span key={p} className="font-body text-xs px-3 py-1 rounded-full font-medium" style={{ background: `${m.color}18`, color: m.color, border: `1px solid ${m.color}30` }}>{p}</span>
