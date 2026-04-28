@@ -117,11 +117,11 @@ const authors: Author[] = [
     ],
   },
   {
-    name: "Lady Carolyn Byrd",
-    title: "Author & Legacy of Love Leader",
+    name: "Pastor Mike & Lady Carolyn Byrd",
+    title: "Legacy of Love & Legacy in the Making Leaders",
     photo: CAROL_BYRD_PHOTO,
     accentColor: "#9b2c7e",
-    bio: "Lady Carolyn Byrd is a gifted author, women's ministry leader, and Legacy of Love leader at All Nations Life Development Christian Center. Through her writing, Lady Carolyn speaks directly to the hearts of women and families — addressing emotional intimacy, marital health, and spiritual wholeness. Her books are a testament to her passion for building strong marriages, nurturing children in faith, and empowering women to walk in their God-given purpose.",
+    bio: "Pastor Mike Byrd and Lady Carolyn Byrd are a dynamic ministry team at All Nations Life Development Christian Center, co-leading two transformative ministries: Legacy of Love — the couples ministry designed to help marriages move from simply existing together to thriving together with purpose — and Legacy in the Making, a vibrant singles ministry building lives of purpose, faith, and authentic connection. Together, they bring a unified vision of covenant, wholeness, and Kingdom legacy to every season of life. Through their writing, Pastor Mike and Lady Carolyn speak directly to the hearts of couples, singles, women, and families — addressing emotional intimacy, marital health, communication, and spiritual wholeness. Their books are a testament to their shared passion for building God-centered marriages and nurturing the next generation in faith.",
     books: [
       {
         title: "7 Steps to Effective Communication in Your Marriage",
