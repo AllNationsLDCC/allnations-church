@@ -215,6 +215,16 @@ export default function Home() {
                 <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.70)" }}>May 2026 — Refreshing, renewal &amp; connection</div>
               </div>
             </div>
+            {/* Pretty Woman Book Club Flyer */}
+            <div className="my-8 flex justify-center">
+              <div className="rounded-2xl overflow-hidden shadow-2xl" style={{ maxWidth: "420px", width: "100%", border: "3px solid rgba(214,51,132,0.5)" }}>
+                <img
+                  src="/pretty-woman-book-club-flyer.jpeg"
+                  alt="Pretty Woman — A Book Club Experience | Women's Ministry | Wednesday, May 6 at 7:00 PM"
+                  style={{ width: "100%", height: "auto", display: "block" }}
+                />
+              </div>
+            </div>
             <div className="flex gap-4 justify-center flex-wrap">
               <Link href="/events" className="btn-gold flex items-center gap-2">
                 View May Events <ArrowRight size={14} />
