@@ -53,7 +53,7 @@ const authors: Author[] = [
     title: "Senior Pastor & Author",
     photo: BISHOP_PHOTO,
     accentColor: "var(--an-gold)",
-    bio: "Bishop Cornelius Blake is a prolific author, visionary leader, and the founding Senior Pastor of All Nations Life Development Christian Center. Through his writing, Bishop Blake addresses the intersections of faith, wealth, purpose, and redemption — equipping readers with biblical wisdom for real-world transformation. His works span ministry leadership, financial stewardship, spiritual warfare, and the power of covenant relationships.",
+    bio: "Bishop Cornelius Blake is a prolific author, visionary leader, and the Senior Pastor of All Nations Life Development Christian Center. Through his writing, Bishop Blake addresses the intersections of faith, wealth, purpose, and redemption — equipping readers with biblical wisdom for real-world transformation. His works span ministry leadership, financial stewardship, spiritual warfare, and the power of covenant relationships.",
     books: [
       {
         title: "Pretty Woman",
