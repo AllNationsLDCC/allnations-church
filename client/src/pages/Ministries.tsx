@@ -16,7 +16,10 @@ const ministries = [
     leader: "Dr. Rosemarie Jean",
     leaderTitle: "Women's Ministry Leader | Psychiatrist · Theologian · Chaplain",
     assistants: ["Pastor Kathy Levarity", "Minister Deborah Cobb"],
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ylglDAjMHQDEfZUB.jpg", // Women's Ministry Leaders — real All Nations
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/YVKfnKfhwWcojtCb.jpg", // Women's Ministry full team group photo
+    image2: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ylglDAjMHQDEfZUB.jpg", // Women's Ministry assistants photo
+    image2Label: "Ministry Assistants",
+    imageLabel: "The Full Team",
   },
   {
     id: "gold-and-silver", name: "Gold & Silver", tagline: "Honored. Celebrated. Still Thriving.",
@@ -167,11 +170,26 @@ export default function Ministries() {
                   <Link href={(m as any).link || "/connect"} className="btn-navy flex items-center gap-2 w-fit">{(m as any).link ? "Learn More" : "Get Involved"} <ArrowRight size={14} /></Link>
                 </div>
                 <div className={i % 2 === 1 ? "lg:order-1" : ""}>
-                  <div className="relative">
-                    <div className="absolute -inset-3 rounded-2xl opacity-15" style={{ background: `linear-gradient(135deg, ${m.color}, transparent)` }} />
-                    <img src={m.image} alt={m.name} className="relative z-10 w-full rounded-2xl object-cover shadow-xl" style={{ height: "400px", objectPosition: m.id === 'legacy-making' || m.id === 'great-commission' ? 'center center' : m.id === 'youth' ? 'center top' : 'center 20%' }} />
-                    <div className="absolute top-4 right-4 z-20 px-3 py-1 rounded-full font-body font-bold text-xs text-white" style={{ background: m.color }}>{m.name}</div>
-                  </div>
+                  {(m as any).image2 ? (
+                    <div className="flex flex-col gap-3">
+                      <div className="relative">
+                        <div className="absolute -inset-2 rounded-2xl opacity-15" style={{ background: `linear-gradient(135deg, ${m.color}, transparent)` }} />
+                        <img src={m.image} alt={`${m.name} - ${(m as any).imageLabel}`} className="relative z-10 w-full rounded-2xl object-cover shadow-xl" style={{ height: "260px", objectPosition: "center 20%" }} />
+                        <div className="absolute top-3 right-3 z-20 px-3 py-1 rounded-full font-body font-bold text-xs text-white" style={{ background: m.color }}>{(m as any).imageLabel}</div>
+                      </div>
+                      <div className="relative">
+                        <div className="absolute -inset-2 rounded-2xl opacity-10" style={{ background: `linear-gradient(135deg, ${m.color}, transparent)` }} />
+                        <img src={(m as any).image2} alt={`${m.name} - ${(m as any).image2Label}`} className="relative z-10 w-full rounded-2xl object-cover shadow-lg" style={{ height: "180px", objectPosition: "center 20%" }} />
+                        <div className="absolute top-3 right-3 z-20 px-3 py-1 rounded-full font-body font-bold text-xs text-white" style={{ background: m.color }}>{(m as any).image2Label}</div>
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="relative">
+                      <div className="absolute -inset-3 rounded-2xl opacity-15" style={{ background: `linear-gradient(135deg, ${m.color}, transparent)` }} />
+                      <img src={m.image} alt={m.name} className="relative z-10 w-full rounded-2xl object-cover shadow-xl" style={{ height: "400px", objectPosition: m.id === 'legacy-making' || m.id === 'great-commission' ? 'center center' : m.id === 'youth' ? 'center top' : 'center 20%' }} />
+                      <div className="absolute top-4 right-4 z-20 px-3 py-1 rounded-full font-body font-bold text-xs text-white" style={{ background: m.color }}>{m.name}</div>
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
