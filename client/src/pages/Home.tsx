@@ -364,12 +364,21 @@ export default function Home() {
               Our Youth and Next Gen ministry is a dynamic, faith-filled environment where young people discover their identity in Christ, build lasting friendships, and develop the leadership skills to change their world.
             </p>
             <p className="font-body text-base leading-relaxed mb-8" style={{ color: "rgba(255,255,255,0.75)" }}>
-              Youth services run at both 8:30 AM and 11:00 AM on Sundays, with a dedicated Toddler Lounge for our youngest members. Summer programs are coming — stay connected for registration details.
+              Youth services run at both 8:30 AM and 11:00 AM on Sundays, with a dedicated Toddler Lounge for our youngest members. This summer — join us for Vacation Bible School!
             </p>
+            {/* VBS Flyer */}
+            <div className="my-6 rounded-2xl overflow-hidden shadow-xl" style={{ maxWidth: 380 }}>
+              <img
+                src="/vbs-rooted-in-faith-flyer.jpg"
+                alt="Vacation Bible School — Rooted in Faith | June 1–12, Ages 5–12, 9:00 AM–12:30 PM"
+                className="w-full h-auto block"
+                style={{ borderRadius: "1rem" }}
+              />
+            </div>
             <div className="flex gap-4 flex-wrap">
               <Link href="/ministries" className="btn-gold">Youth Ministry</Link>
               <Link href="/events" className="btn-outline" style={{ borderColor: "#fff", color: "#fff" }}>
-                Summer Programs
+                VBS Registration
               </Link>
             </div>
           </div>

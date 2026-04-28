@@ -147,10 +147,17 @@ const upcomingEvents2026 = [
   },
   // ── Summer & Beyond ───────────────────────────────────────────────────────
   {
-    title: "Youth Summer Programs",
-    date: "Summer 2026",
-    time: "TBD",
-    desc: "Exciting summer programs for youth and children. Registration details coming soon! Programs include academic enrichment, leadership development, and faith formation.",
+    title: "☀️ Vacation Bible School — Rooted in Faith",
+    date: "Monday–Thursday, June 1–12, 2026",
+    time: "9:00 AM – 12:30 PM",
+    desc: "Children's Ministry presents VBS 2026: Rooted in Faith — Growing in God. Shining His Light. (Matthew 5:16) Ages 5–12. Activities include Arts & Crafts, Games In & Outdoors, Prizes & Surprises, Nature Walks, and Lunch is provided! Sign up at the front desk. Volunteers are welcome! Ends with the Back to School Extravaganza on June 12.",
+    color: "var(--an-orange)",
+  },
+  {
+    title: "🎒 Back to School Extravaganza",
+    date: "Friday, June 12, 2026",
+    time: "9:00 AM – 12:30 PM",
+    desc: "VBS wraps up with a Back to School Extravaganza on 6/12! Wear your Rooted in Faith theme T-shirt with pride. A celebration of faith, fun, and friends. All Nations Children's Ministry — a summer to remember!",
     color: "var(--an-orange)",
   },
   {
