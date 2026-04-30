@@ -95,11 +95,25 @@ const upcomingEvents2026 = [
   },
   // ── May 2026 — ARISE AND TAKE FLIGHT (Women's Month) ────────────────────────────────────────────────────────────────────────
   {
-    title: "✈️ Arise & Take Flight — Women’s Month Kickoff",
+    title: "✈️ Women's Service — Arise & Take Flight",
     date: "Sunday, May 3, 2026",
     time: "8:30 AM & 11:00 AM",
-    desc: "May is Women’s Month at All Nations LDCC! Theme: Arise & Take Flight. A month-long celebration of the women of God — mothers, daughters, sisters, and queens. Join us as we launch this powerful season honoring the women who carry vision, build families, lead with grace, and walk in purpose. Isaiah 40:31.",
+    desc: "Women's Month officially takes flight! Join us for both Sunday morning services as we launch our May theme: Arise & Take Flight. A powerful worship experience celebrating the women of God — mothers, daughters, sisters, and queens who carry vision, build families, and walk boldly in purpose. Come expecting a fresh word, a fresh fire, and a fresh wind! Isaiah 40:31.",
     color: "#D63384",
+  },
+  {
+    title: "📖 Book Discussion — \"Pretty Women\"",
+    date: "Wednesday, May 6, 2026",
+    time: "7:00 PM",
+    desc: "Join us for a special book discussion on \"Pretty Women\" — open to everyone! This is not just a women's event; all are welcome to come and be part of the conversation. Bishop Cornelius Blake will be in the discussion, sharing his thoughts, answering questions, and signing books. Can't make it in person? Watch and participate live on YouTube. Come ready for a rich, eye-opening dialogue!",
+    color: "var(--an-teal)",
+  },
+  {
+    title: "🍞 Daily Word — Arise & Take Flight",
+    date: "Every Day in May 2026",
+    time: "12:00 AM (Midnight)",
+    desc: "Miss a meal. Miss a song. But don't miss the Word! Pastor Shelia Blake is delivering a fresh Daily Word every single day in May — straight to your screen at midnight. \"Give us this day our daily bread.\" (Matthew 6:11) Make it part of your morning devotion. Visit allnationsldcc.org/daily-word to listen.",
+    color: "var(--an-gold)",
   },
   {
     title: "🌹 Mother’s Day Celebration — Arise & Take Flight",
