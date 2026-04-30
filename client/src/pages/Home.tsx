@@ -47,9 +47,8 @@ export default function Home() {
               className="font-display font-bold leading-tight mb-6"
               style={{ fontSize: "clamp(2.4rem, 5vw, 4rem)", color: "#fff" }}
             >
-              Love the Word.<br />
-              <span style={{ color: "var(--an-gold)", fontStyle: "italic" }}>Learn the Word.</span><br />
-              Live by the Word.
+              We Are in the<br />
+              <span style={{ color: "var(--an-gold)", fontStyle: "italic" }}>People Building Business.</span>
             </h1>
             <p className="font-body text-lg mb-8 leading-relaxed" style={{ color: "rgba(255,255,255,0.85)" }}>
               We are in the People Building Business — a vibrant, multicultural faith community in Port St. Lucie, FL, strengthening individuals, families, and institutions for lasting, generational impact.
