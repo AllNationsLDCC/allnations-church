@@ -203,6 +203,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "The consuming fire will not destroy what you surrender to Him — He will purify it and make it burn with His own glory. Give Him everything.",
     close: "Thank you for walking through this April series with me. The fire is still burning — and it will never go out. I love you, All Nations. See you Sunday.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XSkgvpVkuWCTeqET.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/cxnfGVzTbKxgtvqO.jpg",
   },
 ];
