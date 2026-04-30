@@ -238,6 +238,22 @@ const entries: DayEntry[] = [
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XOGtgWaWntLvkaAV.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/rhygsXqCqLsWAifC.jpg",
   },
+  {
+    day: 3, date: "May 3, 2026", isoDate: "2026-05-03",
+    title: "Awake, Deborah, Awake",
+    scripture: "Judges 5:12 (KJV)",
+    verse: "Awake, awake, Deborah: awake, awake, utter a song: arise, Barak, and lead thy captivity captive.",
+    welcome: "Good morning, All Nations family. This is Pastor Shelia Blake, and welcome to Day 3 of Arise and Take Flight.",
+    keyPoints: [
+      "Deborah was a mother in Israel, a prophetess, and a judge. But there came a moment when she had to awake and take her position. The nation was in crisis, and God needed a woman to arise.",
+      "Sometimes the hardest part of the flight is waking up to your own potential. You have been sleeping on your gifts. You have been downplaying your calling. But God is saying, 'Awake, awake!'",
+      "Your family needs you to arise. Your community needs you to take flight. You carry a song of victory that the enemy cannot silence. It is time to lead your captivity captive.",
+    ],
+    callToAction: "Shake off the slumber today. Step into the cockpit of your calling. God has given you the authority to arise and lead.",
+    close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/AQyYsJtXNQGOfpbB.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ZcvPNPrpaWeDUprc.jpg",
+  },
 ];
 
 function getTodayEntry(): DayEntry | null {
