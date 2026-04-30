@@ -206,6 +206,22 @@ const entries: DayEntry[] = [
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XSkgvpVkuWCTeqET.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/cxnfGVzTbKxgtvqO.jpg",
   },
+  {
+    day: 1, date: "May 1, 2026", isoDate: "2026-05-01",
+    title: "Arise and Shine",
+    scripture: "Isaiah 60:1 (KJV)",
+    verse: "Arise, shine; for thy light is come, and the glory of the Lord is risen upon thee.",
+    welcome: "Good morning, All Nations family. This is Pastor Shelia Blake, and welcome to Day 1 of our May series — Arise and Take Flight.",
+    keyPoints: [
+      "Women of God, the runway is clear. The holding pattern is over. It is time to arise and shine. God did not call you to stay grounded when He gave you the wings to soar.",
+      "You have been waiting for the right season, the right opportunity — but God is saying, 'Thy light is come.' Your time is now. Do not let fear keep you taxiing on the runway.",
+      "When an airplane takes off, it pushes against the wind — not with it. The resistance you have been feeling is not there to stop you. It is there to lift you up.",
+    ],
+    callToAction: "It is time to lift your nose and pull back the throttle. Leave the baggage on the ground. Arise, shine, and take flight today.",
+    close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/aOLHCSnQUyIzVFnQ.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/QVnDVkTEskkkGstn.jpg",
+  },
 ];
 
 function getTodayEntry(): DayEntry | null {
