@@ -270,6 +270,22 @@ const entries: DayEntry[] = [
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/HRXaYNTrNRJHgWmK.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/iUUzYochjkGpwGBM.jpg",
   },
+  {
+    day: 5, date: "May 5, 2026", isoDate: "2026-05-05",
+    title: "Women on the Move",
+    scripture: "Philippians 3:14 (KJV)",
+    verse: "I press toward the mark for the prize of the high calling of God in Christ Jesus.",
+    welcome: "Good morning, All Nations family. This is Pastor Shelia Blake, and welcome to Day 5 of Arise and Take Flight.",
+    keyPoints: [
+      "There is something powerful about a woman who knows where she is going. She does not wander. She does not hesitate. She presses. She moves with intention, with purpose, and with the anointing of God on her life.",
+      "Paul said, 'I press toward the mark.' That word press means to pursue with intensity, to move forward even when something is pushing back. You are not just walking, you are pressing. You are not just existing, you are moving with divine purpose.",
+      "Women of God, you have been issued a boarding pass. Your name is on it. Your seat is assigned. Your destination is set. It is time to get on the plane and move.",
+    ],
+    callToAction: "Stop waiting for permission to arise. You already have it. God issued it before the foundation of the world. Women on the move — let's go.",
+    close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/qOAGHhsMpoKATKtq.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/hQfmQXUVhhbBJjTo.jpg",
+  },
 ];
 
 function getTodayEntry(): DayEntry | null {
