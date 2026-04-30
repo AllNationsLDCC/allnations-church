@@ -302,6 +302,22 @@ const entries: DayEntry[] = [
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/FyCzMMcZhGQNJPXD.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/aejXYjjPECwrhtOc.jpg",
   },
+  {
+    day: 7, date: "May 7, 2026", isoDate: "2026-05-07",
+    title: "Above the Storm",
+    scripture: "Psalm 107:29 (KJV)",
+    verse: "He maketh the storm a calm, so that the waves thereof are still.",
+    welcome: "Good morning, All Nations family. This is Pastor Shelia Blake, and welcome to Day 7 of Arise and Take Flight.",
+    keyPoints: [
+      "When a storm hits, most birds run for cover. But the eagle does something different. The eagle flies directly into the storm and uses the fierce winds to lift it higher, rising above the clouds.",
+      "An airplane does the same thing. It climbs to a cruising altitude where the air is thin and the sun is shining, even while the storm rages below.",
+      "God is calling you to climb higher today. Stop fighting the storm on the ground. Elevate your praise. Elevate your prayer. Get above the turbulence.",
+    ],
+    callToAction: "Do not let the storms of life keep you grounded. Arise, take flight, and soar above the clouds where His peace reigns.",
+    close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/QAwQVebqwHtvJYTz.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/EqbaWDtYhYgKLJBm.jpg",
+  },
 ];
 
 function getTodayEntry(): DayEntry | null {
