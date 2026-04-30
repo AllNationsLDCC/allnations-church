@@ -286,6 +286,22 @@ const entries: DayEntry[] = [
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/qOAGHhsMpoKATKtq.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/hQfmQXUVhhbBJjTo.jpg",
   },
+  {
+    day: 6, date: "May 6, 2026", isoDate: "2026-05-06",
+    title: "The Faith of Ruth",
+    scripture: "Ruth 1:16 (KJV)",
+    verse: "And Ruth said, Intreat me not to leave thee, or to return from following after thee: for whither thou goest, I will go; and where thou lodgest, I will lodge.",
+    welcome: "Good morning, All Nations family. This is Pastor Shelia Blake, and welcome to Day 6 of Arise and Take Flight.",
+    keyPoints: [
+      "Ruth was a woman who refused to stay grounded in her grief. She had lost her husband, her future seemed bleak, and Naomi told her to go back. But Ruth made a decision to arise and step into the unknown.",
+      "Taking flight requires immense faith. It means leaving the familiar territory behind. Ruth stepped out of Moab and into Bethlehem, trusting God to navigate her journey.",
+      "Because she was willing to fly blind by faith, God landed her right in the lineage of Jesus Christ. Your faith today is setting up generations tomorrow.",
+    ],
+    callToAction: "Step out in faith today. Even if you cannot see the destination, trust the Pilot. Arise and follow where He leads.",
+    close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/FyCzMMcZhGQNJPXD.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/aejXYjjPECwrhtOc.jpg",
+  },
 ];
 
 function getTodayEntry(): DayEntry | null {
