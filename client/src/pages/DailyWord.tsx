@@ -254,6 +254,22 @@ const entries: DayEntry[] = [
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/AQyYsJtXNQGOfpbB.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ZcvPNPrpaWeDUprc.jpg",
   },
+  {
+    day: 4, date: "May 4, 2026", isoDate: "2026-05-04",
+    title: "For Such a Time as This",
+    scripture: "Esther 4:14 (KJV)",
+    verse: "And who knoweth whether thou art come to the kingdom for such a time as this?",
+    welcome: "Good morning, All Nations family. This is Pastor Shelia Blake, and welcome to Day 4 of Arise and Take Flight.",
+    keyPoints: [
+      "Esther was comfortable in the palace. She had status. She had security. But God did not elevate her just to make her comfortable. He elevated her for a purpose.",
+      "When the dark skies rolled in over her people, she had a choice to make. Stay quiet on the ground, or risk everything to take flight. She chose to arise.",
+      "You are not where you are by accident. God has positioned you for such a time as this. Your voice matters. Your courage matters. Your flight is tied to the deliverance of others.",
+    ],
+    callToAction: "Do not shrink back when the skies get dark. You were built for this altitude. Arise and speak up for such a time as this.",
+    close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/HRXaYNTrNRJHgWmK.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/iUUzYochjkGpwGBM.jpg",
+  },
 ];
 
 function getTodayEntry(): DayEntry | null {
