@@ -222,6 +222,22 @@ const entries: DayEntry[] = [
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/aOLHCSnQUyIzVFnQ.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/QVnDVkTEskkkGstn.jpg",
   },
+  {
+    day: 2, date: "May 2, 2026", isoDate: "2026-05-02",
+    title: "Mount Up With Wings",
+    scripture: "Isaiah 40:31 (KJV)",
+    verse: "But they that wait upon the Lord shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint.",
+    welcome: "Good morning, All Nations family. This is Pastor Shelia Blake, and welcome to Day 2 of Arise and Take Flight.",
+    keyPoints: [
+      "An airplane does not fly on its own power alone. It uses the aerodynamics of the wind. When you wait on the Lord, you are not just sitting idle. You are positioning yourself to catch His wind.",
+      "Some of you are exhausted from flapping your own wings, trying to make things happen in your own strength. But God says, 'Wait on me, and I will renew your strength.'",
+      "When you finally catch the thermal currents of the Holy Spirit, you stop striving and start soaring. You mount up with wings as eagles. The altitude changes everything.",
+    ],
+    callToAction: "Stop trying to force the takeoff. Wait on the Lord, catch His wind, and let Him carry you higher than you could ever go on your own.",
+    close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XOGtgWaWntLvkaAV.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/rhygsXqCqLsWAifC.jpg",
+  },
 ];
 
 function getTodayEntry(): DayEntry | null {
