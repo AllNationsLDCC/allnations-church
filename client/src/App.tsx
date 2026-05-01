@@ -54,7 +54,8 @@ function Router() {
       <Route path="/legacy-in-the-making" component={LegacyInTheMaking} />
       <Route path="/gold-and-silver" component={GoldAndSilver} />
       <Route path="/written-word" component={WrittenWord} />
-      <Route path="/lil-people-builders" component={LilPeopleBuilders} />
+      {/* Lil' People Builders — hidden until launch; redirect visitors to home */}
+      <Route path="/lil-people-builders"><Redirect to="/" /></Route>
       <Route path="/reveal" component={Reveal} />
       <Route path="/photo-review" component={PhotoReview} />
       <Route path="/plan-your-visit"><Redirect to="/connect" /></Route>
