@@ -478,7 +478,7 @@ export default function LilPeopleBuilders() {
             >
               {/* Heart icon */}
               <div className="flex justify-center mb-5">
-                <span style={{ fontSize: "2.5rem", lineHeight: 1 }}>🤍</span>
+                <span style={{ fontSize: "2.5rem", lineHeight: 1, color: "#E5BC4B" }}>♥</span>
               </div>
 
               {/* Heading */}
