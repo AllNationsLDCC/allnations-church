@@ -1,6 +1,6 @@
 // Design: Warm, pastoral, professional — Playfair Display headings, Open Sans body
 // Brand: Deep Navy #1A2F6B | Gold #C8901A | Cream #F5F0E8 | White #FFFFFF | Dark #222222
-// Daily Word by Pastor Shelia Blake — April 2026 Theme: Keep the Fire Burning
+// Daily Word by Pastor Shelia Blake — May 2026 Theme: Arise and Take Flight
 
 import { useState } from "react";
 import { Flame, Calendar, Facebook, Instagram, Link2, ChevronDown, ChevronUp, Volume2 } from "lucide-react";
@@ -584,7 +584,7 @@ export default function DailyWord() {
             </div>
             <h2 className="font-display text-3xl font-bold"
               style={{ color: NAVY, fontFamily: "'Playfair Display', Georgia, serif" }}>
-              {todayEntry ? "Today's Word" : "April 2026 Daily Word"}
+              {todayEntry ? "Today's Word" : "May 2026 Daily Word"}
             </h2>
           </div>
 
@@ -599,7 +599,7 @@ export default function DailyWord() {
                 The Fire Is Still Burning
               </h3>
               <p className="font-body text-base leading-relaxed" style={{ color: "#666", fontFamily: "'Open Sans', sans-serif" }}>
-                The April 2026 Daily Word series runs April 20–30. Browse the full archive below to read any day's word.
+                The May 2026 Daily Word series — Arise and Take Flight — runs all month long. Browse the full archive below to read any day's word.
               </p>
             </div>
           )}
@@ -622,8 +622,8 @@ export default function DailyWord() {
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto">
-            {entries.map(entry => (
-              <ArchiveCard key={entry.day} entry={entry} />
+            {entries.filter(entry => entry.isoDate.startsWith("2026-05")).map(entry => (
+              <ArchiveCard key={entry.isoDate} entry={entry} />
             ))}
           </div>
         </div>
