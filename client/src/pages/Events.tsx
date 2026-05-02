@@ -100,6 +100,14 @@ const upcomingEvents2026 = [
     color: "var(--an-teal)",
   },
   {
+    title: "💎 Pearls, Power, Purpose & Possibilities",
+    date: "Wednesday, May 20, 2026",
+    time: "7:00 PM",
+    desc: "Women's Ministry presents a night of connection, growth & opportunity — for Men & Women! Join us for a powerful evening where men and women come together to connect, share ideas, and grow together. Whether you're looking to network, be inspired, or showcase what you do — this space is for YOU! FREE table display opportunity to promote your business, career, talents & skills, and products & services. Attire: Men — Jeans, White Shirt & Sneakers. Women — Jeans, White & Pearls. Table Display RSVP: Sister Rosemarie Smith (772) 985-1558. Reserve your table by May 13, 2026. Refreshments provided. Church Sanctuary, 862 SW Glenview Ct, Port St. Lucie, FL 34953.",
+    color: "#1B2B6B",
+    flyer: "/pearls-power-purpose-flyer.jpeg",
+  },
+  {
     title: "💑 Table It & Talk It Out — A Couples Connection Night",
     date: "Friday, May 22, 2026",
     time: "7:00 PM",
@@ -178,6 +186,58 @@ export default function Events() {
         </div>
       </div>
 
+      {/* Featured Event Hero — Pearls, Power, Purpose & Possibilities */}
+      <section style={{ background: "#0a1128", borderBottom: "4px solid #C8901A" }}>
+        <div className="container py-0">
+          <div className="flex flex-col md:flex-row items-center gap-0 md:gap-10">
+            {/* Flyer Image */}
+            <div className="w-full md:w-2/5 flex-shrink-0">
+              <img
+                src="/pearls-power-purpose-flyer.jpeg"
+                alt="Pearls, Power, Purpose & Possibilities — Women's Ministry Event Flyer"
+                className="w-full h-auto object-contain"
+                style={{ maxHeight: "520px", objectPosition: "center" }}
+              />
+            </div>
+            {/* Event Details */}
+            <div className="flex-1 py-12 px-6 md:px-0 text-center md:text-left">
+              <span className="section-label" style={{ color: "var(--an-gold)", letterSpacing: "0.15em" }}>Women's Ministry Presents</span>
+              <h2 className="font-display font-bold text-white mt-3 mb-4" style={{ fontSize: "clamp(2rem, 5vw, 3.2rem)", lineHeight: 1.1 }}>
+                Pearls, Power,<br />Purpose &amp; Possibilities
+              </h2>
+              <p className="font-body text-base mb-6" style={{ color: "rgba(255,255,255,0.80)", maxWidth: 480 }}>
+                A night of connection, growth &amp; opportunity — <em>for Men &amp; Women.</em> Come network, be inspired, and showcase what you do. FREE table display opportunity available!
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-6">
+                <div className="flex items-center gap-2 text-white">
+                  <Calendar size={16} style={{ color: "var(--an-gold)" }} />
+                  <span className="font-body font-bold text-sm">Wednesday, May 20, 2026</span>
+                </div>
+                <div className="flex items-center gap-2 text-white">
+                  <Clock size={16} style={{ color: "var(--an-gold)" }} />
+                  <span className="font-body font-bold text-sm">7:00 PM</span>
+                </div>
+                <div className="flex items-center gap-2 text-white">
+                  <MapPin size={16} style={{ color: "var(--an-gold)" }} />
+                  <span className="font-body text-sm">Church Sanctuary</span>
+                </div>
+              </div>
+              <div className="rounded-xl p-4 mb-6 inline-block text-left" style={{ background: "rgba(200,144,26,0.15)", border: "1px solid rgba(200,144,26,0.4)" }}>
+                <p className="font-body text-sm font-bold" style={{ color: "var(--an-gold)" }}>Table Display RSVP</p>
+                <p className="font-body text-sm text-white">Sister Rosemarie Smith</p>
+                <a href="tel:7729851558" className="font-body text-sm font-bold" style={{ color: "var(--an-gold)" }}>(772) 985-1558</a>
+                <p className="font-body text-xs mt-1" style={{ color: "rgba(255,255,255,0.60)" }}>Reserve your table by May 13, 2026</p>
+              </div>
+              <div className="flex gap-3 justify-center md:justify-start">
+                <a href="tel:7729851558" className="btn-gold flex items-center gap-2">
+                  <Phone size={14} /> RSVP Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Weekly Schedule */}
       <section className="py-20" style={{ background: "#fff" }}>
         <div className="container">
@@ -231,19 +291,29 @@ export default function Events() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {upcomingEvents2026.map(ev => (
-              <div key={ev.title} className="bg-white rounded-xl p-6 shadow-sm ministry-card border-t-4" style={{ borderTopColor: ev.color }}>
-                <div className="flex items-center gap-2 mb-3">
-                  <Calendar size={16} style={{ color: ev.color }} />
-                  <span className="font-body font-bold text-xs" style={{ color: ev.color }}>{ev.date}</span>
-                </div>
-                <h3 className="font-display font-bold text-base mb-2" style={{ color: "var(--an-navy)" }}>{ev.title}</h3>
-                {ev.time !== "TBD" && (
-                  <div className="flex items-center gap-2 mb-2">
-                    <Clock size={12} style={{ color: "#aaa" }} />
-                    <span className="font-body text-xs" style={{ color: "#888" }}>{ev.time}</span>
-                  </div>
+              <div key={ev.title} className="bg-white rounded-xl shadow-sm ministry-card border-t-4 overflow-hidden" style={{ borderTopColor: ev.color }}>
+                {(ev as any).flyer && (
+                  <img
+                    src={(ev as any).flyer}
+                    alt={`${ev.title} flyer`}
+                    className="w-full object-cover"
+                    style={{ maxHeight: "200px", objectPosition: "top" }}
+                  />
                 )}
-                <p className="font-body text-sm leading-relaxed" style={{ color: "#666" }}>{ev.desc}</p>
+                <div className="p-6">
+                  <div className="flex items-center gap-2 mb-3">
+                    <Calendar size={16} style={{ color: ev.color }} />
+                    <span className="font-body font-bold text-xs" style={{ color: ev.color }}>{ev.date}</span>
+                  </div>
+                  <h3 className="font-display font-bold text-base mb-2" style={{ color: "var(--an-navy)" }}>{ev.title}</h3>
+                  {ev.time !== "TBD" && (
+                    <div className="flex items-center gap-2 mb-2">
+                      <Clock size={12} style={{ color: "#aaa" }} />
+                      <span className="font-body text-xs" style={{ color: "#888" }}>{ev.time}</span>
+                    </div>
+                  )}
+                  <p className="font-body text-sm leading-relaxed" style={{ color: "#666" }}>{ev.desc}</p>
+                </div>
               </div>
             ))}
           </div>
