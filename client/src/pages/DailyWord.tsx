@@ -622,7 +622,11 @@ export default function DailyWord() {
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto">
-            {entries.filter(entry => entry.isoDate.startsWith("2026-05")).map(entry => (
+            {entries.filter(entry => {
+              const now = new Date();
+              const currentMonthPrefix = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`;
+              return entry.isoDate.startsWith(currentMonthPrefix);
+            }).map(entry => (
               <ArchiveCard key={entry.isoDate} entry={entry} />
             ))}
           </div>
