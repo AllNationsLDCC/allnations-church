@@ -189,7 +189,7 @@ export default function JourneyWithJesus() {
               Short, powerful devotional messages to fuel your journey. New videos added regularly — join us every Tuesday at 7:30 PM online.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-100">
               <video
                 controls
@@ -220,6 +220,23 @@ export default function JourneyWithJesus() {
                 <div className="font-body font-bold text-xs mb-1" style={{ color: "var(--an-gold)" }}>BIBLE TALK</div>
                 <h3 className="font-display font-bold text-lg" style={{ color: "var(--an-navy)" }}>Romans 15:19 — The Power of the Holy Spirit</h3>
                 <p className="font-body text-sm mt-2" style={{ color: "#666" }}>A devotional message on the power of the Holy Spirit in ministry, with an invitation to join our weekly Bible Talk.</p>
+              </div>
+            </div>
+            {/* New Video — Romans 15:6-7 */}
+            <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-100">
+              <video
+                controls
+                preload="metadata"
+                className="w-full"
+                style={{ maxHeight: "320px", background: "#000" }}
+              >
+                <source src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ecOBgGZWYfsWbvZa.mov" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div className="p-5">
+                <div className="font-body font-bold text-xs mb-1" style={{ color: "var(--an-gold)" }}>BIBLE TALK</div>
+                <h3 className="font-display font-bold text-lg" style={{ color: "var(--an-navy)" }}>Romans 15:6-7 — Welcome One Another as Christ Has Welcomed You</h3>
+                <p className="font-body text-sm mt-2" style={{ color: "#666" }}>Unity isn't the goal — glorifying God is. In this devotional, we explore how the grace that welcomed us should shape the way we welcome others.</p>
               </div>
             </div>
           </div>
