@@ -174,7 +174,7 @@ export default function Home() {
                 Ladies, as we kick off <strong style={{ color: "var(--an-gold)" }}>Arise &amp; Take Flight</strong> this Sunday, May 3rd, come dressed in your <strong style={{ color: "#fff" }}>White &amp; Gold</strong> to worship in unity and beauty. Let’s take flight together!
               </div>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8 max-w-2xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8 max-w-2xl mx-auto">
               <div className="rounded-xl p-4" style={{ background: "rgba(255,255,255,0.08)" }}>
                 <div className="font-display font-bold text-white text-sm mb-1">✈️ Women’s Service Kickoff</div>
                 <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.70)" }}>Sunday, May 3 — 8:30 AM &amp; 11:00 AM · Wear White &amp; Gold!</div>
@@ -183,10 +183,7 @@ export default function Home() {
                 <div className="font-display font-bold text-white text-sm mb-1">Mother's Day</div>
                 <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.70)" }}>Sunday, May 10 — 8:30 AM &amp; 11:00 AM</div>
               </div>
-              <div className="rounded-xl p-4" style={{ background: "rgba(255,255,255,0.08)" }}>
-                <div className="font-display font-bold text-white text-sm mb-1">Women's Worship Night</div>
-                <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.70)" }}>Date TBA — An evening of praise &amp; testimony</div>
-              </div>
+
             </div>
             {/* Pretty Woman Book Club Flyer */}
             <div className="my-8 flex justify-center">

@@ -163,15 +163,7 @@ const authors: Author[] = [
       },
     ],
   },
-  {
-    name: "Executive Pastor Shelia Blake",
-    title: "Executive Pastor & Author",
-    photo: PASTOR_SHELIA,
-    accentColor: "var(--an-teal)",
-    bio: "Executive Pastor Shelia Blake is a visionary leader, entrepreneur, and faith-driven strategist whose voice carries the weight of both corporate excellence and Kingdom authority. Her upcoming written works will reflect her unique intersection of ministry, marketplace leadership, and generational empowerment.",
-    books: [],
-    comingSoonNote: "Pastor Shelia's literary works are currently in development. Stay tuned for announcements on her upcoming publications — covering leadership, faith in the marketplace, and building legacy.",
-  },
+
 ];
 
 /* ─── Component ─── */
