@@ -26,6 +26,7 @@ const upcomingEvents = [
   { title: "Intercessory Prayer Line", date: "Every Monday", time: "7:00 PM – 8:30 PM", color: "var(--an-orange)" },
   { title: "Mother's Day Celebration", date: "May 10, 2026", time: "8:30 AM & 11:00 AM", color: "#D63384" },
   { title: "Arise & Take Flight — Women's Month", date: "May 2026", time: "All Month", color: "var(--an-navy)" },
+  { title: "💑 Table It & Talk It Out — Couples Night", date: "Friday, May 22, 2026", time: "7:00 PM · Free Event", color: "#C8901A" },
 ];
 
 export default function Home() {
@@ -104,80 +105,45 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== DAILY WORD FEATURED SECTION ===== */}
+      {/* ===== DAILY WORD FEATURED SECTION — MAY 2026 ===== */}
       <section className="py-12" style={{ background: "linear-gradient(135deg, #1A2F6B 0%, #0d1a3a 100%)" }}>
         <div className="container">
           <div className="flex flex-col lg:flex-row items-center gap-8">
             {/* Left: Label + Title */}
             <div className="flex-1 text-center lg:text-left">
               <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-4" style={{ background: "rgba(197,157,47,0.18)", color: "var(--an-gold)" }}>
-                <BookOpen size={12} /> Today's Daily Word
+                <BookOpen size={12} /> Today's Daily Word — May 2026
               </span>
               <h2 className="font-display font-bold text-white mb-2" style={{ fontSize: "clamp(1.6rem, 3vw, 2.4rem)" }}>
-                Keep the <span style={{ color: "var(--an-gold)" }}>Fire Burning</span>
+                Arise &amp; <span style={{ color: "var(--an-gold)" }}>Take Flight</span>
               </h2>
               <p className="font-body text-sm mb-1" style={{ color: "rgba(255,255,255,0.70)" }}>
                 A daily devotional series by <strong style={{ color: "rgba(255,255,255,0.90)" }}>Pastor Shelia Blake</strong>
               </p>
-              <p className="font-body text-sm mb-6" style={{ color: "rgba(255,255,255,0.60)" }}>
-                April 20–30, 2026 · New word unlocked every morning
+              <p className="font-body text-sm mb-2" style={{ color: "rgba(255,255,255,0.60)" }}>
+                May 2026 · Women's Month · New word every morning
+              </p>
+              <p className="font-body text-sm italic mb-6" style={{ color: "rgba(255,255,255,0.55)" }}>
+                Miss a meal. Miss a song. But don't miss the Word.
               </p>
               <Link href="/daily-word" className="btn-gold inline-flex items-center gap-2">
                 <BookOpen size={14} />
-                Read & Listen Today's Word
+                Read &amp; Listen Today's Word
               </Link>
             </div>
-            {/* Right: Decorative fire card */}
+            {/* Right: Decorative card */}
             <div
               className="flex-shrink-0 w-full lg:w-80 rounded-2xl p-6 text-center"
               style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(197,157,47,0.25)" }}
             >
-              <div className="text-5xl mb-3">🔥</div>
-              <div className="font-body text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-gold)" }}>April Series</div>
-              <div className="font-display font-bold text-white text-xl mb-2">Keep the Fire Burning</div>
+              <div className="text-5xl mb-3">✈️</div>
+              <div className="font-body text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-gold)" }}>May Series — Women's Month</div>
+              <div className="font-display font-bold text-white text-xl mb-2">Arise &amp; Take Flight</div>
               <div className="font-body text-sm" style={{ color: "rgba(255,255,255,0.65)" }}>
-                11 days · Scripture · Devotional · Audio
+                31 days · Scripture · Devotional · Audio
               </div>
               <div className="mt-4 pt-4" style={{ borderTop: "1px solid rgba(197,157,47,0.2)" }}>
                 <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.50)" }}>New word every morning at midnight</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ===== KEEP THE FIRE BURNING BANNER ===== */}
-      <section className="py-14 relative overflow-hidden" style={{ background: "linear-gradient(135deg, #0d1a3a 0%, #1A2F6B 50%, #7B2D00 100%)" }}>
-        <div className="absolute inset-0 pointer-events-none" style={{ background: "radial-gradient(ellipse at 60% 50%, rgba(201,144,26,0.18) 0%, transparent 70%)" }} />
-        <div className="relative z-10 container">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-            <div className="text-center md:text-left">
-              <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-4" style={{ background: "rgba(201,144,26,0.18)", color: "var(--an-gold)" }}>
-                🔥 April Series — Keep the Fire Burning
-              </span>
-              <h2 className="font-display font-bold text-white mb-3" style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)", letterSpacing: "-0.01em" }}>
-                The Fire Is <span style={{ color: "var(--an-gold)" }}>Still Burning</span>
-              </h2>
-              <p className="font-body text-base mb-2" style={{ color: "rgba(255,255,255,0.85)", maxWidth: "480px" }}>
-                April 20–30, 2026 · A daily devotional series by <strong style={{ color: "rgba(255,255,255,0.95)" }}>Pastor Shelia Blake</strong>
-              </p>
-              <p className="font-body text-sm mb-6" style={{ color: "rgba(255,255,255,0.65)", maxWidth: "480px" }}>
-                Don't let the fire go out. Every day a new word — scripture, devotion, and audio — to keep your spirit ignited and your faith alive.
-              </p>
-              <Link href="/daily-word" className="btn-gold flex items-center gap-2 w-fit">
-                🔥 Read &amp; Listen Today's Word <ArrowRight size={14} />
-              </Link>
-            </div>
-            <div className="relative w-full md:w-auto md:min-w-[300px] flex-shrink-0">
-              <img
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/enwptABUooxaWtTs.jpg"
-                alt="Keep the Fire Burning — Daily Word Series"
-                className="w-full rounded-2xl shadow-2xl object-cover"
-                style={{ maxHeight: "320px", objectPosition: "center" }}
-              />
-              <div className="absolute bottom-3 left-3 right-3 rounded-xl px-4 py-3" style={{ background: "rgba(13,26,58,0.88)", backdropFilter: "blur(8px)" }}>
-                <div className="font-body font-bold text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-gold)" }}>🔥 Daily Word Series</div>
-                <div className="font-display text-white font-bold text-sm">11 Days · Scripture · Devotion · Audio</div>
               </div>
             </div>
           </div>
@@ -220,6 +186,16 @@ export default function Home() {
                 <img
                   src="/pretty-woman-book-club-flyer.jpeg"
                   alt="Pretty Woman — A Book Club Experience | Women's Ministry | Wednesday, May 6 at 7:00 PM"
+                  style={{ width: "100%", height: "auto", display: "block" }}
+                />
+              </div>
+            </div>
+            {/* Table It & Talk It Out Flyer */}
+            <div className="my-8 flex justify-center">
+              <div className="rounded-2xl overflow-hidden shadow-2xl" style={{ maxWidth: "420px", width: "100%", border: "3px solid rgba(200,144,26,0.6)" }}>
+                <img
+                  src="/images/table-it-talk-it-out-flyer.png"
+                  alt="Table It & Talk It Out — A Couples Connection Night | Legacy of Love | Friday, May 22 at 7:00 PM | Free Event"
                   style={{ width: "100%", height: "auto", display: "block" }}
                 />
               </div>

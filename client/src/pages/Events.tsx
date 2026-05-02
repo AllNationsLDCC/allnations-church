@@ -109,6 +109,13 @@ const upcomingEvents2026 = [
     color: "var(--an-teal)",
   },
   {
+    title: "💑 Table It & Talk It Out — A Couples Connection Night",
+    date: "Friday, May 22, 2026",
+    time: "7:00 PM",
+    desc: "Legacy of Love presents Table It & Talk It Out — A Couples Connection Night! Chips · Dip · Real Conversations. Experience Table It: Emotions Matter Live — a guided, interactive connection experience. This is a FREE event open to all couples. Come ready to reconnect, communicate, and grow together. You didn't fall out of love... you just need space to reconnect. All Nations Life Development Christian Center, 862 SW Glenview Ct., Port St. Lucie, FL.",
+    color: "#C8901A",
+  },
+  {
     title: "🍞 Daily Word — Arise & Take Flight",
     date: "Every Day in May 2026",
     time: "12:00 AM (Midnight)",

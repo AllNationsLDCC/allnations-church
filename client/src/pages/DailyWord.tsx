@@ -8,7 +8,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { toast } from "sonner";
 
-const PASTOR_SHELIA = "https://d2xsxph8kpxj0f.cloudfront.net/310519663485607175/PdktnDvnsnrtAxYXxEkePm/pastor_shelia_cropped-DzHQnEZvfMxWJAMHJPGhBT.png";
+const PASTOR_SHELIA = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/NundXIvqDynhQrGu.png";
 
 const NAVY = "#1A2F6B";
 const GOLD = "#C8901A";
@@ -560,13 +560,13 @@ export default function DailyWord() {
           </div>
           <h1 className="font-display text-5xl md:text-6xl font-bold text-white mb-3 leading-tight"
             style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>
-            KEEP THE FIRE BURNING
+            ARISE AND TAKE FLIGHT
           </h1>
           <p className="font-body font-bold text-base mb-2" style={{ color: GOLD, fontFamily: "'Open Sans', sans-serif" }}>
-            April 2026 Daily Word Theme
+            May 2026 Daily Word Theme — Women's Month
           </p>
           <p className="font-body text-sm italic" style={{ color: "rgba(255,255,255,0.70)", fontFamily: "'Open Sans', sans-serif" }}>
-            A Daily Word for the Soul that Refuses to Grow Cold
+            Miss a meal, miss a song — but don't miss the Word
           </p>
           <p className="font-body text-xs mt-3" style={{ color: "rgba(255,255,255,0.50)", fontFamily: "'Open Sans', sans-serif" }}>
             With Pastor Shelia Blake, Executive Pastor
@@ -612,13 +612,13 @@ export default function DailyWord() {
           <div className="text-center mb-10">
             <div className="flex items-center justify-center gap-2 mb-2">
               <Calendar size={18} style={{ color: GOLD }} />
-              <h2 className="font-display text-3xl font-bold"
+            <h2 className="font-display text-3xl font-bold"
                 style={{ color: NAVY, fontFamily: "'Playfair Display', Georgia, serif" }}>
-                April 2026 Daily Word Archive
-              </h2>
-            </div>
-            <p className="font-body text-base" style={{ color: GOLD, fontFamily: "'Open Sans', sans-serif" }}>
-              Walk the full Keep the Fire Burning series
+              May 2026 Daily Word Archive
+            </h2>
+          </div>
+          <p className="font-body text-base" style={{ color: GOLD, fontFamily: "'Open Sans', sans-serif" }}>
+              Walk the full Arise and Take Flight series
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto">
