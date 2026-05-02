@@ -159,22 +159,7 @@ export default function Footer() {
               Give Online
             </a>
 
-            {/* Realm Connect — Coming Soon */}
-            <div
-              className="rounded-lg p-4 mt-4"
-              style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.12)" }}
-            >
-              <div className="font-body font-bold text-white text-sm mb-1">Members Portal</div>
-              <div className="font-body text-xs mb-2" style={{ color: "rgba(255,255,255,0.55)" }}>
-                Realm Connect — Member engagement, groups & directory access
-              </div>
-              <span
-                className="inline-block font-body font-bold text-xs px-3 py-1 rounded-full"
-                style={{ background: "rgba(197,157,47,0.18)", color: "var(--an-gold)", letterSpacing: "0.1em" }}
-              >
-                COMING SOON
-              </span>
-            </div>
+
           </div>
         </div>
       </div>

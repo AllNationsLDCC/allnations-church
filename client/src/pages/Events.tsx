@@ -120,20 +120,7 @@ const upcomingEvents2026 = [
     desc: "A special Mother’s Day worship experience honoring the mothers, grandmothers, and mother figures of All Nations LDCC. Come celebrate the women who shape our families and our faith. Special recognitions, worship, and the Word. All are welcome!",
     color: "var(--an-red)",
   },
-  {
-    title: "Women’s Worship Night — Arise & Take Flight",
-    date: "May 2026 — Date TBA",
-    time: "7:00 PM",
-    desc: "An evening of praise, testimony, and worship dedicated to the women of All Nations. Come be refreshed, encouraged, and empowered. Guest speakers and special music. Watch for the confirmed date announcement.",
-    color: "#D63384",
-  },
-  {
-    title: "Women’s Ministry Retreat — Arise & Take Flight",
-    date: "May 2026 — Date TBA",
-    time: "TBD",
-    desc: "Annual women’s retreat for refreshing, renewal, and deeper connection. This year’s theme: Arise & Take Flight. Registration details coming soon. Contact the church office for more information.",
-    color: "var(--an-navy)",
-  },
+
   // ── Great Commission ────────────────────────────────────────────────────────────────────────
   {
     title: "🌍 Senior Wellness Afternoon — The Great Commission Team",
@@ -142,21 +129,7 @@ const upcomingEvents2026 = [
     desc: "A free wellness afternoon for seniors and caregivers hosted by the Great Commission Team. Sessions include Mental Wellness After 50, Medicare & Medicaid, and Prescriptions — What You Don’t Know. Light refreshments provided. 862 SW Glenview Ct., Port St. Lucie, FL.",
     color: "var(--an-green)",
   },
-  // ── Summer 2026 — Community Outreach ────────────────────────────────────────────────────────────────────────
-  {
-    title: "Community Outreach Day — Q3",
-    date: "Summer 2026 — Date TBA",
-    time: "TBD",
-    desc: "Serving Port St. Lucie together through food drives, resource distributions, and community love. Watch for the confirmed date announcement.",
-    color: "var(--an-green)",
-  },
-  {
-    title: "Discipleship 201 — New Cohort",
-    date: "Spring 2026 — Enrollment Open",
-    time: "TBD",
-    desc: "New cohort beginning for Discipleship 201: Foundations of Faith. Certificate awarded upon completion. Contact us to reserve your spot.",
-    color: "var(--an-blue)",
-  },
+
   // ── Summer & Beyond ───────────────────────────────────────────────────────
   {
     title: "☀️ Vacation Bible School — Rooted in Faith",
@@ -172,13 +145,7 @@ const upcomingEvents2026 = [
     desc: "VBS wraps up with a Back to School Extravaganza on 6/12! Wear your Rooted in Faith theme T-shirt with pride. A celebration of faith, fun, and friends. All Nations Children's Ministry — a summer to remember!",
     color: "var(--an-orange)",
   },
-  {
-    title: "Leadership Lab",
-    date: "Ongoing 2026",
-    time: "TBD",
-    desc: "The Leadership Lab ministry class for emerging leaders. Rooted in the Nehemiah model of servant leadership. Contact us for the current schedule.",
-    color: "var(--an-navy)",
-  },
+
   {
     title: "✨ Women's Conference — Evangelist Shadae Brown Clark",
     date: "Friday, May 29, 2026",
