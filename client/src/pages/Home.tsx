@@ -20,7 +20,7 @@ const ministries = [
 ];
 
 const upcomingEvents = [
-  { title: "Next Gen Sunday", date: "Sunday, April 26, 2026", time: "8:30 AM & 11:00 AM", color: "var(--an-teal)", speakers: "Sister Chenille Dixon & Minister Junior Sherman" },
+  { title: "✈️ Women's Service Kickoff — Arise & Take Flight", date: "Sunday, May 3, 2026", time: "8:30 AM & 11:00 AM", color: "var(--an-gold)", speakers: "Wear White & Gold! Women's Month officially launches." },
   { title: "Sunday Morning Worship", date: "Every Sunday", time: "8:30 AM & 11:00 AM", color: "var(--an-gold)" },
   { title: "Wednesday Bible Study", date: "Every Wednesday", time: "7:00 PM", color: "var(--an-teal)" },
   { title: "Intercessory Prayer Line", date: "Every Monday", time: "7:00 PM – 8:30 PM", color: "var(--an-orange)" },
