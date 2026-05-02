@@ -84,15 +84,6 @@ const completedEvents2026 = [
 ];
 
 const upcomingEvents2026 = [
-  // ── April 2026 — NEXT GEN SUNDAY ────────────────────────────────────────────────────────────────────────
-  {
-    title: "⭐ Next Gen Sunday — Both Services",
-    date: "Sunday, April 26, 2026",
-    time: "8:30 AM & 11:00 AM",
-    desc: "Next Gen Sunday is here! Join us for both morning services as we celebrate and elevate the next generation of All Nations LDCC. Featuring special messages by Sister Chenille Dixon and Minister Junior Sherman. Come expecting a powerful move of God through the voices of the next generation!",
-    color: "var(--an-teal)",
-    speakers: "Sister Chenille Dixon & Minister Junior Sherman",
-  },
   // ── May 2026 — ARISE AND TAKE FLIGHT (Women's Month) ────────────────────────────────────────────────────────────────────────
   {
     title: "✈️ Women's Service — Arise & Take Flight",
@@ -151,10 +142,10 @@ const upcomingEvents2026 = [
     desc: "A free wellness afternoon for seniors and caregivers hosted by the Great Commission Team. Sessions include Mental Wellness After 50, Medicare & Medicaid, and Prescriptions — What You Don’t Know. Light refreshments provided. 862 SW Glenview Ct., Port St. Lucie, FL.",
     color: "var(--an-green)",
   },
-  // ── April 2026 ────────────────────────────────────────────────────────────────────────
+  // ── Summer 2026 — Community Outreach ────────────────────────────────────────────────────────────────────────
   {
-    title: "Community Outreach Day — Q2",
-    date: "April 2026 — Date TBA",
+    title: "Community Outreach Day — Q3",
+    date: "Summer 2026 — Date TBA",
     time: "TBD",
     desc: "Serving Port St. Lucie together through food drives, resource distributions, and community love. Watch for the confirmed date announcement.",
     color: "var(--an-green)",
