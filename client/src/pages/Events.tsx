@@ -98,7 +98,7 @@ const upcomingEvents2026 = [
     title: "✈️ Women's Service — Arise & Take Flight",
     date: "Sunday, May 3, 2026",
     time: "8:30 AM & 11:00 AM",
-    desc: "Women's Month officially takes flight! Join us for both Sunday morning services as we launch our May theme: Arise & Take Flight. A powerful worship experience celebrating the women of God — mothers, daughters, sisters, and queens who carry vision, build families, and walk boldly in purpose. Come expecting a fresh word, a fresh fire, and a fresh wind! Isaiah 40:31.",
+    desc: "Women's Month officially takes flight! Join us for both Sunday morning services as we launch our May theme: Arise & Take Flight. A powerful worship experience celebrating the women of God — mothers, daughters, sisters, and queens who carry vision, build families, and walk boldly in purpose. Come expecting a fresh word, a fresh fire, and a fresh wind! Isaiah 40:31. 🤍✨ DRESS CODE: Ladies, wear your WHITE & GOLD this Sunday as we kick off the Arise and Take Flight theme in style and unity!",
     color: "#D63384",
   },
   {

@@ -166,7 +166,19 @@ export default function Home() {
               "But those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint."
               <cite className="block font-body text-xs mt-2 not-italic" style={{ color: "rgba(255,255,255,0.65)" }}>— Isaiah 40:31</cite>
             </blockquote>
+            {/* White & Gold Dress Code Banner */}
+            <div className="rounded-2xl px-6 py-5 mb-6 max-w-2xl mx-auto" style={{ background: "rgba(255,255,255,0.12)", border: "2px solid rgba(200,144,26,0.7)" }}>
+              <div className="text-3xl mb-2">🤍✨</div>
+              <div className="font-display font-bold text-white text-lg mb-1">THIS SUNDAY — Wear White &amp; Gold!</div>
+              <div className="font-body text-sm" style={{ color: "rgba(255,255,255,0.85)" }}>
+                Ladies, as we kick off <strong style={{ color: "var(--an-gold)" }}>Arise &amp; Take Flight</strong> this Sunday, May 3rd, come dressed in your <strong style={{ color: "#fff" }}>White &amp; Gold</strong> to worship in unity and beauty. Let’s take flight together!
+              </div>
+            </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8 max-w-2xl mx-auto">
+              <div className="rounded-xl p-4" style={{ background: "rgba(255,255,255,0.08)" }}>
+                <div className="font-display font-bold text-white text-sm mb-1">✈️ Women’s Service Kickoff</div>
+                <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.70)" }}>Sunday, May 3 — 8:30 AM &amp; 11:00 AM · Wear White &amp; Gold!</div>
+              </div>
               <div className="rounded-xl p-4" style={{ background: "rgba(255,255,255,0.08)" }}>
                 <div className="font-display font-bold text-white text-sm mb-1">Mother's Day</div>
                 <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.70)" }}>Sunday, May 10 — 8:30 AM &amp; 11:00 AM</div>
@@ -174,10 +186,6 @@ export default function Home() {
               <div className="rounded-xl p-4" style={{ background: "rgba(255,255,255,0.08)" }}>
                 <div className="font-display font-bold text-white text-sm mb-1">Women's Worship Night</div>
                 <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.70)" }}>Date TBA — An evening of praise &amp; testimony</div>
-              </div>
-              <div className="rounded-xl p-4" style={{ background: "rgba(255,255,255,0.08)" }}>
-                <div className="font-display font-bold text-white text-sm mb-1">Women's Ministry Retreat</div>
-                <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.70)" }}>May 2026 — Refreshing, renewal &amp; connection</div>
               </div>
             </div>
             {/* Pretty Woman Book Club Flyer */}
