@@ -318,6 +318,48 @@ const entries: DayEntry[] = [
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/QAwQVebqwHtvJYTz.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/EqbaWDtYhYgKLJBm.jpg",
   },
+  {
+    day: 8, date: "May 8, 2026", isoDate: "2026-05-08",
+    title: "The Wind Beneath Your Wings",
+    scripture: "John 3:8 (KJV)",
+    verse: "The wind bloweth where it listeth, and thou hearest the sound thereof, but canst not tell whence it cometh, and whither it goeth: so is every one that is born of the Spirit.",
+    welcome: "Good morning, All Nations family. This is Pastor Shelia Blake, and welcome to Day 8 of Arise and Take Flight.",
+    keyPoints: [
+      "You cannot see the wind, but you can feel it. You cannot control it, but you can yield to it. The Holy Spirit moves like the wind — sovereign, powerful, and free. When you surrender to His leading, He becomes the wind beneath your wings.",
+      "Many of us are trying to fly on our own strength, manufacturing our own momentum. But God is saying, 'Stop striving. Open your wings and let Me carry you.' The Spirit of God is always moving. The question is whether you are positioned to catch Him.",
+      "A kite does not fight the wind — it aligns with it. When you align your life with the Spirit of God, you will rise to heights that your own effort could never reach.",
+    ],
+    callToAction: "Today, yield to the Holy Spirit. Stop fighting the wind and start flying with it. Let Him take you where He wills.",
+    close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+  },
+  {
+    day: 9, date: "May 9, 2026", isoDate: "2026-05-09",
+    title: "She Stretched Her Wings",
+    scripture: "Deuteronomy 32:11 (KJV)",
+    verse: "As an eagle stirreth up her nest, fluttereth over her young, spreadeth abroad her wings, taketh them, beareth them on her wings.",
+    welcome: "Good morning, All Nations family. This is Pastor Shelia Blake, and welcome to Day 9 of Arise and Take Flight.",
+    keyPoints: [
+      "The mother eagle does something that seems cruel but is actually the most loving thing she can do — she stirs up the nest. She makes it uncomfortable. She removes the soft lining until the sticks and thorns are exposed. Why? Because her eaglets were made to fly, not to stay comfortable in the nest.",
+      "God has been stirring your nest. The discomfort you have been feeling is not punishment — it is preparation. He is removing the things that were keeping you too comfortable to spread your wings.",
+      "And when the eaglet falls, the mother eagle swoops beneath it and catches it on her wings. God will never let you fall without being right there beneath you. He stirs the nest, but He also bears you up.",
+    ],
+    callToAction: "Trust the process of the stirred nest. God is not trying to hurt you — He is trying to launch you. Spread your wings today.",
+    close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+  },
+  {
+    day: 10, date: "May 10, 2026", isoDate: "2026-05-10",
+    title: "A Mother's Wings",
+    scripture: "Proverbs 31:25 (KJV)",
+    verse: "Strength and honour are her clothing; and she shall rejoice in time to come.",
+    welcome: "Good morning, All Nations family. This is Pastor Shelia Blake, and welcome to Day 10 of Arise and Take Flight. Today is Mother's Day, and this word is for every woman who has ever spread her wings so someone else could fly.",
+    keyPoints: [
+      "A mother is one of God's greatest pictures of flight. She sacrifices her own comfort so her children can soar. She stays up late so they can rest. She prays in the night so they can walk in the light of day. She is clothed in strength and honour — and that is not by accident. God designed her that way.",
+      "Whether you are a biological mother, a spiritual mother, a mentor, or a woman who has poured into the life of another — you have been flying. You may not have seen it as flight, but every act of love, every sacrifice, every prayer was a wing beat that carried someone higher.",
+      "Today, we celebrate you. We honour you. We say thank you for not staying grounded when it would have been easier to quit. Your wings have carried generations.",
+    ],
+    callToAction: "Happy Mother's Day. Today, let someone else carry you for a change. Receive the love, the honour, and the blessing. You have earned your wings.",
+    close: "I love you, All Nations. Happy Mother's Day. Arise and take flight.",
+  },
 ];
 
 function getTodayEntry(): DayEntry | null {
