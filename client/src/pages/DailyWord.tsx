@@ -363,6 +363,21 @@ const entries: DayEntry[] = [
     close: "I love you, All Nations. Happy Mother's Day. Arise and take flight.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/wHHqBxynNPWwsNTS.mp3",
   },
+  {
+    day: 11, date: "May 11, 2026", isoDate: "2026-05-11",
+    title: "Navigating the Turbulence",
+    scripture: "John 16:33 (KJV)",
+    verse: "These things I have spoken unto you, that in me ye might have peace. In the world ye shall have tribulation: but be of good cheer; I have overcome the world.",
+    welcome: "Good morning, All Nations family. This is Pastor Shelia Blake, and welcome to Day 11 of Arise and Take Flight.",
+    keyPoints: [
+      "Turbulence is a normal part of flying. It can be uncomfortable and frightening, but it rarely brings down a plane. The pilot simply adjusts and keeps moving forward.",
+      "In life, you will experience turbulence. Unexpected challenges, sudden shifts, and rocky seasons are inevitable. But turbulence is not a sign that you are crashing — it is a sign that you are moving.",
+      "When the turbulence hits, do not panic. Trust the Captain. Jesus has already overcome the world, and He is navigating you safely to your destination.",
+    ],
+    callToAction: "Fasten your seatbelt and trust God through the bumpy seasons. Keep your eyes on Him and do not let the turbulence steal your peace.",
+    close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/VBqNeMdAHarmWNoP.mp3",
+  },
 ];
 
 function getTodayEntry(): DayEntry | null {
