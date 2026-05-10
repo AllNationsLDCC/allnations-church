@@ -349,8 +349,8 @@ const entries: DayEntry[] = [
   {
     day: 10, date: "May 10, 2026", isoDate: "2026-05-10",
     title: "A Mother's Wings",
-    scripture: "Proverbs 31:25 (KJV)",
-    verse: "Strength and honour are her clothing; and she shall rejoice in time to come.",
+    scripture: "Proverbs 31:25-26 (KJV)",
+    verse: "Strength and honour are her clothing; and she shall rejoice in time to come. She openeth her mouth with wisdom; and in her tongue is the law of kindness.",
     welcome: "Good morning, All Nations family. This is Pastor Shelia Blake, and welcome to Day 10 of Arise and Take Flight. Today is Mother's Day, and this word is for every woman who has ever spread her wings so someone else could fly.",
     keyPoints: [
       "A mother is one of God's greatest pictures of flight. She sacrifices her own comfort so her children can soar. She stays up late so they can rest. She prays in the night so they can walk in the light of day. She is clothed in strength and honour — and that is not by accident. God designed her that way.",
@@ -359,6 +359,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Happy Mother's Day. Today, let someone else carry you for a change. Receive the love, the honour, and the blessing. You have earned your wings.",
     close: "I love you, All Nations. Happy Mother's Day. Arise and take flight.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/wHHqBxynNPWwsNTS.mp3",
   },
 ];
 
