@@ -378,6 +378,21 @@ const entries: DayEntry[] = [
     close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/VBqNeMdAHarmWNoP.mp3",
   },
+  {
+    day: 12, date: "May 12, 2026", isoDate: "2026-05-12",
+    title: "The Power of Alignment",
+    scripture: "Amos 3:3 (KJV)",
+    verse: "Can two walk together, except they be agreed?",
+    welcome: "Good morning, All Nations family. This is Pastor Shelia Blake, and welcome to Day 12 of Arise and Take Flight.",
+    keyPoints: [
+      "For a plane to fly smoothly, every part must be in perfect alignment. If the flaps, the engine, or the landing gear are out of sync, the flight is compromised. Spiritual alignment is just as critical.",
+      "You must align your thoughts with God's Word, your actions with His will, and your relationships with His purpose. Are you flying in formation with the right people?",
+      "Surround yourself with those who elevate you, pray for you, and push you toward your God-given destiny. Your inner circle determines your altitude.",
+    ],
+    callToAction: "Check your alignment today. Ensure that your inner circle and your daily habits are in agreement with where God is taking you.",
+    close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/WUvBDXSTZOdXKkNk.mp3",
+  },
 ];
 
 function getTodayEntry(): DayEntry | null {
