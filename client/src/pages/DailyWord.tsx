@@ -406,6 +406,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Do not let your feelings fly the plane today. Consult your instrument panel. Let the Word of God guide your decisions and your direction.",
     close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/aPMHpHHusXkAeIws.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/wDETbqAzuhzLfvFK.png",
   },
   {
@@ -421,6 +422,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Acknowledge Him in all your ways today. Trust the Tower. He knows exactly how to direct your path safely to your destination.",
     close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/cdQVXwHaUjZVxcNO.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/zFSzCxtgAypaCqGe.png",
   },
   {
@@ -436,6 +438,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Reach out to your spiritual co-pilot today. Pray for them, and let them pray for you. Two are always better than one.",
     close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OfmwMEpByPLpFbwg.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/LdIkOmyMTCgbFUIy.png",
   },
   {
