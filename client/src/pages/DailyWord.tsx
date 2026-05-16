@@ -454,6 +454,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Do not let the resistance stop you today. Let out a shout of praise. Break the sound barrier and step into your victory.",
     close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/kKzGqeOAEcVqPiGw.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/RcllkiNQjxdWoIIJ.png",
   },
   {
@@ -469,6 +470,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Stop fighting the climb and let God bring you into His rest. Receive His peace today — a peace that passes all understanding.",
     close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ChaVPEjzGCUniPcH.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/yzjyUOKtVzGVZKxe.png",
   },
   {
@@ -484,6 +486,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Allow the Holy Spirit to correct your course today. If you have drifted, do not condemn yourself. Just turn the controls back over to Him.",
     close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/VpyuJLQAFnTWplYW.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/FmDaUsyEFZMqSMYT.png",
   },
   {
@@ -499,6 +502,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "What heavy cargo are you trying to fly with today? Drop it at the feet of Jesus. You cannot soar while carrying a burden you were never meant to bear.",
     close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/cavmcwqnUGcBPROP.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/bFUMxoUuoSTaCgjL.png",
   },
   {
@@ -514,6 +518,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Are you in a season of zero visibility? Stop trying to figure it out with your natural eyes. Walk by faith today, not by sight.",
     close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/TVYrmIkPVIxZWoTy.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ItwfkWpRELKwaaoj.png",
   },
   {
@@ -529,6 +534,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Check your spiritual fuel gauge today. If you are running on empty, make time to sit in the presence of God and let Him refill you.",
     close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/NsJVzmSKEnAhxKrY.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XROOAerZYGubYTyF.png",
   },
   {
@@ -544,6 +550,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Do not lose courage in the holding pattern. Keep circling in prayer. Keep circling in praise. Wait on the Lord, and He will clear the way.",
     close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/iOTbIkpvMDqVCLHU.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/NivcFlBBAGFWTFtn.png",
   },
   {
@@ -559,6 +566,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Stop writing off the difficult chapters of your story. God is not done with the data. Trust that He is working all things together for your good.",
     close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/MuqberkMBhgCrpBU.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/FWnzicQOCrTJJxZl.png",
   },
   {
@@ -574,6 +582,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Lift your eyes today. Set your affection on things above. Let God give you a new altitude and a new perspective on your situation.",
     close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/YDEAMIEgxZUwbnAK.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/IvmvgjONmKpXVsjb.png",
   },
   {
@@ -589,6 +598,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Stop trying to earn what God has already given you freely. Open the parachute of grace today and let it carry you.",
     close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ShqVxuaHwtkoJpWT.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/WmbTsJuTKwpFLRYF.png",
   },
   {
@@ -604,6 +614,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Get back in formation. Show up for your church family. Let them lift you, and be willing to lift them in return.",
     close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/lvefFXLGmOOpYnYF.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/fmrVHXhhlVDMQsju.png",
   },
   {
@@ -619,6 +630,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Line up with your runway today. Commit to finishing what God started in you. Do not pull up at the last moment. Land this thing.",
     close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/nJTNCQxBgpBJXlvi.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ZGTbTOASpsCEkENJ.png",
   },
   {
@@ -634,6 +646,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Live today with the confidence of someone who knows their landing is secured. Fly boldly, love freely, and serve faithfully until the tower calls you home.",
     close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/tUdFmUbcTNImJdsH.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ohmPNLDDnzqqiaRH.png",
   },
   {
@@ -649,6 +662,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Stop folding your wings. Spread them. Wait on the Lord, let Him renew your strength, and soar to the altitude He designed you for.",
     close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/bKsSksqzRhfpXlEy.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/eMjUzOCsaOJbiSXh.png",
   },
   {
@@ -664,6 +678,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "What flight path are you leaving? Live today in a way that the next generation can follow. Let your trail point them toward God.",
     close: "I love you, All Nations. Arise and take flight. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/fJhEhSSUzeRTkgmJ.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OddIanLmThOgmBEt.png",
   },
   {
