@@ -11,6 +11,7 @@ const COVER_MWP = "/images/books/my-wealthy-place.jpg";
 const COVER_PRETTY = "/images/books/pretty-woman.jpg";
 
 /* ─── Lady Carolyn Byrd book covers ─── */
+const COVER_NEVER_HIDDEN = "/images/books/byrd-you-were-never-meant-to-stay-hidden.jpg";
 const COVER_7STEPS = "/images/books/book_carol_7steps.jpeg";
 const COVER_FUCHSIA = "/images/books/book_carol_fuchsia.jpeg";
 const COVER_HAPPY_MARRIAGE = "/images/books/book_carol_happy_marriage.png";
@@ -122,7 +123,18 @@ const authors: Author[] = [
     photo: CAROL_BYRD_PHOTO,
     accentColor: "#9b2c7e",
     bio: "Pastor Mike Byrd and Lady Carolyn Byrd are a dynamic ministry team at All Nations Life Development Christian Center, co-leading two transformative ministries: Legacy of Love — the couples ministry designed to help marriages move from simply existing together to thriving together with purpose — and Legacy in the Making, a vibrant singles ministry building lives of purpose, faith, and authentic connection. Together, they bring a unified vision of covenant, wholeness, and Kingdom legacy to every season of life. Through their writing, Pastor Mike and Lady Carolyn speak directly to the hearts of couples, singles, women, and families — addressing emotional intimacy, marital health, communication, and spiritual wholeness. Their books are a testament to their shared passion for building God-centered marriages and nurturing the next generation in faith.",
-    books: [
+      books: [
+      {
+        title: "You Were Never Meant To Stay Hidden",
+        subtitle: "The Painful Process of Being Pushed Out of Obscurity and Into the Life You Were Born to Live",
+        cover: COVER_NEVER_HIDDEN,
+        year: "2026",
+        publisher: "Byrd Legacy Press",
+        pages: "122",
+        description: "You Were Never Meant To Stay Hidden is a raw, faith-filled look at the painful process of being pushed out of obscurity and into the life you were born to live. Drawing from their own journey, Michael and Carolyn Byrd speak to anyone who has felt overlooked, stuck, or buried in a long season of waiting — and show that the very pressure trying to keep you down is often the hand of God moving you toward your purpose. Part testimony and part roadmap, this book is an invitation to stop shrinking, embrace the stretching, and step fully into the calling that has been waiting on you all along.",
+        amazonUrl: "https://www.amazon.com/s?k=9798234077134&i=stripbooks",
+        badge: "New Release — May 2026",
+      },
       {
         title: "7 Steps to Effective Communication in Your Marriage",
         subtitle: "Building Bridges, Not Walls",
