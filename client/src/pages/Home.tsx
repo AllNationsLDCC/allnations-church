@@ -20,13 +20,13 @@ const ministries = [
 ];
 
 const upcomingEvents = [
-  { title: "✈️ Women's Service Kickoff — Arise & Take Flight", date: "Sunday, May 3, 2026", time: "8:30 AM & 11:00 AM", color: "var(--an-gold)", speakers: "Wear White & Gold! Women's Month officially launches." },
+  { title: "👑 Kings, Fuel Your Fire — Men's Month", date: "June 2026", time: "All Month", color: "var(--an-gold)", speakers: "Faith. Family. Brotherhood. Legacy. — Men's Month 2026 is here!" },
   { title: "Sunday Morning Worship", date: "Every Sunday", time: "8:30 AM & 11:00 AM", color: "var(--an-gold)" },
   { title: "Wednesday Bible Study", date: "Every Wednesday", time: "7:00 PM", color: "var(--an-teal)" },
   { title: "Intercessory Prayer Line", date: "Every Monday", time: "7:00 PM – 8:30 PM", color: "var(--an-orange)" },
-  { title: "Mother's Day Celebration", date: "May 10, 2026", time: "8:30 AM & 11:00 AM", color: "#D63384" },
-  { title: "Arise & Take Flight — Women's Month", date: "May 2026", time: "All Month", color: "var(--an-navy)" },
-  { title: "💑 Table It & Talk It Out — Couples Night", date: "Friday, May 22, 2026", time: "7:00 PM · Free Event", color: "#C8901A" },
+  { title: "🎯 Pre Father's Day — Gun Range", date: "Saturday, June 20, 2026", time: "All Day", color: "var(--an-navy)" },
+  { title: "🍖 Family BBQ Fellowship", date: "Saturday, June 27, 2026", time: "TBD · Whispering Pines Park", color: "var(--an-orange)" },
+  { title: "🎮 Legacy In The Making — Singles Game Night", date: "Friday, June 12, 2026", time: "7:00 PM", color: "#C8901A" },
 ];
 
 export default function Home() {
@@ -105,30 +105,30 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== DAILY WORD FEATURED SECTION — MAY 2026 ===== */}
+      {/* ===== DAILY WORD FEATURED SECTION — JUNE 2026 ===== */}
       <section className="py-12" style={{ background: "linear-gradient(135deg, #1A2F6B 0%, #0d1a3a 100%)" }}>
         <div className="container">
           <div className="flex flex-col lg:flex-row items-center gap-8">
             {/* Left: Label + Title */}
             <div className="flex-1 text-center lg:text-left">
               <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-4" style={{ background: "rgba(197,157,47,0.18)", color: "var(--an-gold)" }}>
-                <BookOpen size={12} /> Today's Daily Word — May 2026
+                <Users size={12} /> June 2026 — Men's Month
               </span>
               <h2 className="font-display font-bold text-white mb-2" style={{ fontSize: "clamp(1.6rem, 3vw, 2.4rem)" }}>
-                Arise &amp; <span style={{ color: "var(--an-gold)" }}>Take Flight</span>
+                Kings, <span style={{ color: "var(--an-gold)" }}>Fuel Your Fire</span>
               </h2>
               <p className="font-body text-sm mb-1" style={{ color: "rgba(255,255,255,0.70)" }}>
-                A daily devotional series by <strong style={{ color: "rgba(255,255,255,0.90)" }}>Pastor Shelia Blake</strong>
+                From Generations to Generations — <strong style={{ color: "rgba(255,255,255,0.90)" }}>Leviticus 6:12-13</strong>
               </p>
               <p className="font-body text-sm mb-2" style={{ color: "rgba(255,255,255,0.60)" }}>
-                May 2026 · Women's Month · New word every morning
+                June 2026 · Men's Month · Faith. Family. Brotherhood. Legacy.
               </p>
               <p className="font-body text-sm italic mb-6" style={{ color: "rgba(255,255,255,0.55)" }}>
-                Miss a meal. Miss a song. But don't miss the Word.
+                "Your brother is not your competition. Your brother is your ally."
               </p>
-              <Link href="/daily-word" className="btn-gold inline-flex items-center gap-2">
-                <BookOpen size={14} />
-                Read &amp; Listen Today's Word
+              <Link href="/events" className="btn-gold inline-flex items-center gap-2">
+                <Calendar size={14} />
+                View June Events
               </Link>
             </div>
             {/* Right: Decorative card */}
@@ -136,78 +136,82 @@ export default function Home() {
               className="flex-shrink-0 w-full lg:w-80 rounded-2xl p-6 text-center"
               style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(197,157,47,0.25)" }}
             >
-              <div className="text-5xl mb-3">✈️</div>
-              <div className="font-body text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-gold)" }}>May Series — Women's Month</div>
-              <div className="font-display font-bold text-white text-xl mb-2">Arise &amp; Take Flight</div>
+              <div className="text-5xl mb-3">👑</div>
+              <div className="font-body text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-gold)" }}>June Series — Men's Month</div>
+              <div className="font-display font-bold text-white text-xl mb-2">Iron Sharpens Iron</div>
               <div className="font-body text-sm" style={{ color: "rgba(255,255,255,0.65)" }}>
-                31 days · Scripture · Devotional · Audio
+                Prov. 27:17 · Sundays · Wednesdays · Saturdays
               </div>
               <div className="mt-4 pt-4" style={{ borderTop: "1px solid rgba(197,157,47,0.2)" }}>
-                <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.50)" }}>New word every morning at midnight</div>
+                <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.50)" }}>One Church. One Purpose. One Legacy.</div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      {/* ===== MAY 2026 — ARISE AND TAKE FLIGHT ===== */}
+      {/* ===== JUNE 2026 — KINGS, FUEL YOUR FIRE (MEN'S MONTH) ===== */}
       <section className="py-16 relative overflow-hidden">
-        <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #1A2F6B 0%, #3d1a5c 40%, #D63384 100%)" }} />
-        <div className="absolute inset-0" style={{ background: "url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"none\" stroke=\"rgba(255,255,255,0.03)\" stroke-width=\"0.5\"/></svg>') repeat", backgroundSize: "120px" }} />
+        <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #0a0a0a 0%, #1a1200 40%, #3d2800 100%)" }} />
+        <div className="absolute inset-0" style={{ background: "url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"none\" stroke=\"rgba(200,144,26,0.05)\" stroke-width=\"0.5\"/></svg>') repeat", backgroundSize: "120px" }} />
         <div className="relative z-10 container">
-          <div className="text-center max-w-3xl mx-auto">
-            <span className="inline-block px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-4" style={{ background: "rgba(214,51,132,0.25)", color: "#f8a4c8" }}>MAY 2026 — CELEBRATING WOMEN</span>
+          <div className="text-center max-w-4xl mx-auto">
+            <span className="inline-block px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-4" style={{ background: "rgba(200,144,26,0.25)", color: "var(--an-gold)" }}>JUNE 2026 — MEN'S MONTH</span>
             <h2 className="font-display font-bold text-white mb-4" style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)", letterSpacing: "-0.01em" }}>
-              Arise &amp; <span style={{ color: "var(--an-gold)" }}>Take Flight</span>
+              Kings, <span style={{ color: "var(--an-gold)" }}>Fuel Your Fire</span>
             </h2>
-            <p className="font-body text-lg mb-4" style={{ color: "rgba(255,255,255,0.90)" }}>
-              A month-long celebration of the women of God — mothers, daughters, sisters, and queens. May 2026 is dedicated to honoring the women who carry vision, build families, lead with grace, and walk in purpose.
+            <p className="font-body text-base mb-2" style={{ color: "rgba(255,255,255,0.80)" }}>
+              From Generations to Generations
             </p>
             <blockquote className="font-display text-base italic mb-6 px-6" style={{ color: "var(--an-gold)" }}>
-              "But those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint."
-              <cite className="block font-body text-xs mt-2 not-italic" style={{ color: "rgba(255,255,255,0.65)" }}>— Isaiah 40:31</cite>
+              "The fire shall be kept burning on the altar continually; it shall not go out."
+              <cite className="block font-body text-xs mt-2 not-italic" style={{ color: "rgba(255,255,255,0.65)" }}>— Leviticus 6:12-13</cite>
             </blockquote>
-            {/* White & Gold Dress Code Banner */}
-            <div className="rounded-2xl px-6 py-5 mb-6 max-w-2xl mx-auto" style={{ background: "rgba(255,255,255,0.12)", border: "2px solid rgba(200,144,26,0.7)" }}>
-              <div className="text-3xl mb-2">🤍✨</div>
-              <div className="font-display font-bold text-white text-lg mb-1">THIS SUNDAY — Wear White &amp; Gold!</div>
-              <div className="font-body text-sm" style={{ color: "rgba(255,255,255,0.85)" }}>
-                Ladies, as we kick off <strong style={{ color: "var(--an-gold)" }}>Arise &amp; Take Flight</strong> this Sunday, May 3rd, come dressed in your <strong style={{ color: "#fff" }}>White &amp; Gold</strong> to worship in unity and beauty. Let’s take flight together!
-              </div>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8 max-w-2xl mx-auto">
-              <div className="rounded-xl p-4" style={{ background: "rgba(255,255,255,0.08)" }}>
-                <div className="font-display font-bold text-white text-sm mb-1">✈️ Women’s Service Kickoff</div>
-                <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.70)" }}>Sunday, May 3 — 8:30 AM &amp; 11:00 AM · Wear White &amp; Gold!</div>
-              </div>
-              <div className="rounded-xl p-4" style={{ background: "rgba(255,255,255,0.08)" }}>
-                <div className="font-display font-bold text-white text-sm mb-1">Mother's Day</div>
-                <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.70)" }}>Sunday, May 10 — 8:30 AM &amp; 11:00 AM</div>
-              </div>
-
-            </div>
-            {/* Pretty Woman Book Club Flyer */}
+            {/* Men's Month Flyer */}
             <div className="my-8 flex justify-center">
-              <div className="rounded-2xl overflow-hidden shadow-2xl" style={{ maxWidth: "420px", width: "100%", border: "3px solid rgba(214,51,132,0.5)" }}>
+              <div className="rounded-2xl overflow-hidden shadow-2xl" style={{ maxWidth: "480px", width: "100%", border: "3px solid rgba(200,144,26,0.6)" }}>
                 <img
-                  src="/pretty-woman-book-club-flyer.jpeg"
-                  alt="Pretty Woman — A Book Club Experience | Women's Ministry | Wednesday, May 6 at 7:00 PM"
+                  src="/kings-fuel-your-fire-mens-month-flyer.png"
+                  alt="Kings, Fuel Your Fire — Men's Month June 2026 | All Nations LDCC"
                   style={{ width: "100%", height: "auto", display: "block" }}
                 />
               </div>
             </div>
-            {/* Table It & Talk It Out Flyer */}
+            {/* June Itinerary Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8 max-w-4xl mx-auto">
+              <div className="rounded-xl p-4" style={{ background: "rgba(255,255,255,0.08)", border: "1px solid rgba(200,144,26,0.3)" }}>
+                <div className="font-display font-bold text-white text-sm mb-1">👑 Start the Fire</div>
+                <div className="font-body text-xs" style={{ color: "var(--an-gold)" }}>Sunday, June 7</div>
+                <div className="font-body text-xs mt-1" style={{ color: "rgba(255,255,255,0.60)" }}>Identify · Discover your purpose</div>
+              </div>
+              <div className="rounded-xl p-4" style={{ background: "rgba(255,255,255,0.08)", border: "1px solid rgba(200,144,26,0.3)" }}>
+                <div className="font-display font-bold text-white text-sm mb-1">🎓 Sustain the Fire</div>
+                <div className="font-body text-xs" style={{ color: "var(--an-gold)" }}>Sunday, June 14</div>
+                <div className="font-body text-xs mt-1" style={{ color: "rgba(255,255,255,0.60)" }}>Discipline · Celebrating Graduates!</div>
+              </div>
+              <div className="rounded-xl p-4" style={{ background: "rgba(255,255,255,0.08)", border: "1px solid rgba(200,144,26,0.3)" }}>
+                <div className="font-display font-bold text-white text-sm mb-1">👨‍👦 Multiply the Fire</div>
+                <div className="font-body text-xs" style={{ color: "var(--an-gold)" }}>Sunday, June 21 · Father's Day</div>
+                <div className="font-body text-xs mt-1" style={{ color: "rgba(255,255,255,0.60)" }}>Fatherhood &amp; Legacy · Special Prayer</div>
+              </div>
+              <div className="rounded-xl p-4" style={{ background: "rgba(255,255,255,0.08)", border: "1px solid rgba(200,144,26,0.3)" }}>
+                <div className="font-display font-bold text-white text-sm mb-1">🛡️ Protect the Fire</div>
+                <div className="font-body text-xs" style={{ color: "var(--an-gold)" }}>Sunday, June 28</div>
+                <div className="font-body text-xs mt-1" style={{ color: "rgba(255,255,255,0.60)" }}>Next Generation · Stand firm</div>
+              </div>
+            </div>
+            {/* Legacy In The Making Flyer */}
             <div className="my-8 flex justify-center">
-              <div className="rounded-2xl overflow-hidden shadow-2xl" style={{ maxWidth: "420px", width: "100%", border: "3px solid rgba(200,144,26,0.6)" }}>
+              <div className="rounded-2xl overflow-hidden shadow-2xl" style={{ maxWidth: "560px", width: "100%", border: "3px solid rgba(200,144,26,0.6)" }}>
                 <img
-                  src="/images/table-it-talk-it-out-flyer.png"
-                  alt="Table It & Talk It Out — A Couples Connection Night | Legacy of Love | Friday, May 22 at 7:00 PM | Free Event"
+                  src="/legacy-in-the-making-singles-game-night-flyer.png"
+                  alt="Legacy In The Making — Singles Game Night | Friday, June 12, 2026 at 7:00 PM"
                   style={{ width: "100%", height: "auto", display: "block" }}
                 />
               </div>
             </div>
             <div className="flex gap-4 justify-center flex-wrap">
               <Link href="/events" className="btn-gold flex items-center gap-2">
-                View May Events <ArrowRight size={14} />
+                View June Events <ArrowRight size={14} />
               </Link>
               <Link href="/connect" className="btn-outline flex items-center gap-2" style={{ borderColor: "#fff", color: "#fff" }}>
                 Get Involved

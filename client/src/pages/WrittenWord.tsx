@@ -132,7 +132,7 @@ const authors: Author[] = [
         publisher: "Byrd Legacy Press",
         pages: "122",
         description: "You Were Never Meant To Stay Hidden is a raw, faith-filled look at the painful process of being pushed out of obscurity and into the life you were born to live. Drawing from their own journey, Michael and Carolyn Byrd speak to anyone who has felt overlooked, stuck, or buried in a long season of waiting — and show that the very pressure trying to keep you down is often the hand of God moving you toward your purpose. Part testimony and part roadmap, this book is an invitation to stop shrinking, embrace the stretching, and step fully into the calling that has been waiting on you all along.",
-        amazonUrl: "https://www.amazon.com/s?k=9798234077134&i=stripbooks",
+        amazonUrl: "https://a.co/d/0hekpBxI",
         badge: "New Release — May 2026",
       },
       {

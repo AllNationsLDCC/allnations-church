@@ -134,7 +134,7 @@ const upcomingEvents2026 = [
     title: "🌍 Senior Wellness Afternoon — The Great Commission Team",
     date: "Wednesday, June 4, 2026",
     time: "1:00 PM – 4:00 PM",
-    desc: "A free wellness afternoon for seniors and caregivers hosted by the Great Commission Team. Sessions include Mental Wellness After 50, Medicare & Medicaid, and Prescriptions — What You Don’t Know. Light refreshments provided. 862 SW Glenview Ct., Port St. Lucie, FL.",
+    desc: "A free wellness afternoon for seniors and caregivers hosted by the Great Commission Team. Sessions include Mental Wellness After 50, Medicare & Medicaid, and Prescriptions — What You Don't Know. Light refreshments provided. 862 SW Glenview Ct., Port St. Lucie, FL.",
     color: "var(--an-green)",
   },
 
@@ -168,6 +168,86 @@ const upcomingEvents2026 = [
     desc: "All Nations Women's Ministry continues with a special Sunday morning service featuring Prophetess Angela Brown. A prophetic word for the women of God — come prepared to receive, be activated, and walk boldly in your purpose.",
     color: "var(--an-pink, #d63384)",
   },
+
+  // ── June 2026 — KINGS, FUEL YOUR FIRE (Men's Month) ─────────────────────────────────────────
+  {
+    title: "👑 Start the Fire (Identify) — Men's Month",
+    date: "Sunday, June 7, 2026",
+    time: "8:30 AM & 11:00 AM",
+    desc: "Men's Month kicks off! 1st Sunday of June — Start the Fire (Identify). Discover your purpose. Walk in your calling. Sundays in June at 8:30 AM & 11:00 AM. Bring one young man with you this month!",
+    color: "var(--an-gold)",
+  },
+  {
+    title: "💡 Project 2026 — Bible Study (Men & Women Invited)",
+    date: "Wednesday, June 3, 2026",
+    time: "7:00 PM",
+    desc: "Wednesday Bible Study — Men & Women are invited! Hosted by Bishop Cornelius Blake. Discussing Project 2026 — 226 DIY Projects for Your Personal Peace. 862 SW Glenview Ct, Port St. Lucie, FL 34953.",
+    color: "var(--an-teal)",
+  },
+  {
+    title: "💪 Strong in Mind & Body — Bible Study",
+    date: "Wednesday, June 10, 2026",
+    time: "7:00 PM",
+    desc: "Wednesday Bible Study — Developing mental, physical & spiritual discipline. 1 Corinthians 6:19-20. Men & Women are welcome! 862 SW Glenview Ct, Port St. Lucie, FL 34953.",
+    color: "var(--an-teal)",
+  },
+  {
+    title: "🎓 Sustain the Fire (Discipline) — Men's Month · Celebrating Graduates!",
+    date: "Sunday, June 14, 2026",
+    time: "8:30 AM & 11:00 AM",
+    desc: "2nd Sunday of June — Sustain the Fire (Discipline). Discipline fuels destiny. Stay committed. Finish strong. Special celebration honoring our graduates and their achievements! Bring one young man with you this month!",
+    color: "var(--an-gold)",
+  },
+  {
+    title: "🎮 Legacy In The Making — Singles Game Night",
+    date: "Friday, June 12, 2026",
+    time: "7:00 PM",
+    desc: "Legacy In The Making presents Singles Game Night — Chips & Dips Night! Building Friendships · Discovering Purpose · Creating Legacy. All Nations Life Development Christian Center, 862 SW Glenview Ct, Port St. Lucie, FL 34953. Hosted by All Nations LDCC.",
+    color: "#C8901A",
+    flyer: "/legacy-in-the-making-singles-game-night-flyer.png",
+  },
+  {
+    title: "🏆 Legacy in Action — Bible Study",
+    date: "Wednesday, June 17, 2026",
+    time: "7:00 PM",
+    desc: "Wednesday Bible Study — Leaving a lasting impact at home, in our community and for generations. Joshua 24:15. All men & women are welcome! 862 SW Glenview Ct, Port St. Lucie, FL 34953.",
+    color: "var(--an-teal)",
+  },
+  {
+    title: "🎯 Pre Father's Day — Gun Range Event",
+    date: "Saturday, June 20, 2026",
+    time: "All Day",
+    desc: "Two Powerful Saturdays — Pre Father's Day Gun Range Event! Sharpen your focus. Build your discipline. Strengthen your aim. Fellowship. Fire. Focus. A powerful men's event leading up to Father's Day!",
+    color: "var(--an-navy)",
+  },
+  {
+    title: "👨‍👦 Multiply the Fire (Fatherhood & Legacy) — Father's Day!",
+    date: "Sunday, June 21, 2026",
+    time: "8:30 AM & 11:00 AM",
+    desc: "3rd Sunday of June — Happy Father's Day! Multiply the Fire (Fatherhood & Legacy). Lead with love. Build legacy. Raise up the next generation. Special prayer covering for fathers. Bring one young man with you this month!",
+    color: "var(--an-gold)",
+  },
+  {
+    title: "🛡️ Equipped for Victory — Bible Study",
+    date: "Wednesday, June 24, 2026",
+    time: "7:00 PM",
+    desc: "Wednesday Bible Study — Tools for spiritual warfare and daily victory. Ephesians 6:10-18. All men & women are welcome! 862 SW Glenview Ct, Port St. Lucie, FL 34953.",
+    color: "var(--an-teal)",
+  },
+  {
+    title: "🍖 Family BBQ Fellowship — Whispering Pines Park",
+    date: "Saturday, June 27, 2026",
+    time: "TBD",
+    desc: "Two Powerful Saturdays — Family BBQ Fellowship! Father & Son Games · Prayer Circle for Fathers · Building Stronger Families · Food. Fun. Fellowship. Location: Whispering Pines Park, Port St. Lucie, FL. Everyone Welcome!",
+    color: "var(--an-orange)",
+  },
+  {
+    title: "🔥 Protect the Fire (Next Generation) — Men's Month",
+    date: "Sunday, June 28, 2026",
+    time: "8:30 AM & 11:00 AM",
+    desc: "4th Sunday of June — Protect the Fire (Next Generation). Stand firm. Put on the armor. Protect what matters most. Bring one young man with you this month! One Church. One Purpose. One Legacy.",
+    color: "var(--an-gold)",
+  },
 ];
 
 export default function Events() {
@@ -186,32 +266,90 @@ export default function Events() {
         </div>
       </div>
 
-      {/* Featured Event Hero — Pearls, Power, Purpose & Possibilities */}
-      <section style={{ background: "#0a1128", borderBottom: "4px solid #C8901A" }}>
+      {/* Featured Event Hero — Kings, Fuel Your Fire (Men's Month June 2026) */}
+      <section style={{ background: "#0a0a0a", borderBottom: "4px solid #C8901A" }}>
         <div className="container py-0">
           <div className="flex flex-col md:flex-row items-center gap-0 md:gap-10">
             {/* Flyer Image */}
             <div className="w-full md:w-2/5 flex-shrink-0">
               <img
-                src="/pearls-power-purpose-flyer.jpeg"
-                alt="Pearls, Power, Purpose & Possibilities — Women's Ministry Event Flyer"
+                src="/kings-fuel-your-fire-mens-month-flyer.png"
+                alt="Kings, Fuel Your Fire — Men's Month June 2026 | All Nations LDCC"
                 className="w-full h-auto object-contain"
-                style={{ maxHeight: "520px", objectPosition: "center" }}
+                style={{ maxHeight: "600px", objectPosition: "center" }}
               />
             </div>
             {/* Event Details */}
             <div className="flex-1 py-12 px-6 md:px-0 text-center md:text-left">
-              <span className="section-label" style={{ color: "var(--an-gold)", letterSpacing: "0.15em" }}>Women's Ministry Presents</span>
-              <h2 className="font-display font-bold text-white mt-3 mb-4" style={{ fontSize: "clamp(2rem, 5vw, 3.2rem)", lineHeight: 1.1 }}>
-                Pearls, Power,<br />Purpose &amp; Possibilities
+              <span className="section-label" style={{ color: "var(--an-gold)", letterSpacing: "0.15em" }}>Men's Ministry Presents</span>
+              <h2 className="font-display font-bold text-white mt-3 mb-2" style={{ fontSize: "clamp(2rem, 5vw, 3.2rem)", lineHeight: 1.1 }}>
+                Kings, Fuel Your Fire
               </h2>
+              <p className="font-body text-sm mb-4" style={{ color: "var(--an-gold)" }}>From Generations to Generations — Leviticus 6:12-13</p>
               <p className="font-body text-base mb-6" style={{ color: "rgba(255,255,255,0.80)", maxWidth: 480 }}>
-                A night of connection, growth &amp; opportunity — <em>for Men &amp; Women.</em> Come network, be inspired, and showcase what you do. FREE table display opportunity available!
+                Faith. Family. Brotherhood. Legacy. June 2026 is Men's Month at All Nations LDCC. Iron sharpens iron — Proverbs 27:17. One Church. One Purpose. One Legacy.
+              </p>
+              {/* June Sundays Itinerary */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+                <div className="rounded-xl p-3" style={{ background: "rgba(200,144,26,0.12)", border: "1px solid rgba(200,144,26,0.3)" }}>
+                  <div className="font-body font-bold text-xs" style={{ color: "var(--an-gold)" }}>June 7 — 1st Sunday</div>
+                  <div className="font-body text-xs text-white mt-1">🔥 Start the Fire (Identify)</div>
+                </div>
+                <div className="rounded-xl p-3" style={{ background: "rgba(200,144,26,0.12)", border: "1px solid rgba(200,144,26,0.3)" }}>
+                  <div className="font-body font-bold text-xs" style={{ color: "var(--an-gold)" }}>June 14 — 2nd Sunday</div>
+                  <div className="font-body text-xs text-white mt-1">🎓 Sustain the Fire (Discipline) · Graduates!</div>
+                </div>
+                <div className="rounded-xl p-3" style={{ background: "rgba(200,144,26,0.12)", border: "1px solid rgba(200,144,26,0.3)" }}>
+                  <div className="font-body font-bold text-xs" style={{ color: "var(--an-gold)" }}>June 21 — Father's Day</div>
+                  <div className="font-body text-xs text-white mt-1">👨‍👦 Multiply the Fire (Fatherhood & Legacy)</div>
+                </div>
+                <div className="rounded-xl p-3" style={{ background: "rgba(200,144,26,0.12)", border: "1px solid rgba(200,144,26,0.3)" }}>
+                  <div className="font-body font-bold text-xs" style={{ color: "var(--an-gold)" }}>June 28 — 4th Sunday</div>
+                  <div className="font-body text-xs text-white mt-1">🛡️ Protect the Fire (Next Generation)</div>
+                </div>
+              </div>
+              <div className="rounded-xl p-4 mb-6 text-left" style={{ background: "rgba(200,144,26,0.10)", border: "1px solid rgba(200,144,26,0.4)" }}>
+                <p className="font-body text-sm font-bold mb-2" style={{ color: "var(--an-gold)" }}>Two Powerful Saturdays</p>
+                <div className="font-body text-xs text-white mb-1">🎯 June 20 — Pre Father's Day Gun Range Event</div>
+                <div className="font-body text-xs text-white">🍖 June 27 — Family BBQ Fellowship · Whispering Pines Park</div>
+              </div>
+              <div className="flex gap-3 justify-center md:justify-start">
+                <a href="tel:7723437021" className="btn-gold flex items-center gap-2">
+                  <Phone size={14} /> Call 772-343-7021
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Event — Legacy In The Making: Singles Game Night */}
+      <section style={{ background: "#0d1a3a", borderBottom: "4px solid #C8901A" }}>
+        <div className="container py-0">
+          <div className="flex flex-col md:flex-row items-center gap-0 md:gap-10">
+            {/* Flyer Image */}
+            <div className="w-full md:w-3/5 flex-shrink-0">
+              <img
+                src="/legacy-in-the-making-singles-game-night-flyer.png"
+                alt="Legacy In The Making — Singles Game Night | Friday, June 12, 2026 at 7:00 PM"
+                className="w-full h-auto object-contain"
+                style={{ maxHeight: "400px", objectPosition: "center" }}
+              />
+            </div>
+            {/* Event Details */}
+            <div className="flex-1 py-10 px-6 md:px-0 text-center md:text-left">
+              <span className="section-label" style={{ color: "var(--an-gold)", letterSpacing: "0.15em" }}>Legacy In The Making Presents</span>
+              <h2 className="font-display font-bold text-white mt-3 mb-2" style={{ fontSize: "clamp(1.6rem, 4vw, 2.6rem)", lineHeight: 1.1 }}>
+                Legacy In The Making
+              </h2>
+              <p className="font-body text-base font-bold mb-4" style={{ color: "var(--an-gold)" }}>Singles Game Night — Chips &amp; Dips Night!</p>
+              <p className="font-body text-sm mb-6" style={{ color: "rgba(255,255,255,0.80)", maxWidth: 420 }}>
+                Building Friendships · Discovering Purpose · Creating Legacy. Come connect, laugh, and grow with fellow singles in a fun, faith-filled atmosphere.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-6">
                 <div className="flex items-center gap-2 text-white">
                   <Calendar size={16} style={{ color: "var(--an-gold)" }} />
-                  <span className="font-body font-bold text-sm">Wednesday, May 20, 2026</span>
+                  <span className="font-body font-bold text-sm">Friday, June 12, 2026</span>
                 </div>
                 <div className="flex items-center gap-2 text-white">
                   <Clock size={16} style={{ color: "var(--an-gold)" }} />
@@ -219,18 +357,12 @@ export default function Events() {
                 </div>
                 <div className="flex items-center gap-2 text-white">
                   <MapPin size={16} style={{ color: "var(--an-gold)" }} />
-                  <span className="font-body text-sm">Church Sanctuary</span>
+                  <span className="font-body text-sm">All Nations LDCC</span>
                 </div>
               </div>
-              <div className="rounded-xl p-4 mb-6 inline-block text-left" style={{ background: "rgba(200,144,26,0.15)", border: "1px solid rgba(200,144,26,0.4)" }}>
-                <p className="font-body text-sm font-bold" style={{ color: "var(--an-gold)" }}>Table Display RSVP</p>
-                <p className="font-body text-sm text-white">Sister Rosemarie Smith</p>
-                <a href="tel:7729851558" className="font-body text-sm font-bold" style={{ color: "var(--an-gold)" }}>(772) 985-1558</a>
-                <p className="font-body text-xs mt-1" style={{ color: "rgba(255,255,255,0.60)" }}>Reserve your table by May 13, 2026</p>
-              </div>
               <div className="flex gap-3 justify-center md:justify-start">
-                <a href="tel:7729851558" className="btn-gold flex items-center gap-2">
-                  <Phone size={14} /> RSVP Now
+                <a href="tel:7723437021" className="btn-gold flex items-center gap-2">
+                  <Phone size={14} /> Call 772-343-7021
                 </a>
               </div>
             </div>
@@ -286,7 +418,7 @@ export default function Events() {
               Upcoming Events <span style={{ color: "var(--an-gold)" }}>2026</span>
             </h2>
             <p className="font-body text-sm mt-2" style={{ color: "#888" }}>
-              May 2026 (Arise &amp; Take Flight) &amp; Beyond
+              May – June 2026 (Women's Month · Men's Month · Summer Events)
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
