@@ -20,6 +20,7 @@ const ministries = [
 ];
 
 const upcomingEvents = [
+  { title: "🌿 Senior Wellness Afternoon — THIS WEEK!", date: "Thursday, June 4, 2026", time: "11:00 AM – 2:00 PM", color: "#2E7D32", speakers: "FREE · Mental Wellness · Medicare · Prescriptions — Open to all Seniors & Caregivers" },
   { title: "👑 Kings, Fuel Your Fire — Men's Month", date: "June 2026", time: "All Month", color: "var(--an-gold)", speakers: "Faith. Family. Brotherhood. Legacy. — Men's Month 2026 is here!" },
   { title: "Sunday Morning Worship", date: "Every Sunday", time: "8:30 AM & 11:00 AM", color: "var(--an-gold)" },
   { title: "Wednesday Bible Study", date: "Every Wednesday", time: "7:00 PM", color: "var(--an-teal)" },
@@ -149,6 +150,47 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* ===== THIS WEEK — SENIOR WELLNESS AFTERNOON HIGHLIGHT ===== */}
+      <section className="py-0" style={{ background: "linear-gradient(135deg, #1B4D1E 0%, #2E7D32 50%, #1B4D1E 100%)", borderTop: "4px solid #4CAF50", borderBottom: "4px solid #4CAF50" }}>
+        <div className="container py-6">
+          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
+            {/* Flyer */}
+            <div className="flex-shrink-0 w-full md:w-auto flex justify-center">
+              <div className="rounded-2xl overflow-hidden shadow-2xl" style={{ maxWidth: "520px", width: "100%", border: "3px solid rgba(255,255,255,0.35)" }}>
+                <img
+                  src="/senior-wellness-afternoon-flyer.jpeg"
+                  alt="Senior Wellness Afternoon — Thursday, June 4, 2026 | 11:00 AM – 2:00 PM | All Nations LDCC"
+                  style={{ width: "100%", height: "auto", display: "block" }}
+                />
+              </div>
+            </div>
+            {/* Details */}
+            <div className="flex-1 text-center md:text-left py-4">
+              <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-3" style={{ background: "rgba(255,255,255,0.18)", color: "#fff" }}>
+                🌿 THIS WEEK — Health &amp; Wellness
+              </span>
+              <h2 className="font-display font-bold text-white mb-2" style={{ fontSize: "clamp(1.6rem, 3.5vw, 2.6rem)", lineHeight: 1.1 }}>
+                Senior Wellness Afternoon
+              </h2>
+              <p className="font-body font-bold mb-4" style={{ color: "#A5D6A7", fontSize: "1.05rem" }}>
+                Thursday, June 4 · 11:00 AM – 2:00 PM
+              </p>
+              <p className="font-body text-sm mb-4" style={{ color: "rgba(255,255,255,0.85)", maxWidth: 460 }}>
+                The Great Commission Team invites all seniors and caregivers to a FREE afternoon of empowerment. Three dynamic sessions: <strong style={{ color: "#fff" }}>Mental Wellness After 50</strong>, <strong style={{ color: "#fff" }}>Medicare &amp; Medicaid — What You Need to Know</strong>, and <strong style={{ color: "#fff" }}>Prescriptions — What You Don't Know</strong>.
+              </p>
+              <div className="flex flex-wrap gap-3 mb-4 justify-center md:justify-start">
+                <span className="font-body text-xs px-3 py-1 rounded-full font-bold" style={{ background: "rgba(255,255,255,0.15)", color: "#fff" }}>✓ Sis. Jennetta — Mental Wellness</span>
+                <span className="font-body text-xs px-3 py-1 rounded-full font-bold" style={{ background: "rgba(255,255,255,0.15)", color: "#fff" }}>✓ Sis. Nicole — Medicare &amp; Medicaid</span>
+                <span className="font-body text-xs px-3 py-1 rounded-full font-bold" style={{ background: "rgba(255,255,255,0.15)", color: "#fff" }}>✓ Sis. King — Prescriptions</span>
+              </div>
+              <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full font-body font-bold text-sm" style={{ background: "rgba(255,255,255,0.20)", color: "#fff", border: "2px solid rgba(255,255,255,0.50)" }}>
+                🆓 FREE EVENT — Open to All Seniors &amp; Caregivers
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ===== JUNE 2026 — KINGS, FUEL YOUR FIRE (MEN'S MONTH) ===== */}
       <section className="py-16 relative overflow-hidden">
         <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #0a0a0a 0%, #1a1200 40%, #3d2800 100%)" }} />
@@ -207,6 +249,30 @@ export default function Home() {
                   alt="Legacy In The Making — Singles Game Night | Friday, June 12, 2026 at 7:00 PM"
                   style={{ width: "100%", height: "auto", display: "block" }}
                 />
+              </div>
+            </div>
+
+            {/* AI Class 101 with AmarAi Flyer */}
+            <div className="my-8">
+              <div className="text-center mb-4">
+                <span className="inline-block px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest" style={{ background: "rgba(26,47,107,0.6)", color: "#C8901A" }}>Last Class · AI Class 101 with AmarAi</span>
+              </div>
+              <div className="flex justify-center">
+                <div className="rounded-2xl overflow-hidden shadow-2xl" style={{ maxWidth: "420px", width: "100%", border: "3px solid rgba(200,144,26,0.6)" }}>
+                  <img
+                    src="/ai101-amarai-flyer.png"
+                    alt="AI Class 101 with AmarAi — Tuesday, June 16, 2026 at 9:30 AM | $97 | Bring Your Laptop"
+                    style={{ width: "100%", height: "auto", display: "block" }}
+                  />
+                </div>
+              </div>
+              <div className="mt-4 text-center">
+                <p className="font-body text-sm" style={{ color: "rgba(255,255,255,0.75)" }}>
+                  <strong style={{ color: "var(--an-gold)" }}>Tuesday, June 16 · 9:30 AM</strong> &nbsp;·&nbsp; $97 per seat &nbsp;·&nbsp; Bring Your Laptop &nbsp;·&nbsp; Interactive Class
+                </p>
+                <a href="https://stan.store/AmarAI" target="_blank" rel="noopener noreferrer" className="btn-gold mt-3 inline-flex items-center gap-2" style={{ fontSize: "0.85rem" }}>
+                  Reserve Your Seat → stan.store/AmarAI
+                </a>
               </div>
             </div>
             <div className="flex gap-4 justify-center flex-wrap">

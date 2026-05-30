@@ -131,11 +131,21 @@ const upcomingEvents2026 = [
 
   // ── Great Commission ────────────────────────────────────────────────────────────────────────
   {
-    title: "🌍 Senior Wellness Afternoon — The Great Commission Team",
-    date: "Wednesday, June 4, 2026",
-    time: "1:00 PM – 4:00 PM",
-    desc: "A free wellness afternoon for seniors and caregivers hosted by the Great Commission Team. Sessions include Mental Wellness After 50, Medicare & Medicaid, and Prescriptions — What You Don't Know. Light refreshments provided. 862 SW Glenview Ct., Port St. Lucie, FL.",
-    color: "var(--an-green)",
+    title: "🌿 Senior Wellness Afternoon — The Great Commission Team",
+    date: "Thursday, June 4, 2026",
+    time: "11:00 AM – 2:00 PM",
+    desc: "A FREE wellness afternoon for seniors and caregivers hosted by the Great Commission Team. Three dynamic sessions: Mental Wellness After 50 (Sis. Jennetta), Medicare & Medicaid — What You Need to Know (Sis. Nicole), and Prescriptions — What You Don't Know (Sis. King). Come ready to learn, ask questions, and leave equipped! All Nations Life Development Christian Center, 862 SW Glenview Ct., Port St. Lucie, FL.",
+    color: "#2E7D32",
+    flyer: "/senior-wellness-afternoon-flyer.jpeg",
+    thisWeek: true,
+  },
+  {
+    title: "🤖 AI Class 101 with AmarAi — Last Class!",
+    date: "Tuesday, June 16, 2026",
+    time: "9:30 AM – 12:00 PM (Noon)",
+    desc: "Last Class! AI 101: An Introduction to AI That Works for You — presented by AmarAi Consulting Group LLC with Shelia Blake, Founder. This is a LIVE, in-person interactive class. Bring your laptop! Seats are limited — $97 per seat. Reserve your seat at stan.store/AmarAI. 862 SW Glenview Ct, Port St. Lucie, FL 34953.",
+    color: "#1A2F6B",
+    flyer: "/ai101-amarai-flyer.png",
   },
 
   // ── Summer & Beyond ───────────────────────────────────────────────────────
@@ -265,6 +275,124 @@ export default function Events() {
           </p>
         </div>
       </div>
+
+      {/* Featured Event — Senior Wellness Afternoon THIS WEEK */}
+      <section style={{ background: "linear-gradient(135deg, #1B4D1E 0%, #2E7D32 50%, #1B4D1E 100%)", borderBottom: "4px solid #4CAF50" }}>
+        <div className="container py-0">
+          <div className="flex flex-col md:flex-row items-center gap-0 md:gap-10">
+            {/* Flyer Image */}
+            <div className="w-full md:w-2/5 flex-shrink-0">
+              <img
+                src="/senior-wellness-afternoon-flyer.jpeg"
+                alt="Senior Wellness Afternoon — Thursday, June 4, 2026 | 11:00 AM – 2:00 PM | All Nations LDCC"
+                className="w-full h-auto object-contain"
+                style={{ maxHeight: "560px", objectPosition: "center" }}
+              />
+            </div>
+            {/* Event Details */}
+            <div className="flex-1 py-12 px-6 md:px-0 text-center md:text-left">
+              <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-3" style={{ background: "rgba(255,255,255,0.18)", color: "#fff" }}>
+                🌿 THIS WEEK — Health &amp; Wellness
+              </span>
+              <h2 className="font-display font-bold text-white mt-3 mb-2" style={{ fontSize: "clamp(1.8rem, 4.5vw, 3rem)", lineHeight: 1.1 }}>
+                Senior Wellness Afternoon
+              </h2>
+              <p className="font-body text-sm mb-4" style={{ color: "#A5D6A7" }}>The Great Commission Team of All Nations LDCC</p>
+              <p className="font-body text-base mb-6" style={{ color: "rgba(255,255,255,0.85)", maxWidth: 480 }}>
+                A FREE afternoon designed just for YOU — seniors and caregivers. Come ready to learn, ask questions, and leave equipped!
+              </p>
+              {/* Sessions Grid */}
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
+                <div className="rounded-xl p-3" style={{ background: "rgba(255,255,255,0.12)", border: "1px solid rgba(255,255,255,0.25)" }}>
+                  <div className="font-body font-bold text-xs text-white mb-1">🧠 Mental Wellness After 50</div>
+                  <div className="font-body text-xs" style={{ color: "#A5D6A7" }}>Facilitator: Sis. Jennetta</div>
+                </div>
+                <div className="rounded-xl p-3" style={{ background: "rgba(255,255,255,0.12)", border: "1px solid rgba(255,255,255,0.25)" }}>
+                  <div className="font-body font-bold text-xs text-white mb-1">🛡️ Medicare &amp; Medicaid</div>
+                  <div className="font-body text-xs" style={{ color: "#A5D6A7" }}>Facilitator: Sis. Nicole</div>
+                </div>
+                <div className="rounded-xl p-3" style={{ background: "rgba(255,255,255,0.12)", border: "1px solid rgba(255,255,255,0.25)" }}>
+                  <div className="font-body font-bold text-xs text-white mb-1">💊 Prescriptions — What You Don't Know</div>
+                  <div className="font-body text-xs" style={{ color: "#A5D6A7" }}>Facilitator: Sis. King</div>
+                </div>
+              </div>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-6">
+                <div className="flex items-center gap-2 text-white">
+                  <Calendar size={16} style={{ color: "#A5D6A7" }} />
+                  <span className="font-body font-bold text-sm">Thursday, June 4, 2026</span>
+                </div>
+                <div className="flex items-center gap-2 text-white">
+                  <Clock size={16} style={{ color: "#A5D6A7" }} />
+                  <span className="font-body font-bold text-sm">11:00 AM – 2:00 PM</span>
+                </div>
+                <div className="flex items-center gap-2 text-white">
+                  <MapPin size={16} style={{ color: "#A5D6A7" }} />
+                  <span className="font-body text-sm">All Nations LDCC</span>
+                </div>
+              </div>
+              <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full font-body font-bold text-sm mb-4" style={{ background: "rgba(255,255,255,0.20)", color: "#fff", border: "2px solid rgba(255,255,255,0.50)" }}>
+                🆓 FREE EVENT — Open to All Seniors &amp; Caregivers
+              </div>
+              <div className="flex gap-3 justify-center md:justify-start mt-2">
+                <a href="tel:7723437021" className="btn-gold flex items-center gap-2">
+                  <Phone size={14} /> Call 772-343-7021
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Event — AI Class 101 with AmarAi */}
+      <section style={{ background: "#0d1533", borderBottom: "4px solid #C8901A" }}>
+        <div className="container py-0">
+          <div className="flex flex-col md:flex-row-reverse items-center gap-0 md:gap-10">
+            {/* Flyer Image */}
+            <div className="w-full md:w-2/5 flex-shrink-0 flex justify-center py-8 md:py-0">
+              <img
+                src="/ai101-amarai-flyer.png"
+                alt="AI Class 101 with AmarAi — Tuesday, June 16, 2026 | 9:30 AM | $97 | Bring Your Laptop"
+                className="h-auto object-contain rounded-2xl shadow-2xl"
+                style={{ maxHeight: "520px", maxWidth: "360px", width: "100%", border: "3px solid rgba(200,144,26,0.5)" }}
+              />
+            </div>
+            {/* Event Details */}
+            <div className="flex-1 py-12 px-6 md:px-0 text-center md:text-left">
+              <span className="section-label" style={{ color: "var(--an-gold)", letterSpacing: "0.15em" }}>AmarAi Consulting Group LLC Presents</span>
+              <h2 className="font-display font-bold text-white mt-3 mb-2" style={{ fontSize: "clamp(1.8rem, 4.5vw, 3rem)", lineHeight: 1.1 }}>
+                AI Class 101
+              </h2>
+              <p className="font-body text-base font-bold mb-1" style={{ color: "var(--an-gold)" }}>An Introduction to AI That Works for You</p>
+              <p className="font-body text-sm mb-2" style={{ color: "rgba(255,255,255,0.70)" }}>With Shelia Blake · Founder, AmarAi</p>
+              <p className="font-body text-sm mb-6" style={{ color: "rgba(255,255,255,0.80)", maxWidth: 480 }}>
+                <strong style={{ color: "#fff" }}>Last Class!</strong> This is a LIVE, in-person interactive class. Bring your laptop — seats are limited. Learn how AI can work for you in everyday life and business.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-6">
+                <div className="flex items-center gap-2 text-white">
+                  <Calendar size={16} style={{ color: "var(--an-gold)" }} />
+                  <span className="font-body font-bold text-sm">Tuesday, June 16, 2026</span>
+                </div>
+                <div className="flex items-center gap-2 text-white">
+                  <Clock size={16} style={{ color: "var(--an-gold)" }} />
+                  <span className="font-body font-bold text-sm">9:30 AM – 12:00 PM</span>
+                </div>
+              </div>
+              <div className="rounded-xl p-4 mb-6 text-left" style={{ background: "rgba(200,144,26,0.12)", border: "1px solid rgba(200,144,26,0.4)" }}>
+                <div className="font-body font-bold text-sm mb-2" style={{ color: "var(--an-gold)" }}>Event Details</div>
+                <div className="font-body text-xs text-white mb-1">💻 Bring Your Laptop — This is an Interactive Class</div>
+                <div className="font-body text-xs text-white mb-1">💰 Seat Cost: $97 per person</div>
+                <div className="font-body text-xs text-white mb-1">📍 862 SW Glenview Ct, Port St. Lucie, FL 34953</div>
+                <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.65)" }}>Seats are limited — reserve yours today!</div>
+              </div>
+              <div className="flex gap-3 justify-center md:justify-start">
+                <a href="https://stan.store/AmarAI" target="_blank" rel="noopener noreferrer" className="btn-gold flex items-center gap-2">
+                  Reserve Your Seat → stan.store/AmarAI
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Featured Event Hero — Kings, Fuel Your Fire (Men's Month June 2026) */}
       <section style={{ background: "#0a0a0a", borderBottom: "4px solid #C8901A" }}>
@@ -423,13 +551,18 @@ export default function Events() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {upcomingEvents2026.map(ev => (
-              <div key={ev.title} className="bg-white rounded-xl shadow-sm ministry-card border-t-4 overflow-hidden" style={{ borderTopColor: ev.color }}>
+              <div key={ev.title} className="bg-white rounded-xl shadow-sm ministry-card border-t-4 overflow-hidden relative" style={{ borderTopColor: ev.color }}>
+                {(ev as any).thisWeek && (
+                  <div className="absolute top-3 right-3 z-10 flex items-center gap-1 px-2 py-0.5 rounded-full font-body font-bold text-xs" style={{ background: "#2E7D32", color: "#fff" }}>
+                    🌿 THIS WEEK
+                  </div>
+                )}
                 {(ev as any).flyer && (
                   <img
                     src={(ev as any).flyer}
                     alt={`${ev.title} flyer`}
                     className="w-full object-cover"
-                    style={{ maxHeight: "200px", objectPosition: "top" }}
+                    style={{ maxHeight: "220px", objectPosition: "top" }}
                   />
                 )}
                 <div className="p-6">
