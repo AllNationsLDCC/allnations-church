@@ -197,6 +197,58 @@ export default function Ministries() {
         </div>
       </section>
 
+      {/* Women Arise & Take Flight Gallery */}
+      <section className="py-20" style={{ background: "#fff" }}>
+        <div className="container">
+          <div className="text-center mb-10">
+            <span className="section-label" style={{ color: "var(--an-red)" }}>Women's Ministry · May 2026</span>
+            <h2 className="font-display text-4xl font-bold" style={{ color: "var(--an-navy)" }}>
+              Women Arise &amp; <span style={{ color: "var(--an-gold)" }}>Take Flight</span>
+            </h2>
+            <p className="font-body text-base mt-3 max-w-2xl mx-auto" style={{ color: "#666" }}>
+              A powerful evening of worship, the Word, and sisterhood. Women of All Nations arose and took flight — spirit, soul, and body.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 mb-4">
+            <div className="relative rounded-2xl overflow-hidden shadow-lg" style={{ height: "320px" }}>
+              <img src="/women-arise-1.jpg" alt="Women Arise and Take Flight — speaker at the podium" className="w-full h-full object-cover" style={{ objectPosition: "center 20%" }} />
+              <div className="absolute bottom-0 left-0 right-0 px-4 py-3" style={{ background: "linear-gradient(to top, rgba(31,47,92,0.85), transparent)" }}>
+                <p className="font-body text-white text-sm font-semibold">Women Arise &amp; Take Flight</p>
+              </div>
+            </div>
+            <div className="relative rounded-2xl overflow-hidden shadow-lg" style={{ height: "320px" }}>
+              <img src="/women-arise-2.jpg" alt="Women Arise and Take Flight — speaker at the altar" className="w-full h-full object-cover" style={{ objectPosition: "center center" }} />
+              <div className="absolute bottom-0 left-0 right-0 px-4 py-3" style={{ background: "linear-gradient(to top, rgba(31,47,92,0.85), transparent)" }}>
+                <p className="font-body text-white text-sm font-semibold">Take Flight — 3 John 1:2</p>
+              </div>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div className="relative rounded-2xl overflow-hidden shadow-lg" style={{ height: "260px" }}>
+              <img src="/women-arise-3.jpg" alt="Women Arise and Take Flight — Why Do We Wear Masks session" className="w-full h-full object-cover" style={{ objectPosition: "center center" }} />
+              <div className="absolute bottom-0 left-0 right-0 px-4 py-3" style={{ background: "linear-gradient(to top, rgba(31,47,92,0.85), transparent)" }}>
+                <p className="font-body text-white text-sm font-semibold">Why Do We Wear Masks?</p>
+              </div>
+            </div>
+            <div className="relative rounded-2xl overflow-hidden shadow-lg" style={{ height: "260px" }}>
+              <img src="/women-arise-4.jpg" alt="Women Arise and Take Flight — Take Flight I Got Backup message" className="w-full h-full object-cover" style={{ objectPosition: "center center" }} />
+              <div className="absolute bottom-0 left-0 right-0 px-4 py-3" style={{ background: "linear-gradient(to top, rgba(31,47,92,0.85), transparent)" }}>
+                <p className="font-body text-white text-sm font-semibold">Take Flight — I Got Backup! · Romans 8:37</p>
+              </div>
+            </div>
+            <div className="relative rounded-2xl overflow-hidden shadow-lg" style={{ height: "260px" }}>
+              <img src="/women-arise-5.jpg" alt="Women Arise and Take Flight — worship and praise" className="w-full h-full object-cover" style={{ objectPosition: "center center" }} />
+              <div className="absolute bottom-0 left-0 right-0 px-4 py-3" style={{ background: "linear-gradient(to top, rgba(31,47,92,0.85), transparent)" }}>
+                <p className="font-body text-white text-sm font-semibold">Worship &amp; Praise</p>
+              </div>
+            </div>
+          </div>
+          <div className="text-center mt-8">
+            <span className="font-body text-sm italic" style={{ color: "#888" }}>Women's Ministry · All Nations Life Development Christian Center · May 2026</span>
+          </div>
+        </div>
+      </section>
+
       {/* Counseling Services */}
       <section className="py-20" style={{ background: "#fff" }}>
         <div className="container">

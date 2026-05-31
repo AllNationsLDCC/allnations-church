@@ -191,6 +191,53 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ===== THIS TUESDAY — USHER PRAYER LINE ANNOUNCEMENT ===== */}
+      <section className="py-0" style={{ background: "linear-gradient(135deg, #1a0a2e 0%, #2d1254 50%, #1a0a2e 100%)", borderTop: "4px solid #C8901A", borderBottom: "4px solid #C8901A" }}>
+        <div className="container py-8">
+          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
+            {/* Flyer */}
+            <div className="flex-shrink-0 w-full md:w-auto flex justify-center">
+              <div className="rounded-2xl overflow-hidden shadow-2xl" style={{ maxWidth: "340px", width: "100%", border: "3px solid rgba(200,144,26,0.6)" }}>
+                <img
+                  src="/tuesday-prayer-bishop-blake.png"
+                  alt="Gatekeepers Tuesday Prayer Line — Bishop Cornelius Blake Guest Speaker | Tuesday at 7:30 PM"
+                  style={{ width: "100%", height: "auto", display: "block" }}
+                />
+              </div>
+            </div>
+            {/* Details */}
+            <div className="flex-1 text-center md:text-left py-4">
+              <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-3" style={{ background: "rgba(200,144,26,0.25)", color: "var(--an-gold)" }}>
+                🙏 THIS TUESDAY — Prayer Line
+              </span>
+              <h2 className="font-display font-bold text-white mb-2" style={{ fontSize: "clamp(1.5rem, 3vw, 2.4rem)", lineHeight: 1.1 }}>
+                Gatekeepers, You're Invited to a<br />
+                <span style={{ color: "var(--an-gold)" }}>Powerful Time of Prayer!</span>
+              </h2>
+              <p className="font-body font-bold mb-3" style={{ color: "#C8901A", fontSize: "1.05rem" }}>
+                Tuesday · 7:30 PM
+              </p>
+              <p className="font-body text-sm mb-4" style={{ color: "rgba(255,255,255,0.85)", maxWidth: 460 }}>
+                Sister Tracey proudly invites <strong style={{ color: "#fff" }}>Bishop Cornelius Blake</strong> as our Guest Speaker on the Prayer Line. Come expecting a <strong style={{ color: "var(--an-gold)" }}>BLESSING</strong> as we connect in Faith &amp; Unity!
+              </p>
+              <div className="flex flex-wrap gap-3 mb-5 justify-center md:justify-start">
+                <div className="rounded-xl px-4 py-3 text-center" style={{ background: "rgba(255,255,255,0.10)", border: "1px solid rgba(200,144,26,0.4)" }}>
+                  <div className="font-body text-xs mb-1" style={{ color: "rgba(255,255,255,0.60)" }}>📞 Dial</div>
+                  <div className="font-display font-bold text-white text-base">425-436-6374</div>
+                </div>
+                <div className="rounded-xl px-4 py-3 text-center" style={{ background: "rgba(255,255,255,0.10)", border: "1px solid rgba(200,144,26,0.4)" }}>
+                  <div className="font-body text-xs mb-1" style={{ color: "rgba(255,255,255,0.60)" }}>🔒 Access Code</div>
+                  <div className="font-display font-bold text-white text-base">1065638</div>
+                </div>
+              </div>
+              <p className="font-body text-xs italic" style={{ color: "rgba(255,255,255,0.55)" }}>
+                "Let's agree together and experience the power of prayer!" — See you on the line!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ===== JUNE 2026 — KINGS, FUEL YOUR FIRE (MEN'S MONTH) ===== */}
       <section className="py-16 relative overflow-hidden">
         <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #0a0a0a 0%, #1a1200 40%, #3d2800 100%)" }} />
