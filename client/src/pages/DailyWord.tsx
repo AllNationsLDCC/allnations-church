@@ -694,6 +694,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "This is not the end — it is the beginning of your next flight. Take what God has given you this month and use it. Arise. Take flight. And never look back.",
     close: "I love you, All Nations. Thank you for flying with me this month. God is not done with you. The best is still ahead. Arise and take flight.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/rIAsvqaIIoHsomnQ.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/abaAqsunRbwjoFVC.png",
   },
   // ===== JUNE 2026 — MEN'S MONTH: IRON SHARPENS IRON =====
