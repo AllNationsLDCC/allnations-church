@@ -1,6 +1,6 @@
 // Design: Warm, pastoral, professional — Playfair Display headings, Open Sans body
 // Brand: Deep Navy #1A2F6B | Gold #C8901A | Cream #F5F0E8 | White #FFFFFF | Dark #222222
-// Daily Word by Pastor Shelia Blake — May 2026 Theme: Arise and Take Flight
+// Daily Word by Pastor Shelia Blake — June 2026 Theme: Iron Sharpens Iron (Men's Month)
 
 import { useState } from "react";
 import { Flame, Calendar, Facebook, Instagram, Link2, ChevronDown, ChevronUp, Volume2 } from "lucide-react";
@@ -696,6 +696,427 @@ const entries: DayEntry[] = [
     close: "I love you, All Nations. Thank you for flying with me this month. God is not done with you. The best is still ahead. Arise and take flight.",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/abaAqsunRbwjoFVC.png",
   },
+  // ===== JUNE 2026 — MEN'S MONTH: IRON SHARPENS IRON =====
+  {
+    day: 1, date: "June 1, 2026", isoDate: "2026-06-01",
+    title: "Iron Sharpens Iron",
+    scripture: "Proverbs 27:17 (KJV)",
+    verse: "Iron sharpeneth iron; so a man sharpeneth the countenance of his friend.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 1 of our June Daily Word series — Iron Sharpens Iron. This month is Men's Month, and every word this June is a word for the men of God who are rising, building, and leading.",
+    keyPoints: [
+      "Iron does not sharpen itself. It requires friction, contact, and the presence of something equally strong. God designed men to sharpen one another — not to compete, but to make each other better.",
+      "The men in your life who challenge you, hold you accountable, and push you toward your purpose are not your enemies. They are your sharpeners. A man who isolates himself from godly brotherhood will grow dull.",
+      "This month, we are going to look at what it means to be a man of God — a man of faith, family, integrity, and legacy. Iron sharpens iron. Let the sharpening begin.",
+    ],
+    callToAction: "Identify one man in your life who sharpens you. Reach out to him today. Brotherhood is not accidental — it is intentional.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 2, date: "June 2, 2026", isoDate: "2026-06-02",
+    title: "The Making of a Man",
+    scripture: "1 Samuel 16:7 (KJV)",
+    verse: "But the Lord said unto Samuel, Look not on his countenance, or on the height of his stature; because I have refused him: for the Lord seeth not as man seeth; for man looketh on the outward appearance, but the Lord looketh on the heart.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 2 of Iron Sharpens Iron.",
+    keyPoints: [
+      "The world defines a man by his title, his income, his physique, and his accomplishments. But God defines a man by his heart. When Samuel went to anoint the next king of Israel, he nearly missed David because he was looking at the wrong things.",
+      "God passed over the tall, impressive brothers and chose the shepherd boy — the one who had been faithful in the hidden place. God is not looking for the most impressive man in the room. He is looking for the most surrendered.",
+      "The making of a man of God happens in the hidden places — in the early morning prayers, in the quiet acts of faithfulness, in the moments when no one is watching. That is where God shapes a king.",
+    ],
+    callToAction: "Tend to your heart today. What is God seeing when He looks at you? Let Him shape you in the hidden place.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 3, date: "June 3, 2026", isoDate: "2026-06-03",
+    title: "A Man of Prayer",
+    scripture: "Daniel 6:10 (KJV)",
+    verse: "Now when Daniel knew that the writing was signed, he went into his house; and his windows being open in his chamber toward Jerusalem, he kneeled upon his knees three times a day, and prayed, and gave thanks before his God, as he did aforetime.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 3 of Iron Sharpens Iron.",
+    keyPoints: [
+      "Daniel was a man of extraordinary influence in one of the most powerful empires in history. He served kings and navigated palace politics. But the foundation of his strength was not his wisdom or his position — it was his prayer life.",
+      "When the decree came that made prayer illegal, Daniel did not adjust his schedule. He opened his windows toward Jerusalem and prayed three times a day, as he had always done. His prayer life was not a crisis response — it was a daily discipline.",
+      "A praying man is a powerful man. Not because prayer makes him look spiritual, but because prayer keeps him connected to the source of all wisdom, strength, and direction.",
+    ],
+    callToAction: "Establish your prayer windows today. Not just when crisis comes — but every day. A man who prays consistently is a man who stands consistently.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 4, date: "June 4, 2026", isoDate: "2026-06-04",
+    title: "The Faithful Father",
+    scripture: "Ephesians 6:4 (KJV)",
+    verse: "And, ye fathers, provoke not your children to wrath: but bring them up in the nurture and admonition of the Lord.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 4 of Iron Sharpens Iron.",
+    keyPoints: [
+      "Fatherhood is one of the most sacred assignments God gives a man. It is not just about providing financially — it is about nurturing spiritually. God calls fathers to raise their children in the admonition of the Lord.",
+      "The word nurture here means to nourish, to feed, to cultivate. A faithful father does not just keep the lights on — he keeps the Word alive in his home. He prays with his children. He models integrity. He speaks life over his family.",
+      "Whether you are a biological father, a spiritual father, or a man who pours into the lives of young people — your investment is eternal. The seeds you plant in the next generation will bear fruit long after you are gone.",
+    ],
+    callToAction: "Speak life over your children today. Pray with them. Let them see you in the Word. Be the father that points them toward God.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 5, date: "June 5, 2026", isoDate: "2026-06-05",
+    title: "The Courage of Joshua",
+    scripture: "Joshua 1:9 (KJV)",
+    verse: "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the Lord thy God is with thee whithersoever thou goest.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 5 of Iron Sharpens Iron.",
+    keyPoints: [
+      "Joshua had just been handed the most daunting assignment of his life. Moses was gone. The people were looking to him. And the land they were about to enter was full of giants, fortified cities, and formidable enemies.",
+      "God did not tell Joshua to feel courageous. He commanded him to be courageous. Courage is not the absence of fear — it is the decision to move forward in spite of it. God commanded it because He knew Joshua would need to choose it.",
+      "Every man of God faces a moment when the assignment is bigger than his ability. That is the moment God says, 'Be strong and of a good courage.' Not because the road is easy, but because I am with you.",
+    ],
+    callToAction: "What giant are you facing today? God is not asking you to feel fearless. He is asking you to be courageous. Take the step. He is with you.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 6, date: "June 6, 2026", isoDate: "2026-06-06",
+    title: "A Man and His Word",
+    scripture: "Matthew 5:37 (KJV)",
+    verse: "But let your communication be, Yea, yea; Nay, nay: for whatsoever is more than these cometh of evil.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 6 of Iron Sharpens Iron.",
+    keyPoints: [
+      "Integrity is the foundation of a man's character. When a man's word means something, he does not need a contract, a witness, or a legal document. His yes is yes, and his no is no.",
+      "In a world where promises are broken as easily as they are made, a man who keeps his word is a rare and powerful thing. Your children are watching. Your wife is watching. Your community is watching.",
+      "God is a God who keeps His word. Every promise He has ever made, He has kept or will keep. When you walk in integrity, you reflect the character of your Father. A man of his word is a man who looks like God.",
+    ],
+    callToAction: "Examine your commitments today. Are you keeping your word? Let your yes be yes. Let your integrity speak louder than your title.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 7, date: "June 7, 2026", isoDate: "2026-06-07",
+    title: "Sunday: The Gathering of Kings",
+    scripture: "Psalm 133:1 (KJV)",
+    verse: "Behold, how good and how pleasant it is for brethren to dwell together in unity!",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 7 of Iron Sharpens Iron. Today is Sunday — the day the kings gather.",
+    keyPoints: [
+      "There is something powerful that happens when men of God gather in one place with one purpose. The Psalmist said it is good and pleasant when brethren dwell together in unity. When kings gather, the atmosphere shifts.",
+      "The enemy works overtime to keep men out of the house of God. He knows that a man in his rightful place in the church is a man who is dangerous to the kingdom of darkness. Your presence in the house of God matters.",
+      "When you show up on Sunday, you are not just attending a service. You are taking your place in the formation. You are saying to your family, your community, and the enemy: I am here. I am standing. I am not moving.",
+    ],
+    callToAction: "Be in the house of God today. Take your seat. Take your place. The gathering of kings is where iron sharpens iron.",
+    close: "I love you, Kings. Iron sharpens iron. See you in the house today.",
+  },
+  {
+    day: 8, date: "June 8, 2026", isoDate: "2026-06-08",
+    title: "The Armor of God",
+    scripture: "Ephesians 6:11 (KJV)",
+    verse: "Put on the whole armour of God, that ye may be able to stand against the wiles of the devil.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 8 of Iron Sharpens Iron.",
+    keyPoints: [
+      "A soldier who goes into battle without his armor is not brave — he is reckless. God has provided every piece of armor a man needs to stand in the spiritual battles of life. But He requires you to put it on.",
+      "The belt of truth, the breastplate of righteousness, the shoes of the gospel, the shield of faith, the helmet of salvation, and the sword of the Spirit — each piece is essential. You cannot afford to leave any of it behind.",
+      "The enemy does not fight fair. He uses deception, discouragement, temptation, and distraction. But a man who is fully armored and fully surrendered to God is a man the enemy cannot stop.",
+    ],
+    callToAction: "Put on your armor today before you step into the battle. Start with the Word. Start with prayer. Go into this day fully equipped.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 9, date: "June 9, 2026", isoDate: "2026-06-09",
+    title: "The Weight of Leadership",
+    scripture: "Luke 22:26 (KJV)",
+    verse: "But ye shall not be so: but he that is greatest among you, let him be as the younger; and he that is chief, as he that doth serve.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 9 of Iron Sharpens Iron.",
+    keyPoints: [
+      "The world defines leadership as power over others. But Jesus redefined leadership as service to others. The greatest leader in the room is the one who is willing to serve the most.",
+      "A man who leads his family, his church, or his community with a servant's heart is a man who carries the weight of leadership with grace. He does not demand respect — he earns it through sacrifice.",
+      "Jesus washed His disciples' feet. The King of kings got on His knees and served. That is the model for every man of God who is called to lead.",
+    ],
+    callToAction: "Who can you serve today? Look for an opportunity to lead through service. The greatest among you is the one who serves.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 10, date: "June 10, 2026", isoDate: "2026-06-10",
+    title: "Guarding Your Gates",
+    scripture: "Proverbs 4:23 (KJV)",
+    verse: "Keep thy heart with all diligence; for out of it are the issues of life.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 10 of Iron Sharpens Iron.",
+    keyPoints: [
+      "A city without walls is a city without defense. In ancient times, the gates of a city were its most critical point of protection. What came through the gates determined the safety of everything inside.",
+      "Your heart is the gate of your life. What you allow in through your eyes, your ears, and your associations will shape the man you become. A man who does not guard his gates will eventually be overtaken.",
+      "Guarding your heart means being intentional about what you watch, what you listen to, who you spend time with, and what you meditate on. The issues of your life flow from the condition of your heart.",
+    ],
+    callToAction: "Do a gate check today. What have you been allowing in? Guard your heart with diligence — your life depends on it.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 11, date: "June 11, 2026", isoDate: "2026-06-11",
+    title: "The Strength of Humility",
+    scripture: "Proverbs 16:18 (KJV)",
+    verse: "Pride goeth before destruction, and an haughty spirit before a fall.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 11 of Iron Sharpens Iron.",
+    keyPoints: [
+      "The world tells men that humility is weakness. But God says that pride is the thing that brings a man down. History is full of powerful men who fell not because of their enemies, but because of their own pride.",
+      "Humility is not thinking less of yourself — it is thinking of yourself less. A humble man can receive correction, admit when he is wrong, and give credit to God for every success. That is not weakness; that is wisdom.",
+      "The greatest men in Scripture were men of deep humility. Moses was the meekest man on earth. David called himself a dead dog before the king. Jesus, the Son of God, washed feet. Humility is the posture of greatness.",
+    ],
+    callToAction: "Check your pride today. Is there an area where you need to humble yourself? Humility opens the door to God's grace and promotion.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 12, date: "June 12, 2026", isoDate: "2026-06-12",
+    title: "Legacy In the Making",
+    scripture: "Psalm 112:1-2 (KJV)",
+    verse: "Blessed is the man that feareth the Lord, that delighteth greatly in his commandments. His seed shall be mighty upon earth: the generation of the upright shall be blessed.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 12 of Iron Sharpens Iron.",
+    keyPoints: [
+      "A man who fears the Lord does not just build a life for himself — he builds a legacy for generations. The Psalmist says that the seed of a righteous man shall be mighty upon the earth. Your obedience today is your children's inheritance tomorrow.",
+      "Legacy is not built in a single grand moment. It is built in the daily choices — the decision to stay faithful, to stay in the Word, to stay in the house of God, to stay committed to your family.",
+      "You are not just living for today. You are laying a foundation that the next generation will build upon. Every righteous decision you make is a brick in the house your children will live in.",
+    ],
+    callToAction: "Think generationally today. What decisions are you making right now that will bless your children and grandchildren? Build your legacy one righteous choice at a time.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 13, date: "June 13, 2026", isoDate: "2026-06-13",
+    title: "When Men Weep",
+    scripture: "John 11:35 (KJV)",
+    verse: "Jesus wept.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 13 of Iron Sharpens Iron.",
+    keyPoints: [
+      "The shortest verse in the Bible is one of the most powerful. Jesus wept. The Son of God, standing at the tomb of His friend Lazarus, allowed Himself to feel grief. He did not suppress it. He did not hide it. He wept.",
+      "The culture tells men that emotion is weakness. But Jesus — the most powerful man who ever walked the earth — wept openly. Emotional strength is not the absence of feeling; it is the ability to feel deeply and still stand firmly.",
+      "A man who cannot grieve cannot truly love. A man who cannot be moved cannot truly lead. God created you with emotions not to be buried, but to be surrendered to Him.",
+    ],
+    callToAction: "Give yourself permission to feel today. Bring your grief, your frustration, your fears to God. He is not intimidated by your tears. He wept too.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 14, date: "June 14, 2026", isoDate: "2026-06-14",
+    title: "Sunday: Standing in the Gap",
+    scripture: "Ezekiel 22:30 (KJV)",
+    verse: "And I sought for a man among them, that should make up the hedge, and stand in the gap before me for the land, that I should not destroy it: but I found none.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 14 of Iron Sharpens Iron. Today is Sunday — the day we stand together.",
+    keyPoints: [
+      "God was looking for a man. Not an army. Not a committee. Not a program. One man willing to stand in the gap. The gap is the space between what is and what should be — between the brokenness of the world and the redemption of God.",
+      "Men of God are called to be gap-standers. In your home, in your church, in your community — there are gaps that need a man willing to stand. A man who prays, who intercedes, who refuses to let the enemy have the last word.",
+      "The tragedy of Ezekiel 22 is not that the gap existed. The tragedy is that God found no one to stand in it. Let that not be said of the men of All Nations.",
+    ],
+    callToAction: "Where is the gap in your home, your family, your community? Step into it today. Be the man God is looking for.",
+    close: "I love you, Kings. Iron sharpens iron. See you in the house today.",
+  },
+  {
+    day: 15, date: "June 15, 2026", isoDate: "2026-06-15",
+    title: "The Discipline of a Champion",
+    scripture: "1 Corinthians 9:27 (KJV)",
+    verse: "But I keep under my body, and bring it into subjection: lest that by any means, when I have preached to others, I myself should be a castaway.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 15 of Iron Sharpens Iron.",
+    keyPoints: [
+      "Paul was not talking about physical fitness alone — he was talking about the discipline of a man who refuses to let his flesh run his life. He kept his body under subjection. He brought it into discipline.",
+      "A champion is not someone who never faces temptation. A champion is someone who has trained himself to respond to temptation with discipline rather than indulgence. The battle for a man's destiny is often won or lost in the moments of private discipline.",
+      "What you do when no one is watching determines who you become when everyone is watching. Discipline your prayer life, your thought life, your financial life, and your relational life. Champions are made in the training room.",
+    ],
+    callToAction: "Identify one area of your life that needs more discipline today. Make a decision to bring it under subjection. Champions are not born — they are built.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 16, date: "June 16, 2026", isoDate: "2026-06-16",
+    title: "A Man Who Provides",
+    scripture: "1 Timothy 5:8 (KJV)",
+    verse: "But if any provide not for his own, and specially for those of his own house, he hath denied the faith, and is worse than an infidel.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 16 of Iron Sharpens Iron.",
+    keyPoints: [
+      "Provision is one of the primary callings of a man. Not just financial provision — though that matters — but spiritual provision, emotional provision, and protective provision. A man who provides for his family in every dimension is a man who is fulfilling his God-given assignment.",
+      "The enemy wants to make men feel like they are not enough. Not earning enough. Not doing enough. Not being enough. But God does not call you to be perfect — He calls you to be faithful. Faithful provision, offered with love, is more than enough.",
+      "Provide for your family through prayer. Provide through presence. Provide through wisdom. Provide through the Word. A man who covers his family in every dimension is a man who is building something that will last.",
+    ],
+    callToAction: "How are you providing for your family today — not just financially, but spiritually and emotionally? Be present. Be intentional. Be the provider God called you to be.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 17, date: "June 17, 2026", isoDate: "2026-06-17",
+    title: "The Power of Forgiveness",
+    scripture: "Ephesians 4:32 (KJV)",
+    verse: "And be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ's sake hath forgiven you.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 17 of Iron Sharpens Iron.",
+    keyPoints: [
+      "Unforgiveness is one of the heaviest burdens a man can carry. It does not punish the person who hurt you — it imprisons you. Many men are walking through life with the weight of old wounds, old betrayals, and old offenses that are slowly destroying them from the inside out.",
+      "Forgiveness is not weakness. It is one of the most powerful acts a man can perform. It takes strength to release what you have every right to hold onto. But when you forgive, you are not excusing the offense — you are freeing yourself.",
+      "God forgave you at the highest possible cost — the blood of His Son. When He asks you to forgive, He is not asking you to do something He has not already done for you.",
+    ],
+    callToAction: "Is there someone you need to forgive today? Make the decision — not for their sake, but for yours. Forgiveness is the key that unlocks your next season.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 18, date: "June 18, 2026", isoDate: "2026-06-18",
+    title: "Honoring Your Father",
+    scripture: "Exodus 20:12 (KJV)",
+    verse: "Honour thy father and thy mother: that thy days may be long upon the land which the Lord thy God giveth thee.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 18 of Iron Sharpens Iron. Father's Day is this Sunday, and today we honor the fathers who have gone before us.",
+    keyPoints: [
+      "God attached a promise to the commandment to honor your parents. Long life. Blessing. Inheritance. Honoring your father is not just a moral obligation — it is a spiritual key that unlocks generational blessing.",
+      "For some of you, honoring your father is complicated. He was absent. He was broken. He hurt you. Honoring him does not mean pretending the pain did not exist. It means releasing him to God and choosing not to let his failures define your future.",
+      "And for those of you who are fathers — you are building something your children will one day honor. The way you live today is the legacy they will carry. Live in a way that makes honoring you easy.",
+    ],
+    callToAction: "Honor your father today — in prayer, in a phone call, in a letter, or in the quiet of your heart. And if you are a father, live in a way that is worthy of honor.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 19, date: "June 19, 2026", isoDate: "2026-06-19",
+    title: "Juneteenth: Free Indeed",
+    scripture: "John 8:36 (KJV)",
+    verse: "If the Son therefore shall make you free, ye shall be free indeed.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 19 of Iron Sharpens Iron. Today is Juneteenth — a day of freedom, remembrance, and celebration.",
+    keyPoints: [
+      "On June 19, 1865, enslaved men and women in Texas finally heard the news of their freedom — two and a half years after the Emancipation Proclamation had been signed. Freedom had been declared, but the news had not reached them. Today we remember and celebrate that freedom.",
+      "There is a spiritual parallel here. Jesus declared your freedom at the cross. But many believers are still living in bondage because the news has not fully reached their hearts. You are free. The chains are broken. Walk in it.",
+      "Juneteenth reminds us that freedom is worth celebrating, worth protecting, and worth passing on. The freedom bought by the blood of Jesus is greater than any earthly emancipation — and it must never be taken for granted.",
+    ],
+    callToAction: "Celebrate your freedom today — the freedom of Juneteenth and the freedom of the cross. And walk in it fully. If the Son has made you free, you are free indeed.",
+    close: "I love you, Kings. Free indeed. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 20, date: "June 20, 2026", isoDate: "2026-06-20",
+    title: "Happy Father's Day — The Father's Heart",
+    scripture: "Luke 15:20 (KJV)",
+    verse: "And he arose, and came to his father. But when he was yet a great way off, his father saw him, and had compassion, and ran, and fell on his neck, and kissed him.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 20 of Iron Sharpens Iron. Today is Father's Day, and this word is for every father, every spiritual father, and every man who has ever poured into the life of a child.",
+    keyPoints: [
+      "The father in the parable of the prodigal son is one of the most powerful pictures of God's heart in all of Scripture. When his son was still a great way off — still dirty, still broken, still smelling like the pigpen — the father saw him and ran. He did not wait for an apology. He ran.",
+      "That is the father's heart. It does not keep score. It does not hold grudges. It watches the horizon for the return of the one it loves. Every father who reflects this heart is reflecting the heart of God Himself.",
+      "Today we honor every man who has stayed. Every man who has prayed. Every man who has sacrificed, provided, protected, and loved his family with a father's heart. You are seen. You are celebrated. You are valued.",
+    ],
+    callToAction: "Happy Father's Day. Today, let someone honor you. And let the Father's heart in you pour out on everyone around you.",
+    close: "I love you, Kings. Happy Father's Day. Iron sharpens iron.",
+  },
+  {
+    day: 21, date: "June 21, 2026", isoDate: "2026-06-21",
+    title: "Sunday: The King's Table",
+    scripture: "2 Samuel 9:13 (KJV)",
+    verse: "So Mephibosheth dwelt in Jerusalem: for he did eat continually at the king's table; and was lame on both his feet.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 21 of Iron Sharpens Iron. Today is Sunday — Father's Day Sunday — the day the kings gather at the table.",
+    keyPoints: [
+      "Mephibosheth was the son of Jonathan and the grandson of King Saul. After the death of his father, he was dropped by his nurse and became lame in both feet. He lived in a place called Lo-debar — which means 'no pasture,' a place of nothing.",
+      "But King David, in an act of extraordinary covenant love, sought him out and brought him to the king's table. Not because of what Mephibosheth had done, but because of the covenant David had made with his father Jonathan.",
+      "You may feel like you are in Lo-debar right now. You may feel lame, forgotten, or disqualified. But the King has not forgotten you. He has set a table for you, and your seat is already reserved.",
+    ],
+    callToAction: "Come to the table today. Come to the house of God. Come broken, come lame, come from Lo-debar — the King is waiting.",
+    close: "I love you, Kings. Iron sharpens iron. See you at the table today.",
+  },
+  {
+    day: 22, date: "June 22, 2026", isoDate: "2026-06-22",
+    title: "The Man in the Mirror",
+    scripture: "James 1:23-24 (KJV)",
+    verse: "For if any be a hearer of the word, and not a doer, he is like unto a man beholding his natural face in a glass: For he beholdeth himself, and goeth his way, and straightway forgetteth what manner of man he was.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 22 of Iron Sharpens Iron.",
+    keyPoints: [
+      "James gives us a sobering picture of the man who hears the Word but does not do it. He looks in the mirror — sees exactly what needs to change — and then walks away and forgets. He heard, but he did not act.",
+      "The Word of God is a mirror for the soul. When you sit under the preaching of the Word, when you read the Scriptures, God is showing you what you look like — and what you could become. The question is: what do you do with what you see?",
+      "A man of God does not just hear the Word on Sunday and forget it by Monday. He is a doer of the Word. He takes what he sees in the mirror and allows the Holy Spirit to transform him.",
+    ],
+    callToAction: "What has God been showing you in the mirror of His Word? Do not walk away and forget. Be a doer of the Word today.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 23, date: "June 23, 2026", isoDate: "2026-06-23",
+    title: "The Brotherhood of Covenant",
+    scripture: "1 Samuel 18:3 (KJV)",
+    verse: "Then Jonathan and David made a covenant, because he loved him as his own soul.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 23 of Iron Sharpens Iron.",
+    keyPoints: [
+      "David and Jonathan's friendship is one of the greatest examples of covenant brotherhood in all of Scripture. Jonathan was the crown prince — the heir to the throne. David was the one God had chosen to take that throne. By all rights, they should have been rivals. Instead, they became covenant brothers.",
+      "Jonathan gave David his robe, his armor, his sword, his bow, and his belt — everything that represented his identity and his position. He was saying: I am for you, not against you. Your success is my success.",
+      "That is the spirit of iron sharpening iron. Not competition, but covenant. Not jealousy, but celebration. A man who can celebrate another man's success is a man who is secure in his own identity.",
+    ],
+    callToAction: "Who is your Jonathan? Who is your David? Invest in a covenant brotherhood relationship this week. Be the man who gives his robe instead of guarding it.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 24, date: "June 24, 2026", isoDate: "2026-06-24",
+    title: "Finishing What You Started",
+    scripture: "Nehemiah 6:3 (KJV)",
+    verse: "And I sent messengers unto them, saying, I am doing a great work, so that I cannot come down: why should the work cease, whilst I leave it, and come down to you?",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 24 of Iron Sharpens Iron.",
+    keyPoints: [
+      "Nehemiah was rebuilding the walls of Jerusalem, and his enemies tried everything to distract him, discourage him, and draw him away from the work. They sent messengers four times. Four times, Nehemiah refused to come down.",
+      "His answer is one of the most powerful statements in Scripture: 'I am doing a great work, so that I cannot come down.' He knew his assignment. He refused to let distractions pull him off the wall.",
+      "You have a great work to do. God has given you an assignment — in your family, your business, your ministry, your community. The enemy will send messengers to pull you down. Stay on the wall. Finish what you started.",
+    ],
+    callToAction: "What great work has God assigned to you? Refuse to come down today. Stay focused. Stay on the wall. Finish it.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 25, date: "June 25, 2026", isoDate: "2026-06-25",
+    title: "The Generational Blessing",
+    scripture: "Deuteronomy 7:9 (KJV)",
+    verse: "Know therefore that the Lord thy God, he is God, the faithful God, which keepeth covenant and mercy with them that love him and keep his commandments to a thousand generations.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 25 of Iron Sharpens Iron.",
+    keyPoints: [
+      "A thousand generations. That is the scope of God's covenant faithfulness. When you walk in obedience to God, you are not just blessing yourself — you are setting a trajectory for a thousand generations of your family.",
+      "Every man who chooses righteousness over compromise is making a deposit into a generational account that his great-great-grandchildren will draw from. Your faithfulness today is someone else's inheritance tomorrow.",
+      "You may never see the full fruit of your obedience in your lifetime. But God keeps covenant to a thousand generations. The seeds you plant in faithfulness will produce a harvest that outlasts your name.",
+    ],
+    callToAction: "Live today with a thousand-generation mindset. Every righteous choice you make is a generational deposit. Your legacy is being written right now.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 26, date: "June 26, 2026", isoDate: "2026-06-26",
+    title: "The Anchor Holds",
+    scripture: "Hebrews 6:19 (KJV)",
+    verse: "Which hope we have as an anchor of the soul, both sure and stedfast, and which entereth into that within the veil.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 26 of Iron Sharpens Iron.",
+    keyPoints: [
+      "A ship without an anchor is at the mercy of every wind and wave. It can be driven off course, pushed into dangerous waters, or dashed against the rocks. But a ship with a strong anchor — no matter how fierce the storm — holds its position.",
+      "The hope we have in Jesus Christ is the anchor of our souls. It is sure. It is steadfast. It does not move. When the storms of life rage, when the winds of uncertainty blow, when the waves of fear crash — the anchor holds.",
+      "A man who is anchored in Christ cannot be permanently moved. He may be shaken. He may be tested. But he will not be swept away. The anchor holds.",
+    ],
+    callToAction: "Check your anchor today. Is your hope firmly placed in Jesus Christ? In the storms ahead, the anchor is the only thing that will hold.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+  },
+  {
+    day: 27, date: "June 27, 2026", isoDate: "2026-06-27",
+    title: "Family BBQ Fellowship — The Table of Brotherhood",
+    scripture: "Acts 2:46 (KJV)",
+    verse: "And they, continuing daily with one accord in the temple, and breaking bread from house to house, did eat their meat with gladness and singleness of heart.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 27 of Iron Sharpens Iron. Today is Family BBQ Fellowship day — and this word is about the power of the table.",
+    keyPoints: [
+      "The early church did not just gather on Sundays. They broke bread together daily. They ate together. They laughed together. They built life together. The table was one of the most powerful places of ministry in the New Testament church.",
+      "There is something that happens when men of God gather around a table — not just to eat, but to connect. Walls come down. Masks come off. Iron sharpens iron over a plate of ribs and a cold drink.",
+      "Community is not a program. It is a lifestyle. When you show up today for the Family BBQ, you are not just attending an event. You are participating in the ancient practice of breaking bread together — and that is holy ground.",
+    ],
+    callToAction: "Show up today. Be present. Put the phone down. Look your brother in the eye. The table of fellowship is where brotherhood is built.",
+    close: "I love you, Kings. Iron sharpens iron. See you at the BBQ!",
+  },
+  {
+    day: 28, date: "June 28, 2026", isoDate: "2026-06-28",
+    title: "Sunday: The Final Sunday of Men's Month",
+    scripture: "1 Corinthians 16:13 (KJV)",
+    verse: "Watch ye, stand fast in the faith, quit you like men, be strong.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 28 of Iron Sharpens Iron. This is the final Sunday of Men's Month, and this word is a charge to every man of God.",
+    keyPoints: [
+      "Paul's charge to the Corinthian church is one of the most direct commands in all of Scripture: Watch. Stand fast. Quit you like men. Be strong. Four commands in one verse. A complete blueprint for a man of God.",
+      "Watch — be alert, be discerning, be aware of the spiritual climate around you. Stand fast — do not waver, do not compromise, do not be moved. Quit you like men — act like the man God created you to be. Be strong — not in your own strength, but in the power of His might.",
+      "This is your charge, Kings. Not just for this month, but for every day that follows. The world needs men who watch, stand fast, act like men, and are strong in the Lord.",
+    ],
+    callToAction: "Take this charge with you out of Men's Month. Watch. Stand fast. Quit you like men. Be strong. The world is waiting for the men of God to arise.",
+    close: "I love you, Kings. Iron sharpens iron. See you in the house today.",
+  },
+  {
+    day: 29, date: "June 29, 2026", isoDate: "2026-06-29",
+    title: "Passing the Torch",
+    scripture: "2 Timothy 2:2 (KJV)",
+    verse: "And the things that thou hast heard of me among many witnesses, the same commit thou to faithful men, who shall be able to teach others also.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 29 of Iron Sharpens Iron.",
+    keyPoints: [
+      "Paul's instruction to Timothy was not just about personal growth — it was about multiplication. Take what you have received and pass it to faithful men who will pass it to others. The kingdom advances through the passing of the torch.",
+      "Every man of God has a responsibility not just to grow himself, but to invest in the next generation. Who are you mentoring? Who are you discipling? Who is watching your life and learning how to be a man of God?",
+      "The torch of faith is meant to be passed, not hoarded. When you invest in a younger man, you are not just changing his life — you are changing the lives of everyone he will ever influence.",
+    ],
+    callToAction: "Identify a younger man you can pour into. Pass the torch. The greatest legacy you can leave is a man who carries the fire after you are gone.",
+    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow for our final day.",
+  },
+  {
+    day: 30, date: "June 30, 2026", isoDate: "2026-06-30",
+    title: "Iron Sharpens Iron — Kings, You Made It",
+    scripture: "Micah 6:8 (KJV)",
+    verse: "He hath shewed thee, O man, what is good; and what doth the Lord require of thee, but to do justly, and to love mercy, and to walk humbly with thy God.",
+    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 30 — the final day of our June series, Iron Sharpens Iron. Men's Month 2026 has been extraordinary.",
+    keyPoints: [
+      "Thirty days. Thirty words. Thirty opportunities to be sharpened, challenged, and strengthened. You showed up. You opened the Word. You chose to be the man God called you to be. That is not a small thing. That is faithfulness.",
+      "Micah 6:8 is the simplest and most complete description of what God requires of a man. Do justly — live with integrity, treat people fairly, stand for what is right. Love mercy — extend grace, forgive freely, lead with compassion. Walk humbly — stay surrendered, stay teachable, stay close to God.",
+      "You are not the same man who started this series on June 1st. You have been sharpened. You have been strengthened. You have been reminded of who you are and whose you are. Now go and be that man — in your home, in your church, in your community, and in the world.",
+    ],
+    callToAction: "This is not the end of Men's Month — it is the beginning of a lifestyle. Do justly. Love mercy. Walk humbly. Kings, go and change the world.",
+    close: "I love you, Kings. Thank you for being sharpened this month. Iron sharpens iron. The best is still ahead. Arise and lead.",
+  },
 ];
 
 function getTodayEntry(): DayEntry | null {
@@ -913,8 +1334,19 @@ function ArchiveCard({ entry }: { entry: DayEntry }) {
   );
 }
 
+// Month metadata for dynamic labels
+const MONTH_META: Record<string, { title: string; theme: string; subtitle: string; archiveLabel: string }> = {
+  "2026-04": { title: "KEEP THE FIRE BURNING", theme: "April 2026 Daily Word Theme", subtitle: "Miss a meal, miss a song — but don't miss the Word", archiveLabel: "April 2026 Daily Word Archive" },
+  "2026-05": { title: "ARISE AND TAKE FLIGHT", theme: "May 2026 Daily Word Theme — Women's Month", subtitle: "Miss a meal, miss a song — but don't miss the Word", archiveLabel: "May 2026 Daily Word Archive" },
+  "2026-06": { title: "IRON SHARPENS IRON", theme: "June 2026 Daily Word Theme — Men's Month", subtitle: "Faith. Family. Brotherhood. Legacy.", archiveLabel: "June 2026 Daily Word Archive" },
+};
+
 export default function DailyWord() {
   const todayEntry = getTodayEntry();
+  const now = new Date();
+  const currentMonthPrefix = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`;
+  const meta = MONTH_META[currentMonthPrefix] || { title: "DAILY WORD", theme: "Daily Devotional", subtitle: "Miss a meal, miss a song — but don't miss the Word", archiveLabel: "Daily Word Archive" };
+  const currentMonthEntries = entries.filter(e => e.isoDate.startsWith(currentMonthPrefix));
 
   return (
     <div className="min-h-screen" style={{ background: CREAM }}>
@@ -938,13 +1370,13 @@ export default function DailyWord() {
           </div>
           <h1 className="font-display text-5xl md:text-6xl font-bold text-white mb-3 leading-tight"
             style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>
-            ARISE AND TAKE FLIGHT
+            {meta.title}
           </h1>
           <p className="font-body font-bold text-base mb-2" style={{ color: GOLD, fontFamily: "'Open Sans', sans-serif" }}>
-            May 2026 Daily Word Theme — Women's Month
+            {meta.theme}
           </p>
           <p className="font-body text-sm italic" style={{ color: "rgba(255,255,255,0.70)", fontFamily: "'Open Sans', sans-serif" }}>
-            Miss a meal, miss a song — but don't miss the Word
+            {meta.subtitle}
           </p>
           <p className="font-body text-xs mt-3" style={{ color: "rgba(255,255,255,0.50)", fontFamily: "'Open Sans', sans-serif" }}>
             With Pastor Shelia Blake, Executive Pastor
@@ -962,7 +1394,7 @@ export default function DailyWord() {
             </div>
             <h2 className="font-display text-3xl font-bold"
               style={{ color: NAVY, fontFamily: "'Playfair Display', Georgia, serif" }}>
-              {todayEntry ? "Today's Word" : "May 2026 Daily Word"}
+              {todayEntry ? "Today's Word" : meta.archiveLabel.replace(" Archive", "")}
             </h2>
           </div>
 
@@ -977,14 +1409,14 @@ export default function DailyWord() {
                 The Fire Is Still Burning
               </h3>
               <p className="font-body text-base leading-relaxed" style={{ color: "#666", fontFamily: "'Open Sans', sans-serif" }}>
-                The May 2026 Daily Word series — Arise and Take Flight — runs all month long. Browse the full archive below to read any day's word.
+                The {meta.archiveLabel.replace(" Archive", "")} series runs all month long. Browse the full archive below to read any day's word.
               </p>
             </div>
           )}
         </div>
       </section>
 
-      {/* SECTION 3 — APRIL ARCHIVE GRID */}
+      {/* SECTION 3 — CURRENT MONTH ARCHIVE GRID */}
       <section className="py-16" style={{ background: "#fff" }}>
         <div className="container">
           <div className="text-center mb-10">
@@ -992,19 +1424,15 @@ export default function DailyWord() {
               <Calendar size={18} style={{ color: GOLD }} />
             <h2 className="font-display text-3xl font-bold"
                 style={{ color: NAVY, fontFamily: "'Playfair Display', Georgia, serif" }}>
-              May 2026 Daily Word Archive
+              {meta.archiveLabel}
             </h2>
           </div>
           <p className="font-body text-base" style={{ color: GOLD, fontFamily: "'Open Sans', sans-serif" }}>
-              Walk the full Arise and Take Flight series
+              Walk the full {meta.title.split(" ").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join(" ")} series
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto">
-            {entries.filter(entry => {
-              const now = new Date();
-              const currentMonthPrefix = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`;
-              return entry.isoDate.startsWith(currentMonthPrefix);
-            }).map(entry => (
+            {currentMonthEntries.map(entry => (
               <ArchiveCard key={entry.isoDate} entry={entry} />
             ))}
           </div>
