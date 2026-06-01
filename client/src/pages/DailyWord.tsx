@@ -711,6 +711,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Identify one man in your life who sharpens you. Reach out to him today. Brotherhood is not accidental — it is intentional.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/rOydrVQPnMZDoiDo.mp3",
   },
   {
     day: 2, date: "June 2, 2026", isoDate: "2026-06-02",
