@@ -726,6 +726,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Tend to your heart today. What is God seeing when He looks at you? Let Him shape you in the hidden place.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/rOydrVQPnMZDoiDo.mp3",
   },
   {
     day: 3, date: "June 3, 2026", isoDate: "2026-06-03",
@@ -740,6 +741,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Establish your prayer windows today. Not just when crisis comes — but every day. A man who prays consistently is a man who stands consistently.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/xYxPYgGfMwolmiJx.mp3",
   },
   {
     day: 4, date: "June 4, 2026", isoDate: "2026-06-04",
@@ -754,6 +756,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Speak life over your children today. Pray with them. Let them see you in the Word. Be the father that points them toward God.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/BZktlViwRHuEDJYe.mp3",
   },
   {
     day: 5, date: "June 5, 2026", isoDate: "2026-06-05",
@@ -768,6 +771,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "What giant are you facing today? God is not asking you to feel fearless. He is asking you to be courageous. Take the step. He is with you.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/uuBgfAdNWZsuvEgY.mp3",
   },
   {
     day: 6, date: "June 6, 2026", isoDate: "2026-06-06",
@@ -782,6 +786,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Examine your commitments today. Are you keeping your word? Let your yes be yes. Let your integrity speak louder than your title.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/VecotWGqDHpQwbYZ.mp3",
   },
   {
     day: 7, date: "June 7, 2026", isoDate: "2026-06-07",
@@ -796,6 +801,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Be in the house of God today. Take your seat. Take your place. The gathering of kings is where iron sharpens iron.",
     close: "I love you, Kings. Iron sharpens iron. See you in the house today.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/DIvTexDlrjKdvHPC.mp3",
   },
   {
     day: 8, date: "June 8, 2026", isoDate: "2026-06-08",
@@ -810,6 +816,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Put on your armor today before you step into the battle. Start with the Word. Start with prayer. Go into this day fully equipped.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/nQuTcMjcKunYkjIz.mp3",
   },
   {
     day: 9, date: "June 9, 2026", isoDate: "2026-06-09",
@@ -824,6 +831,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Who can you serve today? Look for an opportunity to lead through service. The greatest among you is the one who serves.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/HOOhczFUzdFFBuNY.mp3",
   },
   {
     day: 10, date: "June 10, 2026", isoDate: "2026-06-10",
@@ -838,6 +846,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Do a gate check today. What have you been allowing in? Guard your heart with diligence — your life depends on it.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/SevQqyelfzWEUnXb.mp3",
   },
   {
     day: 11, date: "June 11, 2026", isoDate: "2026-06-11",
@@ -852,6 +861,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Check your pride today. Is there an area where you need to humble yourself? Humility opens the door to God's grace and promotion.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/SzVvvDujEzTzvfgB.mp3",
   },
   {
     day: 12, date: "June 12, 2026", isoDate: "2026-06-12",
@@ -866,6 +876,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Think generationally today. What decisions are you making right now that will bless your children and grandchildren? Build your legacy one righteous choice at a time.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/VKQwMAIvlbjklTBQ.mp3",
   },
   {
     day: 13, date: "June 13, 2026", isoDate: "2026-06-13",
@@ -880,6 +891,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Give yourself permission to feel today. Bring your grief, your frustration, your fears to God. He is not intimidated by your tears. He wept too.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/DKdKGOpxSXLdFKrV.mp3",
   },
   {
     day: 14, date: "June 14, 2026", isoDate: "2026-06-14",
@@ -894,6 +906,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Where is the gap in your home, your family, your community? Step into it today. Be the man God is looking for.",
     close: "I love you, Kings. Iron sharpens iron. See you in the house today.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/MKQNjkflWMetqVAg.mp3",
   },
   {
     day: 15, date: "June 15, 2026", isoDate: "2026-06-15",
@@ -908,6 +921,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Identify one area of your life that needs more discipline today. Make a decision to bring it under subjection. Champions are not born — they are built.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/EhfTWEAQjORxuGwu.mp3",
   },
   {
     day: 16, date: "June 16, 2026", isoDate: "2026-06-16",
@@ -922,6 +936,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "How are you providing for your family today — not just financially, but spiritually and emotionally? Be present. Be intentional. Be the provider God called you to be.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/yOyKudUKaHOArKwr.mp3",
   },
   {
     day: 17, date: "June 17, 2026", isoDate: "2026-06-17",
@@ -936,6 +951,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Is there someone you need to forgive today? Make the decision — not for their sake, but for yours. Forgiveness is the key that unlocks your next season.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/UDDzUhNihwsnnWCL.mp3",
   },
   {
     day: 18, date: "June 18, 2026", isoDate: "2026-06-18",
@@ -950,6 +966,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Honor your father today — in prayer, in a phone call, in a letter, or in the quiet of your heart. And if you are a father, live in a way that is worthy of honor.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/JDKgeNraBEGUQLwR.mp3",
   },
   {
     day: 19, date: "June 19, 2026", isoDate: "2026-06-19",
@@ -964,6 +981,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Celebrate your freedom today — the freedom of Juneteenth and the freedom of the cross. And walk in it fully. If the Son has made you free, you are free indeed.",
     close: "I love you, Kings. Free indeed. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/THvomhvjKQqjBSKv.mp3",
   },
   {
     day: 20, date: "June 20, 2026", isoDate: "2026-06-20",
@@ -978,6 +996,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Happy Father's Day. Today, let someone honor you. And let the Father's heart in you pour out on everyone around you.",
     close: "I love you, Kings. Happy Father's Day. Iron sharpens iron.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/pemhVQOloNdtwoSV.mp3",
   },
   {
     day: 21, date: "June 21, 2026", isoDate: "2026-06-21",
@@ -992,6 +1011,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Come to the table today. Come to the house of God. Come broken, come lame, come from Lo-debar — the King is waiting.",
     close: "I love you, Kings. Iron sharpens iron. See you at the table today.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/grihCcWcPDJbjcye.mp3",
   },
   {
     day: 22, date: "June 22, 2026", isoDate: "2026-06-22",
@@ -1006,6 +1026,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "What has God been showing you in the mirror of His Word? Do not walk away and forget. Be a doer of the Word today.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/PZXuqCkKDztEAhPc.mp3",
   },
   {
     day: 23, date: "June 23, 2026", isoDate: "2026-06-23",
@@ -1020,6 +1041,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Who is your Jonathan? Who is your David? Invest in a covenant brotherhood relationship this week. Be the man who gives his robe instead of guarding it.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/yJtqdYGJFaQAqDoj.mp3",
   },
   {
     day: 24, date: "June 24, 2026", isoDate: "2026-06-24",
@@ -1034,6 +1056,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "What great work has God assigned to you? Refuse to come down today. Stay focused. Stay on the wall. Finish it.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/dvhtGquOLkTSBXAC.mp3",
   },
   {
     day: 25, date: "June 25, 2026", isoDate: "2026-06-25",
@@ -1048,6 +1071,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Live today with a thousand-generation mindset. Every righteous choice you make is a generational deposit. Your legacy is being written right now.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/aaPgxrfgFwInVcUP.mp3",
   },
   {
     day: 26, date: "June 26, 2026", isoDate: "2026-06-26",
@@ -1062,6 +1086,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Check your anchor today. Is your hope firmly placed in Jesus Christ? In the storms ahead, the anchor is the only thing that will hold.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ohZGNNPLkxkbAqWl.mp3",
   },
   {
     day: 27, date: "June 27, 2026", isoDate: "2026-06-27",
@@ -1076,6 +1101,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Show up today. Be present. Put the phone down. Look your brother in the eye. The table of fellowship is where brotherhood is built.",
     close: "I love you, Kings. Iron sharpens iron. See you at the BBQ!",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/RYDbiJHeZtcFcVqg.mp3",
   },
   {
     day: 28, date: "June 28, 2026", isoDate: "2026-06-28",
@@ -1090,6 +1116,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Take this charge with you out of Men's Month. Watch. Stand fast. Quit you like men. Be strong. The world is waiting for the men of God to arise.",
     close: "I love you, Kings. Iron sharpens iron. See you in the house today.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/iNjtrvARpshJmVhn.mp3",
   },
   {
     day: 29, date: "June 29, 2026", isoDate: "2026-06-29",
@@ -1104,6 +1131,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Identify a younger man you can pour into. Pass the torch. The greatest legacy you can leave is a man who carries the fire after you are gone.",
     close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow for our final day.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/uWvhbrpFhFHSEhcC.mp3",
   },
   {
     day: 30, date: "June 30, 2026", isoDate: "2026-06-30",
@@ -1118,6 +1146,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "This is not the end of Men's Month — it is the beginning of a lifestyle. Do justly. Love mercy. Walk humbly. Kings, go and change the world.",
     close: "I love you, Kings. Thank you for being sharpened this month. Iron sharpens iron. The best is still ahead. Arise and lead.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/iSgViGNIrcTevDYp.mp3",
   },
 ];
 
