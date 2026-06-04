@@ -940,78 +940,83 @@ const entries: DayEntry[] = [
   },
   {
     day: 16, date: "June 16, 2026", isoDate: "2026-06-16",
-    title: "A Man Who Provides",
-    scripture: "1 Timothy 5:8 (KJV)",
-    verse: "But if any provide not for his own, and specially for those of his own house, he hath denied the faith, and is worse than an infidel.",
-    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 16 of Iron Sharpens Iron.",
+    title: "Burning Hearts",
+    scripture: "Luke 24:32 (KJV)",
+    verse: "And they said one to another, Did not our heart burn within us, while he talked with us by the way, and while he opened to us the scriptures?",
+    welcome: "Good morning, All Nations family. This is Pastor Shelia Blake, and welcome to Day 16 of Fuel Your Fire, Generation to Generation.",
     keyPoints: [
-      "Provision is one of the primary callings of a man. Not just financial provision — though that matters — but spiritual provision, emotional provision, and protective provision. A man who provides for his family in every dimension is a man who is fulfilling his God-given assignment.",
-      "The enemy wants to make men feel like they are not enough. Not earning enough. Not doing enough. Not being enough. But God does not call you to be perfect — He calls you to be faithful. Faithful provision, offered with love, is more than enough.",
-      "Provide for your family through prayer. Provide through presence. Provide through wisdom. Provide through the Word. A man who covers his family in every dimension is a man who is building something that will last.",
+      "Two discouraged disciples were walking the road to Emmaus, certain their hope had died with Jesus on the cross. Then a stranger fell into step beside them and began to open the scriptures. They did not recognize Him yet, but something inside them came alive.",
+      "Later they said it plainly: did not our heart burn within us? That burning is the unmistakable mark of an encounter with the risen Christ.",
+      "Faith is not only something you decide — it is also something you feel when God draws near. If your heart has felt cold lately, the answer is not to try harder. It is to walk with Him again.",
     ],
-    callToAction: "How are you providing for your family today — not just financially, but spiritually and emotionally? Be present. Be intentional. Be the provider God called you to be.",
-    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    callToAction: "Invite Jesus into your ordinary road today. Talk to Him as you go about your day, and watch how He warms a heart that had grown cold.",
+    close: "I love you, All Nations. Fuel your fire, generation to generation. I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OAgmQzJxrCJMxNfL.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ZWVlQndFsjRtFvLD.jpg",
   },
   {
     day: 17, date: "June 17, 2026", isoDate: "2026-06-17",
-    title: "The Power of Forgiveness",
-    scripture: "Ephesians 4:32 (KJV)",
-    verse: "And be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ's sake hath forgiven you.",
-    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 17 of Iron Sharpens Iron.",
+    title: "Strength to Keep Burning",
+    scripture: "Isaiah 40:31 (KJV)",
+    verse: "But they that wait upon the Lord shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint.",
+    welcome: "Good morning, All Nations family. This is Pastor Shelia Blake, and welcome to Day 17 of Fuel Your Fire, Generation to Generation.",
     keyPoints: [
-      "Unforgiveness is one of the heaviest burdens a man can carry. It does not punish the person who hurt you — it imprisons you. Many men are walking through life with the weight of old wounds, old betrayals, and old offenses that are slowly destroying them from the inside out.",
-      "Forgiveness is not weakness. It is one of the most powerful acts a man can perform. It takes strength to release what you have every right to hold onto. But when you forgive, you are not excusing the offense — you are freeing yourself.",
-      "God forgave you at the highest possible cost — the blood of His Son. When He asks you to forgive, He is not asking you to do something He has not already done for you.",
+      "Even a strong fire needs fresh air, or it smothers under its own ash. We are no different. We run out, we grow weary, and the bright flame of last month flickers under the weight of this one.",
+      "God's answer to a weary heart is not 'try harder.' His answer is: wait upon the Lord. And to those who wait, He makes a promise — He will renew your strength, and you will rise up like the eagle.",
+      "Waiting on God is not doing nothing. It is drawing close enough to be refueled by Him. The fire you cannot keep burning on your own, He will renew.",
     ],
-    callToAction: "Is there someone you need to forgive today? Make the decision — not for their sake, but for yours. Forgiveness is the key that unlocks your next season.",
-    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    callToAction: "Stop running on empty today. Sit with God for a few minutes. Hand Him your tiredness, and ask Him to renew your strength. He will.",
+    close: "I love you, All Nations. Fuel your fire, generation to generation. I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/uROlOfVgBUoWfEMk.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OLVagrNUnmOnTVXF.jpg",
   },
   {
     day: 18, date: "June 18, 2026", isoDate: "2026-06-18",
-    title: "Honoring Your Father",
-    scripture: "Exodus 20:12 (KJV)",
-    verse: "Honour thy father and thy mother: that thy days may be long upon the land which the Lord thy God giveth thee.",
-    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 18 of Iron Sharpens Iron. Father's Day is this Sunday, and today we honor the fathers who have gone before us.",
+    title: "Through the Fire",
+    scripture: "Isaiah 43:2 (KJV)",
+    verse: "When thou passest through the waters, I will be with thee; and through the rivers, they shall not overflow thee: when thou walkest through the fire, thou shalt not be burned; neither shall the flame kindle upon thee.",
+    welcome: "Good morning, All Nations family. This is Pastor Shelia Blake, and welcome to Day 18 of Fuel Your Fire, Generation to Generation.",
     keyPoints: [
-      "God attached a promise to the commandment to honor your parents. Long life. Blessing. Inheritance. Honoring your father is not just a moral obligation — it is a spiritual key that unlocks generational blessing.",
-      "For some of you, honoring your father is complicated. He was absent. He was broken. He hurt you. Honoring him does not mean pretending the pain did not exist. It means releasing him to God and choosing not to let his failures define your future.",
-      "And for those of you who are fathers — you are building something your children will one day honor. The way you live today is the legacy they will carry. Live in a way that makes honoring you easy.",
+      "There is a fire God lights inside of us, and there is a fire that life sometimes walks us through. The hard season, the loss, the diagnosis, the waiting that will not end — it can feel like flames all around you.",
+      "But hear God's promise to His people: when you walk through the fire, you will not be burned, and the flame will not consume you. He does not always pull you out of the fire. Very often He walks you through it, and what was meant to destroy you — in His hands — only refines you.",
+      "You are not being consumed, child of God. You are being purified, and you are not walking through it alone.",
     ],
-    callToAction: "Honor your father today — in prayer, in a phone call, in a letter, or in the quiet of your heart. And if you are a father, live in a way that is worthy of honor.",
-    close: "I love you, Kings. Iron sharpens iron. I'll see you tomorrow.",
+    callToAction: "Hand God the thing that feels like fire right now. Say to Him, I trust you to walk me through — and lean on the One who is in the flame with you.",
+    close: "I love you, All Nations. Fuel your fire, generation to generation. I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/EBFzZKQRJIOycbIt.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/HkqpjHOkMdMvStAf.jpg",
   },
   {
     day: 19, date: "June 19, 2026", isoDate: "2026-06-19",
-    title: "Juneteenth: Free Indeed",
-    scripture: "John 8:36 (KJV)",
-    verse: "If the Son therefore shall make you free, ye shall be free indeed.",
-    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 19 of Iron Sharpens Iron. Today is Juneteenth — a day of freedom, remembrance, and celebration.",
+    title: "Generation to Generation",
+    scripture: "Psalm 145:4 (KJV)",
+    verse: "One generation shall praise thy works to another, and shall declare thy mighty acts.",
+    welcome: "Good morning, All Nations family. This is Pastor Shelia Blake, and welcome to Day 19 of Fuel Your Fire, Generation to Generation.",
     keyPoints: [
-      "On June 19, 1865, enslaved men and women in Texas finally heard the news of their freedom — two and a half years after the Emancipation Proclamation had been signed. Freedom had been declared, but the news had not reached them. Today we remember and celebrate that freedom.",
-      "There is a spiritual parallel here. Jesus declared your freedom at the cross. But many believers are still living in bondage because the news has not fully reached their hearts. You are free. The chains are broken. Walk in it.",
-      "Juneteenth reminds us that freedom is worth celebrating, worth protecting, and worth passing on. The freedom bought by the blood of Jesus is greater than any earthly emancipation — and it must never be taken for granted.",
+      "This whole month has carried one heartbeat: the fire is not meant to stop with you. God designed faith to be handed down. One generation shall declare His mighty acts to another.",
+      "The faith you carry was meant for your children, your grandchildren, and the young believer who is quietly watching how you live.",
+      "Every testimony you share, every prayer your family hears, every time you declare what God has done — you are passing a torch to a generation coming up behind you. Do not keep your stories to yourself.",
     ],
-    callToAction: "Celebrate your freedom today — the freedom of Juneteenth and the freedom of the cross. And walk in it fully. If the Son has made you free, you are free indeed.",
-    close: "I love you, Kings. Free indeed. Iron sharpens iron. I'll see you tomorrow.",
+    callToAction: "Tell one younger person a real story of God's faithfulness in your life today. Hand them the torch and let the fire move from generation to generation.",
+    close: "I love you, All Nations. Fuel your fire, generation to generation. I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/osMbdGoezcFoYhWP.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/SlcykuzLFSPdMWcg.jpg",
   },
   {
     day: 20, date: "June 20, 2026", isoDate: "2026-06-20",
-    title: "Happy Father's Day — The Father's Heart",
-    scripture: "Luke 15:20 (KJV)",
-    verse: "And he arose, and came to his father. But when he was yet a great way off, his father saw him, and had compassion, and ran, and fell on his neck, and kissed him.",
-    welcome: "Good morning, All Nations Kings. This is Pastor Shelia Blake, and welcome to Day 20 of Iron Sharpens Iron. Today is Father's Day, and this word is for every father, every spiritual father, and every man who has ever poured into the life of a child.",
+    title: "Stay on Fire",
+    scripture: "Romans 12:11 (KJV)",
+    verse: "Not slothful in business; fervent in spirit; serving the Lord.",
+    welcome: "Good morning, All Nations family. This is Pastor Shelia Blake, and welcome to Day 20 of Fuel Your Fire, Generation to Generation.",
     keyPoints: [
-      "The father in the parable of the prodigal son is one of the most powerful pictures of God's heart in all of Scripture. When his son was still a great way off — still dirty, still broken, still smelling like the pigpen — the father saw him and ran. He did not wait for an apology. He ran.",
-      "That is the father's heart. It does not keep score. It does not hold grudges. It watches the horizon for the return of the one it loves. Every father who reflects this heart is reflecting the heart of God Himself.",
-      "Today we honor every man who has stayed. Every man who has prayed. Every man who has sacrificed, provided, protected, and loved his family with a father's heart. You are seen. You are celebrated. You are valued.",
+      "It is one thing to catch fire. It is another thing entirely to stay on fire. Over time, even the most passionate believer can drift towards simply going through the motions.",
+      "Paul gives the cure in three short phrases: not slothful, fervent in spirit, serving the Lord. Fervent means boiling — on fire — fully engaged. And notice how you stay there: by serving.",
+      "The believers who burn the longest are the ones who keep pouring out, who keep showing up, who keep loving people in Jesus' name. A fire kept to itself grows cold. A fire that serves stays hot.",
     ],
-    callToAction: "Happy Father's Day. Today, let someone honor you. And let the Father's heart in you pour out on everyone around you.",
-    close: "I love you, Kings. Happy Father's Day. Iron sharpens iron.",
+    callToAction: "Stay fervent today. Do one act of service for someone and offer it to God as worship. Keep your fire burning, generation to generation.",
+    close: "I love you, All Nations. Fuel your fire, generation to generation. I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/dCUTOYliquyxovgu.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ndsNyGdUgAPUXJgf.jpg",
   },
   {
     day: 21, date: "June 21, 2026", isoDate: "2026-06-21",
@@ -1384,7 +1389,7 @@ function ArchiveCard({ entry }: { entry: DayEntry }) {
 const MONTH_META: Record<string, { title: string; theme: string; subtitle: string; archiveLabel: string }> = {
   "2026-04": { title: "KEEP THE FIRE BURNING", theme: "April 2026 Daily Word Theme", subtitle: "Miss a meal, miss a song — but don't miss the Word", archiveLabel: "April 2026 Daily Word Archive" },
   "2026-05": { title: "ARISE AND TAKE FLIGHT", theme: "May 2026 Daily Word Theme — Women's Month", subtitle: "Miss a meal, miss a song — but don't miss the Word", archiveLabel: "May 2026 Daily Word Archive" },
-  "2026-06": { title: "IRON SHARPENS IRON", theme: "June 2026 Daily Word Theme — Men's Month", subtitle: "Faith. Family. Brotherhood. Legacy.", archiveLabel: "June 2026 Daily Word Archive" },
+  "2026-06": { title: "KINGS: FUEL THE FIRE", theme: "June 2026 Daily Word Theme — Men's Month", subtitle: "Fuel Your Fire, Generation to Generation", archiveLabel: "June 2026 Daily Word Archive" },
 };
 
 export default function DailyWord() {
@@ -1399,8 +1404,10 @@ export default function DailyWord() {
       <Navbar />
 
       {/* SECTION 1 — HERO BANNER */}
-      <section style={{ background: NAVY, borderTop: `4px solid ${GOLD}`, borderBottom: `4px solid ${GOLD}` }}>
-        <div className="container py-16 text-center">
+      <section className="relative overflow-hidden" style={{ borderTop: `4px solid ${GOLD}`, borderBottom: `4px solid ${GOLD}` }}>
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ZYgelpDxFiXnxGvd.jpg')` }} />
+        <div className="absolute inset-0" style={{ background: 'rgba(26,47,107,0.55)' }} />
+        <div className="relative z-10 container py-20 text-center">
           <div className="flex items-center justify-center gap-3 mb-6">
             <img src={PASTOR_SHELIA} alt="Pastor Shelia Blake"
               className="w-16 h-16 rounded-full object-cover object-top border-2"
@@ -1415,16 +1422,16 @@ export default function DailyWord() {
             </div>
           </div>
           <h1 className="font-display text-5xl md:text-6xl font-bold text-white mb-3 leading-tight"
-            style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>
+            style={{ fontFamily: "'Playfair Display', Georgia, serif", textShadow: '2px 2px 8px rgba(0,0,0,0.7)' }}>
             {meta.title}
           </h1>
-          <p className="font-body font-bold text-base mb-2" style={{ color: GOLD, fontFamily: "'Open Sans', sans-serif" }}>
+          <p className="font-body font-bold text-base mb-2" style={{ color: GOLD, fontFamily: "'Open Sans', sans-serif", textShadow: '1px 1px 4px rgba(0,0,0,0.5)' }}>
             {meta.theme}
           </p>
-          <p className="font-body text-sm italic" style={{ color: "rgba(255,255,255,0.70)", fontFamily: "'Open Sans', sans-serif" }}>
+          <p className="font-body text-sm italic" style={{ color: "rgba(255,255,255,0.90)", fontFamily: "'Open Sans', sans-serif", textShadow: '1px 1px 4px rgba(0,0,0,0.5)' }}>
             {meta.subtitle}
           </p>
-          <p className="font-body text-xs mt-3" style={{ color: "rgba(255,255,255,0.50)", fontFamily: "'Open Sans', sans-serif" }}>
+          <p className="font-body text-xs mt-3" style={{ color: "rgba(255,255,255,0.70)", fontFamily: "'Open Sans', sans-serif" }}>
             With Pastor Shelia Blake, Executive Pastor
           </p>
         </div>

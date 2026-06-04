@@ -20,8 +20,7 @@ const ministries = [
 ];
 
 const upcomingEvents = [
-  { title: "🌿 Senior Wellness Afternoon — THIS WEEK!", date: "Thursday, June 4, 2026", time: "11:00 AM – 2:00 PM", color: "#2E7D32", speakers: "FREE · Mental Wellness · Medicare · Prescriptions — Open to all Seniors & Caregivers" },
-  { title: "👑 Kings, Fuel Your Fire — Men's Month", date: "June 2026", time: "All Month", color: "var(--an-gold)", speakers: "Faith. Family. Brotherhood. Legacy. — Men's Month 2026 is here!" },
+  { title: "👑 Kings, Fuel Your Fire — Men's Month", date: "June 2026", time: "All Month", color: "var(--an-gold)", speakers: "Fuel Your Fire, Generation to Generation — Men's Month 2026 is here!" },
   { title: "Sunday Morning Worship", date: "Every Sunday", time: "8:30 AM & 11:00 AM", color: "var(--an-gold)" },
   { title: "Wednesday Bible Study", date: "Every Wednesday", time: "7:00 PM", color: "var(--an-teal)" },
   { title: "Intercessory Prayer Line", date: "Every Monday", time: "7:00 PM – 8:30 PM", color: "var(--an-orange)" },
@@ -102,138 +101,6 @@ export default function Home() {
             <Link href="/connect" className="btn-gold flex items-center gap-2 ml-4">
               Plan Your Visit <ArrowRight size={14} />
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ===== DAILY WORD FEATURED SECTION — JUNE 2026 ===== */}
-      <section className="py-12" style={{ background: "linear-gradient(135deg, #1A2F6B 0%, #0d1a3a 100%)" }}>
-        <div className="container">
-          <div className="flex flex-col lg:flex-row items-center gap-8">
-            {/* Left: Label + Title */}
-            <div className="flex-1 text-center lg:text-left">
-              <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-4" style={{ background: "rgba(197,157,47,0.18)", color: "var(--an-gold)" }}>
-                <Users size={12} /> June 2026 — Men's Month
-              </span>
-              <h2 className="font-display font-bold text-white mb-2" style={{ fontSize: "clamp(1.6rem, 3vw, 2.4rem)" }}>
-                Kings, <span style={{ color: "var(--an-gold)" }}>Fuel Your Fire</span>
-              </h2>
-              <p className="font-body text-sm mb-1" style={{ color: "rgba(255,255,255,0.70)" }}>
-                From Generations to Generations — <strong style={{ color: "rgba(255,255,255,0.90)" }}>Leviticus 6:12-13</strong>
-              </p>
-              <p className="font-body text-sm mb-2" style={{ color: "rgba(255,255,255,0.60)" }}>
-                June 2026 · Men's Month · Faith. Family. Brotherhood. Legacy.
-              </p>
-              <p className="font-body text-sm italic mb-6" style={{ color: "rgba(255,255,255,0.55)" }}>
-                "Your brother is not your competition. Your brother is your ally."
-              </p>
-              <Link href="/events" className="btn-gold inline-flex items-center gap-2">
-                <Calendar size={14} />
-                View June Events
-              </Link>
-            </div>
-            {/* Right: Decorative card */}
-            <div
-              className="flex-shrink-0 w-full lg:w-80 rounded-2xl p-6 text-center"
-              style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(197,157,47,0.25)" }}
-            >
-              <div className="text-5xl mb-3">👑</div>
-              <div className="font-body text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-gold)" }}>June Series — Men's Month</div>
-              <div className="font-display font-bold text-white text-xl mb-2">Iron Sharpens Iron</div>
-              <div className="font-body text-sm" style={{ color: "rgba(255,255,255,0.65)" }}>
-                Prov. 27:17 · Sundays · Wednesdays · Saturdays
-              </div>
-              <div className="mt-4 pt-4" style={{ borderTop: "1px solid rgba(197,157,47,0.2)" }}>
-                <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.50)" }}>One Church. One Purpose. One Legacy.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* ===== THIS WEEK — SENIOR WELLNESS AFTERNOON HIGHLIGHT ===== */}
-      <section className="py-0" style={{ background: "linear-gradient(135deg, #1B4D1E 0%, #2E7D32 50%, #1B4D1E 100%)", borderTop: "4px solid #4CAF50", borderBottom: "4px solid #4CAF50" }}>
-        <div className="container py-6">
-          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
-            {/* Flyer */}
-            <div className="flex-shrink-0 w-full md:w-auto flex justify-center">
-              <div className="rounded-2xl overflow-hidden shadow-2xl" style={{ maxWidth: "520px", width: "100%", border: "3px solid rgba(255,255,255,0.35)" }}>
-                <img
-                  src="/senior-wellness-afternoon-flyer.jpeg"
-                  alt="Senior Wellness Afternoon — Thursday, June 4, 2026 | 11:00 AM – 2:00 PM | All Nations LDCC"
-                  style={{ width: "100%", height: "auto", display: "block" }}
-                />
-              </div>
-            </div>
-            {/* Details */}
-            <div className="flex-1 text-center md:text-left py-4">
-              <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-3" style={{ background: "rgba(255,255,255,0.18)", color: "#fff" }}>
-                🌿 THIS WEEK — Health &amp; Wellness
-              </span>
-              <h2 className="font-display font-bold text-white mb-2" style={{ fontSize: "clamp(1.6rem, 3.5vw, 2.6rem)", lineHeight: 1.1 }}>
-                Senior Wellness Afternoon
-              </h2>
-              <p className="font-body font-bold mb-4" style={{ color: "#A5D6A7", fontSize: "1.05rem" }}>
-                Thursday, June 4 · 11:00 AM – 2:00 PM
-              </p>
-              <p className="font-body text-sm mb-4" style={{ color: "rgba(255,255,255,0.85)", maxWidth: 460 }}>
-                The Great Commission Team invites all seniors and caregivers to a FREE afternoon of empowerment. Three dynamic sessions: <strong style={{ color: "#fff" }}>Mental Wellness After 50</strong>, <strong style={{ color: "#fff" }}>Medicare &amp; Medicaid — What You Need to Know</strong>, and <strong style={{ color: "#fff" }}>Prescriptions — What You Don't Know</strong>.
-              </p>
-              <div className="flex flex-wrap gap-3 mb-4 justify-center md:justify-start">
-                <span className="font-body text-xs px-3 py-1 rounded-full font-bold" style={{ background: "rgba(255,255,255,0.15)", color: "#fff" }}>✓ Sis. Jennetta — Mental Wellness</span>
-                <span className="font-body text-xs px-3 py-1 rounded-full font-bold" style={{ background: "rgba(255,255,255,0.15)", color: "#fff" }}>✓ Sis. Nicole — Medicare &amp; Medicaid</span>
-                <span className="font-body text-xs px-3 py-1 rounded-full font-bold" style={{ background: "rgba(255,255,255,0.15)", color: "#fff" }}>✓ Sis. King — Prescriptions</span>
-              </div>
-              <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full font-body font-bold text-sm" style={{ background: "rgba(255,255,255,0.20)", color: "#fff", border: "2px solid rgba(255,255,255,0.50)" }}>
-                🆓 FREE EVENT — Open to All Seniors &amp; Caregivers
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ===== THIS TUESDAY — USHER PRAYER LINE ANNOUNCEMENT ===== */}
-      <section className="py-0" style={{ background: "linear-gradient(135deg, #1a0a2e 0%, #2d1254 50%, #1a0a2e 100%)", borderTop: "4px solid #C8901A", borderBottom: "4px solid #C8901A" }}>
-        <div className="container py-8">
-          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
-            {/* Flyer */}
-            <div className="flex-shrink-0 w-full md:w-auto flex justify-center">
-              <div className="rounded-2xl overflow-hidden shadow-2xl" style={{ maxWidth: "340px", width: "100%", border: "3px solid rgba(200,144,26,0.6)" }}>
-                <img
-                  src="/tuesday-prayer-bishop-blake.png"
-                  alt="Gatekeepers Tuesday Prayer Line — Bishop Cornelius Blake Guest Speaker | Tuesday at 7:30 PM"
-                  style={{ width: "100%", height: "auto", display: "block" }}
-                />
-              </div>
-            </div>
-            {/* Details */}
-            <div className="flex-1 text-center md:text-left py-4">
-              <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-3" style={{ background: "rgba(200,144,26,0.25)", color: "var(--an-gold)" }}>
-                🙏 THIS TUESDAY — Prayer Line
-              </span>
-              <h2 className="font-display font-bold text-white mb-2" style={{ fontSize: "clamp(1.5rem, 3vw, 2.4rem)", lineHeight: 1.1 }}>
-                Gatekeepers, You're Invited to a<br />
-                <span style={{ color: "var(--an-gold)" }}>Powerful Time of Prayer!</span>
-              </h2>
-              <p className="font-body font-bold mb-3" style={{ color: "#C8901A", fontSize: "1.05rem" }}>
-                Tuesday · 7:30 PM
-              </p>
-              <p className="font-body text-sm mb-4" style={{ color: "rgba(255,255,255,0.85)", maxWidth: 460 }}>
-                Sister Tracey proudly invites <strong style={{ color: "#fff" }}>Bishop Cornelius Blake</strong> as our Guest Speaker on the Prayer Line. Come expecting a <strong style={{ color: "var(--an-gold)" }}>BLESSING</strong> as we connect in Faith &amp; Unity!
-              </p>
-              <div className="flex flex-wrap gap-3 mb-5 justify-center md:justify-start">
-                <div className="rounded-xl px-4 py-3 text-center" style={{ background: "rgba(255,255,255,0.10)", border: "1px solid rgba(200,144,26,0.4)" }}>
-                  <div className="font-body text-xs mb-1" style={{ color: "rgba(255,255,255,0.60)" }}>📞 Dial</div>
-                  <div className="font-display font-bold text-white text-base">425-436-6374</div>
-                </div>
-                <div className="rounded-xl px-4 py-3 text-center" style={{ background: "rgba(255,255,255,0.10)", border: "1px solid rgba(200,144,26,0.4)" }}>
-                  <div className="font-body text-xs mb-1" style={{ color: "rgba(255,255,255,0.60)" }}>🔒 Access Code</div>
-                  <div className="font-display font-bold text-white text-base">1065638</div>
-                </div>
-              </div>
-              <p className="font-body text-xs italic" style={{ color: "rgba(255,255,255,0.55)" }}>
-                "Let's agree together and experience the power of prayer!" — See you on the line!
-              </p>
-            </div>
           </div>
         </div>
       </section>
@@ -334,6 +201,50 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ===== DAILY WORD FEATURED SECTION — JUNE 2026 ===== */}
+      <section className="py-12" style={{ background: "linear-gradient(135deg, #1A2F6B 0%, #0d1a3a 100%)" }}>
+        <div className="container">
+          <div className="flex flex-col lg:flex-row items-center gap-8">
+            {/* Left: Label + Title */}
+            <div className="flex-1 text-center lg:text-left">
+              <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-4" style={{ background: "rgba(197,157,47,0.18)", color: "var(--an-gold)" }}>
+                <Users size={12} /> June 2026 — Men's Month
+              </span>
+              <h2 className="font-display font-bold text-white mb-2" style={{ fontSize: "clamp(1.6rem, 3vw, 2.4rem)" }}>
+                Kings, <span style={{ color: "var(--an-gold)" }}>Fuel Your Fire</span>
+              </h2>
+              <p className="font-body text-sm mb-1" style={{ color: "rgba(255,255,255,0.70)" }}>
+                From Generations to Generations — <strong style={{ color: "rgba(255,255,255,0.90)" }}>Leviticus 6:12-13</strong>
+              </p>
+              <p className="font-body text-sm mb-2" style={{ color: "rgba(255,255,255,0.60)" }}>
+                June 2026 · Men's Month · Faith. Family. Brotherhood. Legacy.
+              </p>
+              <p className="font-body text-sm italic mb-6" style={{ color: "rgba(255,255,255,0.55)" }}>
+                "Your brother is not your competition. Your brother is your ally."
+              </p>
+              <Link href="/events" className="btn-gold inline-flex items-center gap-2">
+                <Calendar size={14} />
+                View June Events
+              </Link>
+            </div>
+            {/* Right: Decorative card */}
+            <div
+              className="flex-shrink-0 w-full lg:w-80 rounded-2xl p-6 text-center"
+              style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(197,157,47,0.25)" }}
+            >
+              <div className="text-5xl mb-3">👑</div>
+              <div className="font-body text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-gold)" }}>June Series — Men's Month</div>
+              <div className="font-display font-bold text-white text-xl mb-2">Fuel Your Fire</div>
+              <div className="font-body text-sm" style={{ color: "rgba(255,255,255,0.65)" }}>
+                Generation to Generation · Daily Word
+              </div>
+              <div className="mt-4 pt-4" style={{ borderTop: "1px solid rgba(197,157,47,0.2)" }}>
+                <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.50)" }}>One Church. One Purpose. One Legacy.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* ===== WELCOME FROM PASTORS ===== */}
       <section className="py-20" style={{ background: "#fff" }}>
         <div className="container">
