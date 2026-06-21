@@ -1031,7 +1031,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Come to the table today. Come to the house of God. Come broken, come lame, come from Lo-debar — the King is waiting.",
     close: "I love you, Kings. Iron sharpens iron. See you at the table today.",
-    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/grihCcWcPDJbjcye.mp3",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/hCHTtagTTeVvlLGc.mp3",
   },
   {
     day: 22, date: "June 22, 2026", isoDate: "2026-06-22",
