@@ -63,6 +63,52 @@ const recurringEvents = [
 ];
 
 const completedEvents2026 = [
+  // ── July 2026 (upcoming — not completed yet) ──────────────────────────────
+  // ── June 2026 — KINGS, FUEL YOUR FIRE (Men's Month) — COMPLETED ──────────
+  {
+    title: "👑 Kings, Fuel Your Fire — Men's Month June 2026",
+    date: "Every Sunday in June 2026",
+    desc: "A powerful month of Men's Ministry — Start the Fire, Sustain the Fire, Multiply the Fire, Protect the Fire. Iron sharpens iron. One Church. One Purpose. One Legacy.",
+    color: "var(--an-gold)",
+  },
+  {
+    title: "🎮 Legacy In The Making — Singles Game Night",
+    date: "Friday, June 12, 2026",
+    desc: "Building Friendships · Discovering Purpose · Creating Legacy. A fun, faith-filled chips & dips night for singles.",
+    color: "#C8901A",
+  },
+  {
+    title: "🎯 Pre Father's Day — Gun Range Event",
+    date: "Saturday, June 20, 2026",
+    desc: "Sharpen your focus. Build your discipline. Strengthen your aim. Fellowship. Fire. Focus.",
+    color: "var(--an-navy)",
+  },
+  {
+    title: "🍖 Family BBQ Fellowship — Whispering Pines Park",
+    date: "Saturday, June 27, 2026",
+    desc: "Father & Son Games · Prayer Circle for Fathers · Building Stronger Families · Food. Fun. Fellowship.",
+    color: "var(--an-orange)",
+  },
+  {
+    title: "🤖 AI Class 101 with AmarAi — Last Class!",
+    date: "Tuesday, June 16, 2026",
+    desc: "AI 101: An Introduction to AI That Works for You — presented by AmarAi Consulting Group LLC. In-person interactive class.",
+    color: "#1A2F6B",
+  },
+  {
+    title: "🌿 Senior Wellness Afternoon — The Great Commission Team",
+    date: "Thursday, June 4, 2026",
+    desc: "A FREE wellness afternoon for seniors and caregivers. Three sessions: Mental Wellness After 50, Medicare & Medicaid, and Prescriptions — What You Don't Know.",
+    color: "#2E7D32",
+  },
+  // ── May 2026 — ARISE AND TAKE FLIGHT (Women's Month) — COMPLETED ─────────
+  {
+    title: "✈️ Women's Month — Arise & Take Flight",
+    date: "May 2026",
+    desc: "A powerful month celebrating the women of God — worship services, book discussion, Pearls Power Purpose & Possibilities, Couples Night, Women's Conference, and Mother's Day celebration.",
+    color: "#D63384",
+  },
+  // ── April 2026 — TABERNACLE — COMPLETED ──────────────────────────────────
   {
     title: "Tabernacle 2026 — Cultural Night",
     date: "Tuesday, April 1, 2026",
@@ -84,6 +130,36 @@ const completedEvents2026 = [
 ];
 
 const upcomingEvents2026 = [
+  // ── JULY 2026 — DNA: DESIGNED NOT AVERAGE ────────────────────────────────
+  {
+    title: "🧬 DNA Daily Word — Designed Not Average",
+    date: "Every Day in July 2026",
+    time: "12:00 AM (Midnight EST)",
+    desc: "Pastor Shelia Blake delivers a fresh Daily Word every single day in July — DNA: Designed Not Average. Each day unlocks at midnight Eastern Time. Watch the cinematic devotional video and be encouraged. Visit allnationsldcc.org/daily-word.",
+    color: "var(--an-gold)",
+  },
+  {
+    title: "🤖 AI Class 102 — Level Up With More Advanced Skills",
+    date: "Tuesday, July 15, 2026",
+    time: "9:30 AM – Noon",
+    desc: "AmarAI Consulting Group LLC presents AI Class 102: Putting AI to Work for You. The second in the series of AI skill classes with Shelia Blake, AI Brand Ambassador. Level up with more advanced skills. Investment: $147. Bring your laptop! 862 SW Glenview Ct, Port St. Lucie, FL 34953. Register at stan.store/AmarAI.",
+    color: "#1A2F6B",
+    flyer: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/vngZJDJbFCUELWbZ.png",
+  },
+  {
+    title: "🎭 Takeover Arts Conference — TKO 2K26",
+    date: "July 23–25, 2026",
+    time: "Multi-Day Event",
+    desc: "The Takeover Arts Conference returns! Visionary Robert Donaldson Jr, Lady Becquell Robinson, and Prophetess Natasha Hines-Duncan. 6666 S US Highway 1, Port Saint Lucie, FL 34956. Register on Eventbrite: TKO 2K26. Jeremiah 20:9.",
+    color: "#C8901A",
+  },
+  {
+    title: "💼 A Better Job Fair — Hosted by All Nations LDCC",
+    date: "Tuesday, July 28, 2026",
+    time: "10:00 AM – 1:00 PM",
+    desc: "Looking for employees? Find your next hire at A Better Job Fair! Hosted by All Nations LDCC. 862 SW Glenview Ct, Port St. Lucie, FL 34953. Better Together has brought together 500+ businesses nationwide. Text \"JOBS\" to (844) 987-3949 or visit bettertogetherus.org/AllNations.",
+    color: "#5B2D8E",
+  },
   // ── May 2026 — ARISE AND TAKE FLIGHT (Women's Month) ────────────────────────────────────────────────────────────────────────
   {
     title: "✈️ Women's Service — Arise & Take Flight",
@@ -179,7 +255,8 @@ const upcomingEvents2026 = [
     color: "var(--an-pink, #d63384)",
   },
 
-  // ── June 2026 — KINGS, FUEL YOUR FIRE (Men's Month) ─────────────────────────────────────────
+  // ── June 2026 — KINGS, FUEL YOUR FIRE (Men's Month) — MOVED TO COMPLETED ─
+  // (All June events are past — see completedEvents2026 below)
   {
     title: "👑 Start the Fire (Identify) — Men's Month",
     date: "Sunday, June 7, 2026",
@@ -275,6 +352,57 @@ export default function Events() {
           </p>
         </div>
       </div>
+
+      {/* Featured Event — AI Class 102 with AmarAI — July 15, 2026 */}
+      <section style={{ background: "#0d1533", borderBottom: "4px solid #C8901A" }}>
+        <div className="container py-0">
+          <div className="flex flex-col md:flex-row-reverse items-center gap-0 md:gap-10">
+            {/* Flyer Image */}
+            <div className="w-full md:w-2/5 flex-shrink-0 flex justify-center py-8 md:py-0">
+              <img
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/vngZJDJbFCUELWbZ.png"
+                alt="AI Class 102 — Tuesday, July 15, 2026 | 9:30 AM | $147 | Bring Your Laptop"
+                className="h-auto object-contain rounded-2xl shadow-2xl"
+                style={{ maxHeight: "520px", maxWidth: "360px", width: "100%", border: "3px solid rgba(200,144,26,0.5)" }}
+              />
+            </div>
+            {/* Event Details */}
+            <div className="flex-1 py-12 px-6 md:px-0 text-center md:text-left">
+              <span className="section-label" style={{ color: "var(--an-gold)", letterSpacing: "0.15em" }}>AmarAI Consulting Group LLC Presents</span>
+              <h2 className="font-display font-bold text-white mt-3 mb-2" style={{ fontSize: "clamp(1.8rem, 4.5vw, 3rem)", lineHeight: 1.1 }}>
+                AI Class 102
+              </h2>
+              <p className="font-body text-base font-bold mb-1" style={{ color: "var(--an-gold)" }}>Level Up With More Advanced Skills</p>
+              <p className="font-body text-sm mb-2" style={{ color: "rgba(255,255,255,0.70)" }}>With Shelia Blake · AI Brand Ambassador, AmarAI</p>
+              <p className="font-body text-sm mb-6" style={{ color: "rgba(255,255,255,0.80)", maxWidth: 480 }}>
+                The second in the series of AI skill classes. Putting AI to Work for You — Your Vision. Our Intelligence. Your Advantage. This is a LIVE, in-person interactive class. Bring your laptop — seats are limited.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-6">
+                <div className="flex items-center gap-2 text-white">
+                  <Calendar size={16} style={{ color: "var(--an-gold)" }} />
+                  <span className="font-body font-bold text-sm">Tuesday, July 15, 2026</span>
+                </div>
+                <div className="flex items-center gap-2 text-white">
+                  <Clock size={16} style={{ color: "var(--an-gold)" }} />
+                  <span className="font-body font-bold text-sm">9:30 AM – Noon</span>
+                </div>
+              </div>
+              <div className="rounded-xl p-4 mb-6 text-left" style={{ background: "rgba(200,144,26,0.12)", border: "1px solid rgba(200,144,26,0.4)" }}>
+                <div className="font-body font-bold text-sm mb-2" style={{ color: "var(--an-gold)" }}>Event Details</div>
+                <div className="font-body text-xs text-white mb-1">💻 Bring Your Laptop — Interactive Class</div>
+                <div className="font-body text-xs text-white mb-1">💰 Investment: $147 per person</div>
+                <div className="font-body text-xs text-white mb-1">📍 862 SW Glenview Ct, Port St. Lucie, FL 34953</div>
+                <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.65)" }}>Seats are limited — secure yours today!</div>
+              </div>
+              <div className="flex gap-3 justify-center md:justify-start">
+                <a href="https://stan.store/AmarAI" target="_blank" rel="noopener noreferrer" className="btn-gold flex items-center gap-2">
+                  Reserve Your Seat → stan.store/AmarAI
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Featured Event — Senior Wellness Afternoon THIS WEEK */}
       <section style={{ background: "linear-gradient(135deg, #1B4D1E 0%, #2E7D32 50%, #1B4D1E 100%)", borderBottom: "4px solid #4CAF50" }}>
@@ -546,7 +674,7 @@ export default function Events() {
               Upcoming Events <span style={{ color: "var(--an-gold)" }}>2026</span>
             </h2>
             <p className="font-body text-sm mt-2" style={{ color: "#888" }}>
-              May – June 2026 (Women's Month · Men's Month · Summer Events)
+              July 2026 · DNA: Designed Not Average · AI Class 102 · Takeover Arts Conference · Job Fair
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -28,6 +28,7 @@ interface DayEntry {
   close: string;
   audioUrl?: string;
   imageUrl?: string;
+  videoUrl?: string;
 }
 
 const entries: DayEntry[] = [
@@ -1185,6 +1186,7 @@ const entries: DayEntry[] = [
     callToAction: "Today, say it out loud: I am not average. I am designed by God, loved by God, and called by God. Do you know Jesus? If not, today is the day to meet the One who designed you.",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/TYvACwrLpetcXIFJ.mp3",
+    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ARaJGwWMOzvIukNX.mp4",
   },
   {
     day: 2, date: "July 2, 2026", isoDate: "2026-07-02",
@@ -1200,6 +1202,7 @@ const entries: DayEntry[] = [
     callToAction: "Speak Psalm 139:14 over yourself today. Say it slowly, say it out loud, and let it land in your spirit. You are fearfully and wonderfully made.",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/fEoqgqoxDuUqvIsz.mp3",
+    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/tPhScCJOnsVCBGCj.mp4",
   },
   {
     day: 3, date: "July 3, 2026", isoDate: "2026-07-03",
@@ -1215,6 +1218,7 @@ const entries: DayEntry[] = [
     callToAction: "Whatever voice told you that you were a mistake — reject it today in the name of Jesus. You were known before you were born. You are not a mistake. You are a mission.",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/HCcKFTlSWtaaDuPD.mp3",
+    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/eoLCNmTcMwLrsqIp.mp4",
   },
   {
     day: 4, date: "July 4, 2026", isoDate: "2026-07-04",
@@ -1230,6 +1234,7 @@ const entries: DayEntry[] = [
     callToAction: "What yoke have you allowed back on your neck? Name it today and give it to Jesus. You were designed to be free — stand fast in that freedom.",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XaTCzzeSUaXCWjGa.mp3",
+    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/AICptMlNlutRjont.mp4",
   },
   {
     day: 5, date: "July 5, 2026", isoDate: "2026-07-05",
@@ -1245,6 +1250,7 @@ const entries: DayEntry[] = [
     callToAction: "Let go of one thing from your past today that you have been dragging into your future. Give it to God and ask Him to show you the new thing He is doing. Your past is not your design.",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/VowpBFberIDutNIu.mp3",
+    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/eAkpEoIHYNenSyQv.mp4",
   },
   {
     day: 6, date: "July 6, 2026", isoDate: "2026-07-06",
@@ -1260,6 +1266,7 @@ const entries: DayEntry[] = [
     callToAction: "Give God your exhaustion today. Tell Him honestly, Lord, I am tired. Then wait. Let Him renew your strength. You were designed for more than exhaustion.",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/umYpqJjYVwXIWsBe.mp3",
+    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/KoswMnPrnZgsciZY.mp4",
   },
   {
     day: 7, date: "July 7, 2026", isoDate: "2026-07-07",
@@ -1275,6 +1282,7 @@ const entries: DayEntry[] = [
     callToAction: "Ask God today, Lord, what are the good works You prepared for me? Then listen, and take one step toward what He shows you. You were designed with purpose.",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OdjlZurPBMAExQvm.mp3",
+    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/cMRWkcMmHirUvhXd.mp4",
   },
   {
     day: 8, date: "July 8, 2026", isoDate: "2026-07-08",
@@ -1290,6 +1298,7 @@ const entries: DayEntry[] = [
     callToAction: "Write down the one thing that is causing you the most anxiety right now. Then pray over it specifically — give it to God by name. Receive His peace that passes all understanding. You were designed for peace, not panic.",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/lNjEWKucxCZipzfz.mp3",
+    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/DQSacvfMtWSzMOUD.mp4",
   },
   {
     day: 9, date: "July 9, 2026", isoDate: "2026-07-09",
@@ -1305,6 +1314,7 @@ const entries: DayEntry[] = [
     callToAction: "Name your need today — specifically, honestly, out loud before God. Then stand on Philippians 4:19 and trust Him to supply it. You were designed to be provided for.",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/IhDuYVeLOMEUTPey.mp3",
+    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/nQyxMCFRPjnUMcGZ.mp4",
   },
   {
     day: 10, date: "July 10, 2026", isoDate: "2026-07-10",
@@ -1320,6 +1330,7 @@ const entries: DayEntry[] = [
     callToAction: "Make the Joshua declaration today. Say it over your home, your children, your family: as for me and my house, we will serve the Lord. You were designed for your home.",
     close: "I love you, All Nations. You are designed, not average. Thank you for walking through DNA with me. The best is still ahead.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/sMbXRxnELeJmJUli.mp3",
+    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/KTeMLXSsxqMephqR.mp4",
   },
 ];
 
@@ -1341,7 +1352,32 @@ function getEntryStatus(isoDate: string): "past" | "today" | "future" {
   return "future";
 }
 
-function AudioPlayer({ audioUrl }: { audioUrl?: string }) {
+function AudioPlayer({ audioUrl, videoUrl }: { audioUrl?: string; videoUrl?: string }) {
+  // If a cinematic video is available, show the full video player
+  if (videoUrl) {
+    return (
+      <div className="rounded-2xl overflow-hidden mb-6" style={{ background: "#000", boxShadow: "0 4px 32px rgba(0,0,0,0.25)" }}>
+        <video
+          controls
+          className="w-full"
+          style={{ display: "block", maxHeight: "480px", background: "#000" }}
+          poster={undefined}
+          preload="metadata"
+        >
+          <source src={videoUrl} type="video/mp4" />
+          {audioUrl && <source src={audioUrl} type="audio/mpeg" />}
+          Your browser does not support the video tag.
+        </video>
+        <div className="flex items-center gap-2 px-4 py-2" style={{ background: NAVY }}>
+          <Volume2 size={14} style={{ color: GOLD }} />
+          <span className="font-body text-xs text-white" style={{ fontFamily: "'Open Sans', sans-serif" }}>
+            DNA: Designed Not Average · Daily Word with Pastor Shelia Blake
+          </span>
+        </div>
+      </div>
+    );
+  }
+  // Fallback: audio-only player for months without video
   if (audioUrl) {
     return (
       <div className="rounded-2xl p-5 mb-6" style={{ background: NAVY }}>
@@ -1401,8 +1437,8 @@ function ShareButtons({ title, date }: { title: string; date: string }) {
 function DayContent({ entry }: { entry: DayEntry }) {
   return (
     <div>
-      {/* Audio Player */}
-      <AudioPlayer audioUrl={entry.audioUrl} />
+      {/* Video / Audio Player */}
+      <AudioPlayer audioUrl={entry.audioUrl} videoUrl={entry.videoUrl} />
 
       {/* Welcome */}
       <p className="font-body text-base leading-relaxed mb-5" style={{ color: "#444", fontFamily: "'Open Sans', sans-serif" }}>
