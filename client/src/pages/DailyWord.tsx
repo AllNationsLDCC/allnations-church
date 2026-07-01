@@ -1,6 +1,7 @@
 // Design: Warm, pastoral, professional — Playfair Display headings, Open Sans body
 // Brand: Deep Navy #1A2F6B | Gold #C8901A | Cream #F5F0E8 | White #FFFFFF | Dark #222222
-// Daily Word by Pastor Shelia Blake — June 2026 Theme: Fuel Your Fire, Generation to Generation (Men's Month)
+// Daily Word by Pastor Shelia Blake — July 2026 Theme: DNA: Designed Not Average
+// Timing: Each day unlocks at 12:00 AM Eastern Time (America/New_York)
 
 import { useState } from "react";
 import { Flame, Calendar, Facebook, Instagram, Link2, ChevronDown, ChevronUp, Volume2 } from "lucide-react";
@@ -1198,7 +1199,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Speak Psalm 139:14 over yourself today. Say it slowly, say it out loud, and let it land in your spirit. You are fearfully and wonderfully made.",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
-    audioUrl: "",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/fEoqgqoxDuUqvIsz.mp3",
   },
   {
     day: 3, date: "July 3, 2026", isoDate: "2026-07-03",
@@ -1213,7 +1214,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Whatever voice told you that you were a mistake — reject it today in the name of Jesus. You were known before you were born. You are not a mistake. You are a mission.",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
-    audioUrl: "",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/HCcKFTlSWtaaDuPD.mp3",
   },
   {
     day: 4, date: "July 4, 2026", isoDate: "2026-07-04",
@@ -1228,7 +1229,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "What yoke have you allowed back on your neck? Name it today and give it to Jesus. You were designed to be free — stand fast in that freedom.",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
-    audioUrl: "",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XaTCzzeSUaXCWjGa.mp3",
   },
   {
     day: 5, date: "July 5, 2026", isoDate: "2026-07-05",
@@ -1243,7 +1244,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Let go of one thing from your past today that you have been dragging into your future. Give it to God and ask Him to show you the new thing He is doing. Your past is not your design.",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
-    audioUrl: "",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/VowpBFberIDutNIu.mp3",
   },
   {
     day: 6, date: "July 6, 2026", isoDate: "2026-07-06",
@@ -1258,7 +1259,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Give God your exhaustion today. Tell Him honestly, Lord, I am tired. Then wait. Let Him renew your strength. You were designed for more than exhaustion.",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
-    audioUrl: "",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/umYpqJjYVwXIWsBe.mp3",
   },
   {
     day: 7, date: "July 7, 2026", isoDate: "2026-07-07",
@@ -1273,7 +1274,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Ask God today, Lord, what are the good works You prepared for me? Then listen, and take one step toward what He shows you. You were designed with purpose.",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
-    audioUrl: "",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OdjlZurPBMAExQvm.mp3",
   },
   {
     day: 8, date: "July 8, 2026", isoDate: "2026-07-08",
@@ -1288,7 +1289,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Write down the one thing that is causing you the most anxiety right now. Then pray over it specifically — give it to God by name. Receive His peace that passes all understanding. You were designed for peace, not panic.",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
-    audioUrl: "",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/lNjEWKucxCZipzfz.mp3",
   },
   {
     day: 9, date: "July 9, 2026", isoDate: "2026-07-09",
@@ -1303,7 +1304,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Name your need today — specifically, honestly, out loud before God. Then stand on Philippians 4:19 and trust Him to supply it. You were designed to be provided for.",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
-    audioUrl: "",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/IhDuYVeLOMEUTPey.mp3",
   },
   {
     day: 10, date: "July 10, 2026", isoDate: "2026-07-10",
@@ -1318,17 +1319,23 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Make the Joshua declaration today. Say it over your home, your children, your family: as for me and my house, we will serve the Lord. You were designed for your home.",
     close: "I love you, All Nations. You are designed, not average. Thank you for walking through DNA with me. The best is still ahead.",
-    audioUrl: "",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/sMbXRxnELeJmJUli.mp3",
   },
 ];
 
+// Returns today's date string in Eastern Time (America/New_York)
+// Each day unlocks at 12:00 AM EST/EDT — correct for Port St. Lucie, FL members
+function getEasternDateString(): string {
+  return new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
+}
+
 function getTodayEntry(): DayEntry | null {
-  const today = new Date().toISOString().split("T")[0];
+  const today = getEasternDateString();
   return entries.find(e => e.isoDate === today) || null;
 }
 
 function getEntryStatus(isoDate: string): "past" | "today" | "future" {
-  const today = new Date().toISOString().split("T")[0];
+  const today = getEasternDateString();
   if (isoDate < today) return "past";
   if (isoDate === today) return "today";
   return "future";
