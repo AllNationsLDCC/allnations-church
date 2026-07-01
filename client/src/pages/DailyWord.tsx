@@ -1552,10 +1552,19 @@ const MONTH_META: Record<string, { title: string; theme: string; subtitle: strin
   "2026-07": { title: "DNA: DESIGNED NOT AVERAGE", theme: "July 2026 Daily Word Series", subtitle: "You are not average. You were designed by God.", archiveLabel: "July 2026 Daily Word Archive" },
 };
 
+// Per-month hero banner images
+const MONTH_HERO: Record<string, string> = {
+  "2026-04": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ZYgelpDxFiXnxGvd.jpg",
+  "2026-05": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ZYgelpDxFiXnxGvd.jpg",
+  "2026-06": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ZYgelpDxFiXnxGvd.jpg",
+  "2026-07": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/dQwEhxZkhpBIbZRX.png",
+};
+
 export default function DailyWord() {
   const todayEntry = getTodayEntry();
-  const now = new Date();
-  const currentMonthPrefix = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`;
+  // Use Eastern Time for month detection — locks to America/New_York (Port St. Lucie, FL)
+  const easternDate = getEasternDateString();
+  const currentMonthPrefix = easternDate.substring(0, 7);  // "2026-07"
   const meta = MONTH_META[currentMonthPrefix] || { title: "DAILY WORD", theme: "Daily Devotional", subtitle: "Miss a meal, miss a song — but don't miss the Word", archiveLabel: "Daily Word Archive" };
   const currentMonthEntries = entries.filter(e => e.isoDate.startsWith(currentMonthPrefix));
 
@@ -1565,7 +1574,7 @@ export default function DailyWord() {
 
       {/* SECTION 1 — HERO BANNER */}
       <section className="relative overflow-hidden" style={{ borderTop: `4px solid ${GOLD}`, borderBottom: `4px solid ${GOLD}` }}>
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ZYgelpDxFiXnxGvd.jpg')` }} />
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('${MONTH_HERO[currentMonthPrefix] || "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/HMJOVsTLWyFutnDI.jpg"}')` }} />
         <div className="absolute inset-0" style={{ background: 'rgba(26,47,107,0.55)' }} />
         <div className="relative z-10 container py-20 text-center">
           <div className="flex items-center justify-center gap-3 mb-6">
