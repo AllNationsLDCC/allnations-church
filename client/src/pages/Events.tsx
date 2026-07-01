@@ -157,8 +157,9 @@ const upcomingEvents2026 = [
     title: "💼 A Better Job Fair — Hosted by All Nations LDCC",
     date: "Tuesday, July 28, 2026",
     time: "10:00 AM – 1:00 PM",
-    desc: "Looking for employees? Find your next hire at A Better Job Fair! Hosted by All Nations LDCC. 862 SW Glenview Ct, Port St. Lucie, FL 34953. Better Together has brought together 500+ businesses nationwide. Text \"JOBS\" to (844) 987-3949 or visit bettertogetherus.org/AllNations.",
+    desc: "Save the Date! Better Together is partnering with All Nations LDCC to host a Community Job Fair connecting local businesses with a large pool of diverse job seekers. On-the-spot interviews! Employers, resources, and services onsite. 862 SW Glenview Ct, Port St. Lucie, FL 34953. Text \"JOBS\" to (844) 987-3949 or visit bettertogetherus.org/AllNations.",
     color: "#5B2D8E",
+    flyer: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/lgLLJHRQAefwZhRH.jpg",
   },
   // ── May 2026 — ARISE AND TAKE FLIGHT (Women's Month) ────────────────────────────────────────────────────────────────────────
   {
