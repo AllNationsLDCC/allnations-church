@@ -405,66 +405,48 @@ export default function Events() {
         </div>
       </section>
 
-      {/* Featured Event — Senior Wellness Afternoon THIS WEEK */}
-      <section style={{ background: "linear-gradient(135deg, #1B4D1E 0%, #2E7D32 50%, #1B4D1E 100%)", borderBottom: "4px solid #4CAF50" }}>
+      {/* REMOVED: Senior Wellness Afternoon — June 4, 2026 (past event) */}
+      {/* Featured Event — Takeover Arts Conference — July 23-25, 2026 */}
+      <section style={{ background: "linear-gradient(135deg, #0a0020 0%, #1a0040 50%, #0a0020 100%)", borderBottom: "4px solid #C8901A" }}>
         <div className="container py-0">
           <div className="flex flex-col md:flex-row items-center gap-0 md:gap-10">
             {/* Flyer Image */}
-            <div className="w-full md:w-2/5 flex-shrink-0">
+            <div className="w-full md:w-2/5 flex-shrink-0 flex justify-center py-8 md:py-0">
               <img
-                src="/senior-wellness-afternoon-flyer.jpeg"
-                alt="Senior Wellness Afternoon — Thursday, June 4, 2026 | 11:00 AM – 2:00 PM | All Nations LDCC"
-                className="w-full h-auto object-contain"
-                style={{ maxHeight: "560px", objectPosition: "center" }}
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/TakeOverArtsConference2026Flyer.png"
+                alt="Takeover Arts Conference — July 23-25, 2026 | Port Saint Lucie, FL"
+                className="h-auto object-contain rounded-2xl shadow-2xl"
+                style={{ maxHeight: "560px", maxWidth: "380px", width: "100%", border: "3px solid rgba(200,144,26,0.5)" }}
               />
             </div>
             {/* Event Details */}
             <div className="flex-1 py-12 px-6 md:px-0 text-center md:text-left">
-              <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-3" style={{ background: "rgba(255,255,255,0.18)", color: "#fff" }}>
-                🌿 THIS WEEK — Health &amp; Wellness
-              </span>
+              <span className="section-label" style={{ color: "var(--an-gold)", letterSpacing: "0.15em" }}>The Takeover Arts Conference Presents</span>
               <h2 className="font-display font-bold text-white mt-3 mb-2" style={{ fontSize: "clamp(1.8rem, 4.5vw, 3rem)", lineHeight: 1.1 }}>
-                Senior Wellness Afternoon
+                TAKEOVER Arts Conference
               </h2>
-              <p className="font-body text-sm mb-4" style={{ color: "#A5D6A7" }}>The Great Commission Team of All Nations LDCC</p>
-              <p className="font-body text-base mb-6" style={{ color: "rgba(255,255,255,0.85)", maxWidth: 480 }}>
-                A FREE afternoon designed just for YOU — seniors and caregivers. Come ready to learn, ask questions, and leave equipped!
+              <p className="font-body text-base font-bold mb-1" style={{ color: "var(--an-gold)" }}>TKO 2K26 — Jeremiah 20:9</p>
+              <p className="font-body text-sm mb-6" style={{ color: "rgba(255,255,255,0.80)", maxWidth: 480 }}>
+                Visionary Robert Donaldson Jr · Lady Becquell Robinson · Prophetess Natasha Hines-Duncan. A powerful multi-day arts conference celebrating the gifts of the Spirit through creative expression.
               </p>
-              {/* Sessions Grid */}
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
-                <div className="rounded-xl p-3" style={{ background: "rgba(255,255,255,0.12)", border: "1px solid rgba(255,255,255,0.25)" }}>
-                  <div className="font-body font-bold text-xs text-white mb-1">🧠 Mental Wellness After 50</div>
-                  <div className="font-body text-xs" style={{ color: "#A5D6A7" }}>Facilitator: Sis. Jennetta</div>
-                </div>
-                <div className="rounded-xl p-3" style={{ background: "rgba(255,255,255,0.12)", border: "1px solid rgba(255,255,255,0.25)" }}>
-                  <div className="font-body font-bold text-xs text-white mb-1">🛡️ Medicare &amp; Medicaid</div>
-                  <div className="font-body text-xs" style={{ color: "#A5D6A7" }}>Facilitator: Sis. Nicole</div>
-                </div>
-                <div className="rounded-xl p-3" style={{ background: "rgba(255,255,255,0.12)", border: "1px solid rgba(255,255,255,0.25)" }}>
-                  <div className="font-body font-bold text-xs text-white mb-1">💊 Prescriptions — What You Don't Know</div>
-                  <div className="font-body text-xs" style={{ color: "#A5D6A7" }}>Facilitator: Sis. King</div>
-                </div>
-              </div>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-6">
                 <div className="flex items-center gap-2 text-white">
-                  <Calendar size={16} style={{ color: "#A5D6A7" }} />
-                  <span className="font-body font-bold text-sm">Thursday, June 4, 2026</span>
+                  <Calendar size={16} style={{ color: "var(--an-gold)" }} />
+                  <span className="font-body font-bold text-sm">July 23–25, 2026</span>
                 </div>
                 <div className="flex items-center gap-2 text-white">
-                  <Clock size={16} style={{ color: "#A5D6A7" }} />
-                  <span className="font-body font-bold text-sm">11:00 AM – 2:00 PM</span>
-                </div>
-                <div className="flex items-center gap-2 text-white">
-                  <MapPin size={16} style={{ color: "#A5D6A7" }} />
-                  <span className="font-body text-sm">All Nations LDCC</span>
+                  <MapPin size={16} style={{ color: "var(--an-gold)" }} />
+                  <span className="font-body text-sm">6666 S US Hwy 1, Port Saint Lucie, FL 34956</span>
                 </div>
               </div>
-              <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full font-body font-bold text-sm mb-4" style={{ background: "rgba(255,255,255,0.20)", color: "#fff", border: "2px solid rgba(255,255,255,0.50)" }}>
-                🆓 FREE EVENT — Open to All Seniors &amp; Caregivers
+              <div className="rounded-xl p-4 mb-6 text-left" style={{ background: "rgba(200,144,26,0.12)", border: "1px solid rgba(200,144,26,0.4)" }}>
+                <div className="font-body font-bold text-sm mb-2" style={{ color: "var(--an-gold)" }}>Register on Eventbrite</div>
+                <div className="font-body text-xs text-white mb-1">Search: <strong>TKO 2K26</strong> on Eventbrite</div>
+                <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.65)" }}>"But his word was in my heart like a burning fire shut up in my bones" — Jeremiah 20:9</div>
               </div>
-              <div className="flex gap-3 justify-center md:justify-start mt-2">
-                <a href="tel:7723437021" className="btn-gold flex items-center gap-2">
-                  <Phone size={14} /> Call 772-343-7021
+              <div className="flex gap-3 justify-center md:justify-start">
+                <a href="https://www.eventbrite.com" target="_blank" rel="noopener noreferrer" className="btn-gold flex items-center gap-2">
+                  Register on Eventbrite — TKO 2K26
                 </a>
               </div>
             </div>
@@ -472,106 +454,52 @@ export default function Events() {
         </div>
       </section>
 
-      {/* Featured Event — AI Class 101 with AmarAi */}
-      <section style={{ background: "#0d1533", borderBottom: "4px solid #C8901A" }}>
+      {/* REMOVED: AI Class 101 — June 16, 2026 (past event) */}
+      {/* Featured Event — A Better Job Fair — July 28, 2026 */}
+      <section style={{ background: "linear-gradient(135deg, #1a0040 0%, #3b0080 50%, #1a0040 100%)", borderBottom: "4px solid #00BFFF" }}>
         <div className="container py-0">
           <div className="flex flex-col md:flex-row-reverse items-center gap-0 md:gap-10">
             {/* Flyer Image */}
             <div className="w-full md:w-2/5 flex-shrink-0 flex justify-center py-8 md:py-0">
               <img
-                src="/ai101-amarai-flyer.png"
-                alt="AI Class 101 with AmarAi — Tuesday, June 16, 2026 | 9:30 AM | $97 | Bring Your Laptop"
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/lgLLJHRQAefwZhRH.jpg"
+                alt="A Better Job Fair — Tuesday, July 28, 2026 | 10:00 AM – 1:00 PM | All Nations LDCC"
                 className="h-auto object-contain rounded-2xl shadow-2xl"
-                style={{ maxHeight: "520px", maxWidth: "360px", width: "100%", border: "3px solid rgba(200,144,26,0.5)" }}
+                style={{ maxHeight: "560px", maxWidth: "400px", width: "100%", border: "3px solid rgba(0,191,255,0.5)" }}
               />
             </div>
             {/* Event Details */}
             <div className="flex-1 py-12 px-6 md:px-0 text-center md:text-left">
-              <span className="section-label" style={{ color: "var(--an-gold)", letterSpacing: "0.15em" }}>AmarAi Consulting Group LLC Presents</span>
+              <span className="section-label" style={{ color: "#00BFFF", letterSpacing: "0.15em" }}>Save the Date — Hosted by All Nations LDCC</span>
               <h2 className="font-display font-bold text-white mt-3 mb-2" style={{ fontSize: "clamp(1.8rem, 4.5vw, 3rem)", lineHeight: 1.1 }}>
-                AI Class 101
+                A Better Job Fair
               </h2>
-              <p className="font-body text-base font-bold mb-1" style={{ color: "var(--an-gold)" }}>An Introduction to AI That Works for You</p>
-              <p className="font-body text-sm mb-2" style={{ color: "rgba(255,255,255,0.70)" }}>With Shelia Blake · Founder, AmarAi</p>
+              <p className="font-body text-base font-bold mb-1" style={{ color: "#00BFFF" }}>Are You Looking for a New Job?</p>
               <p className="font-body text-sm mb-6" style={{ color: "rgba(255,255,255,0.80)", maxWidth: 480 }}>
-                <strong style={{ color: "#fff" }}>Last Class!</strong> This is a LIVE, in-person interactive class. Bring your laptop — seats are limited. Learn how AI can work for you in everyday life and business.
+                Better Together is partnering with All Nations LDCC to connect local businesses with a large pool of diverse job seekers. On-the-spot interviews! Employers, resources, and services onsite.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-6">
                 <div className="flex items-center gap-2 text-white">
-                  <Calendar size={16} style={{ color: "var(--an-gold)" }} />
-                  <span className="font-body font-bold text-sm">Tuesday, June 16, 2026</span>
+                  <Calendar size={16} style={{ color: "#00BFFF" }} />
+                  <span className="font-body font-bold text-sm">Tuesday, July 28, 2026</span>
                 </div>
                 <div className="flex items-center gap-2 text-white">
-                  <Clock size={16} style={{ color: "var(--an-gold)" }} />
-                  <span className="font-body font-bold text-sm">9:30 AM – 12:00 PM</span>
+                  <Clock size={16} style={{ color: "#00BFFF" }} />
+                  <span className="font-body font-bold text-sm">10:00 AM – 1:00 PM</span>
                 </div>
               </div>
-              <div className="rounded-xl p-4 mb-6 text-left" style={{ background: "rgba(200,144,26,0.12)", border: "1px solid rgba(200,144,26,0.4)" }}>
-                <div className="font-body font-bold text-sm mb-2" style={{ color: "var(--an-gold)" }}>Event Details</div>
-                <div className="font-body text-xs text-white mb-1">💻 Bring Your Laptop — This is an Interactive Class</div>
-                <div className="font-body text-xs text-white mb-1">💰 Seat Cost: $97 per person</div>
+              <div className="rounded-xl p-4 mb-6 text-left" style={{ background: "rgba(0,191,255,0.10)", border: "1px solid rgba(0,191,255,0.4)" }}>
+                <div className="font-body font-bold text-sm mb-2" style={{ color: "#00BFFF" }}>Event Details</div>
                 <div className="font-body text-xs text-white mb-1">📍 862 SW Glenview Ct, Port St. Lucie, FL 34953</div>
-                <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.65)" }}>Seats are limited — reserve yours today!</div>
+                <div className="font-body text-xs text-white mb-1">💼 On-the-spot interviews available</div>
+                <div className="font-body text-xs text-white mb-1">🆓 FREE to attend for job seekers</div>
+                <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.65)" }}>Text "JOBS" to (844) 987-3949 or visit bettertogetherus.org/AllNations</div>
               </div>
               <div className="flex gap-3 justify-center md:justify-start">
-                <a href="https://stan.store/AmarAI" target="_blank" rel="noopener noreferrer" className="btn-gold flex items-center gap-2">
-                  Reserve Your Seat → stan.store/AmarAI
+                <a href="https://bettertogetherus.org/AllNations" target="_blank" rel="noopener noreferrer" className="btn-gold flex items-center gap-2">
+                  More Info → bettertogetherus.org/AllNations
                 </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Featured Event Hero — Kings, Fuel Your Fire (Men's Month June 2026) */}
-      <section style={{ background: "#0a0a0a", borderBottom: "4px solid #C8901A" }}>
-        <div className="container py-0">
-          <div className="flex flex-col md:flex-row items-center gap-0 md:gap-10">
-            {/* Flyer Image */}
-            <div className="w-full md:w-2/5 flex-shrink-0">
-              <img
-                src="/kings-fuel-your-fire-mens-month-flyer.png"
-                alt="Kings, Fuel Your Fire — Men's Month June 2026 | All Nations LDCC"
-                className="w-full h-auto object-contain"
-                style={{ maxHeight: "600px", objectPosition: "center" }}
-              />
-            </div>
-            {/* Event Details */}
-            <div className="flex-1 py-12 px-6 md:px-0 text-center md:text-left">
-              <span className="section-label" style={{ color: "var(--an-gold)", letterSpacing: "0.15em" }}>Men's Ministry Presents</span>
-              <h2 className="font-display font-bold text-white mt-3 mb-2" style={{ fontSize: "clamp(2rem, 5vw, 3.2rem)", lineHeight: 1.1 }}>
-                Kings, Fuel Your Fire
-              </h2>
-              <p className="font-body text-sm mb-4" style={{ color: "var(--an-gold)" }}>From Generations to Generations — Leviticus 6:12-13</p>
-              <p className="font-body text-base mb-6" style={{ color: "rgba(255,255,255,0.80)", maxWidth: 480 }}>
-                Faith. Family. Brotherhood. Legacy. June 2026 is Men's Month at All Nations LDCC. Iron sharpens iron — Proverbs 27:17. One Church. One Purpose. One Legacy.
-              </p>
-              {/* June Sundays Itinerary */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
-                <div className="rounded-xl p-3" style={{ background: "rgba(200,144,26,0.12)", border: "1px solid rgba(200,144,26,0.3)" }}>
-                  <div className="font-body font-bold text-xs" style={{ color: "var(--an-gold)" }}>June 7 — 1st Sunday</div>
-                  <div className="font-body text-xs text-white mt-1">🔥 Start the Fire (Identify)</div>
-                </div>
-                <div className="rounded-xl p-3" style={{ background: "rgba(200,144,26,0.12)", border: "1px solid rgba(200,144,26,0.3)" }}>
-                  <div className="font-body font-bold text-xs" style={{ color: "var(--an-gold)" }}>June 14 — 2nd Sunday</div>
-                  <div className="font-body text-xs text-white mt-1">🎓 Sustain the Fire (Discipline) · Graduates!</div>
-                </div>
-                <div className="rounded-xl p-3" style={{ background: "rgba(200,144,26,0.12)", border: "1px solid rgba(200,144,26,0.3)" }}>
-                  <div className="font-body font-bold text-xs" style={{ color: "var(--an-gold)" }}>June 21 — Father's Day</div>
-                  <div className="font-body text-xs text-white mt-1">👨‍👦 Multiply the Fire (Fatherhood & Legacy)</div>
-                </div>
-                <div className="rounded-xl p-3" style={{ background: "rgba(200,144,26,0.12)", border: "1px solid rgba(200,144,26,0.3)" }}>
-                  <div className="font-body font-bold text-xs" style={{ color: "var(--an-gold)" }}>June 28 — 4th Sunday</div>
-                  <div className="font-body text-xs text-white mt-1">🛡️ Protect the Fire (Next Generation)</div>
-                </div>
-              </div>
-              <div className="rounded-xl p-4 mb-6 text-left" style={{ background: "rgba(200,144,26,0.10)", border: "1px solid rgba(200,144,26,0.4)" }}>
-                <p className="font-body text-sm font-bold mb-2" style={{ color: "var(--an-gold)" }}>Two Powerful Saturdays</p>
-                <div className="font-body text-xs text-white mb-1">🎯 June 20 — Pre Father's Day Gun Range Event</div>
-                <div className="font-body text-xs text-white">🍖 June 27 — Family BBQ Fellowship · Whispering Pines Park</div>
-              </div>
-              <div className="flex gap-3 justify-center md:justify-start">
-                <a href="tel:7723437021" className="btn-gold flex items-center gap-2">
+                <a href="tel:7723437021" className="btn-outline flex items-center gap-2" style={{ borderColor: "#00BFFF", color: "#00BFFF" }}>
                   <Phone size={14} /> Call 772-343-7021
                 </a>
               </div>
@@ -580,52 +508,13 @@ export default function Events() {
         </div>
       </section>
 
-      {/* Featured Event — Legacy In The Making: Singles Game Night */}
-      <section style={{ background: "#0d1a3a", borderBottom: "4px solid #C8901A" }}>
+      {/* REMOVED: Kings Fuel Your Fire — June 2026 (past event) */
         <div className="container py-0">
           <div className="flex flex-col md:flex-row items-center gap-0 md:gap-10">
-            {/* Flyer Image */}
-            <div className="w-full md:w-3/5 flex-shrink-0">
-              <img
-                src="/legacy-in-the-making-singles-game-night-flyer.png"
-                alt="Legacy In The Making — Singles Game Night | Friday, June 12, 2026 at 7:00 PM"
-                className="w-full h-auto object-contain"
-                style={{ maxHeight: "400px", objectPosition: "center" }}
-              />
-            </div>
-            {/* Event Details */}
-            <div className="flex-1 py-10 px-6 md:px-0 text-center md:text-left">
-              <span className="section-label" style={{ color: "var(--an-gold)", letterSpacing: "0.15em" }}>Legacy In The Making Presents</span>
-              <h2 className="font-display font-bold text-white mt-3 mb-2" style={{ fontSize: "clamp(1.6rem, 4vw, 2.6rem)", lineHeight: 1.1 }}>
-                Legacy In The Making
-              </h2>
-              <p className="font-body text-base font-bold mb-4" style={{ color: "var(--an-gold)" }}>Singles Game Night — Chips &amp; Dips Night!</p>
-              <p className="font-body text-sm mb-6" style={{ color: "rgba(255,255,255,0.80)", maxWidth: 420 }}>
-                Building Friendships · Discovering Purpose · Creating Legacy. Come connect, laugh, and grow with fellow singles in a fun, faith-filled atmosphere.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-6">
-                <div className="flex items-center gap-2 text-white">
-                  <Calendar size={16} style={{ color: "var(--an-gold)" }} />
-                  <span className="font-body font-bold text-sm">Friday, June 12, 2026</span>
-                </div>
-                <div className="flex items-center gap-2 text-white">
-                  <Clock size={16} style={{ color: "var(--an-gold)" }} />
-                  <span className="font-body font-bold text-sm">7:00 PM</span>
-                </div>
-                <div className="flex items-center gap-2 text-white">
-                  <MapPin size={16} style={{ color: "var(--an-gold)" }} />
-                  <span className="font-body text-sm">All Nations LDCC</span>
-                </div>
-              </div>
-              <div className="flex gap-3 justify-center md:justify-start">
-                <a href="tel:7723437021" className="btn-gold flex items-center gap-2">
-                  <Phone size={14} /> Call 772-343-7021
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+            {/* Kings Fuel Your Fire removed — June 2026 past event */
+
+
+      {/* REMOVED: Legacy In The Making Singles Game Night — June 12, 2026 (past event) */
 
       {/* Weekly Schedule */}
       <section className="py-20" style={{ background: "#fff" }}>
