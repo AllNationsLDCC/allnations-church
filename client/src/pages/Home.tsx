@@ -20,13 +20,12 @@ const ministries = [
 ];
 
 const upcomingEvents = [
-  { title: "👑 Kings, Fuel Your Fire — Men's Month", date: "June 2026", time: "All Month", color: "var(--an-gold)", speakers: "Fuel Your Fire, Generation to Generation — Men's Month 2026 is here!" },
+  { title: "🧬 DNA: Designed Not Average — Youth Month", date: "July 2026", time: "All Month", color: "var(--an-gold)", speakers: "Daily Word series with Pastor Shelia Blake — every day in July!" },
   { title: "Sunday Morning Worship", date: "Every Sunday", time: "8:30 AM & 11:00 AM", color: "var(--an-gold)" },
   { title: "Wednesday Bible Study", date: "Every Wednesday", time: "7:00 PM", color: "var(--an-teal)" },
   { title: "Intercessory Prayer Line", date: "Every Monday", time: "7:00 PM – 8:30 PM", color: "var(--an-orange)" },
-  { title: "🎯 Pre Father's Day — Gun Range", date: "Saturday, June 20, 2026", time: "All Day", color: "var(--an-navy)" },
-  { title: "🍖 Family BBQ Fellowship", date: "Saturday, June 27, 2026", time: "TBD · Whispering Pines Park", color: "var(--an-orange)" },
-  { title: "🎮 Legacy In The Making — Singles Game Night", date: "Friday, June 12, 2026", time: "7:00 PM", color: "#C8901A" },
+  { title: "🙌 Youth Sunday", date: "Sunday, July 6, 2026", time: "8:30 AM & 11:00 AM", color: "var(--an-orange)", speakers: "Celebrating our next generation — DNA: Designed Not Average" },
+  { title: "Tuesday Bible Talk", date: "Every Tuesday", time: "7:30 PM", color: "var(--an-teal)" },
 ];
 
 export default function Home() {
@@ -105,126 +104,74 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== JUNE 2026 — KINGS, FUEL YOUR FIRE (MEN'S MONTH) ===== */}
+      {/* ===== JULY 2026 — DNA: DESIGNED NOT AVERAGE (YOUTH MONTH) ===== */}
       <section className="py-16 relative overflow-hidden">
-        <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #0a0a0a 0%, #1a1200 40%, #3d2800 100%)" }} />
-        <div className="absolute inset-0" style={{ background: "url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"none\" stroke=\"rgba(200,144,26,0.05)\" stroke-width=\"0.5\"/></svg>') repeat", backgroundSize: "120px" }} />
+        <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #0a0f2e 0%, #0d1a3a 50%, #1A2F6B 100%)" }} />
         <div className="relative z-10 container">
           <div className="text-center max-w-4xl mx-auto">
-            <span className="inline-block px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-4" style={{ background: "rgba(200,144,26,0.25)", color: "var(--an-gold)" }}>JUNE 2026 — MEN'S MONTH</span>
+            <span className="inline-block px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-4" style={{ background: "rgba(200,144,26,0.25)", color: "var(--an-gold)" }}>JULY 2026 — YOUTH MONTH</span>
             <h2 className="font-display font-bold text-white mb-4" style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)", letterSpacing: "-0.01em" }}>
-              Kings, <span style={{ color: "var(--an-gold)" }}>Fuel Your Fire</span>
+              DNA: <span style={{ color: "var(--an-gold)" }}>Designed Not Average</span>
             </h2>
             <p className="font-body text-base mb-2" style={{ color: "rgba(255,255,255,0.80)" }}>
-              From Generations to Generations
+              You are not average. You were designed by God.
             </p>
             <blockquote className="font-display text-base italic mb-6 px-6" style={{ color: "var(--an-gold)" }}>
-              "The fire shall be kept burning on the altar continually; it shall not go out."
-              <cite className="block font-body text-xs mt-2 not-italic" style={{ color: "rgba(255,255,255,0.65)" }}>— Leviticus 6:12-13</cite>
+              "I will praise thee; for I am fearfully and wonderfully made."
+              <cite className="block font-body text-xs mt-2 not-italic" style={{ color: "rgba(255,255,255,0.65)" }}>— Psalm 139:14</cite>
             </blockquote>
-            {/* Men's Month Flyer */}
-            <div className="my-8 flex justify-center">
-              <div className="rounded-2xl overflow-hidden shadow-2xl" style={{ maxWidth: "480px", width: "100%", border: "3px solid rgba(200,144,26,0.6)" }}>
-                <img
-                  src="/kings-fuel-your-fire-mens-month-flyer.png"
-                  alt="Kings, Fuel Your Fire — Men's Month June 2026 | All Nations LDCC"
-                  style={{ width: "100%", height: "auto", display: "block" }}
-                />
-              </div>
+            {/* Youth Sunday Highlight */}
+            <div className="my-8 rounded-2xl p-8" style={{ background: "rgba(255,255,255,0.06)", border: "2px solid rgba(200,144,26,0.5)" }}>
+              <div className="text-5xl mb-3">🙌</div>
+              <div className="font-body text-xs uppercase tracking-widest mb-2" style={{ color: "var(--an-gold)" }}>This Sunday — July 6, 2026</div>
+              <div className="font-display font-bold text-white text-3xl mb-3">Youth Sunday</div>
+              <p className="font-body text-sm mb-4" style={{ color: "rgba(255,255,255,0.75)" }}>
+                Celebrating our next generation at both services — 8:30 AM &amp; 11:00 AM. Come honor the young people God has placed in our house. They are Designed Not Average.
+              </p>
+              <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.55)" }}>862 SW Glenview Ct., Port St. Lucie, FL 34953</div>
             </div>
-            {/* June Itinerary Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8 max-w-4xl mx-auto">
-              <div className="rounded-xl p-4" style={{ background: "rgba(255,255,255,0.08)", border: "1px solid rgba(200,144,26,0.3)" }}>
-                <div className="font-display font-bold text-white text-sm mb-1">👑 Start the Fire</div>
-                <div className="font-body text-xs" style={{ color: "var(--an-gold)" }}>Sunday, June 7</div>
-                <div className="font-body text-xs mt-1" style={{ color: "rgba(255,255,255,0.60)" }}>Identify · Discover your purpose</div>
-              </div>
-              <div className="rounded-xl p-4" style={{ background: "rgba(255,255,255,0.08)", border: "1px solid rgba(200,144,26,0.3)" }}>
-                <div className="font-display font-bold text-white text-sm mb-1">🎓 Sustain the Fire</div>
-                <div className="font-body text-xs" style={{ color: "var(--an-gold)" }}>Sunday, June 14</div>
-                <div className="font-body text-xs mt-1" style={{ color: "rgba(255,255,255,0.60)" }}>Discipline · Celebrating Graduates!</div>
-              </div>
-              <div className="rounded-xl p-4" style={{ background: "rgba(255,255,255,0.08)", border: "1px solid rgba(200,144,26,0.3)" }}>
-                <div className="font-display font-bold text-white text-sm mb-1">👨‍👦 Multiply the Fire</div>
-                <div className="font-body text-xs" style={{ color: "var(--an-gold)" }}>Sunday, June 21 · Father's Day</div>
-                <div className="font-body text-xs mt-1" style={{ color: "rgba(255,255,255,0.60)" }}>Fatherhood &amp; Legacy · Special Prayer</div>
-              </div>
-              <div className="rounded-xl p-4" style={{ background: "rgba(255,255,255,0.08)", border: "1px solid rgba(200,144,26,0.3)" }}>
-                <div className="font-display font-bold text-white text-sm mb-1">🛡️ Protect the Fire</div>
-                <div className="font-body text-xs" style={{ color: "var(--an-gold)" }}>Sunday, June 28</div>
-                <div className="font-body text-xs mt-1" style={{ color: "rgba(255,255,255,0.60)" }}>Next Generation · Stand firm</div>
-              </div>
-            </div>
-            {/* Legacy In The Making Flyer */}
-            <div className="my-8 flex justify-center">
-              <div className="rounded-2xl overflow-hidden shadow-2xl" style={{ maxWidth: "560px", width: "100%", border: "3px solid rgba(200,144,26,0.6)" }}>
-                <img
-                  src="/legacy-in-the-making-singles-game-night-flyer.png"
-                  alt="Legacy In The Making — Singles Game Night | Friday, June 12, 2026 at 7:00 PM"
-                  style={{ width: "100%", height: "auto", display: "block" }}
-                />
-              </div>
-            </div>
-
-            {/* AI Class 101 with AmarAi Flyer */}
-            <div className="my-8">
-              <div className="text-center mb-4">
-                <span className="inline-block px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest" style={{ background: "rgba(26,47,107,0.6)", color: "#C8901A" }}>Last Class · AI Class 101 with AmarAi</span>
-              </div>
-              <div className="flex justify-center">
-                <div className="rounded-2xl overflow-hidden shadow-2xl" style={{ maxWidth: "420px", width: "100%", border: "3px solid rgba(200,144,26,0.6)" }}>
-                  <img
-                    src="/ai101-amarai-flyer.png"
-                    alt="AI Class 101 with AmarAi — Tuesday, June 16, 2026 at 9:30 AM | $97 | Bring Your Laptop"
-                    style={{ width: "100%", height: "auto", display: "block" }}
-                  />
-                </div>
-              </div>
-              <div className="mt-4 text-center">
-                <p className="font-body text-sm" style={{ color: "rgba(255,255,255,0.75)" }}>
-                  <strong style={{ color: "var(--an-gold)" }}>Tuesday, June 16 · 9:30 AM</strong> &nbsp;·&nbsp; $97 per seat &nbsp;·&nbsp; Bring Your Laptop &nbsp;·&nbsp; Interactive Class
-                </p>
-                <a href="https://stan.store/AmarAI" target="_blank" rel="noopener noreferrer" className="btn-gold mt-3 inline-flex items-center gap-2" style={{ fontSize: "0.85rem" }}>
-                  Reserve Your Seat → stan.store/AmarAI
-                </a>
-              </div>
+            {/* DNA Daily Word Promo */}
+            <div className="my-6 rounded-xl p-6" style={{ background: "rgba(200,144,26,0.12)", border: "1px solid rgba(200,144,26,0.3)" }}>
+              <div className="font-body text-xs uppercase tracking-widest mb-2" style={{ color: "var(--an-gold)" }}>Daily Word — All July</div>
+              <div className="font-display font-bold text-white text-xl mb-2">A New Word Every Day with Pastor Shelia Blake</div>
+              <p className="font-body text-sm" style={{ color: "rgba(255,255,255,0.70)" }}>Join us every day in July for a fresh word from God. DNA: Designed Not Average — because you'll never know who you really are until you know the One who designed you.</p>
             </div>
             <div className="flex gap-4 justify-center flex-wrap">
-              <Link href="/events" className="btn-gold flex items-center gap-2">
-                View June Events <ArrowRight size={14} />
+              <Link href="/daily-word" className="btn-gold flex items-center gap-2">
+                Today's Daily Word <ArrowRight size={14} />
               </Link>
-              <Link href="/connect" className="btn-outline flex items-center gap-2" style={{ borderColor: "#fff", color: "#fff" }}>
-                Get Involved
+              <Link href="/events" className="btn-outline flex items-center gap-2" style={{ borderColor: "#fff", color: "#fff" }}>
+                View July Events
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ===== DAILY WORD FEATURED SECTION — JUNE 2026 ===== */}
+      {/* ===== DAILY WORD FEATURED SECTION — JULY 2026 ===== */}
       <section className="py-12" style={{ background: "linear-gradient(135deg, #1A2F6B 0%, #0d1a3a 100%)" }}>
         <div className="container">
           <div className="flex flex-col lg:flex-row items-center gap-8">
             {/* Left: Label + Title */}
             <div className="flex-1 text-center lg:text-left">
               <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full font-body font-bold text-xs uppercase tracking-widest mb-4" style={{ background: "rgba(197,157,47,0.18)", color: "var(--an-gold)" }}>
-                <Users size={12} /> June 2026 — Men's Month
+                <Users size={12} /> July 2026 — Youth Month
               </span>
               <h2 className="font-display font-bold text-white mb-2" style={{ fontSize: "clamp(1.6rem, 3vw, 2.4rem)" }}>
-                Kings, <span style={{ color: "var(--an-gold)" }}>Fuel Your Fire</span>
+                DNA: <span style={{ color: "var(--an-gold)" }}>Designed Not Average</span>
               </h2>
               <p className="font-body text-sm mb-1" style={{ color: "rgba(255,255,255,0.70)" }}>
-                From Generations to Generations — <strong style={{ color: "rgba(255,255,255,0.90)" }}>Leviticus 6:12-13</strong>
+                You are not average. You were designed by God.
               </p>
               <p className="font-body text-sm mb-2" style={{ color: "rgba(255,255,255,0.60)" }}>
-                June 2026 · Men's Month · Faith. Family. Brotherhood. Legacy.
+                July 2026 · Youth Month · Identity. Purpose. Freedom. Design.
               </p>
               <p className="font-body text-sm italic mb-6" style={{ color: "rgba(255,255,255,0.55)" }}>
-                "Your brother is not your competition. Your brother is your ally."
+                "You'll never know who you really are until you know the One who designed you."
               </p>
-              <Link href="/events" className="btn-gold inline-flex items-center gap-2">
+              <Link href="/daily-word" className="btn-gold inline-flex items-center gap-2">
                 <Calendar size={14} />
-                View June Events
+                Today's Daily Word
               </Link>
             </div>
             {/* Right: Decorative card */}
@@ -232,11 +179,11 @@ export default function Home() {
               className="flex-shrink-0 w-full lg:w-80 rounded-2xl p-6 text-center"
               style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(197,157,47,0.25)" }}
             >
-              <div className="text-5xl mb-3">👑</div>
-              <div className="font-body text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-gold)" }}>June Series — Men's Month</div>
-              <div className="font-display font-bold text-white text-xl mb-2">Fuel Your Fire</div>
+              <div className="text-5xl mb-3">🧬</div>
+              <div className="font-body text-xs uppercase tracking-widest mb-1" style={{ color: "var(--an-gold)" }}>July Series — Youth Month</div>
+              <div className="font-display font-bold text-white text-xl mb-2">Designed Not Average</div>
               <div className="font-body text-sm" style={{ color: "rgba(255,255,255,0.65)" }}>
-                Generation to Generation · Daily Word
+                Daily Word with Pastor Shelia Blake
               </div>
               <div className="mt-4 pt-4" style={{ borderTop: "1px solid rgba(197,157,47,0.2)" }}>
                 <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.50)" }}>One Church. One Purpose. One Legacy.</div>
@@ -275,7 +222,7 @@ export default function Home() {
               <div className="relative flex-1">
                 <img
                   src={BISHOP_BLAKE}
-                  alt="Bishop Cornellas Blake"
+                  alt="Bishop Cornelius Blake"
                   className="w-full rounded-2xl object-cover shadow-2xl"
                   style={{ height: "380px", objectPosition: "top" }}
                 />
@@ -283,7 +230,7 @@ export default function Home() {
                   className="absolute bottom-3 left-3 right-3 rounded-xl p-3"
                   style={{ background: "rgba(31,47,92,0.92)", backdropFilter: "blur(8px)" }}
                 >
-                  <div className="font-display text-white font-bold text-sm">Bishop Cornellas Blake</div>
+                  <div className="font-display text-white font-bold text-sm">Bishop Cornelius Blake</div>
                   <div className="font-body text-xs mt-0.5" style={{ color: "var(--an-gold)" }}>Senior Pastor</div>
                 </div>
               </div>
@@ -372,21 +319,12 @@ export default function Home() {
               Our Youth and Next Gen ministry is a dynamic, faith-filled environment where young people discover their identity in Christ, build lasting friendships, and develop the leadership skills to change their world.
             </p>
             <p className="font-body text-base leading-relaxed mb-8" style={{ color: "rgba(255,255,255,0.75)" }}>
-              Youth services run at both 8:30 AM and 11:00 AM on Sundays, with a dedicated Toddler Lounge for our youngest members. This summer — join us for Vacation Bible School!
+              Youth services run at both 8:30 AM and 11:00 AM on Sundays, with a dedicated Toddler Lounge for our youngest members. This July — it's Youth Month! DNA: Designed Not Average.
             </p>
-            {/* VBS Flyer */}
-            <div className="my-6 rounded-2xl overflow-hidden shadow-xl" style={{ maxWidth: 380 }}>
-              <img
-                src="/vbs-rooted-in-faith-flyer.jpg"
-                alt="Vacation Bible School — Rooted in Faith | June 1–12, Ages 5–12, 9:00 AM–12:30 PM"
-                className="w-full h-auto block"
-                style={{ borderRadius: "1rem" }}
-              />
-            </div>
             <div className="flex gap-4 flex-wrap">
               <Link href="/ministries" className="btn-gold">Youth Ministry</Link>
-              <Link href="/events" className="btn-outline" style={{ borderColor: "#fff", color: "#fff" }}>
-                VBS Registration
+              <Link href="/daily-word" className="btn-outline" style={{ borderColor: "#fff", color: "#fff" }}>
+                Daily Word
               </Link>
             </div>
           </div>

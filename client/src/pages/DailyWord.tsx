@@ -1221,7 +1221,7 @@ const entries: DayEntry[] = [
     close: "AllNationsLDCC.org/daily-word.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/HCcKFTlSWtaaDuPD.mp3",
     videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/eoLCNmTcMwLrsqIp.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/qAdLBjtuMPdIMtqe.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/fQuZJkwQoyEprLWu.jpg",
   },
   {
     day: 4, date: "July 4, 2026", isoDate: "2026-07-04",
@@ -1238,7 +1238,7 @@ const entries: DayEntry[] = [
     close: "AllNationsLDCC.org/daily-word.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XaTCzzeSUaXCWjGa.mp3",
     videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/AICptMlNlutRjont.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ooNYsVERtfJArjTY.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/uiTfIpxKUfRuuxal.jpg",
   },
   {
     day: 5, date: "July 5, 2026", isoDate: "2026-07-05",
@@ -1255,7 +1255,7 @@ const entries: DayEntry[] = [
     close: "AllNationsLDCC.org/daily-word.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/VowpBFberIDutNIu.mp3",
     videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/eAkpEoIHYNenSyQv.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/HVxIrwHeZgzycjSI.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/JundRAobRttRYvpe.jpg",
   },
   {
     day: 6, date: "July 6, 2026", isoDate: "2026-07-06",
