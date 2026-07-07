@@ -1187,7 +1187,7 @@ const entries: DayEntry[] = [
     close: "God bless you. Go deeper at AllNationsLDCC.org/daily-word.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/TYvACwrLpetcXIFJ.mp3",
     videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ARaJGwWMOzvIukNX.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/IffgLCpdWTsSmxSS.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/vRUdSPlPiXeCecLt.jpg",
   },
   {
     day: 2, date: "July 2, 2026", isoDate: "2026-07-02",
@@ -1204,7 +1204,7 @@ const entries: DayEntry[] = [
     close: "See you tomorrow. AllNationsLDCC.org/daily-word.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/fEoqgqoxDuUqvIsz.mp3",
     videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/tPhScCJOnsVCBGCj.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ZeDYqjlCWyvVqEnD.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OvMswqWQbcXDSNVI.jpg",
   },
   {
     day: 3, date: "July 3, 2026", isoDate: "2026-07-03",
@@ -1221,7 +1221,7 @@ const entries: DayEntry[] = [
     close: "AllNationsLDCC.org/daily-word.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/HCcKFTlSWtaaDuPD.mp3",
     videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/eoLCNmTcMwLrsqIp.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/fQuZJkwQoyEprLWu.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/pfWekaWjMDHZkrqj.jpg",
   },
   {
     day: 4, date: "July 4, 2026", isoDate: "2026-07-04",
@@ -1238,7 +1238,7 @@ const entries: DayEntry[] = [
     close: "AllNationsLDCC.org/daily-word.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XaTCzzeSUaXCWjGa.mp3",
     videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/AICptMlNlutRjont.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/uiTfIpxKUfRuuxal.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/BAFepWOBEWjpKrJh.jpg",
   },
   {
     day: 5, date: "July 5, 2026", isoDate: "2026-07-05",
@@ -1255,7 +1255,7 @@ const entries: DayEntry[] = [
     close: "AllNationsLDCC.org/daily-word.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/VowpBFberIDutNIu.mp3",
     videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/eAkpEoIHYNenSyQv.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/JundRAobRttRYvpe.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/kRsCGwUrrViDAarI.jpg",
   },
   {
     day: 6, date: "July 6, 2026", isoDate: "2026-07-06",
@@ -1272,7 +1272,7 @@ const entries: DayEntry[] = [
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/umYpqJjYVwXIWsBe.mp3",
     videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/KoswMnPrnZgsciZY.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/rynygdxZzfeXDbKx.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/GFpVCAvVUJFFQuHI.jpg",
   },
   {
     day: 7, date: "July 7, 2026", isoDate: "2026-07-07",
@@ -1289,7 +1289,7 @@ const entries: DayEntry[] = [
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OdjlZurPBMAExQvm.mp3",
     videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/cMRWkcMmHirUvhXd.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/gzqROgdRMkrDQmVb.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/xFhGUaFOGlhyskuY.jpg",
   },
   {
     day: 8, date: "July 8, 2026", isoDate: "2026-07-08",
@@ -1306,7 +1306,7 @@ const entries: DayEntry[] = [
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/lNjEWKucxCZipzfz.mp3",
     videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/DQSacvfMtWSzMOUD.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/kJsGCyiLsGyazSlh.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/VWzxjpvpLHfICRhN.jpg",
   },
   {
     day: 9, date: "July 9, 2026", isoDate: "2026-07-09",
@@ -1323,7 +1323,7 @@ const entries: DayEntry[] = [
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/IhDuYVeLOMEUTPey.mp3",
     videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/nQyxMCFRPjnUMcGZ.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/EdkOkjdQdnHlWHji.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/saRmupBLkJVupHNt.jpg",
   },
   {
     day: 10, date: "July 10, 2026", isoDate: "2026-07-10",
@@ -1340,7 +1340,7 @@ const entries: DayEntry[] = [
     close: "I love you, All Nations. You are designed, not average. Thank you for walking through DNA with me. The best is still ahead.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/sMbXRxnELeJmJUli.mp3",
     videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/KTeMLXSsxqMephqR.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ZDjkkPhJOcHiobKG.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/zmKcLlUgkwTSSvls.jpg",
   },
   // ── JULY DAYS 11–16 ──────────────────────────────────────────────────────
   {
@@ -1357,7 +1357,7 @@ const entries: DayEntry[] = [
     callToAction: "You were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "Go deeper at allnationsldcc.org/daily-word. God bless you.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/gSQZehIfDDmdksPJ.mp3",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/hHEMbmWvXqlvvfSv.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/vucoMwVvYQgDuxAy.jpg",
   },
   {
     day: 12, date: "July 12, 2026", isoDate: "2026-07-12",
@@ -1373,7 +1373,7 @@ const entries: DayEntry[] = [
     callToAction: "You were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/lSaetROUgLXuXxYD.mp3",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/kYEpaDatjUYSPaJA.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/CqwRKhRncpoMjbgX.jpg",
   },
   {
     day: 13, date: "July 13, 2026", isoDate: "2026-07-13",
@@ -1389,7 +1389,7 @@ const entries: DayEntry[] = [
     callToAction: "You were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ugpNaLoaTRzqckXy.mp3",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/IPEncZQgLoJZKbjU.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/tWzLmIXFCjTtEQKh.jpg",
   },
   {
     day: 14, date: "July 14, 2026", isoDate: "2026-07-14",
@@ -1405,7 +1405,7 @@ const entries: DayEntry[] = [
     callToAction: "You were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "All Nations, I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OujHEPKpSRWeYnsb.mp3",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/VsacYtTHuguNDvWh.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/lRfEgtlCXZrksQUx.jpg",
   },
   {
     day: 15, date: "July 15, 2026", isoDate: "2026-07-15",
@@ -1421,7 +1421,7 @@ const entries: DayEntry[] = [
     callToAction: "You were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/iUVsKpnaQfaVKwEa.mp3",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/kkwITGIHVZNYBufC.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/WGJFpSKRHrAsxCvl.jpg",
   },
   {
     day: 16, date: "July 16, 2026", isoDate: "2026-07-16",
@@ -1437,7 +1437,7 @@ const entries: DayEntry[] = [
     callToAction: "You were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/saKboHlCELZHoRvM.mp3",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/lJOQkLMTYXvDvrht.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/cqbJtgbWvcoKTznH.jpg",
   },
 ];
 
