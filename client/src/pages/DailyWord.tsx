@@ -1186,8 +1186,7 @@ const entries: DayEntry[] = [
     callToAction: "Do you know Jesus? If not, today is the day to meet the One who designed you. You'll never know who you really are until you know the one who designed you.",
     close: "God bless you. Go deeper at AllNationsLDCC.org/daily-word.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/TYvACwrLpetcXIFJ.mp3",
-    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ARaJGwWMOzvIukNX.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/vRUdSPlPiXeCecLt.jpg",
+    imageUrl: "/dna-day1-designed-on-purpose.jpg",
   },
   {
     day: 2, date: "July 2, 2026", isoDate: "2026-07-02",
@@ -1203,8 +1202,7 @@ const entries: DayEntry[] = [
     callToAction: "Because you were designed not average. Do you know Jesus? You'll never know who you really are until you know the one who designed you.",
     close: "See you tomorrow. AllNationsLDCC.org/daily-word.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/fEoqgqoxDuUqvIsz.mp3",
-    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/tPhScCJOnsVCBGCj.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OvMswqWQbcXDSNVI.jpg",
+    imageUrl: "/dna-day2-fearfully-wonderfully-made.jpg",
   },
   {
     day: 3, date: "July 3, 2026", isoDate: "2026-07-03",
@@ -1220,8 +1218,7 @@ const entries: DayEntry[] = [
     callToAction: "Because you were designed not average. Do you know Jesus? You'll never know who you really are until you know the one who designed you.",
     close: "AllNationsLDCC.org/daily-word.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/HCcKFTlSWtaaDuPD.mp3",
-    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/eoLCNmTcMwLrsqIp.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/pfWekaWjMDHZkrqj.jpg",
+    imageUrl: "/dna-day3-not-a-mistake.jpg",
   },
   {
     day: 4, date: "July 4, 2026", isoDate: "2026-07-04",
@@ -1237,8 +1234,7 @@ const entries: DayEntry[] = [
     callToAction: "Because you were designed not average. Do you know Jesus? You'll never know who you really are until you know the one who designed you. Celebrate well.",
     close: "AllNationsLDCC.org/daily-word.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XaTCzzeSUaXCWjGa.mp3",
-    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/AICptMlNlutRjont.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/BAFepWOBEWjpKrJh.jpg",
+    imageUrl: "/dna-day4-designed-to-be-free.jpg",
   },
   {
     day: 5, date: "July 5, 2026", isoDate: "2026-07-05",
@@ -1254,8 +1250,7 @@ const entries: DayEntry[] = [
     callToAction: "Because you were designed not average. Do you know Jesus? You'll never know who you really are until you know the one who designed you.",
     close: "AllNationsLDCC.org/daily-word.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/VowpBFberIDutNIu.mp3",
-    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/eAkpEoIHYNenSyQv.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/kRsCGwUrrViDAarI.jpg",
+    imageUrl: "/dna-day5-your-past-not-your-design.jpg",
   },
   {
     day: 6, date: "July 6, 2026", isoDate: "2026-07-06",
@@ -1271,8 +1266,7 @@ const entries: DayEntry[] = [
     callToAction: "Start this week leaning on Him — because you were designed not average, and you'll never know who you really are until you know the One who designed you. Do you know Jesus?",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/umYpqJjYVwXIWsBe.mp3",
-    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/KoswMnPrnZgsciZY.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/GFpVCAvVUJFFQuHI.jpg",
+    imageUrl: "/dna-day6-designed-more-than-exhaustion.jpg",
   },
   {
     day: 7, date: "July 7, 2026", isoDate: "2026-07-07",
@@ -1288,8 +1282,7 @@ const entries: DayEntry[] = [
     callToAction: "You were designed not average, and you'll never know who you really are until you know the One who designed you. Do you know Jesus?",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OdjlZurPBMAExQvm.mp3",
-    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/cMRWkcMmHirUvhXd.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/xFhGUaFOGlhyskuY.jpg",
+    imageUrl: "/dna-day7-designed-with-purpose.jpg",
   },
   {
     day: 8, date: "July 8, 2026", isoDate: "2026-07-08",
@@ -1305,8 +1298,7 @@ const entries: DayEntry[] = [
     callToAction: "Hand it to Him this morning — because you were designed not average, and you'll never know who you really are until you know the One who designed you. Do you know Jesus?",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/lNjEWKucxCZipzfz.mp3",
-    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/DQSacvfMtWSzMOUD.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/VWzxjpvpLHfICRhN.jpg",
+    imageUrl: "/dna-day8-designed-peace-not-panic.jpg",
   },
   {
     day: 9, date: "July 9, 2026", isoDate: "2026-07-09",
@@ -1322,8 +1314,7 @@ const entries: DayEntry[] = [
     callToAction: "Name your need today — specifically, honestly, out loud before God. Then stand on Philippians 4:19 and trust Him to supply it. You were designed to be provided for.",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/IhDuYVeLOMEUTPey.mp3",
-    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/nQyxMCFRPjnUMcGZ.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/saRmupBLkJVupHNt.jpg",
+    imageUrl: "/dna-day9-designed-to-be-provided-for.jpg",
   },
   {
     day: 10, date: "July 10, 2026", isoDate: "2026-07-10",
@@ -1339,15 +1330,14 @@ const entries: DayEntry[] = [
     callToAction: "Make the Joshua declaration today. Say it over your home, your children, your family: as for me and my house, we will serve the Lord. You were designed for your home.",
     close: "I love you, All Nations. You are designed, not average. Thank you for walking through DNA with me. The best is still ahead.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/sMbXRxnELeJmJUli.mp3",
-    videoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/KTeMLXSsxqMephqR.mp4",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/zmKcLlUgkwTSSvls.jpg",
+    imageUrl: "/dna-day10-designed-for-your-home.jpg",
   },
   // ── JULY DAYS 11–16 ──────────────────────────────────────────────────────
   {
     day: 11, date: "July 11, 2026", isoDate: "2026-07-11",
     title: "Designed with Strength",
-    scripture: "Philippians 4:13 (NIV)",
-    verse: "I can do all things through Christ who strengthens me.",
+    scripture: "Philippians 4:13 (KJV)",
+    verse: "I can do all things through Christ which strengtheneth me.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "Facing something that feels too big? 'I can do all things through Christ who strengthens me.' Not in your own strength.",
@@ -1357,13 +1347,13 @@ const entries: DayEntry[] = [
     callToAction: "You were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "Go deeper at allnationsldcc.org/daily-word. God bless you.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/gSQZehIfDDmdksPJ.mp3",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/vucoMwVvYQgDuxAy.jpg",
+    imageUrl: "/dna-day11-designed-with-strength.jpg",
   },
   {
     day: 12, date: "July 12, 2026", isoDate: "2026-07-12",
     title: "Designed to Overcome",
-    scripture: "1 Corinthians 10:13 (NIV)",
-    verse: "God is faithful; he will not let you be tempted beyond what you can bear. But when you are tempted, he will also provide a way out.",
+    scripture: "1 Corinthians 10:13 (KJV)",
+    verse: "There hath no temptation taken you but such as is common to man: but God is faithful, who will not suffer you to be tempted above that ye are able; but will with the temptation also make a way to escape, that ye may be able to bear it.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "That thing you keep fighting in private — God is faithful. He will not let you be tempted beyond what you can bear.",
@@ -1373,13 +1363,13 @@ const entries: DayEntry[] = [
     callToAction: "You were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/lSaetROUgLXuXxYD.mp3",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/CqwRKhRncpoMjbgX.jpg",
+    imageUrl: "/dna-day12-designed-to-overcome.jpg",
   },
   {
     day: 13, date: "July 13, 2026", isoDate: "2026-07-13",
     title: "Designed to Answer the Call",
-    scripture: "Revelation 3:20 (NIV)",
-    verse: "Here I am! I stand at the door and knock. If anyone hears my voice and opens the door, I will come in.",
+    scripture: "Revelation 3:20 (KJV)",
+    verse: "Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him, and will sup with him, and he with me.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Sunday.",
     keyPoints: [
       "That nudge you keep feeling — that's not random.",
@@ -1389,13 +1379,13 @@ const entries: DayEntry[] = [
     callToAction: "You were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ugpNaLoaTRzqckXy.mp3",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/tWzLmIXFCjTtEQKh.jpg",
+    imageUrl: "/dna-day13-designed-to-answer-the-call.jpg",
   },
   {
     day: 14, date: "July 14, 2026", isoDate: "2026-07-14",
     title: "Designed: Never Alone",
-    scripture: "Hebrews 13:5 (NIV)",
-    verse: "Never will I leave you; never will I forsake you.",
+    scripture: "Hebrews 13:5 (KJV)",
+    verse: "I will never leave thee, nor forsake thee.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "Feeling alone, even in a crowd? God's promise: Never will I leave you. Never will I forsake you.",
@@ -1405,13 +1395,13 @@ const entries: DayEntry[] = [
     callToAction: "You were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "All Nations, I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OujHEPKpSRWeYnsb.mp3",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/lRfEgtlCXZrksQUx.jpg",
+    imageUrl: "/dna-day14-designed-never-alone.jpg",
   },
   {
     day: 15, date: "July 15, 2026", isoDate: "2026-07-15",
     title: "Designed to Be Healed",
-    scripture: "Psalm 147:3 (NIV)",
-    verse: "He heals the brokenhearted and binds up their wounds.",
+    scripture: "Psalm 147:3 (KJV)",
+    verse: "He healeth the broken in heart, and bindeth up their wounds.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "Carrying a hurt nobody can see? He heals the brokenhearted and binds up their wounds.",
@@ -1421,13 +1411,13 @@ const entries: DayEntry[] = [
     callToAction: "You were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/iUVsKpnaQfaVKwEa.mp3",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/WGJFpSKRHrAsxCvl.jpg",
+    imageUrl: "/dna-day15-designed-to-be-healed.jpg",
   },
   {
     day: 16, date: "July 16, 2026", isoDate: "2026-07-16",
     title: "Designed for Peace, Not Chaos",
-    scripture: "John 14:27 (NIV)",
-    verse: "Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.",
+    scripture: "John 14:27 (KJV)",
+    verse: "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "When everything inside feels like chaos — 'Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.'",
@@ -1437,7 +1427,7 @@ const entries: DayEntry[] = [
     callToAction: "You were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/saKboHlCELZHoRvM.mp3",
-    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/cqbJtgbWvcoKTznH.jpg",
+    imageUrl: "/dna-day16-designed-for-peace-not-chaos.jpg",
   },
 ];
 
