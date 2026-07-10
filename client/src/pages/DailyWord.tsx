@@ -1186,7 +1186,7 @@ const entries: DayEntry[] = [
     callToAction: "Do you know Jesus? If not, today is the day to meet the One who designed you. You'll never know who you really are until you know the one who designed you.",
     close: "God bless you. Go deeper at AllNationsLDCC.org/daily-word.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/TYvACwrLpetcXIFJ.mp3",
-    imageUrl: "/dna-day1-designed-on-purpose.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/SLOmEKqEWkDbCfNh.jpg",
   },
   {
     day: 2, date: "July 2, 2026", isoDate: "2026-07-02",
@@ -1202,7 +1202,7 @@ const entries: DayEntry[] = [
     callToAction: "Because you were designed not average. Do you know Jesus? You'll never know who you really are until you know the one who designed you.",
     close: "See you tomorrow. AllNationsLDCC.org/daily-word.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/fEoqgqoxDuUqvIsz.mp3",
-    imageUrl: "/dna-day2-fearfully-wonderfully-made.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/HtzAAYFEiOVnPVwd.jpg",
   },
   {
     day: 3, date: "July 3, 2026", isoDate: "2026-07-03",
@@ -1218,7 +1218,7 @@ const entries: DayEntry[] = [
     callToAction: "Because you were designed not average. Do you know Jesus? You'll never know who you really are until you know the one who designed you.",
     close: "AllNationsLDCC.org/daily-word.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/HCcKFTlSWtaaDuPD.mp3",
-    imageUrl: "/dna-day3-not-a-mistake.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/WEzzQMNfYcidZqTm.jpg",
   },
   {
     day: 4, date: "July 4, 2026", isoDate: "2026-07-04",
@@ -1234,7 +1234,7 @@ const entries: DayEntry[] = [
     callToAction: "Because you were designed not average. Do you know Jesus? You'll never know who you really are until you know the one who designed you. Celebrate well.",
     close: "AllNationsLDCC.org/daily-word.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XaTCzzeSUaXCWjGa.mp3",
-    imageUrl: "/dna-day4-designed-to-be-free.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XvZVmFglvmlurofs.jpg",
   },
   {
     day: 5, date: "July 5, 2026", isoDate: "2026-07-05",
@@ -1250,7 +1250,7 @@ const entries: DayEntry[] = [
     callToAction: "Because you were designed not average. Do you know Jesus? You'll never know who you really are until you know the one who designed you.",
     close: "AllNationsLDCC.org/daily-word.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/VowpBFberIDutNIu.mp3",
-    imageUrl: "/dna-day5-your-past-not-your-design.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/gGxhFuBtvctFgdzA.jpg",
   },
   {
     day: 6, date: "July 6, 2026", isoDate: "2026-07-06",
@@ -1266,7 +1266,7 @@ const entries: DayEntry[] = [
     callToAction: "Start this week leaning on Him — because you were designed not average, and you'll never know who you really are until you know the One who designed you. Do you know Jesus?",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/umYpqJjYVwXIWsBe.mp3",
-    imageUrl: "/dna-day6-designed-more-than-exhaustion.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OeqgOxqoZsOiefto.jpg",
   },
   {
     day: 7, date: "July 7, 2026", isoDate: "2026-07-07",
@@ -1282,7 +1282,7 @@ const entries: DayEntry[] = [
     callToAction: "Because you were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "AllNationsLDCC.org/daily-word.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OdjlZurPBMAExQvm.mp3",
-    imageUrl: "/dna-day7-designed-with-purpose.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ccreFBNjgEsbUiSR.jpg",
   },
   {
     day: 8, date: "July 8, 2026", isoDate: "2026-07-08",
@@ -1298,7 +1298,7 @@ const entries: DayEntry[] = [
     callToAction: "Hand it to Him this morning — because you were designed not average, and you'll never know who you really are until you know the One who designed you. Do you know Jesus?",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/lNjEWKucxCZipzfz.mp3",
-    imageUrl: "/dna-day8-designed-peace-not-panic.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/NOXJmExzXOQIiSiM.jpg",
   },
   {
     day: 9, date: "July 9, 2026", isoDate: "2026-07-09",
@@ -1314,7 +1314,7 @@ const entries: DayEntry[] = [
     callToAction: "Seek Him first today — because you were designed not average, and you'll never know who you really are until you know the One who designed you. Do you know Jesus?",
     close: "I love you, All Nations. You are designed, not average. I will see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/IhDuYVeLOMEUTPey.mp3",
-    imageUrl: "/dna-day9-designed-to-be-provided-for.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/NDRgdyuHjogsVwmd.jpg",
   },
   {
     day: 10, date: "July 10, 2026", isoDate: "2026-07-10",
@@ -1330,7 +1330,7 @@ const entries: DayEntry[] = [
     callToAction: "Make the Joshua declaration today over your home, your children, your family: as for me and my house, we will serve the Lord. You were designed for your home.",
     close: "I love you, All Nations. You are designed, not average. Thank you for walking through DNA with me. The best is still ahead.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/sMbXRxnELeJmJUli.mp3",
-    imageUrl: "/dna-day10-designed-for-your-home.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/HHSPLUoMKFWJZAzM.jpg",
   },
   // ── JULY DAYS 11–16 ──────────────────────────────────────────────────────
   {
@@ -1347,7 +1347,7 @@ const entries: DayEntry[] = [
     callToAction: "You were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "Go deeper at allnationsldcc.org/daily-word. God bless you.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/gSQZehIfDDmdksPJ.mp3",
-    imageUrl: "/dna-day11-designed-with-strength.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/dibONnGozAubrxtw.jpg",
   },
   {
     day: 12, date: "July 12, 2026", isoDate: "2026-07-12",
@@ -1363,7 +1363,7 @@ const entries: DayEntry[] = [
     callToAction: "You were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/lSaetROUgLXuXxYD.mp3",
-    imageUrl: "/dna-day12-designed-to-overcome.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/YQuIsIzmpITSsVwN.jpg",
   },
   {
     day: 13, date: "July 13, 2026", isoDate: "2026-07-13",
@@ -1379,7 +1379,7 @@ const entries: DayEntry[] = [
     callToAction: "You were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ugpNaLoaTRzqckXy.mp3",
-    imageUrl: "/dna-day13-designed-to-answer-the-call.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/IQedJTZgAknOvDZa.jpg",
   },
   {
     day: 14, date: "July 14, 2026", isoDate: "2026-07-14",
@@ -1395,7 +1395,7 @@ const entries: DayEntry[] = [
     callToAction: "You were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "All Nations, I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OujHEPKpSRWeYnsb.mp3",
-    imageUrl: "/dna-day14-designed-never-alone.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/wFJvaJRZFfDAVxOm.jpg",
   },
   {
     day: 15, date: "July 15, 2026", isoDate: "2026-07-15",
@@ -1411,7 +1411,7 @@ const entries: DayEntry[] = [
     callToAction: "You were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/iUVsKpnaQfaVKwEa.mp3",
-    imageUrl: "/dna-day15-designed-to-be-healed.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/dPvgPGlXNhYUGzaj.jpg",
   },
   {
     day: 16, date: "July 16, 2026", isoDate: "2026-07-16",
@@ -1427,7 +1427,7 @@ const entries: DayEntry[] = [
     callToAction: "You were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "I'll see you tomorrow.",
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/saKboHlCELZHoRvM.mp3",
-    imageUrl: "/dna-day16-designed-for-peace-not-chaos.jpg",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ooCDeGTmUkEcKUPU.jpg",
   },
 ];
 
