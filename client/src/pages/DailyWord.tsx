@@ -1175,8 +1175,8 @@ const entries: DayEntry[] = [
   {
     day: 1, date: "July 1, 2026", isoDate: "2026-07-01",
     title: "Designed on Purpose",
-    scripture: "John 3:16 (NIV)",
-    verse: "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.",
+    scripture: "John 3:16 (KJV)",
+    verse: "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "All month, I want to ask you one question: Do you know Jesus? Because here's the thing about your DNA. You were designed on purpose by someone. You are not an accident, and you are not average.",
@@ -1191,8 +1191,8 @@ const entries: DayEntry[] = [
   {
     day: 2, date: "July 2, 2026", isoDate: "2026-07-02",
     title: "Fearfully and Wonderfully Made",
-    scripture: "Psalm 139:14 (NIV)",
-    verse: "I praise you because I am fearfully and wonderfully made; your works are wonderful, I know that full well.",
+    scripture: "Psalm 139:14 (KJV)",
+    verse: "I will praise thee; for I am fearfully and wonderfully made: marvellous are thy works; and that my soul knoweth right well.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Thursday.",
     keyPoints: [
       "Psalm 139: You created my inmost being. You knit me together in my mother's womb. I praise you because I am fearfully and wonderfully made.",
@@ -1207,8 +1207,8 @@ const entries: DayEntry[] = [
   {
     day: 3, date: "July 3, 2026", isoDate: "2026-07-03",
     title: "Not a Mistake",
-    scripture: "Romans 5:8 (NIV)",
-    verse: "But God demonstrates his own love for us in this: While we were still sinners, Christ died for us.",
+    scripture: "Romans 5:8 (KJV)",
+    verse: "But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Thursday.",
     keyPoints: [
       "Ever think, 'I'd come to God, but not like this — let me fix myself first'? Romans 5:8 says: while we were still sinners, Christ died for us. While we were still sinners — not after you cleaned up.",
@@ -1223,8 +1223,8 @@ const entries: DayEntry[] = [
   {
     day: 4, date: "July 4, 2026", isoDate: "2026-07-04",
     title: "Designed to Be Free",
-    scripture: "John 8:36 (NIV)",
-    verse: "So if the Son sets you free, you will be free indeed.",
+    scripture: "John 8:36 (KJV)",
+    verse: "If the Son therefore shall make you free, ye shall be free indeed.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy 4th of July.",
     keyPoints: [
       "Today we celebrate freedom. But let me ask the deeper question: are you actually free? You can live in the freest nation on Earth and still be bound on the inside by fear, by a habit, by a past that keeps replaying.",
@@ -1239,8 +1239,8 @@ const entries: DayEntry[] = [
   {
     day: 5, date: "July 5, 2026", isoDate: "2026-07-05",
     title: "Your Past Is Not Your Design",
-    scripture: "1 John 1:9 (NIV)",
-    verse: "If we confess our sins, he is faithful and just and will forgive us our sins and purify us from all unrighteousness.",
+    scripture: "1 John 1:9 (KJV)",
+    verse: "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Sunday.",
     keyPoints: [
       "Some of us carry a weight called guilt — the thing you keep apologizing to God for. Hear this: If we confess our sins, He is faithful and just and will forgive us our sins and purify us from all unrighteousness. 1 John 1:9.",
@@ -1255,8 +1255,8 @@ const entries: DayEntry[] = [
   {
     day: 6, date: "July 6, 2026", isoDate: "2026-07-06",
     title: "Designed for More Than Exhaustion",
-    scripture: "Matthew 11:28 (NIV)",
-    verse: "Come to me, all you who are weary and burdened, and I will give you rest.",
+    scripture: "Matthew 11:28 (KJV)",
+    verse: "Come unto me, all ye that labour and are heavy laden, and I will give you rest.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Monday.",
     keyPoints: [
       "Maybe you woke up already tired — tired in a way the weekend didn't fix. Jesus says, 'Come to me all you who are weary and burdened and I will give you rest.' He doesn't say fix yourself first. He says, just come.",
@@ -1271,8 +1271,8 @@ const entries: DayEntry[] = [
   {
     day: 7, date: "July 7, 2026", isoDate: "2026-07-07",
     title: "Designed with Purpose",
-    scripture: "Colossians 3:23 (NIV)",
-    verse: "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.",
+    scripture: "Colossians 3:23 (KJV)",
+    verse: "And whatsoever ye do, do it heartily, as to the Lord, and not unto men;",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Tuesday.",
     keyPoints: [
       "That knot in your stomach about work, about school, about the week — hear this: 'Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.' Colossians 3:23.",
@@ -1287,8 +1287,8 @@ const entries: DayEntry[] = [
   {
     day: 8, date: "July 8, 2026", isoDate: "2026-07-08",
     title: "Designed for Peace, Not Panic",
-    scripture: "Philippians 4:6-7 (NIV)",
-    verse: "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus.",
+    scripture: "Philippians 4:6-7 (KJV)",
+    verse: "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God. And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "That racing heart, that 2:00 AM worry — God has a word for it.",
@@ -1303,8 +1303,8 @@ const entries: DayEntry[] = [
   {
     day: 9, date: "July 9, 2026", isoDate: "2026-07-09",
     title: "Designed to Be Provided For",
-    scripture: "Matthew 6:31-33 (NIV)",
-    verse: "So do not worry, saying, 'What shall we eat?' or 'What shall we drink?' or 'What shall we wear?' But seek first his kingdom and his righteousness, and all these things will be given to you as well.",
+    scripture: "Matthew 6:31-33 (KJV)",
+    verse: "Therefore take no thought, saying, What shall we eat? or, What shall we drink? or, Wherewithal shall we be clothed? But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Wednesday.",
     keyPoints: [
       "Watching the bills stack up? Jesus said, 'Don't worry, saying what shall we eat? Your heavenly Father knows that you need them.'",
@@ -1319,8 +1319,8 @@ const entries: DayEntry[] = [
   {
     day: 10, date: "July 10, 2026", isoDate: "2026-07-10",
     title: "Designed for Your Home",
-    scripture: "Joshua 24:15 (NIV)",
-    verse: "But as for me and my household, we will serve the Lord.",
+    scripture: "Joshua 24:15 (KJV)",
+    verse: "But as for me and my house, we will serve the Lord.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Friday.",
     keyPoints: [
       "Maybe your house has been tense lately. Hear Joshua's stand: 'As for me and my household, we will serve the Lord.' It starts with one person deciding. You can be that person.",
@@ -1336,8 +1336,8 @@ const entries: DayEntry[] = [
   {
     day: 11, date: "July 11, 2026", isoDate: "2026-07-11",
     title: "Designed with Strength",
-    scripture: "Philippians 4:13 (NIV)",
-    verse: "I can do all this through him who gives me strength.",
+    scripture: "Philippians 4:13 (KJV)",
+    verse: "I can do all things through Christ which strengtheneth me.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "Facing something that feels too big? 'I can do all things through Christ who strengthens me.' Philippians 4:13.",
@@ -1352,8 +1352,8 @@ const entries: DayEntry[] = [
   {
     day: 12, date: "July 12, 2026", isoDate: "2026-07-12",
     title: "Designed to Overcome",
-    scripture: "1 Corinthians 10:13 (NIV)",
-    verse: "No temptation has overtaken you except what is common to mankind. And God is faithful; he will not let you be tempted beyond what you can bear.",
+    scripture: "1 Corinthians 10:13 (KJV)",
+    verse: "There hath no temptation taken you but such as is common to man: but God is faithful, who will not suffer you to be tempted above that ye are able; but will with the temptation also make a way to escape, that ye may be able to bear it.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Saturday.",
     keyPoints: [
       "Feeling like this temptation or this trial is too much? 'No temptation has overtaken you except what is common to mankind. And God is faithful; He will not let you be tempted beyond what you can bear.'",
@@ -1368,8 +1368,8 @@ const entries: DayEntry[] = [
   {
     day: 13, date: "July 13, 2026", isoDate: "2026-07-13",
     title: "Designed to Answer the Call",
-    scripture: "Revelation 3:20 (NIV)",
-    verse: "Here I am! I stand at the door and knock. If anyone hears my voice and opens the door, I will come in and eat with that person, and they with me.",
+    scripture: "Revelation 3:20 (KJV)",
+    verse: "Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him, and will sup with him, and he with me.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Sunday.",
     keyPoints: [
       "'Here I am! I stand at the door and knock. If anyone hears my voice and opens the door, I will come in and eat with that person, and they with me.' Revelation 3:20.",
@@ -1384,8 +1384,8 @@ const entries: DayEntry[] = [
   {
     day: 14, date: "July 14, 2026", isoDate: "2026-07-14",
     title: "Designed: Never Alone",
-    scripture: "Hebrews 13:5 (NIV)",
-    verse: "Never will I leave you; never will I forsake you.",
+    scripture: "Hebrews 13:5 (KJV)",
+    verse: "I will never leave thee, nor forsake thee.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "Feeling alone, even in a crowd? God's promise: Never will I leave you. Never will I forsake you.",
@@ -1400,8 +1400,8 @@ const entries: DayEntry[] = [
   {
     day: 15, date: "July 15, 2026", isoDate: "2026-07-15",
     title: "Designed to Be Healed",
-    scripture: "Psalm 147:3 (NIV)",
-    verse: "He heals the brokenhearted and binds up their wounds.",
+    scripture: "Psalm 147:3 (KJV)",
+    verse: "He healeth the broken in heart, and bindeth up their wounds.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "Carrying a hurt nobody can see? He heals the brokenhearted and binds up their wounds.",
@@ -1416,8 +1416,8 @@ const entries: DayEntry[] = [
   {
     day: 16, date: "July 16, 2026", isoDate: "2026-07-16",
     title: "Designed for Peace, Not Chaos",
-    scripture: "John 14:27 (NIV)",
-    verse: "Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.",
+    scripture: "John 14:27 (KJV)",
+    verse: "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "When everything inside feels like chaos: 'Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.'",
