@@ -140,7 +140,7 @@ const upcomingEvents2026 = [
   },
   {
     title: "🤖 AI Class 102 — Level Up With More Advanced Skills",
-    date: "Tuesday, July 15, 2026",
+    date: "Wednesday, July 15, 2026",
     time: "9:30 AM – Noon",
     desc: "AmarAI Consulting Group LLC presents AI Class 102: Putting AI to Work for You. The second in the series of AI skill classes with Shelia Blake, AI Brand Ambassador. Level up with more advanced skills. Investment: $147. Bring your laptop! 862 SW Glenview Ct, Port St. Lucie, FL 34953. Register at stan.store/AmarAI.",
     color: "#1A2F6B",
@@ -238,7 +238,7 @@ export default function Events() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-6">
                 <div className="flex items-center gap-2 text-white">
                   <Calendar size={16} style={{ color: "var(--an-gold)" }} />
-                  <span className="font-body font-bold text-sm">Tuesday, July 15, 2026</span>
+                  <span className="font-body font-bold text-sm">Wednesday, July 15, 2026</span>
                 </div>
                 <div className="flex items-center gap-2 text-white">
                   <Clock size={16} style={{ color: "var(--an-gold)" }} />
@@ -273,7 +273,7 @@ export default function Events() {
             <div className="w-full md:w-2/5 flex-shrink-0 flex justify-center py-8 md:py-0">
               <img
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/vngZJDJbFCUELWbZ.png"
-                alt="AI Class 102 — Tuesday, July 15, 2026 | 9:30 AM | $147 | Bring Your Laptop"
+                alt="AI Class 102 — Wednesday, July 15, 2026 | 9:30 AM | $147 | Bring Your Laptop"
                 className="h-auto object-contain rounded-2xl shadow-2xl"
                 style={{ maxHeight: "520px", maxWidth: "360px", width: "100%", border: "3px solid rgba(200,144,26,0.5)" }}
               />
@@ -292,7 +292,7 @@ export default function Events() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-6">
                 <div className="flex items-center gap-2 text-white">
                   <Calendar size={16} style={{ color: "var(--an-gold)" }} />
-                  <span className="font-body font-bold text-sm">Tuesday, July 15, 2026</span>
+                  <span className="font-body font-bold text-sm">Wednesday, July 15, 2026</span>
                 </div>
                 <div className="flex items-center gap-2 text-white">
                   <Clock size={16} style={{ color: "var(--an-gold)" }} />
