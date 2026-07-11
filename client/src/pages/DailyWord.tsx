@@ -1340,13 +1340,12 @@ const entries: DayEntry[] = [
     verse: "I can do all things through Christ which strengtheneth me.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
-      "Facing something that feels too big? 'I can do all things through Christ who strengthens me.' Philippians 4:13.",
-      "Not some things. Not easy things. All things — through Christ.",
+      "Facing something that feels too big? Philippians 4:13 says: 'I can do all things through Christ which strengtheneth me.' Not some things. Not easy things. All things — through Christ.",
       "The strength was never supposed to come from you. It was always supposed to flow through you from the One who designed you.",
+      "Whatever is in front of you today, you do not face it alone or empty. Christ is your strength.",
     ],
     callToAction: "You were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "Go deeper at allnationsldcc.org/daily-word. God bless you.",
-    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/gSQZehIfDDmdksPJ.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OHLAfppzwsNCINQA.jpg",
   },
   {
