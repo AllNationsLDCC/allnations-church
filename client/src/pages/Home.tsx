@@ -24,7 +24,6 @@ const upcomingEvents = [
   { title: "Sunday Morning Worship", date: "Every Sunday", time: "8:30 AM & 11:00 AM", color: "var(--an-gold)" },
   { title: "Wednesday Bible Study", date: "Every Wednesday", time: "7:00 PM", color: "var(--an-teal)" },
   { title: "Intercessory Prayer Line", date: "Every Monday", time: "7:00 PM – 8:30 PM", color: "var(--an-orange)" },
-  { title: "🙌 Youth Sunday", date: "Sunday, July 6, 2026", time: "8:30 AM & 11:00 AM", color: "var(--an-orange)", speakers: "Celebrating our next generation — DNA: Designed Not Average" },
   { title: "Tuesday Bible Talk", date: "Every Tuesday", time: "7:30 PM", color: "var(--an-teal)" },
 ];
 
@@ -120,16 +119,6 @@ export default function Home() {
               "I will praise thee; for I am fearfully and wonderfully made."
               <cite className="block font-body text-xs mt-2 not-italic" style={{ color: "rgba(255,255,255,0.65)" }}>— Psalm 139:14</cite>
             </blockquote>
-            {/* Youth Sunday Highlight */}
-            <div className="my-8 rounded-2xl p-8" style={{ background: "rgba(255,255,255,0.06)", border: "2px solid rgba(200,144,26,0.5)" }}>
-              <div className="text-5xl mb-3">🙌</div>
-              <div className="font-body text-xs uppercase tracking-widest mb-2" style={{ color: "var(--an-gold)" }}>This Sunday — July 6, 2026</div>
-              <div className="font-display font-bold text-white text-3xl mb-3">Youth Sunday</div>
-              <p className="font-body text-sm mb-4" style={{ color: "rgba(255,255,255,0.75)" }}>
-                Celebrating our next generation at both services — 8:30 AM &amp; 11:00 AM. Come honor the young people God has placed in our house. They are Designed Not Average.
-              </p>
-              <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.55)" }}>862 SW Glenview Ct., Port St. Lucie, FL 34953</div>
-            </div>
             {/* DNA Daily Word Promo */}
             <div className="my-6 rounded-xl p-6" style={{ background: "rgba(200,144,26,0.12)", border: "1px solid rgba(200,144,26,0.3)" }}>
               <div className="font-body text-xs uppercase tracking-widest mb-2" style={{ color: "var(--an-gold)" }}>Daily Word — All July</div>
