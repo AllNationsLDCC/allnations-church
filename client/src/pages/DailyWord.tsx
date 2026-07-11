@@ -1336,8 +1336,8 @@ const entries: DayEntry[] = [
   {
     day: 11, date: "July 11, 2026", isoDate: "2026-07-11",
     title: "Designed with Strength",
-    scripture: "Philippians 4:13 (KJV)",
-    verse: "I can do all things through Christ which strengtheneth me.",
+    scripture: "Philippians 4:13 (NKJV)",
+    verse: "I can do all things through Christ who strengthens me.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "Facing something that feels too big? 'I can do all things through Christ who strengthens me.' Philippians 4:13.",
