@@ -1489,20 +1489,7 @@ function AudioPlayer({ audioUrl, videoUrl }: { audioUrl?: string; videoUrl?: str
       </div>
     );
   }
-  return (
-    <div className="rounded-2xl p-4 mb-6 flex items-center gap-3"
-      style={{ background: `rgba(200,144,26,0.08)`, border: `1.5px dashed ${GOLD}` }}>
-      <Volume2 size={18} style={{ color: GOLD }} />
-      <div>
-        <p className="font-body font-bold text-sm" style={{ color: NAVY, fontFamily: "'Open Sans', sans-serif" }}>
-          Audio Coming Soon
-        </p>
-        <p className="font-body text-xs" style={{ color: "#888", fontFamily: "'Open Sans', sans-serif" }}>
-          Voice recording will be uploaded shortly.
-        </p>
-      </div>
-    </div>
-  );
+  return null;
 }
 
 function ShareButtons({ title, date }: { title: string; date: string }) {
