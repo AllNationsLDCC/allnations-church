@@ -1370,9 +1370,9 @@ const entries: DayEntry[] = [
     title: "Designed to Answer the Call",
     scripture: "Revelation 3:20 (KJV)",
     verse: "Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him, and will sup with him, and he with me.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Sunday.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Monday.",
     keyPoints: [
-      "'Here I am! I stand at the door and knock. If anyone hears my voice and opens the door, I will come in and eat with that person, and they with me.' Revelation 3:20.",
+      "Revelation 3:20 says: 'Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him, and will sup with him, and he with me.'",
       "Jesus is not forcing the door. He is knocking. The question is: will you open it?",
       "You were designed to answer that knock. Your whole identity — your purpose, your calling, your DNA — is on the other side of that door.",
     ],
@@ -1420,7 +1420,7 @@ const entries: DayEntry[] = [
     verse: "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
-      "When everything inside feels like chaos: 'Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.'",
+      "When everything inside feels like chaos — hear this from John 14:27: 'Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.'",
       "The world's peace runs out. Christ's peace holds in the storm.",
       "You were designed to carry His calm.",
     ],
