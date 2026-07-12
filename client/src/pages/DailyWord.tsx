@@ -1354,7 +1354,7 @@ const entries: DayEntry[] = [
     title: "Designed to Overcome",
     scripture: "1 Corinthians 10:13 (KJV)",
     verse: "There hath no temptation taken you but such as is common to man: but God is faithful, who will not suffer you to be tempted above that ye are able; but will with the temptation also make a way to escape, that ye may be able to bear it.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Saturday.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Sunday.",
     keyPoints: [
       "That thing you keep fighting in private — God is faithful. He will not let you be tempted beyond what you can bear. But when you are tempted, He will also provide a way out.",
       "There is always a way out. His name is Jesus. You were not designed to stay stuck.",
@@ -1362,7 +1362,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Take the door God's opening today — because you were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "I'll see you tomorrow. AllNationsLDCC.org/daily-word.",
-    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/lSaetROUgLXuXxYD.mp3",
+    audioUrl: "/daily-word-day12-corrected.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/FNvlJUsJlzCodExY.jpg",
   },
   {
