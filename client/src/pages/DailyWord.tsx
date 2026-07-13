@@ -1378,7 +1378,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Because you were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "AllNationsLDCC.org/daily-word.",
-    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ugpNaLoaTRzqckXy.mp3",
+    audioUrl: "/daily-word-day13-corrected.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XenNsHUPjueEVbbx.jpg",
   },
   {
