@@ -1384,11 +1384,11 @@ const entries: DayEntry[] = [
   {
     day: 14, date: "July 14, 2026", isoDate: "2026-07-14",
     title: "Designed: Never Alone",
-    scripture: "Hebrews 13:5 (NIV)",
-    verse: "Never will I leave you. Never will I forsake you.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
+    scripture: "Hebrews 13:5 (KJV)",
+    verse: "I will never leave thee, nor forsake thee.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Tuesday.",
     keyPoints: [
-      "Feeling alone, even in a crowd? God's promise: Never will I leave you. Never will I forsake you.",
+      "Feeling alone, even in a crowd? Hebrews 13:5 says: 'I will never leave thee, nor forsake thee.' That is God's word to you today.",
       "People may walk out. God never has and never will. The one who designed you stays.",
       "You are not as alone as you feel this morning.",
     ],
