@@ -1193,7 +1193,7 @@ const entries: DayEntry[] = [
     title: "Fearfully and Wonderfully Made",
     scripture: "Psalm 139:14 (KJV)",
     verse: "I will praise thee; for I am fearfully and wonderfully made: marvellous are thy works; and that my soul knoweth right well.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Thursday.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "Psalm 139: You created my inmost being. You knit me together in my mother's womb. I praise you because I am fearfully and wonderfully made.",
       "Knit together — that's not mass-produced. That's not average. That's God by hand designing you. Your laugh, your mind, the things that make you you. And it says He knew you before a word was on your tongue.",
@@ -1209,7 +1209,7 @@ const entries: DayEntry[] = [
     title: "Not a Mistake",
     scripture: "Romans 5:8 (KJV)",
     verse: "But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Thursday.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "Ever think, 'I'd come to God, but not like this — let me fix myself first'? Romans 5:8 says: while we were still sinners, Christ died for us. While we were still sinners — not after you cleaned up.",
       "You don't fix yourself to come to Jesus. You come, and He does the fixing. Your mistakes are not your DNA. Your Designer is.",
@@ -1241,7 +1241,7 @@ const entries: DayEntry[] = [
     title: "Your Past Is Not Your Design",
     scripture: "1 John 1:9 (KJV)",
     verse: "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Sunday.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "Some of us carry a weight called guilt — the thing you keep apologizing to God for. Hear this: If we confess our sins, He is faithful and just and will forgive us our sins and purify us from all unrighteousness. 1 John 1:9.",
       "All — not most. There is no sin so old or so hidden that Jesus can't wash it clean. Your past is not your DNA. The Designer already dealt with it at the cross.",
@@ -1257,7 +1257,7 @@ const entries: DayEntry[] = [
     title: "Designed for More Than Exhaustion",
     scripture: "Matthew 11:28 (KJV)",
     verse: "Come unto me, all ye that labour and are heavy laden, and I will give you rest.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Monday.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "Maybe you woke up already tired — tired in a way the weekend didn't fix. Jesus says, 'Come to me all you who are weary and burdened and I will give you rest.' He doesn't say fix yourself first. He says, just come.",
       "You were not designed to run on empty. You were designed to be carried by the One who made you. That is not weakness — that is wisdom.",
@@ -1273,7 +1273,7 @@ const entries: DayEntry[] = [
     title: "Designed with Purpose",
     scripture: "Colossians 3:23 (KJV)",
     verse: "And whatsoever ye do, do it heartily, as to the Lord, and not unto men;",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Tuesday.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "That knot in your stomach about work, about school, about the week — hear this: 'Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.' Colossians 3:23.",
       "You weren't designed to just clock in and disappear. Wherever God placed you, He placed you on purpose.",
@@ -1305,7 +1305,7 @@ const entries: DayEntry[] = [
     title: "Designed to Be Provided For",
     scripture: "Matthew 6:31-33 (KJV)",
     verse: "Therefore take no thought, saying, What shall we eat? or, What shall we drink? or, Wherewithal shall we be clothed? But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Wednesday.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "Watching the bills stack up? Jesus said, 'Don't worry, saying what shall we eat? Your heavenly Father knows that you need them.'",
       "But seek first His kingdom and His righteousness, and all these things will be given to you as well.",
@@ -1321,7 +1321,7 @@ const entries: DayEntry[] = [
     title: "Designed for Your Home",
     scripture: "Joshua 24:15 (KJV)",
     verse: "But as for me and my house, we will serve the Lord.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Friday.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "Maybe your house has been tense lately. Hear Joshua's stand: 'As for me and my household, we will serve the Lord.' It starts with one person deciding. You can be that person.",
       "You can be the one whose faith changes the atmosphere at home. You don't need everyone to agree first. You just need to make the decision.",
@@ -1354,7 +1354,7 @@ const entries: DayEntry[] = [
     title: "Designed to Overcome",
     scripture: "1 Corinthians 10:13 (KJV)",
     verse: "There hath no temptation taken you but such as is common to man: but God is faithful, who will not suffer you to be tempted above that ye are able; but will with the temptation also make a way to escape, that ye may be able to bear it.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Sunday.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "That thing you keep fighting in private — God is faithful. He will not let you be tempted beyond what you can bear. But when you are tempted, He will also provide a way out.",
       "There is always a way out. His name is Jesus. You were not designed to stay stuck.",
@@ -1370,7 +1370,7 @@ const entries: DayEntry[] = [
     title: "Designed to Answer the Call",
     scripture: "Revelation 3:20 (KJV)",
     verse: "Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him, and will sup with him, and he with me.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Monday.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "Revelation 3:20 says: 'Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him, and will sup with him, and he with me.'",
       "Jesus is not forcing the door. He is knocking. The question is: will you open it?",
@@ -1386,7 +1386,7 @@ const entries: DayEntry[] = [
     title: "Designed: Never Alone",
     scripture: "Hebrews 13:5 (KJV)",
     verse: "I will never leave thee, nor forsake thee.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Tuesday.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "Feeling alone, even in a crowd? Hebrews 13:5 says: 'I will never leave thee, nor forsake thee.' That is God's word to you today.",
       "People may walk out. God never has and never will. The one who designed you stays.",
@@ -1402,7 +1402,7 @@ const entries: DayEntry[] = [
     title: "Designed to Be Healed",
     scripture: "Psalm 147:3 (KJV)",
     verse: "He healeth the broken in heart, and bindeth up their wounds.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Wednesday.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "Carrying a hurt nobody can see? Psalm 147:3 says: 'He healeth the broken in heart, and bindeth up their wounds.' That is God's word to you today.",
       "The same God who designed your heart knows exactly how to mend it. Bring Him the broken pieces today.",
@@ -1418,7 +1418,7 @@ const entries: DayEntry[] = [
     title: "Designed for Peace, Not Chaos",
     scripture: "John 14:27 (KJV)",
     verse: "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Thursday.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "When everything inside feels like chaos — hear this from John 14:27: 'Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.'",
       "The world's peace runs out. Christ's peace holds in the storm.",
