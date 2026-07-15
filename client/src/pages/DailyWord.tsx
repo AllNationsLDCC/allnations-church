@@ -1400,13 +1400,13 @@ const entries: DayEntry[] = [
   {
     day: 15, date: "July 15, 2026", isoDate: "2026-07-15",
     title: "Designed to Be Healed",
-    scripture: "Psalm 147:3 (NIV)",
-    verse: "He heals the brokenhearted and binds up their wounds.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
+    scripture: "Psalm 147:3 (KJV)",
+    verse: "He healeth the broken in heart, and bindeth up their wounds.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Wednesday.",
     keyPoints: [
-      "Carrying a hurt nobody can see? He heals the brokenhearted and binds up their wounds.",
+      "Carrying a hurt nobody can see? Psalm 147:3 says: 'He healeth the broken in heart, and bindeth up their wounds.' That is God's word to you today.",
       "The same God who designed your heart knows exactly how to mend it. Bring Him the broken pieces today.",
-      "He's gentle with them.",
+      "He is gentle with them.",
     ],
     callToAction: "Because you were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "I'll see you tomorrow.",
