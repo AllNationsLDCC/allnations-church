@@ -1400,8 +1400,8 @@ const entries: DayEntry[] = [
   {
     day: 15, date: "July 15, 2026", isoDate: "2026-07-15",
     title: "Designed to Be Healed",
-    scripture: "Psalm 147:3 (KJV)",
-    verse: "He healeth the broken in heart, and bindeth up their wounds.",
+    scripture: "Psalm 147:3 (NIV)",
+    verse: "He heals the brokenhearted and binds up their wounds.",
     welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
     keyPoints: [
       "Carrying a hurt nobody can see? He heals the brokenhearted and binds up their wounds.",
