@@ -1416,11 +1416,11 @@ const entries: DayEntry[] = [
   {
     day: 16, date: "July 16, 2026", isoDate: "2026-07-16",
     title: "Designed for Peace, Not Chaos",
-    scripture: "John 14:27 (NIV)",
-    verse: "Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
+    scripture: "John 14:27 (KJV)",
+    verse: "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Thursday.",
     keyPoints: [
-      "When everything inside feels like chaos — hear this from John 14:27: 'Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.'",
+      "When everything inside feels like chaos — hear this from John 14:27: 'Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.'",
       "The world's peace runs out. Christ's peace holds in the storm.",
       "You were designed to carry His calm.",
     ],
