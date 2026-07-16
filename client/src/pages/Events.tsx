@@ -63,7 +63,19 @@ const recurringEvents = [
 ];
 
 const completedEvents2026 = [
-  // ── July 2026 (upcoming — not completed yet) ──────────────────────────────
+  // ── July 2026 — COMPLETED ──────────────────────────────────────────────────
+  {
+    title: "🧬 DNA Arts Showcase — Designed Not Average",
+    date: "Wednesday, July 15, 2026",
+    desc: "All Nations LDCC NextGen celebrated God-given gifts through dance, poetry, singing, musicianship, rap, and other performing arts for His glory.",
+    color: "#9B59B6",
+  },
+  {
+    title: "🤖 AI Class 102 — Level Up With More Advanced Skills",
+    date: "Wednesday, July 15, 2026",
+    desc: "AmarAI Consulting Group LLC presented an in-person advanced AI skills class focused on putting AI to work for participants.",
+    color: "#1A2F6B",
+  },
   // ── June 2026 — KINGS, FUEL YOUR FIRE (Men's Month) — COMPLETED ──────────
   {
     title: "👑 Kings, Fuel Your Fire — Men's Month June 2026",
@@ -139,14 +151,6 @@ const upcomingEvents2026 = [
     color: "var(--an-gold)",
   },
   {
-    title: "🤖 AI Class 102 — Level Up With More Advanced Skills",
-    date: "Wednesday, July 15, 2026",
-    time: "9:30 AM – Noon",
-    desc: "AmarAI Consulting Group LLC presents AI Class 102: Putting AI to Work for You. The second in the series of AI skill classes with Shelia Blake, AI Brand Ambassador. Level up with more advanced skills. Investment: $147. Bring your laptop! 862 SW Glenview Ct, Port St. Lucie, FL 34953. Register at stan.store/AmarAI.",
-    color: "#1A2F6B",
-    flyer: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/vngZJDJbFCUELWbZ.png",
-  },
-  {
     title: "🎭 Takeover Arts Conference — TKO 2K26",
     date: "July 23–25, 2026",
     time: "Multi-Day Event",
@@ -207,109 +211,6 @@ export default function Events() {
                 {["You Are Chosen.", "You Are Equipped.", "Built for Purpose."].map((tag: string) => (
                   <span key={tag} className="font-body font-bold text-xs px-3 py-1 rounded-full" style={{ background: "rgba(255,255,255,0.12)", color: "#fff" }}>{tag}</span>
                 ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Featured Event — DNA Arts Showcase — July 15, 2026 */}
-      <section style={{ background: "linear-gradient(135deg, #0d0020 0%, #1a0035 50%, #0d0020 100%)", borderBottom: "4px solid #C8901A" }}>
-        <div className="container py-0">
-          <div className="flex flex-col md:flex-row-reverse items-center gap-0 md:gap-10">
-            <div className="w-full md:w-2/5 flex-shrink-0 flex justify-center py-8 md:py-0">
-              <img
-                src="/dna-arts-showcase-flyer.jpg"
-                alt="DNA: Designed Not Average Arts Showcase — July 15, 2026 | 6:30 PM | All Nations LDCC"
-                className="h-auto object-contain rounded-2xl shadow-2xl"
-                style={{ maxHeight: "560px", maxWidth: "380px", width: "100%", border: "3px solid rgba(200,144,26,0.5)" }}
-              />
-            </div>
-            <div className="flex-1 py-12 px-6 md:px-0 text-center md:text-left">
-              <span className="section-label" style={{ color: "var(--an-gold)", letterSpacing: "0.15em" }}>All Nations LDCC NextGen Presents</span>
-              <h2 className="font-display font-bold text-white mt-3 mb-2" style={{ fontSize: "clamp(1.8rem, 4.5vw, 3rem)", lineHeight: 1.1 }}>
-                DNA Arts Showcase
-              </h2>
-              <p className="font-body text-base font-bold mb-1" style={{ color: "var(--an-gold)" }}>Designed Not Average — God Gave Us the Gift. It's Time to Use It.</p>
-              <p className="font-body text-sm mb-2" style={{ color: "rgba(255,255,255,0.70)" }}>Hosted by Chanelle Dixon</p>
-              <p className="font-body text-sm mb-6" style={{ color: "rgba(255,255,255,0.80)", maxWidth: 480 }}>
-                Dance · Poetry · Singing · Musician · Rap · And More. Every Gift. Every Talent. Every Purpose — For His Glory! <em>1 Corinthians 12:4</em>
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-6">
-                <div className="flex items-center gap-2 text-white">
-                  <Calendar size={16} style={{ color: "var(--an-gold)" }} />
-                  <span className="font-body font-bold text-sm">Wednesday, July 15, 2026</span>
-                </div>
-                <div className="flex items-center gap-2 text-white">
-                  <Clock size={16} style={{ color: "var(--an-gold)" }} />
-                  <span className="font-body font-bold text-sm">6:30 PM</span>
-                </div>
-                <div className="flex items-center gap-2 text-white">
-                  <MapPin size={16} style={{ color: "var(--an-gold)" }} />
-                  <span className="font-body text-sm">All Nations LDCC</span>
-                </div>
-              </div>
-              <div className="rounded-xl p-4 mb-6 text-left" style={{ background: "rgba(200,144,26,0.12)", border: "1px solid rgba(200,144,26,0.4)" }}>
-                <div className="font-body font-bold text-sm mb-2" style={{ color: "var(--an-gold)" }}>Performing Arts Categories</div>
-                <div className="flex flex-wrap gap-2">
-                  {["💃 Dance", "✍️ Poetry", "🎤 Singing", "🎹 Musician", "🎙️ Rap", "✨ And More"].map((cat: string) => (
-                    <span key={cat} className="font-body text-xs px-2 py-1 rounded-full text-white" style={{ background: "rgba(255,255,255,0.10)" }}>{cat}</span>
-                  ))}
-                </div>
-              </div>
-              <a href="tel:7723437021" className="btn-gold flex items-center gap-2 w-fit">
-                <Phone size={14} /> Call 772-343-7021
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Featured Event — AI Class 102 with AmarAI — July 15, 2026 */}
-      <section style={{ background: "#0d1533", borderBottom: "4px solid #C8901A" }}>
-        <div className="container py-0">
-          <div className="flex flex-col md:flex-row-reverse items-center gap-0 md:gap-10">
-            {/* Flyer Image */}
-            <div className="w-full md:w-2/5 flex-shrink-0 flex justify-center py-8 md:py-0">
-              <img
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/vngZJDJbFCUELWbZ.png"
-                alt="AI Class 102 — Wednesday, July 15, 2026 | 9:30 AM | $147 | Bring Your Laptop"
-                className="h-auto object-contain rounded-2xl shadow-2xl"
-                style={{ maxHeight: "520px", maxWidth: "360px", width: "100%", border: "3px solid rgba(200,144,26,0.5)" }}
-              />
-            </div>
-            {/* Event Details */}
-            <div className="flex-1 py-12 px-6 md:px-0 text-center md:text-left">
-              <span className="section-label" style={{ color: "var(--an-gold)", letterSpacing: "0.15em" }}>AmarAI Consulting Group LLC Presents</span>
-              <h2 className="font-display font-bold text-white mt-3 mb-2" style={{ fontSize: "clamp(1.8rem, 4.5vw, 3rem)", lineHeight: 1.1 }}>
-                AI Class 102
-              </h2>
-              <p className="font-body text-base font-bold mb-1" style={{ color: "var(--an-gold)" }}>Level Up With More Advanced Skills</p>
-              <p className="font-body text-sm mb-2" style={{ color: "rgba(255,255,255,0.70)" }}>With Shelia Blake · AI Brand Ambassador, AmarAI</p>
-              <p className="font-body text-sm mb-6" style={{ color: "rgba(255,255,255,0.80)", maxWidth: 480 }}>
-                The second in the series of AI skill classes. Putting AI to Work for You — Your Vision. Our Intelligence. Your Advantage. This is a LIVE, in-person interactive class. Bring your laptop — seats are limited.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-6">
-                <div className="flex items-center gap-2 text-white">
-                  <Calendar size={16} style={{ color: "var(--an-gold)" }} />
-                  <span className="font-body font-bold text-sm">Wednesday, July 15, 2026</span>
-                </div>
-                <div className="flex items-center gap-2 text-white">
-                  <Clock size={16} style={{ color: "var(--an-gold)" }} />
-                  <span className="font-body font-bold text-sm">9:30 AM – Noon</span>
-                </div>
-              </div>
-              <div className="rounded-xl p-4 mb-6 text-left" style={{ background: "rgba(200,144,26,0.12)", border: "1px solid rgba(200,144,26,0.4)" }}>
-                <div className="font-body font-bold text-sm mb-2" style={{ color: "var(--an-gold)" }}>Event Details</div>
-                <div className="font-body text-xs text-white mb-1">💻 Bring Your Laptop — Interactive Class</div>
-                <div className="font-body text-xs text-white mb-1">💰 Investment: $147 per person</div>
-                <div className="font-body text-xs text-white mb-1">📍 862 SW Glenview Ct, Port St. Lucie, FL 34953</div>
-                <div className="font-body text-xs" style={{ color: "rgba(255,255,255,0.65)" }}>Seats are limited — secure yours today!</div>
-              </div>
-              <div className="flex gap-3 justify-center md:justify-start">
-                <a href="https://stan.store/AmarAI" target="_blank" rel="noopener noreferrer" className="btn-gold flex items-center gap-2">
-                  Reserve Your Seat → stan.store/AmarAI
-                </a>
               </div>
             </div>
           </div>
