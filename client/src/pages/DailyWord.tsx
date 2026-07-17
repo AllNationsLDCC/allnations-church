@@ -1435,7 +1435,7 @@ const entries: DayEntry[] = [
     title: "Designed to Stand",
     scripture: "Ephesians 6:13 (KJV)",
     verse: "Wherefore take unto you the whole armour of God, that ye may be able to withstand in the evil day, and having done all, to stand.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Friday.",
     keyPoints: [
       "Ephesians 6:13 says: 'Wherefore take unto you the whole armour of God, that ye may be able to withstand in the evil day, and having done all, to stand.'",
       "When pressure comes — peer pressure, temptation, doubt — God didn't design you to crumble. He designed you to stand. Put on His armor. Truth, righteousness, faith, salvation, the Word. You have everything you need to stay on your feet.",
