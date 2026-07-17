@@ -1463,6 +1463,23 @@ const entries: DayEntry[] = [
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/xcPGNrmZPvOqFzHx.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OHLAfppzwsNCINQA.jpg",
   },
+  // ── JULY DAY 19 ──────────────────────────────────────────────────────
+  {
+    day: 19, date: "July 19, 2026", isoDate: "2026-07-19",
+    title: "Designed to Worship",
+    scripture: "Psalm 150:6 (KJV)",
+    verse: "Let every thing that hath breath praise the Lord. Praise ye the Lord.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
+    keyPoints: [
+      "Psalm 150:6 says: 'Let every thing that hath breath praise the Lord. Praise ye the Lord.'",
+      "If you have breath, you were designed to praise Him. Not because everything is perfect — but because He is. Worship is not about a song. It's about surrender. It's about saying, 'God, You are bigger than what I'm facing.'",
+      "If you don't have a church home, we'd love to worship with you at All Nations.",
+    ],
+    callToAction: "Because you were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
+    close: "Go deeper at allnationsldcc.org/daily-word. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XCogmQEfKZsvyFRJ.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OHLAfppzwsNCINQA.jpg",
+  },
 ];
 
 // Returns today's date string in Eastern Time (America/New_York)
