@@ -1497,6 +1497,23 @@ const entries: DayEntry[] = [
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/DtmlrrAyZHyfqfSd.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OHLAfppzwsNCINQA.jpg",
   },
+  // ── JULY DAY 21 ──────────────────────────────────────────────────────
+  {
+    day: 21, date: "July 21, 2026", isoDate: "2026-07-21",
+    title: "Designed for Community",
+    scripture: "Hebrews 10:25 (KJV)",
+    verse: "Not forsaking the assembling of ourselves together, as the manner of some is; but exhorting one another: and so much the more, as ye see the day approaching.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
+    keyPoints: [
+      "Hebrews 10:25 says: 'Not forsaking the assembling of ourselves together, as the manner of some is; but exhorting one another: and so much the more, as ye see the day approaching.'",
+      "You were not designed to do life alone. You need people who will push you toward God, not pull you away. The enemy wants you isolated. God wants you connected.",
+      "Find your people. Find your church. You were designed for community.",
+    ],
+    callToAction: "Because you were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
+    close: "Go deeper at allnationsldcc.org/daily-word. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/ztlAZZWMcmnbFnpJ.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OHLAfppzwsNCINQA.jpg",
+  },
 ];
 
 // Returns today's date string in Eastern Time (America/New_York)
