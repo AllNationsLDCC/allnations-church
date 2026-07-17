@@ -1429,6 +1429,23 @@ const entries: DayEntry[] = [
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/sIplwKFNpQWBTiDc.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/AISwuCiXIXfMmlVY.jpg",
   },
+  // ── JULY DAY 17 ──────────────────────────────────────────────────────
+  {
+    day: 17, date: "July 17, 2026", isoDate: "2026-07-17",
+    title: "Designed to Stand",
+    scripture: "Ephesians 6:13 (KJV)",
+    verse: "Wherefore take unto you the whole armour of God, that ye may be able to withstand in the evil day, and having done all, to stand.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
+    keyPoints: [
+      "Ephesians 6:13 says: 'Wherefore take unto you the whole armour of God, that ye may be able to withstand in the evil day, and having done all, to stand.'",
+      "When pressure comes — peer pressure, temptation, doubt — God didn't design you to crumble. He designed you to stand. Put on His armor. Truth, righteousness, faith, salvation, the Word. You have everything you need to stay on your feet.",
+      "You were designed to stand, not fall.",
+    ],
+    callToAction: "Because you were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
+    close: "Go deeper at allnationsldcc.org/daily-word. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/FLBGPyeyuDBOGLuP.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OHLAfppzwsNCINQA.jpg",
+  },
 ];
 
 // Returns today's date string in Eastern Time (America/New_York)
