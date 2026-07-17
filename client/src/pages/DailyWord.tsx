@@ -1480,6 +1480,23 @@ const entries: DayEntry[] = [
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XCogmQEfKZsvyFRJ.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OHLAfppzwsNCINQA.jpg",
   },
+  // ── JULY DAY 20 ──────────────────────────────────────────────────────
+  {
+    day: 20, date: "July 20, 2026", isoDate: "2026-07-20",
+    title: "Designed to Lead",
+    scripture: "1 Timothy 4:12 (KJV)",
+    verse: "Let no man despise thy youth; but be thou an example of the believers, in word, in conversation, in charity, in spirit, in faith, in purity.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
+    keyPoints: [
+      "1 Timothy 4:12 says: 'Let no man despise thy youth; but be thou an example of the believers, in word, in conversation, in charity, in spirit, in faith, in purity.'",
+      "Young person, your age is not a disqualification. God is not waiting for you to grow up to use you. He wants to use you right now — your voice, your example, your faith.",
+      "You were designed to lead, not follow the crowd.",
+    ],
+    callToAction: "Because you were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
+    close: "Go deeper at allnationsldcc.org/daily-word. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/DtmlrrAyZHyfqfSd.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OHLAfppzwsNCINQA.jpg",
+  },
 ];
 
 // Returns today's date string in Eastern Time (America/New_York)
