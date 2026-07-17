@@ -368,7 +368,7 @@ export default function Events() {
               Upcoming Events <span style={{ color: "var(--an-gold)" }}>2026</span>
             </h2>
             <p className="font-body text-sm mt-2" style={{ color: "#888" }}>
-              July 2026 · DNA: Designed Not Average · AI Class 102 · Takeover Arts Conference · Job Fair
+              July 2026 · DNA: Designed Not Average · Takeover Arts Conference · Job Fair
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
