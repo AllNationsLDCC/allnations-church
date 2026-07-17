@@ -1446,6 +1446,23 @@ const entries: DayEntry[] = [
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/FLBGPyeyuDBOGLuP.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OHLAfppzwsNCINQA.jpg",
   },
+  // ── JULY DAY 18 ──────────────────────────────────────────────────────
+  {
+    day: 18, date: "July 18, 2026", isoDate: "2026-07-18",
+    title: "Designed to Be Bold",
+    scripture: "2 Timothy 1:7 (KJV)",
+    verse: "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
+    keyPoints: [
+      "2 Timothy 1:7 says: 'For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.'",
+      "Fear is loud, but it's not from God. Power is. Love is. A sound mind is. Whatever has you afraid today — speaking up, stepping out, making a change — that fear is not your design. Boldness is.",
+      "You were designed to be bold, not afraid.",
+    ],
+    callToAction: "Because you were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
+    close: "Go deeper at allnationsldcc.org/daily-word. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/xcPGNrmZPvOqFzHx.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OHLAfppzwsNCINQA.jpg",
+  },
 ];
 
 // Returns today's date string in Eastern Time (America/New_York)
