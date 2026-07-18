@@ -1452,7 +1452,7 @@ const entries: DayEntry[] = [
     title: "Designed to Be Bold",
     scripture: "2 Timothy 1:7 (KJV)",
     verse: "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Saturday.",
     keyPoints: [
       "2 Timothy 1:7 says: 'For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.'",
       "Fear is loud, but it's not from God. Power is. Love is. A sound mind is. Whatever has you afraid today — speaking up, stepping out, making a change — that fear is not your design. Boldness is.",
