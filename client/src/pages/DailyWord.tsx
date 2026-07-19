@@ -1477,7 +1477,7 @@ const entries: DayEntry[] = [
     ],
     callToAction: "Because you were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
     close: "Go deeper at allnationsldcc.org/daily-word. I'll see you tomorrow.",
-    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/XCogmQEfKZsvyFRJ.mp3",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/VzpJoWvfpBtMwgCt.wav",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OHLAfppzwsNCINQA.jpg",
   },
   // ── JULY DAY 20 ──────────────────────────────────────────────────────
