@@ -1469,7 +1469,7 @@ const entries: DayEntry[] = [
     title: "Designed to Worship",
     scripture: "Psalm 150:6 (KJV)",
     verse: "Let every thing that hath breath praise the Lord. Praise ye the Lord.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Sunday.",
     keyPoints: [
       "Psalm 150:6 says: 'Let every thing that hath breath praise the Lord. Praise ye the Lord.'",
       "If you have breath, you were designed to praise Him. Not because everything is perfect — but because He is. Worship is not about a song. It's about surrender. It's about saying, 'God, You are bigger than what I'm facing.'",
