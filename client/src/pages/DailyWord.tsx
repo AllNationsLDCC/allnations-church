@@ -1486,7 +1486,7 @@ const entries: DayEntry[] = [
     title: "Designed to Lead",
     scripture: "1 Timothy 4:12 (KJV)",
     verse: "Let no man despise thy youth; but be thou an example of the believers, in word, in conversation, in charity, in spirit, in faith, in purity.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Monday.",
     keyPoints: [
       "1 Timothy 4:12 says: 'Let no man despise thy youth; but be thou an example of the believers, in word, in conversation, in charity, in spirit, in faith, in purity.'",
       "Young person, your age is not a disqualification. God is not waiting for you to grow up to use you. He wants to use you right now — your voice, your example, your faith.",
