@@ -1503,7 +1503,7 @@ const entries: DayEntry[] = [
     title: "Designed for Community",
     scripture: "Hebrews 10:25 (KJV)",
     verse: "Not forsaking the assembling of ourselves together, as the manner of some is; but exhorting one another: and so much the more, as ye see the day approaching.",
-    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Tuesday.",
     keyPoints: [
       "Hebrews 10:25 says: 'Not forsaking the assembling of ourselves together, as the manner of some is; but exhorting one another: and so much the more, as ye see the day approaching.'",
       "You were not designed to do life alone. You need people who will push you toward God, not pull you away. The enemy wants you isolated. God wants you connected.",
