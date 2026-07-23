@@ -1531,6 +1531,40 @@ const entries: DayEntry[] = [
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/NrxzaCTQlKHrIFZX.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OHLAfppzwsNCINQA.jpg",
   },
+  // ── JULY DAY 23 ──────────────────────────────────────────────────────
+  {
+    day: 23, date: "July 23, 2026", isoDate: "2026-07-23",
+    title: "Designed for a Specific Assignment",
+    scripture: "Ephesians 2:10 (KJV)",
+    verse: "For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Thursday.",
+    keyPoints: [
+      "Ephesians 2:10 says: 'For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them.'",
+      "When God designed you, He didn't just give you a purpose; He gave you a specific assignment. You are His masterpiece, hand-crafted for a mission that only you can fulfill.",
+      "The enemy wants you to believe you are ordinary, but God's Word says you are His workmanship."
+    ],
+    callToAction: "Because you were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
+    close: "Go deeper at allnationsldcc.org/daily-word. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/IosWYzHXGLHDHsuR.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OHLAfppzwsNCINQA.jpg",
+  },
+  // ── END JULY ─────────────────────────────────────────────────────────
+  {
+    day: 999, date: "July 22, 2026", isoDate: "2026-07-22",
+    title: "Designed to Be Transformed",
+    scripture: "Romans 12:2 (KJV)",
+    verse: "And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Wednesday.",
+    keyPoints: [
+      "Romans 12:2 says: 'And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God.'",
+      "The world will always try to squeeze you into its mold. It wants you to look like everyone else, sound like everyone else, and act like everyone else. But God designed you to stand out.",
+      "He designed you to be transformed. When you renew your mind with His Word, you break out of the world's mold. You were designed to be transformed, not conformed.",
+    ],
+    callToAction: "Because you were designed not average, and you'll never know who you really are until you know the one who designed you. Do you know Jesus?",
+    close: "Go deeper at allnationsldcc.org/daily-word. I'll see you tomorrow.",
+    audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/NrxzaCTQlKHrIFZX.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OHLAfppzwsNCINQA.jpg",
+  },
 ];
 
 // Returns today's date string in Eastern Time (America/New_York)
