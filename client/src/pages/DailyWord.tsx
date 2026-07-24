@@ -1548,6 +1548,23 @@ const entries: DayEntry[] = [
     audioUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/IosWYzHXGLHDHsuR.mp3",
     imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OHLAfppzwsNCINQA.jpg",
   },
+  // ── JULY DAY 24 ──────────────────────────────────────────────────────
+  {
+    day: 24, date: "July 24, 2026", isoDate: "2026-07-24",
+    title: "Designed to Persevere",
+    scripture: "Galatians 6:9 (KJV)",
+    verse: "And let us not be weary in well doing: for in due season we shall reap, if we faint not.",
+    welcome: "Good morning, All Nations family. Welcome to today's Daily Word. It is Youth Month, and our theme is DNA: Designed Not Average.",
+    keyPoints: [
+      "Some days, doing the right thing can feel tiring. You pray, you serve, you choose what is right, and it can seem as if nobody sees it. But God sees every seed you sow.",
+      "He sees the kindness you give, the discipline you practice, and the faithfulness you show when it would be easier to quit.",
+      "You were not designed to give up when the work gets hard. You were designed to keep going with Christ as your strength. Your season of harvest is not cancelled simply because the journey feels long. Do not faint. Keep showing up. Keep trusting God. Keep doing well.",
+    ],
+    callToAction: "Today, choose one faithful step and take it. Let Jesus strengthen you to continue, because you were designed not average, and you will never know who you really are until you know the One who designed you.",
+    close: "God bless you, All Nations. Go deeper at AllNationsLDCC.org/daily-word.",
+    audioUrl: "/daily-word-day24.mp3",
+    imageUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663485607175/OHLAfppzwsNCINQA.jpg",
+  },
   // ── END JULY ─────────────────────────────────────────────────────────
 ];
 
