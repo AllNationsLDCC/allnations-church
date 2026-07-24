@@ -1554,7 +1554,7 @@ const entries: DayEntry[] = [
     title: "Designed to Persevere",
     scripture: "Galatians 6:9 (KJV)",
     verse: "And let us not be weary in well doing: for in due season we shall reap, if we faint not.",
-    welcome: "Good morning, All Nations family. Welcome to today's Daily Word. It is Youth Month, and our theme is DNA: Designed Not Average.",
+    welcome: "Welcome to the Daily Word. It's Youth Month and our theme is DNA: Designed Not Average. I'm Pastor Shelia Blake. Happy Friday.",
     keyPoints: [
       "Some days, doing the right thing can feel tiring. You pray, you serve, you choose what is right, and it can seem as if nobody sees it. But God sees every seed you sow.",
       "He sees the kindness you give, the discipline you practice, and the faithfulness you show when it would be easier to quit.",
